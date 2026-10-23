@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>mirror your translation!</em>
+  <em>Mirror your translation!</em>
 </p>
 
 <p align="center">
