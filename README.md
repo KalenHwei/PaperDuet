@@ -21,9 +21,9 @@
 </p>
 
 <p align="center">
-  <strong>An English paper on the left, its Chinese translation on the right, page for page.</strong><br>
-  The translation runs on your Mac and takes about 2 minutes for a 15-page paper.<br>
-  The outline is in Chinese within seconds and the abstract within half a minute.<br>
+  <strong>A lightweight mirror translator for papers that keeps the original layout.</strong><br>
+  Five open-source AI translation models built in.<br>
+  No sign-in, no fees, fully local.<br>
   <sub>Attention Is All You Need (15 pages) translated from scratch on a MacBook Pro with M5 Pro, default settings. The animation runs at 1.3x speed. <a href="#speed-and-memory">Details</a>.</sub>
 </p>
 

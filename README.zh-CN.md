@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>mirror your translation!</em>
+  <em>为科研人员打造的最佳轻量级论文翻译器！</em>
 </p>
 
 <p align="center">
@@ -21,9 +21,9 @@
 </p>
 
 <p align="center">
-  <strong>左边是英文原文，右边是同样版式的中文译文，一页对一页。</strong><br>
-  翻译在你的 Mac 上完成，15 页的论文大约 2 分钟。<br>
-  目录几秒钟就变成中文，摘要半分钟内译完。<br>
+  <strong>这是一款能保留格式的轻量级镜像论文翻译器。</strong><br>
+  内置五种开源 AI 翻译模型。<br>
+  无需登录，无需付费，完全本地。<br>
   <sub>在 M5 Pro 的 MacBook Pro 上用默认设置从零翻译 Attention Is All You Need（15 页），动图按 1.3 倍速播放。<a href="#速度和内存">详细数据</a>。</sub>
 </p>
 
