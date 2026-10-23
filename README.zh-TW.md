@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>為科研打造的論文 AI 翻譯器！</em>
+  <em>專為研究員打造的論文 AI 翻譯器！</em>
 </p>
 
 <p align="center">
