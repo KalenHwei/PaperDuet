@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <sub><a href="README.md">English</a> &middot; <b>简体中文</b> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新版本"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 及以上，Apple 芯片">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="在本机翻译">
@@ -29,10 +33,6 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Mac%20%C2%B7%20Apple%20%E8%8A%AF%E7%89%87-111111?style=for-the-badge&logo=apple&logoColor=white" alt="下载 Mac 版（Apple 芯片）" height="36"></a>
-</p>
-
-<p align="center">
-  <sub><a href="README.md">English</a> &middot; <b>简体中文</b></sub>
 </p>
 
 PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像排列，公式、图片、表格逐页修正、对齐。 PaperDuet 无需注册，无需 API 密钥，无需付费，完全本地运行！
@@ -159,6 +159,7 @@ H、N、1 到 5 作用于选中的文字。
 
 ## 更新日志
 
+- **0.3.1**（2026-10-23）：进度圆环里的数字去掉了百分号；全文译完时，圆环变绿并收拢成一个勾，和工具栏其他图标一样大、对齐。
 - **0.3.0**（2026-10-23）：新增八种译文语言，工具栏一键切换；全文译完后圆环变成绿色的勾，点一下保存译文 PDF（不再自动保存）；右上角换模型不再重复试译。
 - **0.2.1**（2026-10-23）：可选五种翻译模型；新增启动界面。
 - **0.2.0**（2026-10-23）：应用内检查更新，一键升级。

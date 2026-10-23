@@ -1,0 +1,180 @@
+<p align="center">
+  <img src="docs/images/icon.png" width="160" alt="Icono de PaperDuet">
+</p>
+
+<h1 align="center">PaperDuet</h1>
+
+<p align="center">
+  <em>¡El traductor espejo con IA definitivo para artículos de investigación!</em>
+</p>
+
+<p align="center">
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <b>Español</b> &middot; <a href="README.ru.md">Русский</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 o posterior en Apple silicon">
+  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="La traducción se hace en tu Mac">
+  <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="Modelos: 5 para elegir">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licencia: PolyForm Noncommercial 1.0.0"></a>
+</p>
+
+<p align="center">
+  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al chino, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original">
+</p>
+
+<p align="center">
+  <strong>PaperDuet es un traductor espejo ligero con IA para artículos que conserva el formato original.</strong><br>
+  Cinco modelos de traducción con IA de código abierto para elegir.<br>
+  Sin registro, sin pagar, ¡todo en local!<br>
+  <sub>Grabación de la traducción completa de Attention Is All You Need (15 páginas)</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Descargar para Mac (Apple silicon)" height="36"></a>
+</p>
+
+PaperDuet es un traductor espejo ligero con IA para artículos científicos. Coloca el original y la traducción uno frente al otro, como en un espejo, y corrige y alinea fórmulas, figuras y tablas página a página. Sin registro, sin clave de API, sin pagar nada, ¡y todo funciona en tu Mac!
+
+## Cada página, sin esfuerzo
+
+<p align="center">
+  <img src="docs/images/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por chino">
+</p>
+
+A la izquierda está el artículo original y a la derecha su traducción; los dos lados se desplazan y hacen zoom a la vez. Columnas, títulos, pies de figura, notas al pie y referencias se reconocen automáticamente, y los párrafos que siguen en la columna o la página siguiente se vuelven a unir. Los dos lados quedan perfectamente alineados, así que compararlos es muy fácil.
+
+## ¡Rápido! ¡Rápido! ¡Rápido!
+
+<p align="center">
+  <img src="docs/images/double-click.gif" width="880" alt="En la página 9, la sección 6.3 aún no está traducida; un doble clic en su primer párrafo la pasa al principio de la cola, la barra de estado lo indica y sus párrafos aparecen en chino uno tras otro mientras el resto de la página espera">
+</p>
+
+Primero se traducen los encabezados, para que veas enseguida cómo está organizado el artículo; después vienen el título, el resumen y la introducción, para que captes rápido lo esencial. ¿Quieres leer antes una sección más adelante? Haz doble clic en uno de sus párrafos del original, ¡y empieza a traducirse al momento!
+
+## ¿Notas? ¡Tómalas directamente en la traducción!
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="Se seleccionan dos frases del resumen en el original y se resaltan en amarillo; las mismas frases se vuelven amarillas en la traducción. Después se resalta en verde parte de la última frase en chino, y la frase en inglés correspondiente se vuelve verde a la izquierda">
+</p>
+
+Resalta, subraya o anota en un lado, y la frase correspondiente del otro lado se marca también.
+
+## ¿Progreso? ¿Velocidad? ¡Sin problema!
+
+<p align="center">
+  <img src="docs/images/progress-save.gif" width="880" alt="Llegan los últimos párrafos del artículo, el anillo de progreso de la barra de herramientas se convierte en una marca verde, un globo ofrece guardar la traducción como PDF y un clic la guarda junto al original">
+</p>
+
+La barra de herramientas muestra cómo avanza la traducción. Cuando todo el artículo está traducido, el anillo se convierte en una marca verde y aparece un globo: con un clic, la traducción se guarda como PDF junto al original. Además, puedes elegir entre cinco modelos según tu Mac y lo que necesites.
+
+## Y hay más
+
+- **Ocho idiomas de traducción.** Cambia entre 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español y Русский desde la barra de herramientas; cada idioma conserva su propia traducción.
+- **Un PDF traducido en un clic.** Cuando el artículo está traducido entero, un clic guarda `<nombre>_es.pdf` a su lado con el formato original (`_zh` para chino simplificado, `_ja`, `_fr` y así para los demás idiomas).
+- **Controles de calidad integrados.** Se revisan las fórmulas, los números y el orden de las frases en cada respuesta, con reintentos automáticos, y un glosario propio de cada artículo mantiene los términos coherentes.
+- **Tú decides qué se traduce.** Haz clic derecho en cualquier bloque para traducirlo o dejarlo en inglés.
+- **Lee como prefieras.** Busca en el original y la traducción a la vez, recorre un índice bilingüe, señala un párrafo para encontrar su gemelo y muestra el original, la traducción o ambos. PaperDuet recuerda dónde lo dejaste.
+- **Exporta adonde quieras.** El PDF original con tus marcas como anotaciones estándar, el PDF traducido y tus notas en Markdown.
+- **Actualizaciones en un clic.** Las versiones nuevas aparecen en la propia app, firmadas y verificadas, y se instalan con un clic.
+- **Cuidado hasta el último detalle.** Un diseño limpio de cristal esmerilado, con modos claro, oscuro y de lectura nocturna.
+
+<p align="center">
+  <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet con apariencia oscura: la página 3 con el diagrama del Transformer en ambos lados, un resaltado amarillo y uno verde en el original y en la traducción, y el índice bilingüe en la barra lateral">
+</p>
+
+## Cinco modelos, todos en tu Mac
+
+Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en Ajustes › 模型 › 更换模型. Todos están hechos para traducir y funcionan totalmente sin conexión una vez descargados.
+
+| Modelo | De | Tamaño | Ideal para |
+| --- | --- | --- | --- |
+| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recomendado)** | equipo Index de bilibili | 2.1 GB | El mejor en general, ajustado a las comprobaciones y el glosario de PaperDuet |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | La velocidad: el más rápido y ligero |
+| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Traducciones fieles al texto original |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Las traducciones más fluidas, en Macs con 16 GB de memoria o más |
+| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Probar el modelo de traducción de Google |
+
+Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en un M5 Pro, o alrededor de 1 minuto con «同时翻译几段» (párrafos traducidos a la vez) en 2 o 3 en Ajustes › 模型.
+
+¿Ya tienes alguno de estos modelos por LM Studio, llama.cpp o Hugging Face? PaperDuet lo encuentra y lo usa donde está, sin volver a descargarlo.
+
+## Privacidad desde el diseño
+
+- Tus artículos, traducciones y notas se quedan en tu Mac.
+- No hace falta cuenta y no se recogen datos de uso.
+- PaperDuet solo se conecta para descargar un modelo y buscar actualizaciones, y puedes desactivar esa búsqueda.
+
+## Primeros pasos
+
+Necesitas un Mac con Apple silicon (M1 o posterior) y macOS 13.3 o posterior.
+
+1. Descarga el `.dmg` más reciente desde [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. Arrastra PaperDuet a Aplicaciones y ábrelo desde ahí.
+3. Solo la primera vez: PaperDuet todavía no está notarizado por Apple, así que macOS te pedirá confirmación. Abre Ajustes del Sistema › Privacidad y seguridad y haz clic en **Abrir igualmente**. (O ejecuta `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` en Terminal.)
+4. Elige un modelo. PaperDuet lo descarga, o encuentra la copia que ya tienes, y empieza a traducir enseguida.
+
+Eso es todo. El motor de traducción viene integrado en la app y las actualizaciones se hacen con un clic.
+
+<details>
+<summary><b>Atajos de teclado</b></summary>
+
+| Acción | Atajo |
+| --- | --- |
+| Abrir un PDF | ⌘O |
+| Cerrar el artículo | ⌘W |
+| Buscar en ambos lados | ⌘F |
+| Resultado siguiente / anterior | ⌘G / ⇧⌘G |
+| Acercar / alejar / ajustar al ancho | ⌘+ / ⌘− / ⌘0 |
+| Zoom alrededor del puntero | ⌘ + desplazamiento, o pellizcar en el trackpad |
+| Mover las páginas | ⌘ + arrastrar |
+| Traducir esta parte a continuación | Doble clic en un texto aún sin traducir |
+| Resaltar la selección | H |
+| Añadir una nota a la selección | N |
+| Color de resaltado | 1 a 5 |
+| Deshacer / rehacer | ⌘Z / ⇧⌘Z |
+| Mostrar u ocultar la barra lateral | ⌘\ |
+| Activar o desactivar el desplazamiento sincronizado | ⌘L |
+| Todos los atajos | ⌘/ |
+
+H, N y 1 a 5 actúan sobre el texto seleccionado.
+
+</details>
+
+## Preguntas frecuentes
+
+### ¿Qué modelo elijo?
+
+Empieza con Index-Translate-2B. Si quieres más velocidad, elige Hy-MT2-1.8B. Para las traducciones más fluidas en un Mac con 16 GB de memoria o más, elige Hy-MT2-7B.
+
+### ¿Es gratis?
+
+Sí, para el estudio y la investigación personales, y para universidades, escuelas, centros de investigación y otras organizaciones sin ánimo de lucro. Usar PaperDuet en una empresa o para ella requiere una licencia comercial: escribe a [junystugh@gmail.com](mailto:junystugh@gmail.com).
+
+## Hoja de ruta
+
+- **Traducciones maquetadas desde arXiv.** Traducir el código LaTeX de un artículo y compilarlo con fuentes del idioma de destino, para obtener una edición traducida totalmente maquetada.
+- **Una interfaz en inglés.**
+
+## Registro de cambios
+
+- **0.3.1** (2026-10-23): el anillo de progreso muestra el número sin signo de porcentaje; cuando el artículo termina, se vuelve verde y se cierra en una marca del mismo tamaño que los demás iconos de la barra de herramientas y alineada con ellos.
+- **0.3.0** (2026-10-23): ocho idiomas de traducción, a elegir desde la barra de herramientas; al terminar un artículo, el anillo muestra una marca verde y el PDF traducido se guarda con un clic en lugar de guardarse solo; cambiar de modelo ya no repite la traducción de prueba.
+- **0.2.1** (2026-10-23): cinco modelos de traducción para elegir; una pantalla de inicio.
+- **0.2.0** (2026-10-23): búsqueda de actualizaciones y actualización en un clic dentro de la app.
+- **0.1.0** (2026-10-22): primera versión.
+
+Historial completo: [CHANGELOG.md](CHANGELOG.md).
+
+## Licencia
+
+PaperDuet es gratis para uso no comercial bajo la [PolyForm Noncommercial License 1.0.0](LICENSE). Úsalo y compártelo con fines personales, de estudio, de investigación o sin ánimo de lucro; si lo compartes, incluye la licencia y la línea `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`. Para uso comercial, escribe a [junystugh@gmail.com](mailto:junystugh@gmail.com).
+
+Copyright © 2026 Kalen Yongda Wei.
+
+## Agradecimientos
+
+PaperDuet está hecho con [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) y [Lucide](https://lucide.dev). Los modelos de traducción son del equipo Index de bilibili (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) y Google (TranslateGemma). Se publican bajo Apache-2.0, salvo TranslateGemma, que se rige por los [términos de uso de Gemma](https://ai.google.dev/gemma/terms). Los textos completos de las licencias están en la app (Ajustes › 关于 › 第三方许可证).
+
+El artículo de las animaciones es [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762), de Vaswani et al.

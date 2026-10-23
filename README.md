@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 or later on Apple silicon">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="The translation runs on your Mac">
@@ -29,10 +33,6 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple silicon)" height="36"></a>
-</p>
-
-<p align="center">
-  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a></sub>
 </p>
 
 PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No sign-up, no API key, no fees, and it runs entirely on your Mac!
@@ -159,6 +159,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.3.1** (2026-10-23): the progress ring shows plain numbers; when a paper is done it turns green and closes into a check that lines up with the other toolbar icons.
 - **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; when a paper is done, the ring shows a green check and the translated PDF is saved with one click instead of automatically; changing models no longer reruns the trial translation.
 - **0.2.1** (2026-10-23): five translation models to choose from; a launch screen.
 - **0.2.0** (2026-10-23): update checks and one-click updates inside the app.

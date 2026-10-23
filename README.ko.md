@@ -1,0 +1,180 @@
+<p align="center">
+  <img src="docs/images/icon.png" width="160" alt="PaperDuet 아이콘">
+</p>
+
+<h1 align="center">PaperDuet</h1>
+
+<p align="center">
+  <em>연구 논문을 위한 최고의 AI 미러 번역기!</em>
+</p>
+
+<p align="center">
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <b>한국어</b> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="최신 릴리스"></a>
+  <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="Apple 실리콘, macOS 13.3 이상">
+  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="번역은 내 Mac에서">
+  <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="모델: 5가지 중 선택">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="라이선스: PolyForm Noncommercial 1.0.0"></a>
+</p>
+
+<p align="center">
+  <img src="docs/images/hero.gif" width="880" alt="PaperDuet가 Attention Is All You Need를 처음부터 번역하는 모습: 사이드바의 목차가 먼저 중국어로 바뀌고, 이어서 오른쪽 페이지의 원문과 같은 자리에 제목과 초록이 나타난다">
+</p>
+
+<p align="center">
+  <strong>PaperDuet는 원래 레이아웃을 그대로 유지하는 가벼운 AI 논문 미러 번역기입니다.</strong><br>
+  오픈소스 AI 번역 모델 5가지 중에서 고를 수 있습니다.<br>
+  로그인 없이, 무료로, 완전히 로컬에서!<br>
+  <sub>Attention Is All You Need(15쪽)를 처음부터 번역하는 실제 화면</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Mac%20%C2%B7%20Apple%20%EC%8B%A4%EB%A6%AC%EC%BD%98-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac용 다운로드(Apple 실리콘)" height="36"></a>
+</p>
+
+PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문을 거울처럼 나란히 놓고, 수식과 그림, 표를 페이지마다 바로잡아 맞춥니다. 가입도, API 키도, 비용도 필요 없고, 모든 작업이 내 Mac에서 이뤄집니다!
+
+## 어느 페이지든 한눈에
+
+<p align="center">
+  <img src="docs/images/layout.gif" width="880" alt="3~5쪽을 스크롤하는 모습: Transformer 구조도, 어텐션 그림, 수식이 양쪽에서 같은 자리에 있고, 오른쪽에서는 영문이 중국어로 바뀌어 있다">
+</p>
+
+왼쪽에는 논문 원문, 오른쪽에는 번역문이 있고, 양쪽이 함께 스크롤되고 함께 확대·축소됩니다. 단, 제목, 캡션, 각주, 참고문헌을 자동으로 인식하고, 다음 단이나 페이지로 이어지는 문단도 하나로 이어 붙입니다. 양쪽이 정확히 맞춰져 있어 비교하기 쉽습니다.
+
+## 빠르게! 빠르게! 빠르게!
+
+<p align="center">
+  <img src="docs/images/double-click.gif" width="880" alt="9쪽의 6.3절은 아직 번역되지 않았다. 첫 문단을 더블클릭하면 이 절이 맨 앞으로 오고, 상태 표시줄에 안내가 나오며, 페이지의 나머지 부분을 기다리지 않고 문단이 차례로 중국어로 바뀐다">
+</p>
+
+제목들을 먼저 번역해서 논문의 구조를 바로 볼 수 있고, 이어서 논문 제목, 초록, 서론을 번역해서 핵심을 빠르게 파악할 수 있습니다. 뒤쪽 절을 먼저 읽고 싶다면? 원문 문단을 더블클릭하기만 하면 바로 그 부분부터 번역합니다!
+
+## 메모는? 번역문에 바로 하세요!
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="원문에서 초록의 두 문장을 선택해 노란색으로 강조하면 번역문의 같은 문장도 노란색이 된다. 이어서 번역문 마지막 문장의 일부를 초록색으로 강조하면 왼쪽의 해당 영문 문장도 초록색이 된다">
+</p>
+
+어느 쪽에서든 강조, 밑줄, 메모를 하면 반대쪽의 해당 문장에도 똑같이 표시됩니다.
+
+## 진행 상황? 속도? 문제없어요!
+
+<p align="center">
+  <img src="docs/images/progress-save.gif" width="880" alt="논문의 마지막 문단들이 번역되면 도구 막대의 진행 링이 초록색 체크로 바뀌고, 번역문을 PDF로 저장할 수 있다는 말풍선이 뜬다. 한 번 클릭하면 원문 옆에 저장된다">
+</p>
+
+도구 막대에 번역 진행 상황이 표시됩니다. 논문 전체 번역이 끝나면 링이 초록색 체크로 바뀌고 말풍선이 뜹니다. 한 번 클릭으로 번역문을 PDF로 원문 옆에 저장할 수 있습니다. 내 Mac과 필요에 맞게 5가지 모델 중에서 고를 수도 있습니다!
+
+## 이 밖에도
+
+- **8개 언어로 번역**: 도구 막대에서 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Русский를 바꿀 수 있고, 언어마다 번역이 따로 저장됩니다.
+- **클릭 한 번으로 번역 PDF**: 논문 전체 번역이 끝나면 클릭 한 번으로 원래 레이아웃 그대로 `<이름>_ko.pdf`를 논문 옆에 저장합니다(중국어 간체는 `_zh`, 다른 언어는 `_ja`, `_fr` 등).
+- **품질 검사 내장**: 모델이 답할 때마다 수식, 숫자, 문장 순서를 확인하고 문제가 있으면 자동으로 다시 시도합니다. 논문마다 용어집을 만들어 용어 번역도 일관되게 유지합니다.
+- **번역할 부분은 내가 결정**: 어떤 블록이든 오른쪽 클릭으로 번역할지, 영어로 둘지 고를 수 있습니다.
+- **원하는 방식으로 읽기**: 원문과 번역문을 한 번에 검색하고, 이중 언어 목차를 따라가고, 문단에 포인터를 올려 반대쪽 짝을 찾을 수 있습니다. 원문만, 번역문만, 또는 둘 다 볼 수 있고, PaperDuet가 읽던 위치를 기억합니다.
+- **어디로든 내보내기**: 표시를 표준 주석으로 담은 원문 PDF, 번역 PDF, Markdown 노트를 내보낼 수 있습니다.
+- **클릭 한 번으로 업데이트**: 새 버전이 앱 안에 바로 표시되고, 서명 확인을 거쳐 클릭 한 번으로 설치됩니다.
+- **보기에도 좋게**: 깔끔하고 아름다운 유리 질감 디자인에 라이트, 다크, 야간 읽기 모드를 지원합니다.
+
+<p align="center">
+  <img src="docs/images/screenshot-dark.png" width="880" alt="다크 모드의 PaperDuet: 양쪽 모두 3쪽의 Transformer 구조도이고, 원문과 번역문에 노란색과 초록색 강조가 하나씩 있으며, 사이드바에는 이중 언어 목차가 있다">
+</p>
+
+## 5가지 모델, 모두 내 Mac에서
+
+PaperDuet를 처음 열 때 모델을 고르고, 나중에 설정 › 模型 › 更换模型에서 언제든 바꿀 수 있습니다. 모두 번역 전용 모델이며, 한 번 다운로드하면 완전히 오프라인으로 동작합니다.
+
+| 모델 | 제공 | 크기 | 추천 용도 |
+| --- | --- | --- | --- |
+| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(추천)** | bilibili Index 팀 | 2.1 GB | 가장 뛰어난 만능형, PaperDuet의 검사와 용어집에 맞춰 조정됨 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | 속도: 가장 빠르고 가벼움 |
+| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | 원문에 충실한 번역 |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | 가장 자연스러운 번역, 메모리 16GB 이상 Mac용 |
+| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (실험적) | Google | 4.1 GB | Google의 번역 모델을 써 보고 싶을 때 |
+
+추천 모델로는 15쪽 논문이 M5 Pro에서 약 2분, 설정 › 模型에서 "同时翻译几段"(동시에 번역할 문단 수)을 2나 3으로 하면 약 1분 걸립니다.
+
+LM Studio, llama.cpp, Hugging Face로 이미 이 모델들을 받아 두셨나요? PaperDuet가 찾아서 그 자리에서 사용하므로 다시 다운로드할 필요가 없습니다.
+
+## 처음부터 프라이버시 중심
+
+- 논문, 번역문, 메모는 모두 내 Mac에 남습니다.
+- 계정이 필요 없고, 사용 데이터도 수집하지 않습니다.
+- 인터넷에는 모델을 다운로드하고 업데이트를 확인할 때만 연결하며, 업데이트 확인은 끌 수 있습니다.
+
+## 시작하기
+
+Apple 실리콘(M1 이상)을 탑재한 Mac과 macOS 13.3 이상이 필요합니다.
+
+1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest)에서 최신 `.dmg`를 다운로드합니다.
+2. PaperDuet를 응용 프로그램 폴더로 드래그한 뒤 거기서 엽니다.
+3. 처음 한 번만: PaperDuet는 아직 Apple의 공증을 받지 않아서 macOS가 확인을 요청합니다. 시스템 설정 › 개인정보 보호 및 보안을 열고 **그래도 열기**를 클릭하세요. (터미널에서 `xattr -dr com.apple.quarantine /Applications/PaperDuet.app`를 실행해도 됩니다.)
+4. 모델을 고릅니다. PaperDuet가 모델을 다운로드하거나 이미 있는 사본을 찾아 바로 번역을 시작합니다.
+
+이게 전부입니다. 번역 엔진은 앱에 내장되어 있고, 업데이트도 클릭 한 번이면 됩니다.
+
+<details>
+<summary><b>키보드 단축키</b></summary>
+
+| 동작 | 단축키 |
+| --- | --- |
+| PDF 열기 | ⌘O |
+| 논문 닫기 | ⌘W |
+| 양쪽 검색 | ⌘F |
+| 다음 / 이전 결과 | ⌘G / ⇧⌘G |
+| 확대 / 축소 / 폭에 맞추기 | ⌘+ / ⌘− / ⌘0 |
+| 포인터 중심으로 확대·축소 | ⌘ + 스크롤 또는 트랙패드에서 핀치 |
+| 페이지 이동 | ⌘ + 드래그 |
+| 이 부분을 다음에 번역 | 아직 번역되지 않은 텍스트를 더블클릭 |
+| 선택 영역 강조 | H |
+| 선택 영역에 메모 추가 | N |
+| 강조 색 | 1~5 |
+| 실행 취소 / 다시 실행 | ⌘Z / ⇧⌘Z |
+| 사이드바 보기 / 숨기기 | ⌘\ |
+| 스크롤 동기화 켜기 / 끄기 | ⌘L |
+| 모든 단축키 | ⌘/ |
+
+H, N, 1~5는 선택한 텍스트에 적용됩니다.
+
+</details>
+
+## 자주 묻는 질문
+
+### 어떤 모델을 골라야 하나요?
+
+Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8B, 메모리 16GB 이상 Mac에서 가장 자연스러운 번역을 원하면 Hy-MT2-7B를 고르세요.
+
+### 무료인가요?
+
+네. 개인 학습과 연구, 그리고 대학, 학교, 연구 기관, 기타 비영리 단체에서는 무료입니다. 회사에서 또는 회사를 위해 사용하려면 상업용 라이선스가 필요하니 [junystugh@gmail.com](mailto:junystugh@gmail.com)으로 연락해 주세요.
+
+## 로드맵
+
+- **arXiv 논문을 조판까지 번역**: 논문의 LaTeX 소스를 번역하고 번역 언어의 글꼴로 컴파일해, 제대로 조판된 번역본을 만듭니다.
+- **영어 인터페이스**.
+
+## 변경 기록
+
+- **0.3.1** (2026-10-23): 진행 링이 퍼센트 기호 없이 숫자만 표시합니다. 번역이 끝나면 링이 초록색으로 바뀌며 체크 표시로 접히고, 체크는 도구 막대의 다른 아이콘과 크기와 위치가 맞습니다.
+- **0.3.0** (2026-10-23): 8개 언어로 번역하고 도구 막대에서 전환합니다. 번역이 끝나면 링에 초록색 체크가 표시되고, 번역 PDF는 자동이 아니라 클릭 한 번으로 저장합니다. 모델을 바꿔도 시험 번역을 다시 하지 않습니다.
+- **0.2.1** (2026-10-23): 5가지 번역 모델 중 선택, 시작 화면 추가.
+- **0.2.0** (2026-10-23): 앱 안에서 업데이트 확인, 클릭 한 번으로 업데이트.
+- **0.1.0** (2026-10-22): 첫 릴리스.
+
+전체 기록: [CHANGELOG.md](CHANGELOG.md)
+
+## 라이선스
+
+PaperDuet는 [PolyForm Noncommercial License 1.0.0](LICENSE)에 따라 비상업적 용도라면 무료입니다. 개인, 학습, 연구, 비영리 목적으로 사용하고 공유할 수 있으며, 공유할 때는 라이선스와 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` 한 줄을 함께 넣어 주세요. 상업적 사용은 [junystugh@gmail.com](mailto:junystugh@gmail.com)으로 문의해 주세요.
+
+Copyright © 2026 Kalen Yongda Wei.
+
+## 감사의 말
+
+PaperDuet는 [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand), [Lucide](https://lucide.dev)로 만들었습니다. 번역 모델은 bilibili Index 팀(Index-Translate-2B), Tencent Hunyuan(Hy-MT2), NiuTrans(LMT), Google(TranslateGemma)이 만들었습니다. TranslateGemma는 [Gemma 이용 약관](https://ai.google.dev/gemma/terms)을, 나머지는 Apache-2.0을 따릅니다. 라이선스 전문은 앱 안(설정 › 关于 › 第三方许可证)에서 볼 수 있습니다.
+
+애니메이션에 나오는 논문은 Vaswani 외의 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)입니다.
