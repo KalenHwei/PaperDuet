@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>The Best Lightweight Paper Translator for Researchers!</em>
+  <em>The Ultimate AI Mirror Translator for Research Papers!</em>
 </p>
 
 <p align="center">
@@ -21,10 +21,10 @@
 </p>
 
 <p align="center">
-  <strong>A lightweight mirror translator for papers that keeps the original layout.</strong><br>
+  <strong>PaperDuet is a lightweight AI mirror translator for papers that keeps the original layout.</strong><br>
   Five open-source AI translation models to choose from.<br>
-  No sign-in, no fees, fully local.<br>
-  <sub>Attention Is All You Need (15 pages), translated from scratch on a MacBook Pro with M5 Pro. Animation at 1.3× speed.</sub>
+  No sign-in, no fees, fully local!<br>
+  <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
 </p>
 
 <p align="center">
@@ -35,49 +35,49 @@
   <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a></sub>
 </p>
 
-Stop switching between a translator and your PDF. PaperDuet puts a paper and its Chinese translation side by side, page for page, with every formula, figure and table right where it was. The translation runs on your Mac: no account, no API key, no subscription, and your papers never leave your computer.
+PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No sign-up, no API key, no fees, and it runs entirely on your Mac!
 
-## Every page, mirrored
+## Every page, made easy
 
 <p align="center">
   <img src="docs/images/layout.gif" width="880" alt="Scrolling through pages 3 to 5: the Transformer diagram, the attention diagrams and the formulas sit in the same place on both sides, with the English text replaced by Chinese on the right">
 </p>
 
-The right side is the original page with the English replaced by Chinese, in exactly the same place. Formulas, figures and tables stay untouched, and both sides scroll and zoom together, so Figure 2 always sits next to Figure 2. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up.
+The original paper is on the left and its translation on the right, and both sides scroll and zoom together. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up. The two sides line up exactly, so comparing them is easy.
 
-## Start reading in seconds
+## Fast! Fast! Fast!
 
 <p align="center">
   <img src="docs/images/double-click.gif" width="880" alt="On page 9, section 6.3 is not translated yet; a double-click on its first paragraph moves the section to the front, the status bar says so, and its paragraphs appear in Chinese one after another while the rest of the page waits">
 </p>
 
-Headings go first, so the outline turns Chinese almost instantly. The title, abstract and introduction come next, then the rest of the paper. Want a later section right now? Double-click it and it jumps to the front of the queue.
+Headings are translated first, so you can see how the paper is structured; the title, abstract and introduction come next, so you get the key points quickly. Want to read a later section first? Just double-click its paragraph in the original and it starts right away!
 
-## Highlights in both languages
+## Notes? Just make them on the translation!
 
 <p align="center">
   <img src="docs/images/highlights.gif" width="880" alt="Two sentences of the abstract are selected on the original and highlighted yellow; the same sentences turn yellow in the translation. Then part of the last Chinese sentence is highlighted green, and the matching English sentence turns green on the left">
 </p>
 
-Highlight, underline or add a note on either side, and it shows up on the matching sentence on the other. You can also polish any translation by hand, with full undo and redo.
+Highlight, underline or add a note on either side, and the matching sentence on the other side is marked too.
 
-## Pause and resume anytime
+## Progress? Speed? No problem!
 
 <p align="center">
   <img src="docs/images/progress-ring.gif" width="880" alt="The camera moves in on the progress ring in the toolbar while a paper is being translated: pointing at it shows a red stop button, a click pauses and shows a blue play button, another click goes on">
 </p>
 
-The ring in the toolbar shows your progress. Point at it to stop, click to pause, click again to carry on. Every paragraph is saved the moment it is translated, so when you come back to a paper, its translation is waiting for you.
+The toolbar shows the translation progress, and once the whole paper is translated, a Chinese version is saved on your Mac automatically. You can also choose from five models to suit your Mac and your needs!
 
 ## And there's more
 
-- **A Chinese PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout, with selectable text, and it stays in sync with your edits.
+- **A Chinese PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep it in English.
 - **Read your way.** Search both languages at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
 - **Export anywhere.** The original PDF with your marks as standard annotations, the Chinese PDF, and your notes as Markdown.
 - **One-click updates.** New versions show up right in the app, signed and verified, and install with one click.
-- **Made for the Mac.** Native glass materials, light and dark appearance, a night reading mode, and animations that respect Reduce Motion. The interface is in Simplified Chinese.
+- **Made to look good.** A clean, beautiful glass design, with light, dark and night reading modes.
 
 <p align="center">
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet in dark appearance: page 3 with the Transformer diagram on both sides, a yellow and a green highlight on the original and on the translation, and the bilingual outline in the sidebar">
@@ -102,7 +102,7 @@ Already have one of these models from LM Studio, llama.cpp or Hugging Face? Pape
 ## Private by design
 
 - Your papers, translations and notes stay on your Mac.
-- No account, no usage tracking, no crash reports.
+- No account needed, and no usage data is collected.
 - PaperDuet goes online only to download a model and to check for updates, and you can turn the update check off.
 
 ## Get started
@@ -114,7 +114,7 @@ You need a Mac with Apple silicon (M1 or later) and macOS 13.3 or later.
 3. First launch only: PaperDuet isn't notarized by Apple yet, so macOS asks you to confirm. Open System Settings › Privacy & Security and click **Open Anyway**. (Or run `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` in Terminal.)
 4. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
 
-That's all. The translation engine is built into the app, and new versions install from inside it.
+That's all. The translation engine is built into the app, and updates take one click.
 
 <details>
 <summary><b>Keyboard shortcuts</b></summary>
