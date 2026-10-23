@@ -12,7 +12,7 @@
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新版本"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 及以上，Apple 芯片">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="在本机翻译">
-  <img src="https://img.shields.io/badge/model-Index--Translate--2B-111111?style=flat-square" alt="模型：Index-Translate-2B">
+  <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="模型：五个可选">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="许可证：PolyForm Noncommercial 1.0.0"></a>
 </p>
 
@@ -72,7 +72,7 @@ PaperDuet 先译各级标题，所以侧栏目录很快就是中文。接下来�
 ## 其他功能
 
 - 整篇译完后，论文所在的文件夹里会多一份“文件名_zh.pdf”，版式和原文相同，文字可以选中复制。之后修改译文，这个文件会跟着更新。不需要的话可以在设置里关掉。
-- 模型的每次回复都会核对句子编号、公式和数字，出错的句子会重试。每篇论文还会自动整理一份术语表，让同一个术语前后译法一致。
+- 模型的每次回复都会核对句子编号、公式和数字，出错的句子会重试。用 Index-Translate-2B 时，每篇论文还会自动整理一份术语表，让同一个术语前后译法一致。
 - 如果图里的文字被译了，或者某一段漏译了，在那一块上右键，选“翻译此块”或“不翻译此块”。
 - 可以两边同时查找，用中英对照的目录跳转，鼠标停在段落上时另一边对应的段落会描边。也可以只看原文、只看译文或者两边都看。PaperDuet 会记住你上次读到哪里。
 - 可以导出带标注的原文 PDF（用标准 PDF 批注，其他阅读器也能看到）、中文 PDF，以及 Markdown 格式的笔记。
@@ -85,7 +85,7 @@ PaperDuet 先译各级标题，所以侧栏目录很快就是中文。接下来�
 
 ## 安装
 
-需要一台 Apple 芯片的 Mac（M1 及以后），macOS 13.3 及以上，另外留出约 2.1 GB 硬盘空间放翻译模型。
+需要一台 Apple 芯片的 Mac（M1 及以后），macOS 13.3 及以上，另外留出 2 到 8 GB 硬盘空间放翻译模型，具体看选哪个（推荐的那个是 2.1 GB）。
 
 ### 下载安装
 
@@ -93,29 +93,44 @@ PaperDuet 先译各级标题，所以侧栏目录很快就是中文。接下来�
 2. 打开它，把 PaperDuet 拖进“应用程序”文件夹，之后从那里打开。macOS 不允许应用里自带的翻译引擎在磁盘映像或“下载”文件夹里运行。
 3. 这个应用没有经过苹果公证，第一次打开时 macOS 会提示无法验证。打开“系统设置 › 隐私与安全性”，往下找到关于 PaperDuet 的提示，点“仍要打开”并确认。这一步只需要做一次。
    也可以在“终端”里运行：`xattr -dr com.apple.quarantine /Applications/PaperDuet.app`
-4. 第一次使用时，PaperDuet 会先在本机找翻译模型，找不到就下载（2.1 GB）。模型一到位就自动开始翻译。详见[翻译模型](#翻译模型)。
+4. 第一次使用时，PaperDuet 会让你选一个翻译模型（推荐 Index-Translate-2B），先在本机找，找不到就下载。模型一到位就自动开始翻译。详见[翻译模型](#翻译模型)。
 
 除此之外不用再装任何东西，翻译引擎和 Metal 加速都已经包含在应用里。以后的新版本直接在应用里更新，磁盘映像只需要下载这一次。
 
 ## 翻译模型
 
-PaperDuet 只用一个模型。它专门用来做翻译，大小也适合在笔记本上运行：
+第一次打开 PaperDuet 时，从下面五个模型里选一个。它们都是专门做翻译的模型，都在你的 Mac 上运行。之后可以在“设置 › 模型 › 更换模型”里换。
 
-| 模型                                                                                             | 文件                           | 大小    | 许可证     |
-| ------------------------------------------------------------------------------------------------ | ------------------------------ | ------- | ---------- |
-| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)（哔哩哔哩 Index 团队） | `Index-Translate-2B.Q8_0.gguf` | 2.08 GB | Apache-2.0 |
+| 模型 | 来自 | 大小 | 内存 | 许可证 |
+| --- | --- | --- | --- | --- |
+| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)（推荐） | 哔哩哔哩 Index 团队 | 2.08 GB | 约 3 GB | Apache-2.0 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.91 GB | 约 2.5 GB | Apache-2.0 |
+| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻译 NiuTrans | 4.69 GB | 约 5.5 GB | Apache-2.0 |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 7.98 GB | 约 9 GB（建议 16 GB 以上的 Mac） | Apache-2.0 |
+| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF)（实验性） | Google | 4.13 GB | 约 5 GB | [Gemma 使用条款](https://ai.google.dev/gemma/terms) |
 
-模型由应用自带的 llama.cpp 服务运行，不需要另外安装或打开其他程序。如果本机已经有这个模型文件，PaperDuet 会先核对 SHA-256，然后直接使用，不会重复下载。它会在这些位置查找：
+推荐 Index-Translate-2B，是因为 PaperDuet 的提示词、译文检查和术语表都是按它调的。其他模型用各自发布方推荐的提示词，一次翻一段，不用术语表。TranslateGemma 还没有在 PaperDuet 里实测过。换模型不会重新翻译已经译好的论文。
 
-- LM Studio：`~/.lmstudio/models/IndexTeam/Index-Translate-2B-GGUF/` 或 `~/.cache/lm-studio/models/IndexTeam/Index-Translate-2B-GGUF/`
+用 _Attention Is All You Need_ 的前 4 页（36 段，M5 Pro 的 MacBook Pro，含启动引擎的时间）实测，四个测过的模型都能保住版面、公式和引用编号：
+
+| 模型 | 用时 | 观察 |
+| --- | --- | --- |
+| Index-Translate-2B | 68 秒 | 术语最统一 |
+| Hy-MT2-1.8B | 43 到 53 秒 | 最快，偶尔有说法不准 |
+| LMT-60-4B | 107 秒 | 偏直译，摘要里留了半句英文 |
+| Hy-MT2-7B | 216 秒 | 最通顺，也最慢 |
+
+模型由应用自带的 llama.cpp 服务运行，不需要另外安装或打开其他程序。如果本机已经有模型文件，PaperDuet 会先核对 SHA-256，然后直接使用，不会重复下载。它会在这些位置查找：
+
+- LM Studio：`~/.lmstudio/models/` 和 `~/.cache/lm-studio/models/`
 - llama.cpp（`-hf`）：`~/Library/Caches/llama.cpp/`
-- Hugging Face 工具：`~/.cache/huggingface/hub/models--IndexTeam--Index-Translate-2B-GGUF/`
+- Hugging Face 工具：`~/.cache/huggingface/hub/`
 
-都没有的话就从 Hugging Face 下载，连不上时改从 ModelScope 下载。下载可以暂停和继续。
+找不到就从 Hugging Face 下载；Index-Translate-2B 在连不上 Hugging Face 时还会改从 ModelScope 下载。下载可以暂停和继续。
 
 ### 速度和内存
 
-在 M5 Pro 的 MacBook Pro 上翻译 15 页的 _Attention Is All You Need_（106 段）实测：
+用 Index-Translate-2B，在 M5 Pro 的 MacBook Pro 上翻译 15 页的 _Attention Is All You Need_（106 段）实测：
 
 | 同时翻译几段（设置 › 模型） | 整篇用时 | 翻译时占用内存   |
 | --------------------------- | -------- | ---------------- |
@@ -157,7 +172,7 @@ H、N、1 到 5 只在选中了文字、并且没有在输入框里打字时有�
 
 ### 能换别的模型吗？
 
-这一版不能。提示词、译文检查和术语表处理都是针对 Index-Translate-2B 调好的。
+能，可以换成[翻译模型](#翻译模型)里列的五个之一。设置时选，或者之后在“设置 › 模型 › 更换模型”里换。暂时还不能添加其他 GGUF 文件。
 
 ### 为什么一篇论文要译一两分钟？
 
@@ -202,6 +217,6 @@ PaperDuet 按 [PolyForm Noncommercial License 1.0.0](LICENSE) 发布，非商业
 
 ## 致谢
 
-PaperDuet 基于 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev)，翻译用的是哔哩哔哩 Index 团队的 [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)。它们的许可证全文已经包含在应用里（设置 › 关于 › 第三方许可证）。
+PaperDuet 基于 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev)，翻译用的是哔哩哔哩 Index 团队的 [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)，你选了别的模型时则是腾讯混元的 Hy-MT2、小牛翻译的 LMT 或 Google 的 TranslateGemma。它们的许可证全文已经包含在应用里（设置 › 关于 › 第三方许可证）。
 
 动图里的论文是 Vaswani 等人的 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)，仅作示例。

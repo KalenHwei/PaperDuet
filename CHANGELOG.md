@@ -6,6 +6,19 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-10-23
+
+### Added
+
+- A choice of five translation models when you set up PaperDuet, and later
+  under Settings › 模型 › 更换模型: Index-Translate-2B (recommended, the one
+  used so far), Hy-MT2-1.8B, Hy-MT2-7B, LMT-60-4B and TranslateGemma-4B
+  (experimental, not yet tested with PaperDuet). A model you already have in
+  LM Studio, llama.cpp or the Hugging Face cache is used where it is.
+  Models other than Index translate a paragraph at a time and do not use the
+  glossary. Switching models does not retranslate papers already translated.
+- A launch screen with the icon, the name and "Mirror your translations".
+
 ## [0.2.0] - 2026-10-23
 
 ### Added
@@ -71,6 +84,7 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.1
 [0.2.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.0
 [0.1.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.1.0
