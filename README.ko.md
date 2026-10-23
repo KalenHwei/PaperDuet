@@ -86,7 +86,7 @@ PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문�
 
 ## 5가지 모델, 모두 내 Mac에서
 
-PaperDuet를 처음 열 때 모델을 고르고, 나중에 설정 › 模型 › 更换模型에서 언제든 바꿀 수 있습니다. 모두 번역 전용 모델이며, 한 번 다운로드하면 완전히 오프라인으로 동작합니다.
+PaperDuet를 처음 열 때 모델을 고르고, 나중에 설정 › 모델 › 모델 변경에서 언제든 바꿀 수 있습니다. 모두 번역 전용 모델이며, 한 번 다운로드하면 완전히 오프라인으로 동작합니다.
 
 | 모델 | 제공 | 크기 | 추천 용도 |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ PaperDuet를 처음 열 때 모델을 고르고, 나중에 설정 › 模型 ›
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | 가장 자연스러운 번역, 메모리 16GB 이상 Mac용 |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (실험적) | Google | 4.1 GB | Google의 번역 모델을 써 보고 싶을 때 |
 
-추천 모델로는 15쪽 논문이 M5 Pro에서 약 2분, 설정 › 模型에서 "同时翻译几段"(동시에 번역할 문단 수)을 2나 3으로 하면 약 1분 걸립니다.
+추천 모델로는 15쪽 논문이 M5 Pro에서 약 2분, 설정 › 모델에서 "동시 번역 문단 수"를 2나 3으로 하면 약 1분 걸립니다.
 
 LM Studio, llama.cpp, Hugging Face로 이미 이 모델들을 받아 두셨나요? PaperDuet가 찾아서 그 자리에서 사용하므로 다시 다운로드할 필요가 없습니다.
 
@@ -155,10 +155,10 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 ## 로드맵
 
 - **arXiv 논문을 조판까지 번역**: 논문의 LaTeX 소스를 번역하고 번역 언어의 글꼴로 컴파일해, 제대로 조판된 번역본을 만듭니다.
-- **영어 인터페이스**.
 
 ## 변경 기록
 
+- **0.4.0** (2026-10-23): 인터페이스가 9개 언어(이 페이지와 같은 언어)를 지원합니다. macOS 언어를 따르며, 설정 › 모양 › 인터페이스 언어에서 바꿀 수 있습니다.
 - **0.3.2** (2026-10-23): 영어로 남는 문단이 줄었습니다. 큰 수를 '만'으로 쓴 번역(일본어·한국어·중국어)이 잘못 걸러지지 않고, 절 번호나 인용 번호만 빠진 문장은 번역을 유지합니다.
 - **0.3.1** (2026-10-23): 진행 링이 퍼센트 기호 없이 숫자만 표시합니다. 번역이 끝나면 링이 초록색으로 바뀌며 체크 표시로 접히고, 체크는 도구 막대의 다른 아이콘과 크기와 위치가 맞습니다.
 - **0.3.0** (2026-10-23): 8개 언어로 번역하고 도구 막대에서 전환합니다. 번역이 끝나면 링에 초록색 체크가 표시되고, 번역 PDF는 자동이 아니라 클릭 한 번으로 저장합니다. 모델을 바꿔도 시험 번역을 다시 하지 않습니다.
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## 감사의 말
 
-PaperDuet는 [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand), [Lucide](https://lucide.dev)로 만들었습니다. 번역 모델은 bilibili Index 팀(Index-Translate-2B), Tencent Hunyuan(Hy-MT2), NiuTrans(LMT), Google(TranslateGemma)이 만들었습니다. TranslateGemma는 [Gemma 이용 약관](https://ai.google.dev/gemma/terms)을, 나머지는 Apache-2.0을 따릅니다. 라이선스 전문은 앱 안(설정 › 关于 › 第三方许可证)에서 볼 수 있습니다.
+PaperDuet는 [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand), [Lucide](https://lucide.dev)로 만들었습니다. 번역 모델은 bilibili Index 팀(Index-Translate-2B), Tencent Hunyuan(Hy-MT2), NiuTrans(LMT), Google(TranslateGemma)이 만들었습니다. TranslateGemma는 [Gemma 이용 약관](https://ai.google.dev/gemma/terms)을, 나머지는 Apache-2.0을 따릅니다. 라이선스 전문은 앱 안(설정 › 정보 › 타사 라이선스)에서 볼 수 있습니다.
 
 애니메이션에 나오는 논문은 Vaswani 외의 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)입니다.

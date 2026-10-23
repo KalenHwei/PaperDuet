@@ -86,7 +86,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 
 ## 五種模型，全在你的 Mac 上
 
-第一次打開 PaperDuet 時選一個模型，之後隨時可以在「设置 › 模型 › 更换模型」裡更換。五種都是翻譯專用模型，下載後完全離線執行。
+第一次打開 PaperDuet 時選一個模型，之後隨時可以在「設定 › 模型 › 更換模型」裡更換。五種都是翻譯專用模型，下載後完全離線執行。
 
 | 模型 | 來自 | 大小 | 適合 |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 騰訊混元 | 8.0 GB | 譯文最通順，適合 16 GB 以上記憶體的 Mac |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) （實驗性） | Google | 4.1 GB | 想試試 Google 的翻譯模型 |
 
-用推薦的模型，15 頁的論文在 M5 Pro 上大約 2 分鐘翻完；在「设置 › 模型」把「同时翻译几段」調成 2 或 3，大約 1 分鐘。
+用推薦的模型，15 頁的論文在 M5 Pro 上大約 2 分鐘翻完；在「設定 › 模型」把「同時翻譯幾段」調成 2 或 3，大約 1 分鐘。
 
 已經用 LM Studio、llama.cpp 或 Hugging Face 下載過這些模型？PaperDuet 會自動找到並直接使用，不必重新下載。
 
@@ -155,10 +155,10 @@ H、N、1 到 5 作用於選取的文字。
 ## 未來計畫
 
 - **arXiv 論文重新排版**：直接翻譯論文的 LaTeX 原始碼，用譯文語言的字型重新編譯，得到排版完整的譯本。
-- **英文介面**。
 
 ## 更新紀錄
 
+- **0.4.0**（2026-10-23）：介面支援 9 種語言（和本頁的語言相同），預設跟隨 macOS 系統語言，也可以在「設定 › 外觀 › 介面語言」裡更改。
 - **0.3.2**（2026-10-23）：留英文的段落更少了：日、韓、中文把大數寫成「萬」不再被誤判；只漏了章節編號或文獻編號的句子，保留譯文。
 - **0.3.1**（2026-10-23）：進度圓環的數字去掉了百分號；整篇翻完時，圓環變綠並收成一個勾，和工具列其他圖示一樣大、對齊。
 - **0.3.0**（2026-10-23）：新增八種譯文語言，在工具列一鍵切換；整篇翻完後圓環顯示綠色勾號，譯文 PDF 改成點一下才儲存（不再自動儲存）；更換模型時不再重複試譯。
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## 致謝
 
-PaperDuet 以 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev) 打造。翻譯模型來自嗶哩嗶哩 Index 團隊（Index-Translate-2B）、騰訊混元（Hy-MT2）、小牛翻譯（LMT）和 Google（TranslateGemma）；除了 TranslateGemma 採用 [Gemma 使用條款](https://ai.google.dev/gemma/terms) 外，其餘都以 Apache-2.0 授權釋出。完整授權條款可以在 App 內查看（设置 › 关于 › 第三方许可证）。
+PaperDuet 以 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev) 打造。翻譯模型來自嗶哩嗶哩 Index 團隊（Index-Translate-2B）、騰訊混元（Hy-MT2）、小牛翻譯（LMT）和 Google（TranslateGemma）；除了 TranslateGemma 採用 [Gemma 使用條款](https://ai.google.dev/gemma/terms) 外，其餘都以 Apache-2.0 授權釋出。完整授權條款可以在 App 內查看（設定 › 關於 › 第三方授權條款）。
 
 動畫中的論文是 Vaswani 等人的 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)。

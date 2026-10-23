@@ -86,7 +86,7 @@ The toolbar shows the translation progress. When the whole paper is done, the ri
 
 ## Five models, all on your Mac
 
-Pick a model the first time you open PaperDuet, and switch anytime in Settings › 模型 › 更换模型. Every one of them is built for translation and runs fully offline once it is downloaded.
+Pick a model the first time you open PaperDuet, and switch anytime in Settings › Model › Change Model. Every one of them is built for translation and runs fully offline once it is downloaded.
 
 | Model | By | Size | Best for |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ Pick a model the first time you open PaperDuet, and switch anytime in Settings �
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | The most fluent Chinese, on Macs with 16 GB of memory or more |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Trying Google's translation model |
 
-With the recommended model, a 15-page paper takes about 2 minutes on an M5 Pro, or about 1 minute with "同时翻译几段" (paragraphs at once) set to 2 or 3 in Settings › 模型.
+With the recommended model, a 15-page paper takes about 2 minutes on an M5 Pro, or about 1 minute with "Paragraphs at Once" set to 2 or 3 in Settings › Model.
 
 Already have one of these models from LM Studio, llama.cpp or Hugging Face? PaperDuet finds it and uses it where it is, with no second download.
 
@@ -155,10 +155,10 @@ Yes, for personal study and research, and for universities, schools, research in
 ## Roadmap
 
 - **Typeset translations from arXiv.** Translate a paper's LaTeX source and compile it with Chinese fonts for a fully typeset Chinese edition.
-- **An English interface.**
 
 ## Changelog
 
+- **0.4.0** (2026-10-23): the interface comes in nine languages (the same as this page). It follows your macOS language, and Settings › Appearance › Interface Language changes it.
 - **0.3.2** (2026-10-23): fewer paragraphs left in English: large numbers written in 万 (Japanese, Korean, Chinese) pass the check, and a sentence that only misses a cross-reference or a citation keeps its translation.
 - **0.3.1** (2026-10-23): the progress ring shows plain numbers; when a paper is done it turns green and closes into a check that lines up with the other toolbar icons.
 - **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; when a paper is done, the ring shows a green check and the translated PDF is saved with one click instead of automatically; changing models no longer reruns the trial translation.
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## Acknowledgments
 
-PaperDuet is built on [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) and [Lucide](https://lucide.dev). The translation models come from the bilibili Index team (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) and Google (TranslateGemma); they are released under Apache-2.0, except TranslateGemma, which is under the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). Full license texts are in the app (Settings › 关于 › 第三方许可证).
+PaperDuet is built on [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) and [Lucide](https://lucide.dev). The translation models come from the bilibili Index team (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) and Google (TranslateGemma); they are released under Apache-2.0, except TranslateGemma, which is under the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). Full license texts are in the app (Settings › About › Third-Party Licenses).
 
 The paper in the animations is [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) by Vaswani et al.

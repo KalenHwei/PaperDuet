@@ -86,7 +86,7 @@ La barre d'outils affiche où en est la traduction. Quand tout l'article est tra
 
 ## Cinq modèles, tous sur votre Mac
 
-Choisissez un modèle au premier lancement de PaperDuet, et changez quand vous voulez dans Réglages › 模型 › 更换模型. Tous sont conçus pour la traduction et fonctionnent entièrement hors ligne une fois téléchargés.
+Choisissez un modèle au premier lancement de PaperDuet, et changez quand vous voulez dans Réglages › Modèle › Changer de modèle. Tous sont conçus pour la traduction et fonctionnent entièrement hors ligne une fois téléchargés.
 
 | Modèle | Par | Taille | Idéal pour |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ Choisissez un modèle au premier lancement de PaperDuet, et changez quand vous v
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Les traductions les plus fluides, sur un Mac avec 16 Go de mémoire ou plus |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (expérimental) | Google | 4.1 GB | Essayer le modèle de traduction de Google |
 
-Avec le modèle recommandé, un article de 15 pages prend environ 2 minutes sur un M5 Pro, ou environ 1 minute avec « 同时翻译几段 » (paragraphes traduits en même temps) réglé sur 2 ou 3 dans Réglages › 模型.
+Avec le modèle recommandé, un article de 15 pages prend environ 2 minutes sur un M5 Pro, ou environ 1 minute avec « Paragraphes traduits simultanément » réglé sur 2 ou 3 dans Réglages › Modèle.
 
 Vous avez déjà l'un de ces modèles grâce à LM Studio, llama.cpp ou Hugging Face ? PaperDuet le trouve et l'utilise sur place, sans second téléchargement.
 
@@ -155,10 +155,10 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 ## Feuille de route
 
 - **Des traductions composées à partir d'arXiv.** Traduire la source LaTeX d'un article et la compiler avec les polices de la langue cible, pour une édition traduite entièrement composée.
-- **Une interface en anglais.**
 
 ## Journal des modifications
 
+- **0.4.0** (2026-10-23) : l'interface existe en neuf langues (les mêmes que cette page). Elle suit la langue de macOS, et Réglages › Apparence › Langue de l’interface permet d'en choisir une autre.
 - **0.3.2** (2026-10-23) : moins de paragraphes laissés en anglais : les grands nombres écrits en 万 (japonais, coréen, chinois) passent le contrôle, et une phrase à laquelle il ne manque qu'un renvoi ou une citation garde sa traduction.
 - **0.3.1** (2026-10-23) : l'anneau de progression affiche le nombre sans signe pour cent ; quand l'article est terminé, il devient vert et se referme en une coche de la taille des autres icônes de la barre d'outils, alignée avec elles.
 - **0.3.0** (2026-10-23) : huit langues de traduction, à choisir dans la barre d'outils ; quand un article est terminé, l'anneau affiche une coche verte et le PDF traduit s'enregistre en un clic au lieu de s'enregistrer tout seul ; changer de modèle ne relance plus la traduction d'essai.
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## Remerciements
 
-PaperDuet repose sur [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) et [Lucide](https://lucide.dev). Les modèles de traduction viennent de l'équipe Index de bilibili (Index-Translate-2B), de Tencent Hunyuan (Hy-MT2), de NiuTrans (LMT) et de Google (TranslateGemma). Ils sont publiés sous Apache-2.0, sauf TranslateGemma, régi par les [conditions d'utilisation de Gemma](https://ai.google.dev/gemma/terms). Les textes complets des licences se trouvent dans l'app (Réglages › 关于 › 第三方许可证).
+PaperDuet repose sur [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) et [Lucide](https://lucide.dev). Les modèles de traduction viennent de l'équipe Index de bilibili (Index-Translate-2B), de Tencent Hunyuan (Hy-MT2), de NiuTrans (LMT) et de Google (TranslateGemma). Ils sont publiés sous Apache-2.0, sauf TranslateGemma, régi par les [conditions d'utilisation de Gemma](https://ai.google.dev/gemma/terms). Les textes complets des licences se trouvent dans l'app (Réglages › À propos › Licences tierces).
 
 L'article des animations est [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) de Vaswani et al.

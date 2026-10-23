@@ -86,7 +86,7 @@ Die Symbolleiste zeigt den Fortschritt der Übersetzung. Ist der ganze Artikel f
 
 ## Fünf Modelle, alle auf deinem Mac
 
-Wähle beim ersten Start von PaperDuet ein Modell und wechsle jederzeit unter Einstellungen › 模型 › 更换模型. Alle sind für die Übersetzung gebaut und laufen nach dem Download komplett offline.
+Wähle beim ersten Start von PaperDuet ein Modell und wechsle jederzeit unter Einstellungen › Modell › Modell wechseln. Alle sind für die Übersetzung gebaut und laufen nach dem Download komplett offline.
 
 | Modell | Von | Größe | Am besten für |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ Wähle beim ersten Start von PaperDuet ein Modell und wechsle jederzeit unter Ei
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Die flüssigsten Übersetzungen, auf Macs mit 16 GB Arbeitsspeicher oder mehr |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimentell) | Google | 4.1 GB | Googles Übersetzungsmodell ausprobieren |
 
-Mit dem empfohlenen Modell braucht ein 15-seitiger Artikel auf einem M5 Pro etwa 2 Minuten, oder etwa 1 Minute, wenn „同时翻译几段“ (gleichzeitig übersetzte Absätze) unter Einstellungen › 模型 auf 2 oder 3 steht.
+Mit dem empfohlenen Modell braucht ein 15-seitiger Artikel auf einem M5 Pro etwa 2 Minuten, oder etwa 1 Minute, wenn „Absätze gleichzeitig“ unter Einstellungen › Modell auf 2 oder 3 steht.
 
 Du hast eines dieser Modelle schon über LM Studio, llama.cpp oder Hugging Face? PaperDuet findet es und nutzt es an Ort und Stelle, ohne zweiten Download.
 
@@ -155,10 +155,10 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 ## Roadmap
 
 - **Gesetzte Übersetzungen aus arXiv.** Den LaTeX-Quelltext eines Artikels übersetzen und mit Schriften der Zielsprache kompilieren, für eine vollständig gesetzte Übersetzung.
-- **Eine englische Oberfläche.**
 
 ## Änderungen
 
+- **0.4.0** (2026-10-23): die Oberfläche gibt es in neun Sprachen (dieselben wie auf dieser Seite). Sie folgt der Sprache von macOS; unter Einstellungen › Darstellung › Sprache der Oberfläche lässt sie sich ändern.
 - **0.3.2** (2026-10-23): weniger Absätze bleiben auf Englisch: große Zahlen, die auf Japanisch, Koreanisch oder Chinesisch mit 万 geschrieben sind, bestehen die Prüfung, und ein Satz, dem nur ein Verweis oder eine Quellenangabe fehlt, behält seine Übersetzung.
 - **0.3.1** (2026-10-23): der Fortschrittsring zeigt die Zahl ohne Prozentzeichen; ist der Artikel fertig, wird er grün und schließt sich zu einem Häkchen, so groß wie die anderen Symbole der Symbolleiste und mit ihnen auf einer Linie.
 - **0.3.0** (2026-10-23): acht Zielsprachen, umschaltbar in der Symbolleiste; ist ein Artikel fertig, zeigt der Ring ein grünes Häkchen, und das übersetzte PDF wird mit einem Klick statt automatisch gespeichert; ein Modellwechsel startet die Probeübersetzung nicht mehr neu.
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## Danksagung
 
-PaperDuet basiert auf [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) und [Lucide](https://lucide.dev). Die Übersetzungsmodelle stammen vom bilibili-Index-Team (Index-Translate-2B), von Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) und Google (TranslateGemma). Sie stehen unter Apache-2.0, außer TranslateGemma, für das die [Gemma-Nutzungsbedingungen](https://ai.google.dev/gemma/terms) gelten. Die vollständigen Lizenztexte findest du in der App (Einstellungen › 关于 › 第三方许可证).
+PaperDuet basiert auf [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) und [Lucide](https://lucide.dev). Die Übersetzungsmodelle stammen vom bilibili-Index-Team (Index-Translate-2B), von Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) und Google (TranslateGemma). Sie stehen unter Apache-2.0, außer TranslateGemma, für das die [Gemma-Nutzungsbedingungen](https://ai.google.dev/gemma/terms) gelten. Die vollständigen Lizenztexte findest du in der App (Einstellungen › Info › Lizenzen von Drittanbietern).
 
 Der Artikel in den Animationen ist [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) von Vaswani et al.

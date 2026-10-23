@@ -86,7 +86,7 @@ PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文
 
 ## 5 つのモデルが、すべて Mac の中に
 
-PaperDuet を初めて開くときにモデルを選び、あとから 設定 › 模型 › 更换模型 でいつでも切り替えられます。どれも翻訳専用のモデルで、ダウンロードが済めば完全にオフラインで動きます。
+PaperDuet を初めて開くときにモデルを選び、あとから「設定 › モデル › モデルを変更」でいつでも切り替えられます。どれも翻訳専用のモデルで、ダウンロードが済めば完全にオフラインで動きます。
 
 | モデル | 提供元 | サイズ | 向いている用途 |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ PaperDuet を初めて開くときにモデルを選び、あとから 設定 �
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | いちばん流暢な訳文。メモリ 16 GB 以上の Mac 向け |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) （試験的） | Google | 4.1 GB | Google の翻訳モデルを試したいときに |
 
-おすすめのモデルなら、15 ページの論文が M5 Pro で約 2 分。設定 › 模型 で「同时翻译几段」（同時に訳す段落数）を 2 か 3 にすれば約 1 分です。
+おすすめのモデルなら、15 ページの論文が M5 Pro で約 2 分。「設定 › モデル」で「同時に翻訳する段落数」を 2 か 3 にすれば約 1 分です。
 
 LM Studio、llama.cpp、Hugging Face でこれらのモデルをすでにダウンロード済みですか？ PaperDuet が見つけてそのまま使うので、もう一度ダウンロードする必要はありません。
 
@@ -155,10 +155,10 @@ H、N、1〜5 は選択中のテキストに使えます。
 ## 今後の予定
 
 - **arXiv の論文をきちんと組版して翻訳**：論文の LaTeX ソースを翻訳し、訳文の言語のフォントでコンパイルして、組版まで整った翻訳版を作ります。
-- **英語のインターフェース**。
 
 ## 更新履歴
 
+- **0.4.0**（2026-10-23）：画面表示が 9 言語（このページと同じ言語）に対応しました。macOS の言語に合わせて切り替わり、「設定 › 外観 › 表示言語」で変更できます。
 - **0.3.2**（2026-10-23）：英語のまま残る段落が減りました。大きな数を「万」で書いた訳（日本語・韓国語・中国語）が誤ってはじかれなくなり、節番号や文献番号だけが抜けた文は訳文を残すようにしました。
 - **0.3.1**（2026-10-23）：進捗リングの数字から % を外しました。全文を訳し終えるとリングが緑になって閉じ、チェックに変わります。チェックはツールバーのほかのアイコンと同じ大きさで、位置もそろっています。
 - **0.3.0**（2026-10-23）：8 つの言語への翻訳に対応し、ツールバーで切り替えられるようにしました。訳し終えるとリングに緑のチェックが表示され、訳文 PDF は自動ではなくクリック 1 回で保存するようになりました。モデルを切り替えても試し訳をやり直さなくなりました。
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## 謝辞
 
-PaperDuet は [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand)、[Lucide](https://lucide.dev) を使って作られています。翻訳モデルは bilibili Index チーム（Index-Translate-2B）、Tencent Hunyuan（Hy-MT2）、NiuTrans（LMT）、Google（TranslateGemma）によるものです。TranslateGemma は [Gemma 利用規約](https://ai.google.dev/gemma/terms)、それ以外は Apache-2.0 で公開されています。ライセンスの全文はアプリ内（設定 › 关于 › 第三方许可证）で読めます。
+PaperDuet は [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand)、[Lucide](https://lucide.dev) を使って作られています。翻訳モデルは bilibili Index チーム（Index-Translate-2B）、Tencent Hunyuan（Hy-MT2）、NiuTrans（LMT）、Google（TranslateGemma）によるものです。TranslateGemma は [Gemma 利用規約](https://ai.google.dev/gemma/terms)、それ以外は Apache-2.0 で公開されています。ライセンスの全文はアプリ内（設定 › 情報 › サードパーティのライセンス）で読めます。
 
 アニメーションで使っている論文は、Vaswani らの [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) です。

@@ -86,7 +86,7 @@ La barra de herramientas muestra cómo avanza la traducción. Cuando todo el art
 
 ## Cinco modelos, todos en tu Mac
 
-Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en Ajustes › 模型 › 更换模型. Todos están hechos para traducir y funcionan totalmente sin conexión una vez descargados.
+Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en Ajustes › Modelo › Cambiar de modelo. Todos están hechos para traducir y funcionan totalmente sin conexión una vez descargados.
 
 | Modelo | De | Tamaño | Ideal para |
 | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Las traducciones más fluidas, en Macs con 16 GB de memoria o más |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Probar el modelo de traducción de Google |
 
-Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en un M5 Pro, o alrededor de 1 minuto con «同时翻译几段» (párrafos traducidos a la vez) en 2 o 3 en Ajustes › 模型.
+Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en un M5 Pro, o alrededor de 1 minuto con «Párrafos simultáneos» en 2 o 3 en Ajustes › Modelo.
 
 ¿Ya tienes alguno de estos modelos por LM Studio, llama.cpp o Hugging Face? PaperDuet lo encuentra y lo usa donde está, sin volver a descargarlo.
 
@@ -155,10 +155,10 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 ## Hoja de ruta
 
 - **Traducciones maquetadas desde arXiv.** Traducir el código LaTeX de un artículo y compilarlo con fuentes del idioma de destino, para obtener una edición traducida totalmente maquetada.
-- **Una interfaz en inglés.**
 
 ## Registro de cambios
 
+- **0.4.0** (2026-10-23): la interfaz está en nueve idiomas (los mismos que esta página). Sigue el idioma de macOS, y en Ajustes › Aspecto › Idioma de la interfaz puedes elegir otro.
 - **0.3.2** (2026-10-23): menos párrafos quedan en inglés: los números grandes escritos con 万 (japonés, coreano, chino) pasan la comprobación, y una frase a la que solo le falta una referencia o una cita conserva su traducción.
 - **0.3.1** (2026-10-23): el anillo de progreso muestra el número sin signo de porcentaje; cuando el artículo termina, se vuelve verde y se cierra en una marca del mismo tamaño que los demás iconos de la barra de herramientas y alineada con ellos.
 - **0.3.0** (2026-10-23): ocho idiomas de traducción, a elegir desde la barra de herramientas; al terminar un artículo, el anillo muestra una marca verde y el PDF traducido se guarda con un clic en lugar de guardarse solo; cambiar de modelo ya no repite la traducción de prueba.
@@ -176,6 +176,6 @@ Copyright © 2026 Kalen Yongda Wei.
 
 ## Agradecimientos
 
-PaperDuet está hecho con [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) y [Lucide](https://lucide.dev). Los modelos de traducción son del equipo Index de bilibili (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) y Google (TranslateGemma). Se publican bajo Apache-2.0, salvo TranslateGemma, que se rige por los [términos de uso de Gemma](https://ai.google.dev/gemma/terms). Los textos completos de las licencias están en la app (Ajustes › 关于 › 第三方许可证).
+PaperDuet está hecho con [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) y [Lucide](https://lucide.dev). Los modelos de traducción son del equipo Index de bilibili (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) y Google (TranslateGemma). Se publican bajo Apache-2.0, salvo TranslateGemma, que se rige por los [términos de uso de Gemma](https://ai.google.dev/gemma/terms). Los textos completos de las licencias están en la app (Ajustes › Acerca de › Licencias de terceros).
 
 El artículo de las animaciones es [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762), de Vaswani et al.
