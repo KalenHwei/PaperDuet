@@ -1,0 +1,59 @@
+# Changelog
+
+All notable changes to PaperDuet are recorded here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
+[Semantic Versioning](https://semver.org/).
+
+## [Unreleased]
+
+## [0.1.0] - 2026-10-22
+
+First release, for Apple silicon Macs with macOS 13.3 or later.
+
+### Added
+
+- Side-by-side reading: the original PDF on the left, a Chinese translation
+  drawn over the same layout on the right, with synchronized scrolling and
+  zoom (buttons, ⌘ + wheel, trackpad pinch) and ⌘ + drag to move pages.
+- Local translation with Index-Translate-2B, run by a bundled llama.cpp
+  server. The 2.1 GB model is downloaded on first use (Hugging Face, with
+  ModelScope as fallback; pause, resume, SHA-256 check), or an existing copy
+  from LM Studio, llama.cpp or the Hugging Face cache is used in place.
+- Layout analysis for academic papers: titles, headings, paragraphs across
+  columns and pages, captions, footnotes, formulas kept as they are, tables and
+  figures left untouched, page furniture skipped. Right-click any block to
+  translate it or leave it in English.
+- Translation checks and retries (sentence ids, formula placeholders, numbers,
+  untranslated sentences), a per-paper glossary, and a translation cache.
+- Highlights, underlines and notes that appear on both sides at the matching
+  sentences, with undo and redo; editing a translation by hand.
+- Search on both sides at once (⌘F), a bilingual outline, hover
+  correspondence between the two sides, three view modes, remembered reading
+  position and a list of recent papers.
+- Exports: the original PDF with your marks as standard PDF annotations
+  (so other PDF readers show them), a Chinese PDF with the same layout, and
+  notes as Markdown.
+- Settings: model (paragraphs translated at once, temperature, context
+  length), what to translate, appearance (light, dark, night reading, Chinese
+  typeface), and data.
+- Light and dark appearance with the system's glass materials, short fades
+  that respect Reduce Motion, and messages that say what happened and what to
+  do next.
+- Opening PDFs from Finder ("Open With", or dropping on the Dock icon).
+- Translation order: headings first (the outline reads in Chinese early), then
+  the title, abstract and introduction, then the rest from start to end.
+  Double-click text that is not translated yet to have its part translated
+  next.
+- A progress ring in the toolbar with the percentage translated; pointing at
+  it shows a stop button, a click pauses, and a click on the play button goes
+  on.
+- When the whole paper is translated, a Chinese PDF in the original layout is
+  saved next to it as `<name>_zh.pdf` and kept up to date when the
+  translation changes. A file of that name that PaperDuet did not write is
+  never replaced. Can be turned off in Settings.
+- Settings › 关于: version, author and copyright, and the full license texts
+  of the software inside the app (collected at build time into
+  `THIRD_PARTY_NOTICES.txt`).
+
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.1.0
