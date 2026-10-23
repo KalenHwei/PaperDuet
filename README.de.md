@@ -158,6 +158,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.4.1** (2026-10-23): kürzere, klarere Beschreibungen in der Modellliste und in den Einstellungen.
 - **0.4.0** (2026-10-23): die Oberfläche gibt es in neun Sprachen (dieselben wie auf dieser Seite). Sie folgt der Sprache von macOS; unter Einstellungen › Darstellung › Sprache der Oberfläche lässt sie sich ändern.
 - **0.3.2** (2026-10-23): weniger Absätze bleiben auf Englisch: große Zahlen, die auf Japanisch, Koreanisch oder Chinesisch mit 万 geschrieben sind, bestehen die Prüfung, und ein Satz, dem nur ein Verweis oder eine Quellenangabe fehlt, behält seine Übersetzung.
 - **0.3.1** (2026-10-23): der Fortschrittsring zeigt die Zahl ohne Prozentzeichen; ist der Artikel fertig, wird er grün und schließt sich zu einem Häkchen, so groß wie die anderen Symbole der Symbolleiste und mit ihnen auf einer Linie.

@@ -158,6 +158,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.4.1** (2026-10-23) : descriptions plus courtes et plus claires dans la liste des modèles et dans les réglages.
 - **0.4.0** (2026-10-23) : l'interface existe en neuf langues (les mêmes que cette page). Elle suit la langue de macOS, et Réglages › Apparence › Langue de l’interface permet d'en choisir une autre.
 - **0.3.2** (2026-10-23) : moins de paragraphes laissés en anglais : les grands nombres écrits en 万 (japonais, coréen, chinois) passent le contrôle, et une phrase à laquelle il ne manque qu'un renvoi ou une citation garde sa traduction.
 - **0.3.1** (2026-10-23) : l'anneau de progression affiche le nombre sans signe pour cent ; quand l'article est terminé, il devient vert et se referme en une coche de la taille des autres icônes de la barre d'outils, alignée avec elles.

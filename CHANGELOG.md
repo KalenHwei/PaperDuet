@@ -6,6 +6,13 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.4.1] - 2026-10-23
+
+### Changed
+
+- Shorter, clearer descriptions in the model list and in Settings, in every
+  interface language.
+
 ## [0.4.0] - 2026-10-23
 
 ### Added
@@ -136,7 +143,8 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.4.1...HEAD
+[0.4.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.4.1
 [0.4.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.4.0
 [0.3.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.2
 [0.3.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.1

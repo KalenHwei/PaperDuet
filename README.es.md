@@ -158,6 +158,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.4.1** (2026-10-23): descripciones más breves y claras en la lista de modelos y en los ajustes.
 - **0.4.0** (2026-10-23): la interfaz está en nueve idiomas (los mismos que esta página). Sigue el idioma de macOS, y en Ajustes › Aspecto › Idioma de la interfaz puedes elegir otro.
 - **0.3.2** (2026-10-23): menos párrafos quedan en inglés: los números grandes escritos con 万 (japonés, coreano, chino) pasan la comprobación, y una frase a la que solo le falta una referencia o una cita conserva su traducción.
 - **0.3.1** (2026-10-23): el anillo de progreso muestra el número sin signo de porcentaje; cuando el artículo termina, se vuelve verde y se cierra en una marca del mismo tamaño que los demás iconos de la barra de herramientas y alineada con ellos.
