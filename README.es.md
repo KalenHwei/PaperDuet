@@ -158,12 +158,12 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
-- **0.4.1** (2026-10-23): descripciones más breves y claras en la lista de modelos y en los ajustes.
-- **0.4.0** (2026-10-23): la interfaz está en nueve idiomas (los mismos que esta página). Sigue el idioma de macOS, y en Ajustes › Aspecto › Idioma de la interfaz puedes elegir otro.
-- **0.3.2** (2026-10-23): menos párrafos quedan en inglés: los números grandes escritos con 万 (japonés, coreano, chino) pasan la comprobación, y una frase a la que solo le falta una referencia o una cita conserva su traducción.
-- **0.3.1** (2026-10-23): el anillo de progreso muestra el número sin signo de porcentaje; cuando el artículo termina, se vuelve verde y se cierra en una marca del mismo tamaño que los demás iconos de la barra de herramientas y alineada con ellos.
-- **0.3.0** (2026-10-23): ocho idiomas de traducción, a elegir desde la barra de herramientas; al terminar un artículo, el anillo muestra una marca verde y el PDF traducido se guarda con un clic en lugar de guardarse solo; cambiar de modelo ya no repite la traducción de prueba.
-- **0.2.1** (2026-10-23): cinco modelos de traducción para elegir; una pantalla de inicio.
+- **0.4.1** (2026-10-23): descripciones más claras en la lista de modelos y en los ajustes.
+- **0.4.0** (2026-10-23): la interfaz está en 9 idiomas. Por defecto sigue el idioma del sistema, y se cambia en Ajustes › Aspecto › Idioma de la interfaz.
+- **0.3.2** (2026-10-23): más correcciones de alineación al traducir a otros idiomas.
+- **0.3.1** (2026-10-23): mejoras en el anillo de progreso y en la barra de herramientas.
+- **0.3.0** (2026-10-23): ocho idiomas de traducción 🎉, que se cambian con un clic en la barra de herramientas; mejoras en el anillo de progreso y en la interacción.
+- **0.2.1** (2026-10-23): cinco modelos de traducción para elegir; nueva pantalla de inicio.
 - **0.2.0** (2026-10-23): búsqueda de actualizaciones y actualización en un clic dentro de la app.
 - **0.1.0** (2026-10-22): primera versión.
 

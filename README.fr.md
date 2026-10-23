@@ -158,12 +158,12 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
-- **0.4.1** (2026-10-23) : descriptions plus courtes et plus claires dans la liste des modèles et dans les réglages.
-- **0.4.0** (2026-10-23) : l'interface existe en neuf langues (les mêmes que cette page). Elle suit la langue de macOS, et Réglages › Apparence › Langue de l’interface permet d'en choisir une autre.
-- **0.3.2** (2026-10-23) : moins de paragraphes laissés en anglais : les grands nombres écrits en 万 (japonais, coréen, chinois) passent le contrôle, et une phrase à laquelle il ne manque qu'un renvoi ou une citation garde sa traduction.
-- **0.3.1** (2026-10-23) : l'anneau de progression affiche le nombre sans signe pour cent ; quand l'article est terminé, il devient vert et se referme en une coche de la taille des autres icônes de la barre d'outils, alignée avec elles.
-- **0.3.0** (2026-10-23) : huit langues de traduction, à choisir dans la barre d'outils ; quand un article est terminé, l'anneau affiche une coche verte et le PDF traduit s'enregistre en un clic au lieu de s'enregistrer tout seul ; changer de modèle ne relance plus la traduction d'essai.
-- **0.2.1** (2026-10-23) : cinq modèles de traduction au choix ; un écran de lancement.
+- **0.4.1** (2026-10-23) : descriptions plus claires dans la liste des modèles et dans les réglages.
+- **0.4.0** (2026-10-23) : l'interface existe en 9 langues. Par défaut, elle suit la langue du système ; on la change dans Réglages › Apparence › Langue de l’interface.
+- **0.3.2** (2026-10-23) : nouvelles corrections de l'alignement lors de la traduction vers d'autres langues.
+- **0.3.1** (2026-10-23) : anneau de progression et barre d'outils améliorés.
+- **0.3.0** (2026-10-23) : huit langues de traduction 🎉, à changer en un clic dans la barre d'outils ; anneau de progression et interactions améliorés.
+- **0.2.1** (2026-10-23) : cinq modèles de traduction au choix ; nouvel écran de lancement.
 - **0.2.0** (2026-10-23) : vérification des mises à jour et mise à jour en un clic dans l'app.
 - **0.1.0** (2026-10-22) : première version.
 

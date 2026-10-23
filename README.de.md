@@ -158,12 +158,12 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
-- **0.4.1** (2026-10-23): kürzere, klarere Beschreibungen in der Modellliste und in den Einstellungen.
-- **0.4.0** (2026-10-23): die Oberfläche gibt es in neun Sprachen (dieselben wie auf dieser Seite). Sie folgt der Sprache von macOS; unter Einstellungen › Darstellung › Sprache der Oberfläche lässt sie sich ändern.
-- **0.3.2** (2026-10-23): weniger Absätze bleiben auf Englisch: große Zahlen, die auf Japanisch, Koreanisch oder Chinesisch mit 万 geschrieben sind, bestehen die Prüfung, und ein Satz, dem nur ein Verweis oder eine Quellenangabe fehlt, behält seine Übersetzung.
-- **0.3.1** (2026-10-23): der Fortschrittsring zeigt die Zahl ohne Prozentzeichen; ist der Artikel fertig, wird er grün und schließt sich zu einem Häkchen, so groß wie die anderen Symbole der Symbolleiste und mit ihnen auf einer Linie.
-- **0.3.0** (2026-10-23): acht Zielsprachen, umschaltbar in der Symbolleiste; ist ein Artikel fertig, zeigt der Ring ein grünes Häkchen, und das übersetzte PDF wird mit einem Klick statt automatisch gespeichert; ein Modellwechsel startet die Probeübersetzung nicht mehr neu.
-- **0.2.1** (2026-10-23): fünf Übersetzungsmodelle zur Auswahl; ein Startbildschirm.
+- **0.4.1** (2026-10-23): klarere Beschreibungen in der Modellliste und in den Einstellungen.
+- **0.4.0** (2026-10-23): die Oberfläche gibt es in 9 Sprachen. Standardmäßig folgt sie der Systemsprache; umstellen lässt sie sich unter Einstellungen › Darstellung › Sprache der Oberfläche.
+- **0.3.2** (2026-10-23): weitere Korrekturen an der Ausrichtung beim Übersetzen in andere Sprachen.
+- **0.3.1** (2026-10-23): Fortschrittsring und Symbolleiste überarbeitet.
+- **0.3.0** (2026-10-23): acht Zielsprachen 🎉, mit einem Klick in der Symbolleiste umschaltbar; Fortschrittsring und Bedienung überarbeitet.
+- **0.2.1** (2026-10-23): fünf Übersetzungsmodelle zur Auswahl; neuer Startbildschirm.
 - **0.2.0** (2026-10-23): Update-Prüfung und Updates mit einem Klick in der App.
 - **0.1.0** (2026-10-22): erste Version.
 

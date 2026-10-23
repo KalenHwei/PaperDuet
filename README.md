@@ -158,13 +158,13 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
-- **0.4.1** (2026-10-23): shorter, clearer descriptions in the model list and in Settings.
-- **0.4.0** (2026-10-23): the interface comes in nine languages (the same as this page). It follows your macOS language, and Settings › Appearance › Interface Language changes it.
-- **0.3.2** (2026-10-23): fewer paragraphs left in English: large numbers written in 万 (Japanese, Korean, Chinese) pass the check, and a sentence that only misses a cross-reference or a citation keeps its translation.
-- **0.3.1** (2026-10-23): the progress ring shows plain numbers; when a paper is done it turns green and closes into a check that lines up with the other toolbar icons.
-- **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; when a paper is done, the ring shows a green check and the translated PDF is saved with one click instead of automatically; changing models no longer reruns the trial translation.
-- **0.2.1** (2026-10-23): five translation models to choose from; a launch screen.
-- **0.2.0** (2026-10-23): update checks and one-click updates inside the app.
+- **0.4.1** (2026-10-23): clearer descriptions in the model list and in Settings.
+- **0.4.0** (2026-10-23): the interface comes in 9 languages. It follows your system language by default, and you can switch it in Settings › Appearance › Interface Language.
+- **0.3.2** (2026-10-23): further alignment fixes when translating into other languages.
+- **0.3.1** (2026-10-23): improvements to the progress ring and the toolbar.
+- **0.3.0** (2026-10-23): eight languages to translate into 🎉, switched in one click from the toolbar; a better progress ring and smoother interactions.
+- **0.2.1** (2026-10-23): five translation models to choose from; a new launch screen.
+- **0.2.0** (2026-10-23): update checks inside the app, with one-click updates.
 - **0.1.0** (2026-10-22): first release.
 
 Full history: [CHANGELOG.md](CHANGELOG.md).
