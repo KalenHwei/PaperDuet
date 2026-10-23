@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20pour%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Télécharger pour Mac (Apple silicon)" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Dernière version"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 ou plus récent sur Apple silicon">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="La traduction se fait sur votre Mac">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original">
-</p>
-
-<p align="center">
   <strong>PaperDuet est un traducteur miroir IA léger pour les articles, qui conserve la mise en page d'origine.</strong><br>
   Cinq modèles de traduction IA open source au choix.<br>
-  Sans inscription, gratuit, entièrement en local !<br>
-  <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
+  Sans inscription, gratuit, entièrement en local !
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20pour%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Télécharger pour Mac (Apple silicon)" height="36"></a>
+  <img src="docs/images/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
+  <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
 </p>
 
 PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. Pas d'inscription, pas de clé d'API, rien à payer, et tout tourne sur votre Mac !

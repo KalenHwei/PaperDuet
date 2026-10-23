@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Mac%20%C2%B7%20Apple%20%E6%99%B6%E7%89%87-111111?style=for-the-badge&logo=apple&logoColor=white" alt="下載 Mac 版（Apple 晶片）" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新版本"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 以上，Apple 晶片">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="在你的 Mac 上翻譯">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/zh-TW/hero.gif" width="880" alt="PaperDuet 從頭翻譯 Attention Is All You Need：側欄的目錄先變成中文，接著右頁的標題和摘要出現在和原文相同的位置">
-</p>
-
-<p align="center">
   <strong>PaperDuet 是一款保留原始版面的輕量 AI 論文鏡像翻譯器。</strong><br>
   五種開源 AI 翻譯模型任你選。<br>
-  免登入、免付費、完全在本機執行！<br>
-  <sub>從頭翻譯 Attention Is All You Need（15 頁）的實際錄影</sub>
+  免登入、免付費、完全在本機執行！
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Mac%20%C2%B7%20Apple%20%E6%99%B6%E7%89%87-111111?style=for-the-badge&logo=apple&logoColor=white" alt="下載 Mac 版（Apple 晶片）" height="36"></a>
+  <img src="docs/images/zh-TW/hero.gif" width="880" alt="PaperDuet 從頭翻譯 Attention Is All You Need：側欄的目錄先變成中文，接著右頁的標題和摘要出現在和原文相同的位置"><br>
+  <sub>從頭翻譯 Attention Is All You Need（15 頁）的實際錄影</sub>
 </p>
 
 PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像鏡子一樣並排擺放，公式、圖片、表格逐頁修正、對齊。不用註冊、不用 API 金鑰、不用付費，全部在你的 Mac 上執行！

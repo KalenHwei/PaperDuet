@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Скачать для Mac (Apple silicon)" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Последняя версия"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 и новее на Apple silicon">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="Перевод выполняется на вашем Mac">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/ru/hero.gif" width="880" alt="PaperDuet переводит Attention Is All You Need с нуля: сначала оглавление в боковой панели становится русским, затем заголовок и аннотация появляются на правой странице на тех же местах, что и в оригинале">
-</p>
-
-<p align="center">
   <strong>PaperDuet — лёгкий ИИ-переводчик статей с зеркальной вёрсткой, который сохраняет исходное оформление.</strong><br>
   Пять открытых ИИ-моделей перевода на выбор.<br>
-  Без регистрации, бесплатно, полностью локально!<br>
-  <sub>Запись перевода Attention Is All You Need (15 страниц) с самого начала</sub>
+  Без регистрации, бесплатно, полностью локально!
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Скачать для Mac (Apple silicon)" height="36"></a>
+  <img src="docs/images/ru/hero.gif" width="880" alt="PaperDuet переводит Attention Is All You Need с нуля: сначала оглавление в боковой панели становится русским, затем заголовок и аннотация появляются на правой странице на тех же местах, что и в оригинале"><br>
+  <sub>Запись перевода Attention Is All You Need (15 страниц) с самого начала</sub>
 </p>
 
 PaperDuet — лёгкий ИИ-переводчик научных статей с зеркальной вёрсткой. Оригинал и перевод стоят друг напротив друга, как в зеркале, а формулы, рисунки и таблицы выправляются и выравниваются постранично. Ни регистрации, ни API-ключа, ни оплаты, и всё работает на вашем Mac!

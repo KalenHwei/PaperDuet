@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20f%C3%BCr%20Mac-Apple%20Silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download für Mac (Apple Silicon)" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Neueste Version"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 oder neuer auf Apple Silicon">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="Die Übersetzung läuft auf deinem Mac">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original">
-</p>
-
-<p align="center">
   <strong>PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel, der das ursprüngliche Layout beibehält.</strong><br>
   Fünf Open-Source-KI-Übersetzungsmodelle zur Auswahl.<br>
-  Keine Anmeldung, keine Kosten, komplett lokal!<br>
-  <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
+  Keine Anmeldung, keine Kosten, komplett lokal!
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20f%C3%BCr%20Mac-Apple%20Silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download für Mac (Apple Silicon)" height="36"></a>
+  <img src="docs/images/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
+  <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
 </p>
 
 PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Keine Registrierung, kein API-Schlüssel, keine Kosten, und alles läuft auf deinem Mac!

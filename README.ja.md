@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Mac%20%C2%B7%20Apple%20%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac 版をダウンロード（Apple シリコン）" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新リリース"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 以降、Apple シリコン">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="翻訳は Mac 上で実行">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/ja/hero.gif" width="880" alt="PaperDuet が Attention Is All You Need を最初から翻訳する様子。まずサイドバーの目次が日本語になり、続いて右ページの原文と同じ位置にタイトルと要旨の訳文が現れる">
-</p>
-
-<p align="center">
   <strong>PaperDuet は、元のレイアウトを保ったまま論文を訳す、軽量な AI ミラー翻訳ツールです。</strong><br>
   オープンソースの AI 翻訳モデルを 5 種類から選べます。<br>
-  ログイン不要、無料、すべてローカルで動作！<br>
-  <sub>Attention Is All You Need（15 ページ）を最初から翻訳したときの録画</sub>
+  ログイン不要、無料、すべてローカルで動作！
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Mac%20%C2%B7%20Apple%20%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac 版をダウンロード（Apple シリコン）" height="36"></a>
+  <img src="docs/images/ja/hero.gif" width="880" alt="PaperDuet が Attention Is All You Need を最初から翻訳する様子。まずサイドバーの目次が日本語になり、続いて右ページの原文と同じ位置にタイトルと要旨の訳文が現れる"><br>
+  <sub>Attention Is All You Need（15 ページ）を最初から翻訳したときの録画</sub>
 </p>
 
 PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文と訳文を鏡のように並べ、数式・図・表もページごとに整えて位置をそろえます。登録も API キーも料金も不要で、すべて Mac の中で動きます！

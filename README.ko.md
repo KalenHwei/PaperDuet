@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Mac%20%C2%B7%20Apple%20%EC%8B%A4%EB%A6%AC%EC%BD%98-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac용 다운로드(Apple 실리콘)" height="36"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="최신 릴리스"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="Apple 실리콘, macOS 13.3 이상">
   <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="번역은 내 Mac에서">
@@ -21,18 +25,14 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/ko/hero.gif" width="880" alt="PaperDuet가 Attention Is All You Need를 처음부터 번역하는 모습: 사이드바의 목차가 먼저 한국어로 바뀌고, 이어서 오른쪽 페이지의 원문과 같은 자리에 제목과 초록이 나타난다">
-</p>
-
-<p align="center">
   <strong>PaperDuet는 원래 레이아웃을 그대로 유지하는 가벼운 AI 논문 미러 번역기입니다.</strong><br>
   오픈소스 AI 번역 모델 5가지 중에서 고를 수 있습니다.<br>
-  로그인 없이, 무료로, 완전히 로컬에서!<br>
-  <sub>Attention Is All You Need(15쪽)를 처음부터 번역하는 실제 화면</sub>
+  로그인 없이, 무료로, 완전히 로컬에서!
 </p>
 
 <p align="center">
-  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Mac%20%C2%B7%20Apple%20%EC%8B%A4%EB%A6%AC%EC%BD%98-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac용 다운로드(Apple 실리콘)" height="36"></a>
+  <img src="docs/images/ko/hero.gif" width="880" alt="PaperDuet가 Attention Is All You Need를 처음부터 번역하는 모습: 사이드바의 목차가 먼저 한국어로 바뀌고, 이어서 오른쪽 페이지의 원문과 같은 자리에 제목과 초록이 나타난다"><br>
+  <sub>Attention Is All You Need(15쪽)를 처음부터 번역하는 실제 화면</sub>
 </p>
 
 PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문을 거울처럼 나란히 놓고, 수식과 그림, 표를 페이지마다 바로잡아 맞춥니다. 가입도, API 키도, 비용도 필요 없고, 모든 작업이 내 Mac에서 이뤄집니다!
