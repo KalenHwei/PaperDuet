@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Mirror your translation!</em>
+  <em>The Best Lightweight Paper Translator for Researchers!</em>
 </p>
 
 <p align="center">
