@@ -76,6 +76,7 @@ A highlight, underline or note made on one side appears on the other side at the
 - If a figure label was translated or a paragraph was skipped, right-click the block to translate it or to leave it in English.
 - You can search both sides at once, follow a bilingual outline, hover over a paragraph to see its match on the other side, and choose to show the original, the translation or both. PaperDuet remembers where you stopped reading.
 - Exports: the original PDF with your marks as standard PDF annotations that other PDF readers show, the Chinese PDF, and your notes as Markdown.
+- PaperDuet checks GitHub for new versions. When one is out, a card shows what changed, and one click downloads and installs it; the new version starts after a restart. Update packages are signed, and PaperDuet installs only packages whose signature checks out.
 - The app uses the system's glass materials and has light and dark appearance and a night reading mode. Its animations are short and switch off with Reduce Motion. The interface is in Simplified Chinese.
 
 <p align="center">
@@ -94,7 +95,7 @@ You need a Mac with Apple silicon (M1 or later), macOS 13.3 or later, and about 
    You can also run this in Terminal instead: `xattr -dr com.apple.quarantine /Applications/PaperDuet.app`
 4. On first use, PaperDuet looks for the translation model on your Mac and downloads it (2.1 GB) if it is not there. Translation starts as soon as the model is in place. See [Translation model](#translation-model).
 
-Nothing else needs to be installed. The translation engine and its Metal acceleration are part of the app.
+Nothing else needs to be installed. The translation engine and its Metal acceleration are part of the app. Later versions install from inside the app, so you only download the disk image once.
 
 ## Translation model
 
@@ -127,7 +128,7 @@ The memory figures include the 2.1 GB model file. Activity Monitor counts that p
 
 - Papers, translations, annotations and settings stay on your Mac, in `~/Library/Application Support/io.github.paperduet.app/`. The only file PaperDuet writes anywhere else is the Chinese PDF next to a translated paper (`<name>_zh.pdf`), and you can turn that off.
 - The translation engine listens only on your own Mac (127.0.0.1), on a random port, and accepts requests only with a key created at each launch.
-- PaperDuet goes online only to download the model (from huggingface.co or modelscope.cn) and to open links you click.
+- PaperDuet goes online only to download the model (from huggingface.co or modelscope.cn), to check GitHub for a new version of the app, and to open links you click. The update check reads version information only, and you can turn it off in Settings › 关于.
 - It collects no usage statistics or crash reports, and there is no account.
 
 ## Keyboard shortcuts

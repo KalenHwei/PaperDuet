@@ -6,6 +6,22 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-23
+
+### Added
+
+- Update check: shortly after launch and every six hours, PaperDuet looks at
+  the latest release on GitHub. When there is a newer version, a card shows
+  what is new; one click downloads it, installs it and offers to restart.
+  Update packages are signed and checked before they are installed. Settings ›
+  关于 has a button to check by hand and a switch to turn automatic checks off.
+  The check reads version information only; nothing about your papers is sent.
+
+### Changed
+
+- Settings › 关于 describes the license as it applies to the app (free for
+  noncommercial use).
+
 ## [0.1.0] - 2026-10-22
 
 First release, for Apple silicon Macs with macOS 13.3 or later.
@@ -55,5 +71,6 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.0
 [0.1.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.1.0
