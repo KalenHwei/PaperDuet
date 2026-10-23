@@ -6,6 +6,17 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-10-23
+
+### Fixed
+
+- Japanese, Korean and Chinese translations that write a large number in 万
+  ("10万" for 100,000, "4萬" for 40K) no longer fail the number check.
+- When the retries only leave a cross-reference ("section 5.4") or a citation
+  out of a sentence, the translation is kept instead of leaving the whole
+  paragraph in English. A missing figure such as "3.5 days" still counts as
+  a failure.
+
 ## [0.3.1] - 2026-10-23
 
 ### Changed
@@ -116,7 +127,8 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.3.1...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.3.2...HEAD
+[0.3.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.2
 [0.3.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.1
 [0.3.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.0
 [0.2.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.1

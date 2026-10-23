@@ -159,6 +159,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.3.2** (2026-10-23): fewer paragraphs left in English: large numbers written in 万 (Japanese, Korean, Chinese) pass the check, and a sentence that only misses a cross-reference or a citation keeps its translation.
 - **0.3.1** (2026-10-23): the progress ring shows plain numbers; when a paper is done it turns green and closes into a check that lines up with the other toolbar icons.
 - **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; when a paper is done, the ring shows a green check and the translated PDF is saved with one click instead of automatically; changing models no longer reruns the trial translation.
 - **0.2.1** (2026-10-23): five translation models to choose from; a launch screen.

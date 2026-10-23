@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en chinois, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original">
+  <img src="docs/images/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original">
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il
 ## Chaque page, sans effort
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du chinois à droite">
+  <img src="docs/images/fr/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du français à droite">
 </p>
 
 L'article original est à gauche, sa traduction à droite, et les deux côtés défilent et zooment ensemble. Colonnes, titres, légendes, notes de bas de page et références sont reconnus automatiquement, et les paragraphes qui continuent dans la colonne ou la page suivante sont recollés. Les deux côtés sont parfaitement alignés, ce qui rend la comparaison facile.
@@ -48,7 +48,7 @@ L'article original est à gauche, sa traduction à droite, et les deux côtés d
 ## Vite ! Vite ! Vite !
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="Page 9, la section 6.3 n'est pas encore traduite ; un double-clic sur son premier paragraphe la fait passer en tête de file, la barre d'état l'indique, et ses paragraphes apparaissent en chinois l'un après l'autre pendant que le reste de la page attend">
+  <img src="docs/images/fr/double-click.gif" width="880" alt="Page 9, la section 6.3 n'est pas encore traduite ; un double-clic sur son premier paragraphe la fait passer en tête de file, la barre d'état l'indique, et ses paragraphes apparaissent en français l'un après l'autre pendant que le reste de la page attend">
 </p>
 
 Les titres sont traduits en premier, pour voir tout de suite comment l'article est construit ; viennent ensuite le titre, le résumé et l'introduction, pour saisir vite l'essentiel. Envie de lire d'abord une section plus loin ? Double-cliquez sur l'un de ses paragraphes dans l'original, et la traduction démarre aussitôt !
@@ -56,7 +56,7 @@ Les titres sont traduits en premier, pour voir tout de suite comment l'article e
 ## Des notes ? Prenez-les directement sur la traduction !
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="Deux phrases du résumé sont sélectionnées dans l'original et surlignées en jaune ; les mêmes phrases passent en jaune dans la traduction. Puis une partie de la dernière phrase chinoise est surlignée en vert, et la phrase anglaise correspondante passe en vert à gauche">
+  <img src="docs/images/fr/highlights.gif" width="880" alt="Deux phrases du résumé sont sélectionnées dans l'original et surlignées en jaune ; les mêmes phrases passent en jaune dans la traduction. Puis une partie de la dernière phrase française est surlignée en vert, et la phrase anglaise correspondante passe en vert à gauche">
 </p>
 
 Surlignez, soulignez ou annotez d'un côté, et la phrase correspondante est marquée de l'autre.
@@ -64,7 +64,7 @@ Surlignez, soulignez ou annotez d'un côté, et la phrase correspondante est mar
 ## La progression ? La vitesse ? Aucun souci !
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression de la barre d'outils devient une coche verte, une bulle propose d'enregistrer la traduction en PDF, et un clic l'enregistre à côté de l'original">
+  <img src="docs/images/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression de la barre d'outils devient une coche verte, une bulle propose d'enregistrer la traduction en PDF, et un clic l'enregistre à côté de l'original">
 </p>
 
 La barre d'outils affiche où en est la traduction. Quand tout l'article est traduit, l'anneau devient une coche verte et une bulle apparaît : un clic suffit pour enregistrer la traduction en PDF à côté de l'original. Vous pouvez aussi choisir parmi cinq modèles, selon votre Mac et vos besoins !
@@ -159,6 +159,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.3.2** (2026-10-23) : moins de paragraphes laissés en anglais : les grands nombres écrits en 万 (japonais, coréen, chinois) passent le contrôle, et une phrase à laquelle il ne manque qu'un renvoi ou une citation garde sa traduction.
 - **0.3.1** (2026-10-23) : l'anneau de progression affiche le nombre sans signe pour cent ; quand l'article est terminé, il devient vert et se referme en une coche de la taille des autres icônes de la barre d'outils, alignée avec elles.
 - **0.3.0** (2026-10-23) : huit langues de traduction, à choisir dans la barre d'outils ; quand un article est terminé, l'anneau affiche une coche verte et le PDF traduit s'enregistre en un clic au lieu de s'enregistrer tout seul ; changer de modèle ne relance plus la traduction d'essai.
 - **0.2.1** (2026-10-23) : cinq modèles de traduction au choix ; un écran de lancement.

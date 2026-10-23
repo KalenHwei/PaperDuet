@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al chino, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original">
+  <img src="docs/images/es/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al español, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original">
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ PaperDuet es un traductor espejo ligero con IA para artículos científicos. Col
 ## Cada página, sin esfuerzo
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por chino">
+  <img src="docs/images/es/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por español">
 </p>
 
 A la izquierda está el artículo original y a la derecha su traducción; los dos lados se desplazan y hacen zoom a la vez. Columnas, títulos, pies de figura, notas al pie y referencias se reconocen automáticamente, y los párrafos que siguen en la columna o la página siguiente se vuelven a unir. Los dos lados quedan perfectamente alineados, así que compararlos es muy fácil.
@@ -48,7 +48,7 @@ A la izquierda está el artículo original y a la derecha su traducción; los do
 ## ¡Rápido! ¡Rápido! ¡Rápido!
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="En la página 9, la sección 6.3 aún no está traducida; un doble clic en su primer párrafo la pasa al principio de la cola, la barra de estado lo indica y sus párrafos aparecen en chino uno tras otro mientras el resto de la página espera">
+  <img src="docs/images/es/double-click.gif" width="880" alt="En la página 10, la sección 7 (la conclusión) aún no está traducida; un doble clic en su primer párrafo la pasa al principio de la cola, la barra de estado lo indica y sus párrafos aparecen en español uno tras otro mientras el resto de la página espera">
 </p>
 
 Primero se traducen los encabezados, para que veas enseguida cómo está organizado el artículo; después vienen el título, el resumen y la introducción, para que captes rápido lo esencial. ¿Quieres leer antes una sección más adelante? Haz doble clic en uno de sus párrafos del original, ¡y empieza a traducirse al momento!
@@ -56,7 +56,7 @@ Primero se traducen los encabezados, para que veas enseguida cómo está organiz
 ## ¿Notas? ¡Tómalas directamente en la traducción!
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="Se seleccionan dos frases del resumen en el original y se resaltan en amarillo; las mismas frases se vuelven amarillas en la traducción. Después se resalta en verde parte de la última frase en chino, y la frase en inglés correspondiente se vuelve verde a la izquierda">
+  <img src="docs/images/es/highlights.gif" width="880" alt="Se seleccionan dos frases del resumen en el original y se resaltan en amarillo; las mismas frases se vuelven amarillas en la traducción. Después se resalta en verde parte de la última frase en español, y la frase en inglés correspondiente se vuelve verde a la izquierda">
 </p>
 
 Resalta, subraya o anota en un lado, y la frase correspondiente del otro lado se marca también.
@@ -64,7 +64,7 @@ Resalta, subraya o anota en un lado, y la frase correspondiente del otro lado se
 ## ¿Progreso? ¿Velocidad? ¡Sin problema!
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="Llegan los últimos párrafos del artículo, el anillo de progreso de la barra de herramientas se convierte en una marca verde, un globo ofrece guardar la traducción como PDF y un clic la guarda junto al original">
+  <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos del artículo, el anillo de progreso de la barra de herramientas se convierte en una marca verde, un globo ofrece guardar la traducción como PDF y un clic la guarda junto al original">
 </p>
 
 La barra de herramientas muestra cómo avanza la traducción. Cuando todo el artículo está traducido, el anillo se convierte en una marca verde y aparece un globo: con un clic, la traducción se guarda como PDF junto al original. Además, puedes elegir entre cinco modelos según tu Mac y lo que necesites.
@@ -159,6 +159,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.3.2** (2026-10-23): menos párrafos quedan en inglés: los números grandes escritos con 万 (japonés, coreano, chino) pasan la comprobación, y una frase a la que solo le falta una referencia o una cita conserva su traducción.
 - **0.3.1** (2026-10-23): el anillo de progreso muestra el número sin signo de porcentaje; cuando el artículo termina, se vuelve verde y se cierra en una marca del mismo tamaño que los demás iconos de la barra de herramientas y alineada con ellos.
 - **0.3.0** (2026-10-23): ocho idiomas de traducción, a elegir desde la barra de herramientas; al terminar un artículo, el anillo muestra una marca verde y el PDF traducido se guarda con un clic en lugar de guardarse solo; cambiar de modelo ya no repite la traducción de prueba.
 - **0.2.1** (2026-10-23): cinco modelos de traducción para elegir; una pantalla de inicio.

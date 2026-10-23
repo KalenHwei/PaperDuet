@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste chinesisch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original">
+  <img src="docs/images/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original">
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und
 ## Jede Seite, ganz einfach
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Chinesisch ersetzt">
+  <img src="docs/images/de/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Deutsch ersetzt">
 </p>
 
 Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scrollen und zoomen gemeinsam. Spalten, Überschriften, Bildunterschriften, Fußnoten und Literaturangaben werden automatisch erkannt, und Absätze, die in der nächsten Spalte oder auf der nächsten Seite weitergehen, werden zusammengeführt. Beide Seiten stehen exakt nebeneinander, das macht den Vergleich leicht.
@@ -48,7 +48,7 @@ Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scr
 ## Schnell! Schnell! Schnell!
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="Auf Seite 9 ist Abschnitt 6.3 noch nicht übersetzt; ein Doppelklick auf seinen ersten Absatz holt den Abschnitt nach vorn, die Statusleiste meldet es, und seine Absätze erscheinen nacheinander auf Chinesisch, während der Rest der Seite wartet">
+  <img src="docs/images/de/double-click.gif" width="880" alt="Auf Seite 10 ist Abschnitt 7 (das Fazit) noch nicht übersetzt; ein Doppelklick auf seinen ersten Absatz holt den Abschnitt nach vorn, die Statusleiste meldet es, und seine Absätze erscheinen nacheinander auf Deutsch, während der Rest der Seite wartet">
 </p>
 
 Zuerst werden die Überschriften übersetzt, damit du sofort siehst, wie der Artikel aufgebaut ist; danach folgen Titel, Abstract und Einleitung, damit du schnell das Wichtigste erfasst. Du willst einen späteren Abschnitt zuerst lesen? Doppelklick auf einen seiner Absätze im Original, und es geht sofort los!
@@ -56,7 +56,7 @@ Zuerst werden die Überschriften übersetzt, damit du sofort siehst, wie der Art
 ## Notizen? Einfach in der Übersetzung!
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="Zwei Sätze des Abstracts werden im Original markiert und gelb hervorgehoben; dieselben Sätze werden in der Übersetzung gelb. Dann wird ein Teil des letzten chinesischen Satzes grün hervorgehoben, und der passende englische Satz links wird grün">
+  <img src="docs/images/de/highlights.gif" width="880" alt="Zwei Sätze des Abstracts werden im Original markiert und gelb hervorgehoben; dieselben Sätze werden in der Übersetzung gelb. Dann wird ein Teil des letzten deutschen Satzes grün hervorgehoben, und der passende englische Satz links wird grün">
 </p>
 
 Markiere, unterstreiche oder notiere auf einer Seite, und der passende Satz auf der anderen Seite wird ebenfalls markiert.
@@ -64,7 +64,7 @@ Markiere, unterstreiche oder notiere auf einer Seite, und der passende Satz auf 
 ## Fortschritt? Tempo? Kein Problem!
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="Die letzten Absätze des Artikels kommen herein, der Fortschrittsring in der Symbolleiste wird zu einem grünen Häkchen, eine Sprechblase bietet an, die Übersetzung als PDF zu speichern, und ein Klick speichert sie neben dem Original">
+  <img src="docs/images/de/progress-save.gif" width="880" alt="Die letzten Absätze des Artikels kommen herein, der Fortschrittsring in der Symbolleiste wird zu einem grünen Häkchen, eine Sprechblase bietet an, die Übersetzung als PDF zu speichern, und ein Klick speichert sie neben dem Original">
 </p>
 
 Die Symbolleiste zeigt den Fortschritt der Übersetzung. Ist der ganze Artikel fertig, wird der Ring zu einem grünen Häkchen und eine Sprechblase erscheint: Ein Klick speichert die Übersetzung als PDF neben dem Original. Außerdem kannst du aus fünf Modellen wählen, passend zu deinem Mac und deinem Bedarf!
@@ -159,6 +159,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.3.2** (2026-10-23): weniger Absätze bleiben auf Englisch: große Zahlen, die auf Japanisch, Koreanisch oder Chinesisch mit 万 geschrieben sind, bestehen die Prüfung, und ein Satz, dem nur ein Verweis oder eine Quellenangabe fehlt, behält seine Übersetzung.
 - **0.3.1** (2026-10-23): der Fortschrittsring zeigt die Zahl ohne Prozentzeichen; ist der Artikel fertig, wird er grün und schließt sich zu einem Häkchen, so groß wie die anderen Symbole der Symbolleiste und mit ihnen auf einer Linie.
 - **0.3.0** (2026-10-23): acht Zielsprachen, umschaltbar in der Symbolleiste; ist ein Artikel fertig, zeigt der Ring ein grünes Häkchen, und das übersetzte PDF wird mit einem Klick statt automatisch gespeichert; ein Modellwechsel startet die Probeübersetzung nicht mehr neu.
 - **0.2.1** (2026-10-23): fünf Übersetzungsmodelle zur Auswahl; ein Startbildschirm.
