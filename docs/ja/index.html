@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>PaperDuet · 研究者のための、軽量な論文 AI 翻訳ツール</title>
+<meta name="description" content="PaperDuet は、元のレイアウトを保ったまま論文を訳す、軽量な AI ミラー翻訳ツールです。 オープンソースの AI 翻訳モデルを 5 種類から選べます。 ログイン不要、無料、すべてローカルで動作！">
+<link rel="canonical" href="https://paperduet.com/ja/">
+<link rel="alternate" hreflang="en" href="https://paperduet.com/">
+<link rel="alternate" hreflang="zh-CN" href="https://paperduet.com/zh-CN/">
+<link rel="alternate" hreflang="zh-TW" href="https://paperduet.com/zh-TW/">
+<link rel="alternate" hreflang="ja" href="https://paperduet.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://paperduet.com/ko/">
+<link rel="alternate" hreflang="fr" href="https://paperduet.com/fr/">
+<link rel="alternate" hreflang="de" href="https://paperduet.com/de/">
+<link rel="alternate" hreflang="es" href="https://paperduet.com/es/">
+<link rel="alternate" hreflang="ru" href="https://paperduet.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://paperduet.com/">
+<link rel="icon" href="/images/icon.png">
+<link rel="apple-touch-icon" href="/images/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PaperDuet">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="PaperDuet · 研究者のための、軽量な論文 AI 翻訳ツール">
+<meta property="og:description" content="PaperDuet は、元のレイアウトを保ったまま論文を訳す、軽量な AI ミラー翻訳ツールです。">
+<meta property="og:image" content="https://paperduet.com/images/screenshot-dark.png">
+<meta property="og:url" content="https://paperduet.com/ja/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="/site.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="/ja/"><img src="/images/icon.png" alt="" width="26" height="26">PaperDuet</a>
+  <nav class="links">
+    <a href="#features">機能</a><a href="#models">モデル</a><a href="#start">はじめかた</a><a href="#faq">よくある質問</a>
+  </nav>
+  <div class="actions">
+    <div class="langs">
+      <button class="lang-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="lang-menu" aria-label="言語: 日本語"><svg class="globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span class="cur">日本語</span><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M3 4.5l3 3 3-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <ul class="lang-menu" id="lang-menu" role="menu" aria-label="言語"><li role="none"><a role="menuitemradio" aria-checked="false" href="/" hreflang="en" lang="en" data-lang="en" style="--i:0"><span class="own">English</span><span class="en"></span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/zh-CN/" hreflang="zh-CN" lang="zh-CN" data-lang="zh-CN" style="--i:1"><span class="own">简体中文</span><span class="en">Simplified Chinese</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/zh-TW/" hreflang="zh-TW" lang="zh-TW" data-lang="zh-TW" style="--i:2"><span class="own">繁體中文</span><span class="en">Traditional Chinese</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="true" href="/ja/" hreflang="ja" lang="ja" data-lang="ja" style="--i:3"><span class="own">日本語</span><span class="en">Japanese</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/ko/" hreflang="ko" lang="ko" data-lang="ko" style="--i:4"><span class="own">한국어</span><span class="en">Korean</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/fr/" hreflang="fr" lang="fr" data-lang="fr" style="--i:5"><span class="own">Français</span><span class="en">French</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/de/" hreflang="de" lang="de" data-lang="de" style="--i:6"><span class="own">Deutsch</span><span class="en">German</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/es/" hreflang="es" lang="es" data-lang="es" style="--i:7"><span class="own">Español</span><span class="en">Spanish</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li role="none"><a role="menuitemradio" aria-checked="false" href="/ru/" hreflang="ru" lang="ru" data-lang="ru" style="--i:8"><span class="own">Русский</span><span class="en">Russian</span><svg class="tick" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li></ul>
+    </div>
+    <a class="gh" href="https://github.com/KalenHwei/PaperDuet" aria-label="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 0 0-2.5 15.6c.4 0 .5-.2.5-.4v-1.5c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.5 7.5 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.6 3.9.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 8 0z"/></svg></a>
+    <a class="nav-dl js-dl" href="https://github.com/KalenHwei/PaperDuet/releases/latest">ダウンロード</a>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+  <img class="app-icon reveal" src="/images/icon.png" alt="PaperDuet のアイコン" width="128" height="128">
+  <h1 class="reveal">PaperDuet</h1>
+  <p class="slogan reveal">研究者のための、軽量な論文 AI 翻訳ツール！</p>
+  <p class="tags reveal">PaperDuet は、元のレイアウトを保ったまま論文を訳す、軽量な AI ミラー翻訳ツールです。<br>オープンソースの AI 翻訳モデルを 5 種類から選べます。 ログイン不要、無料、すべてローカルで動作！</p>
+  <div class="cta reveal">
+    <a class="btn primary js-dl" href="https://github.com/KalenHwei/PaperDuet/releases/latest"><svg class="apple" viewBox="0 0 17 20" aria-hidden="true"><path fill="currentColor" d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM11.6 3c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg>Mac 版をダウンロード</a>
+    <a class="btn ghost" href="https://github.com/KalenHwei/PaperDuet">GitHub で見る</a>
+  </div>
+  <p class="req reveal">無料 · macOS 13.3 以降、Apple シリコン<span class="js-ver"></span></p>
+  <div class="hero-shot"><figure class="shot tilt"><div class="frame"><img src="/images/ja/hero.gif" alt="PaperDuet が Attention Is All You Need を最初から翻訳する様子。まずサイドバーの目次が日本語になり、続いて右ページの原文と同じ位置にタイトルと要旨の訳文が現れる" fetchpriority="high" width="1100" height="703"></div></figure>
+    <p class="caption">Attention Is All You Need（15 ページ）を最初から翻訳したときの録画</p></div>
+</section>
+
+<section class="intro reveal"><p>PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文と訳文を鏡のように並べ、数式・図・表もページごとに整えて位置をそろえます。登録も API キーも料金も不要で、すべて Mac の中で動きます！</p></section>
+
+<div id="features">
+<section class="feature"><div class="text reveal"><p class="eyebrow">ミラーレイアウト</p><h2>どのページも見比べやすく</h2><p>左に原文、右に訳文。両側は一緒にスクロールし、一緒に拡大縮小します。段組み、見出し、キャプション、脚注、参考文献は自動で認識し、段やページをまたぐ段落もつなげて訳します。左右がぴったりそろうので、見比べるのも簡単です。</p></div><div class="media reveal"><figure class="shot "><div class="frame"><img src="/images/ja/layout.gif" alt="3〜5 ページをスクロールする様子。Transformer の構成図、アテンションの図、数式が左右で同じ位置にあり、右側では英文が日本語に置き換わっている" loading="lazy" decoding="async" width="1100" height="703"></div></figure></div></section><section class="feature flip"><div class="text reveal"><p class="eyebrow">ダブルクリックで優先</p><h2>速い！速い！速い！</h2><p>まず見出しを訳すので、論文の構成がすぐにわかります。続いてタイトル、要旨、序論を訳すので、要点を早くつかめます。後ろの節を先に読みたいときは、原文の段落をダブルクリックするだけ。すぐにそこから訳し始めます！</p></div><div class="media reveal"><figure class="shot "><div class="frame"><img src="/images/ja/double-click.gif" alt="9 ページの 6.3 節はまだ翻訳されていない。最初の段落をダブルクリックするとこの節が先頭に回り、ステータスバーにそのことが表示され、ページのほかの部分を待たずに段落が次々と日本語になる" loading="lazy" decoding="async" width="1100" height="703"></div></figure></div></section><section class="feature"><div class="text reveal"><p class="eyebrow">両側に注釈</p><h2>メモは？訳文にそのまま書き込むだけ！</h2><p>どちら側でハイライト、下線、メモを付けても、反対側の対応する文にも同じ印が付きます。</p></div><div class="media reveal"><figure class="shot "><div class="frame"><img src="/images/ja/highlights.gif" alt="原文で要旨の 2 文を選んで黄色でハイライトすると、訳文の同じ 2 文も黄色になる。続いて訳文の最後の文の一部を緑でハイライトすると、左の対応する英文も緑になる" loading="lazy" decoding="async" width="1100" height="703"></div></figure></div></section><section class="feature flip"><div class="text reveal"><p class="eyebrow">訳し終えたら保存</p><h2>進み具合は？スピードは？問題なし！</h2><p>翻訳の進み具合はツールバーに表示されます。全文を訳し終えるとリングが緑のチェックに変わり、吹き出しが出ます。クリック 1 回で、訳文を PDF として原文の隣に保存できます。お使いの Mac や用途に合わせて、5 種類のモデルから選ぶこともできます！</p></div><div class="media reveal"><figure class="shot "><div class="frame"><img src="/images/ja/progress-save.gif" alt="論文の最後の数段落が訳し終わると、ツールバーの進捗リングが緑のチェックに変わり、訳文を PDF として保存できるという吹き出しが出る。クリック 1 回で原文の隣に保存される" loading="lazy" decoding="async" width="1100" height="703"></div></figure></div></section>
+</div>
+
+<section class="more">
+  <h2 class="section-title reveal">ほかにもいろいろ</h2>
+  <ul class="bento"><li class="card reveal wide"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><h3>8 つの言語に翻訳</h3><p>ツールバーで简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Русскийをワンクリックで切り替えられます。</p></li><li class="card reveal"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11v6M9 14l3 3 3-3"/></svg></span><h3>訳文 PDF をクリック 1 回で</h3><p>全文を訳し終えたら、クリック 1 回で元のレイアウトのまま論文の隣に保存します。</p></li><li class="card reveal"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span><h3>品質チェックを内蔵</h3><p>モデルの返答ごとに数式、数値、文の順番を確かめ、問題があれば自動でやり直します。論文ごとの用語集で訳語もそろえます。</p></li><li class="card reveal wide"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h14v6H5zM5 14h6v6H5zM15 14h4v6h-4z"/></svg></span><h3>何を訳すかはあなた次第</h3><p>どのブロックも右クリックで、翻訳するか原文のまま残すかを選べます。</p></li><li class="card reveal"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h7a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H3zM21 5h-7a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h7z"/></svg></span><h3>好きなように読める</h3><p>原文と訳文をまとめて検索し、2 か国語の目次をたどり、段落にポインタを合わせれば反対側の対応箇所がわかります。原文だけ、訳文だけ、両方の表示を切り替えられ、読んでいた場所も覚えています。</p></li><li class="card reveal"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></span><h3>どこへでも書き出し</h3><p>注釈付きの原文 PDF、訳文 PDF、Markdown 形式のノートを書き出せます。ほかのアプリでも開けます。</p></li><li class="card reveal"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg></span><h3>ワンクリックで更新</h3><p>新しいバージョンへの更新はかんたんで、クリック 1 回でインストールできます。</p></li><li class="card reveal full"><span class="badge-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9l-4.7 1.8L12 15.5l-1.8-4.7L5.5 9l4.7-1.3zM18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8z"/></svg></span><h3>見た目にもこだわり</h3><p>すっきりしたすりガラスのデザインで、ライト、ダーク、夜間読書の各モードに対応しています。</p><figure class="shot inset"><div class="frame"><img src="/images/screenshot-dark.png" alt="ダーク表示の PaperDuet。左右とも 3 ページの Transformer 構成図で、原文と訳文に黄色と緑のハイライトが 1 つずつあり、サイドバーには 2 か国語の目次" loading="lazy" decoding="async" width="1100" height="703"></div></figure></li></ul>
+</section>
+
+<section class="models" id="models">
+  <h2 class="section-title reveal">5 つのモデルが、すべて Mac の中に</h2>
+  <p class="lead reveal">PaperDuet を初めて開くときにモデルを選び、あとから「設定 › モデル › モデルを変更」でいつでも切り替えられます。どれも翻訳専用のモデルで、ダウンロードが済めば完全にオフラインで動きます。</p>
+  <ul class="model-grid"><li class="model reveal rec"><div class="m-head"><a href="https://huggingface.co/IndexTeam/Index-Translate-2B">Index-Translate-2B</a><span class="pill rec">おすすめ</span></div><div class="m-meta">bilibili Index チーム · 2.1 GB</div><p>総合力がいちばん高く、PaperDuet のチェックと用語集に合わせて調整済み</p></li><li class="model reveal"><div class="m-head"><a href="https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF">Hy-MT2-1.8B</a></div><div class="m-meta">Tencent Hunyuan · 1.9 GB</div><p>速さ重視：いちばん速く、いちばん軽い</p></li><li class="model reveal"><div class="m-head"><a href="https://huggingface.co/NiuTrans/LMT-60-4B">LMT-60-4B</a></div><div class="m-meta">NiuTrans · 4.7 GB</div><p>原文に忠実な訳</p></li><li class="model reveal"><div class="m-head"><a href="https://huggingface.co/tencent/Hy-MT2-7B-GGUF">Hy-MT2-7B</a></div><div class="m-meta">Tencent Hunyuan · 8.0 GB</div><p>いちばん流暢な訳文。メモリ 16 GB 以上の Mac 向け</p></li><li class="model reveal"><div class="m-head"><a href="https://huggingface.co/mradermacher/translategemma-4b-it-GGUF">TranslateGemma-4B</a><span class="pill exp">試験的</span></div><div class="m-meta">Google · 4.1 GB</div><p>Google の翻訳モデルを試したいときに</p></li></ul>
+  <p class="note reveal">おすすめのモデルなら、15 ページの論文が M5 Pro で約 2 分。「設定 › モデル」で「同時に翻訳する段落数」を 2 か 3 にすれば約 1 分です。 LM Studio、llama.cpp、Hugging Face でこれらのモデルをすでにダウンロード済みですか？ PaperDuet が見つけてそのまま使うので、もう一度ダウンロードする必要はありません。</p>
+</section>
+
+<section class="privacy">
+  <h2 class="section-title reveal">プライバシーを最初から大切に</h2>
+  <ul class="checks"><li class="reveal"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>論文、訳文、メモはすべて Mac の中にとどまります。</span></li><li class="reveal"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>アカウントは不要で、利用データも集めません。</span></li><li class="reveal"><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>インターネットに接続するのは、モデルのダウンロードとアップデートの確認のときだけです。アップデートの確認はオフにできます。</span></li></ul>
+</section>
+
+<section class="start" id="start">
+  <h2 class="section-title reveal">はじめかた</h2>
+  <p class="lead reveal">Apple シリコン（M1 以降）を搭載した Mac と、macOS 13.3 以降が必要です。</p>
+  <ol class="steps"><li class="step reveal"><span class="num">1</span><p><a href="https://github.com/KalenHwei/PaperDuet/releases/latest">Releases</a> から最新の <code>.dmg</code> をダウンロードします。</p></li><li class="step reveal"><span class="num">2</span><p>PaperDuet を「アプリケーション」フォルダにドラッグし、そこから開きます。</p></li><li class="step reveal"><span class="num">3</span><p>初回のみ：PaperDuet はまだ Apple の公証を受けていないため、macOS が確認を求めます。システム設定 › プライバシーとセキュリティ を開き、<strong>このまま開く</strong> をクリックしてください。（ターミナルで <code>xattr -dr com.apple.quarantine /Applications/PaperDuet.app</code> を実行しても構いません。）</p></li><li class="step reveal"><span class="num">4</span><p>モデルを選びます。PaperDuet がダウンロードするか、手元にあるものを見つけて、すぐに翻訳を始めます。</p></li></ol>
+  <p class="lead reveal">これだけです。翻訳エンジンはアプリに組み込まれていて、アップデートもクリック 1 回です。</p>
+</section>
+
+<section class="faq" id="faq">
+  <h2 class="section-title reveal">よくある質問</h2>
+  <details class="reveal"><summary>どのモデルを選べばいいですか？</summary><p>まずは Index-Translate-2B から。速さを求めるなら Hy-MT2-1.8B、メモリ 16 GB 以上の Mac でいちばん流暢な訳文が欲しいなら Hy-MT2-7B を選んでください。</p></details>
+  <details class="reveal"><summary>無料ですか？</summary><p>はい。個人の学習や研究、大学、学校、研究機関、その他の非営利団体での利用は無料です。企業内での利用や企業のための利用には商用ライセンスが必要です。<a href="mailto:junystugh@gmail.com">junystugh@gmail.com</a> までご連絡ください。</p></details>
+</section>
+
+<section class="final reveal">
+  <div class="aurora" aria-hidden="true"><span></span><span></span></div>
+  <img src="/images/icon.png" alt="" width="84" height="84">
+  <h2>ログイン不要、無料、すべてローカルで動作！</h2>
+  <p>オープンソースの AI 翻訳モデルを 5 種類から選べます。</p>
+  <a class="btn primary js-dl" href="https://github.com/KalenHwei/PaperDuet/releases/latest"><svg class="apple" viewBox="0 0 17 20" aria-hidden="true"><path fill="currentColor" d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM11.6 3c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg>Mac 版をダウンロード</a>
+  <p class="req">macOS 13.3 以降、Apple シリコン<span class="js-ver"></span></p>
+</section>
+</main>
+<footer>
+  <div class="foot">
+    <a class="brand" href="/ja/"><img src="/images/icon.png" alt="" width="22" height="22">PaperDuet</a>
+    <nav><a href="https://github.com/KalenHwei/PaperDuet">GitHub</a><a href="https://github.com/KalenHwei/PaperDuet/releases">リリース</a><a href="https://github.com/KalenHwei/PaperDuet/blob/main/CHANGELOG.md">更新履歴</a><a href="https://github.com/KalenHwei/PaperDuet/blob/main/LICENSE">ライセンス</a></nav>
+  </div>
+  <p>PaperDuet は <a href="https://github.com/KalenHwei/PaperDuet/blob/main/LICENSE">PolyForm Noncommercial License 1.0.0</a> のもと、非商用なら無料で使えます。個人、学習、研究、非営利の目的で使ったり共有したりできます。共有するときは、ライセンスと <code>Required Notice: Copyright (c) 2026 Kalen Yongda Wei</code> の 1 行を添えてください。商用利用については <a href="mailto:junystugh@gmail.com">junystugh@gmail.com</a> までご連絡ください。</p>
+  <p>アニメーションで使っている論文は、Vaswani らの <a href="https://arxiv.org/abs/1706.03762"><em>Attention Is All You Need</em></a> です。</p>
+  <p class="copy">© 2026 Kalen Yongda Wei</p>
+</footer>
+<script src="/site.js" defer></script>
+</body>
+</html>

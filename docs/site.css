@@ -33,6 +33,12 @@
   }
 }
 
+/* Type for each language (also on the language menu's own items). */
+:lang(zh-CN) { --font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+:lang(zh-TW) { --font: -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif; }
+:lang(ja) { --font: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif; }
+:lang(ko) { --font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
@@ -373,4 +379,98 @@ footer p { max-width: 900px; margin: 8px 0; }
   .js .reveal { opacity: 1; transform: none; transition: none; }
   .aurora span { animation: none; }
   html { scroll-behavior: auto; }
+}
+
+/* Chinese, Japanese and Korean set looser than Latin display type. */
+html:is(:lang(zh-CN), :lang(zh-TW), :lang(ja), :lang(ko)) :is(.slogan, .intro p, h2, h3, .final h2) { letter-spacing: -0.005em; }
+html:is(:lang(zh-CN), :lang(zh-TW), :lang(ja)) .feature h2 { line-height: 1.18; }
+html:is(:lang(ja), :lang(ko)) .eyebrow { letter-spacing: 0.04em; }
+
+/* Language button and its menu. */
+.langs { position: relative; }
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 10px 0 9px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  font: 500 13px var(--font);
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  transition: border-color 0.2s, box-shadow 0.25s var(--ease), background 0.2s;
+}
+.lang-btn:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.lang-btn:focus-visible { outline: none; box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 25%, transparent); }
+.lang-btn[aria-expanded="true"] {
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
+}
+.globe { width: 16px; height: 16px; color: var(--accent); }
+.chev { width: 12px; height: 12px; color: var(--muted); transition: transform 0.35s var(--ease); }
+.lang-btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 60;
+  min-width: 248px;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  border-radius: 18px;
+  /* Nearly opaque: inside the blurred bar, its own blur would not reach the page. */
+  background: color-mix(in srgb, var(--card-solid) 97%, transparent);
+  border: 1px solid var(--line);
+  box-shadow: 0 28px 70px -24px rgba(0, 0, 0, 0.4), 0 10px 24px -12px rgba(0, 0, 0, 0.22);
+  transform-origin: top right;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-10px) scale(0.94);
+  transition: opacity 0.2s var(--ease), transform 0.38s cubic-bezier(0.2, 0.9, 0.25, 1.15), visibility 0s linear 0.38s;
+}
+.langs.open .lang-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  transition: opacity 0.2s var(--ease), transform 0.38s cubic-bezier(0.2, 0.9, 0.25, 1.15), visibility 0s;
+}
+.lang-menu a {
+  --d: 0ms;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 16px;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 12px;
+  border-radius: 11px;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: background 0.15s, opacity 0.3s var(--ease) var(--d), transform 0.35s var(--ease) var(--d);
+}
+.langs.open .lang-menu a { --d: calc(var(--i) * 24ms + 50ms); opacity: 1; transform: none; }
+.lang-menu a:hover, .lang-menu a:focus-visible {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  text-decoration: none;
+  outline: none;
+}
+.lang-menu .en { color: var(--muted); font-size: 12px; }
+.lang-menu .tick { width: 16px; height: 16px; color: var(--accent); opacity: 0; transform: scale(0.6); transition: opacity 0.2s, transform 0.3s var(--ease); }
+.lang-menu a[aria-checked="true"] { font-weight: 600; background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.lang-menu a[aria-checked="true"] .tick { opacity: 1; transform: none; }
+@media (max-width: 760px) { .lang-btn .cur { display: none; } .lang-menu { right: -64px; } }
+
+/* Leaving for another language: the page fades before the next one loads. */
+main, footer { transition: opacity 0.22s var(--ease), transform 0.22s var(--ease); }
+.leaving main, .leaving footer { opacity: 0; transform: translateY(8px); }
+@media (prefers-reduced-motion: reduce) {
+  .lang-menu, .lang-menu a, .chev { transition: none; }
 }

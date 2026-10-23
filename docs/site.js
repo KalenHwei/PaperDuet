@@ -38,6 +38,54 @@
   window.addEventListener("resize", onScroll);
   onScroll();
 
+  // Language menu: opens with the button, closes outside or with Esc; arrows move through it.
+  var langs = document.querySelector(".langs");
+  if (langs) {
+    var btn = langs.querySelector(".lang-btn");
+    var menu = langs.querySelector(".lang-menu");
+    var links = Array.prototype.slice.call(menu.querySelectorAll("a"));
+    var setOpen = function (open) {
+      langs.classList.toggle("open", open);
+      btn.setAttribute("aria-expanded", String(open));
+      if (open) {
+        var cur = menu.querySelector('[aria-checked="true"]') || links[0];
+        setTimeout(function () { cur.focus({ preventScroll: true }); }, 80);
+      }
+    };
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      setOpen(!langs.classList.contains("open"));
+    });
+    document.addEventListener("click", function (e) {
+      if (!langs.contains(e.target)) setOpen(false);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!langs.classList.contains("open")) return;
+      if (e.key === "Escape") {
+        setOpen(false);
+        btn.focus();
+      } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault();
+        var i = links.indexOf(document.activeElement);
+        i = (i + (e.key === "ArrowDown" ? 1 : -1) + links.length) % links.length;
+        links[i].focus();
+      }
+    });
+    links.forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        try { localStorage.setItem("pd-lang", a.getAttribute("data-lang")); } catch (_) {}
+        if (a.getAttribute("aria-checked") === "true") return setOpen(false);
+        var href = a.getAttribute("href") + location.hash;
+        setOpen(false);
+        document.body.classList.add("leaving");
+        setTimeout(function () { location.href = href; }, reduce ? 0 : 200);
+      });
+    });
+    // Back from another language (page cache): show the page again.
+    window.addEventListener("pageshow", function () { document.body.classList.remove("leaving"); });
+  }
+
   // Download buttons go straight to the newest .dmg, and show its version.
   fetch("https://api.github.com/repos/KalenHwei/PaperDuet/releases/latest")
     .then(function (r) { return r.ok ? r.json() : null; })

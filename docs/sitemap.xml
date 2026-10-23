@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://paperduet.com/</loc></url>
+  <url><loc>https://paperduet.com/zh-CN/</loc></url>
+  <url><loc>https://paperduet.com/zh-TW/</loc></url>
+  <url><loc>https://paperduet.com/ja/</loc></url>
+  <url><loc>https://paperduet.com/ko/</loc></url>
+  <url><loc>https://paperduet.com/fr/</loc></url>
+  <url><loc>https://paperduet.com/de/</loc></url>
+  <url><loc>https://paperduet.com/es/</loc></url>
+  <url><loc>https://paperduet.com/ru/</loc></url>
 </urlset>
