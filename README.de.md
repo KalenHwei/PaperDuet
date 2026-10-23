@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Der ultimative KI-Spiegelübersetzer für Forschungsartikel!</em>
+  <em>Ein schlanker KI-Übersetzer für Fachartikel, gemacht für Forschende!</em>
 </p>
 
 <p align="center">
@@ -71,13 +71,13 @@ Die Symbolleiste zeigt den Fortschritt der Übersetzung. Ist der ganze Artikel f
 
 ## Und noch mehr
 
-- **Acht Zielsprachen.** Wechsle in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español und Русский; jede Sprache behält ihre eigene Übersetzung.
-- **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick `<Name>_de.pdf` im Originallayout daneben (`_zh` für vereinfachtes Chinesisch, `_ja`, `_fr` usw. für andere Sprachen).
+- **Acht Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español und Русский.
+- **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout daneben.
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
-- **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder auf Englisch zu lassen.
+- **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
 - **Lies, wie du willst.** Durchsuche Original und Übersetzung gleichzeitig, blättere im zweisprachigen Inhaltsverzeichnis, zeige auf einen Absatz, um sein Gegenstück zu finden, und lass dir das Original, die Übersetzung oder beides anzeigen. PaperDuet merkt sich, wo du aufgehört hast.
-- **Exportiere, wohin du willst.** Das Original-PDF mit deinen Markierungen als Standard-Anmerkungen, das übersetzte PDF und deine Notizen als Markdown.
-- **Updates mit einem Klick.** Neue Versionen erscheinen direkt in der App, signiert und geprüft, und lassen sich mit einem Klick installieren.
+- **Exportiere, wohin du willst.** Das Original-PDF mit deinen Markierungen, das übersetzte PDF und deine Notizen als Markdown, die sich auch in anderen Apps öffnen lassen.
+- **Updates mit einem Klick.** Aktualisieren ist einfach: Ein Klick installiert die neue Version.
 - **Schön anzusehen.** Ein klares Glas-Design mit hellem, dunklem und Nachtlese-Modus.
 
 <p align="center">

@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>¡El traductor espejo con IA definitivo para artículos de investigación!</em>
+  <em>¡Un traductor ligero de artículos con IA, hecho para investigadores!</em>
 </p>
 
 <p align="center">
@@ -71,13 +71,13 @@ La barra de herramientas muestra cómo avanza la traducción. Cuando todo el art
 
 ## Y hay más
 
-- **Ocho idiomas de traducción.** Cambia entre 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español y Русский desde la barra de herramientas; cada idioma conserva su propia traducción.
-- **Un PDF traducido en un clic.** Cuando el artículo está traducido entero, un clic guarda `<nombre>_es.pdf` a su lado con el formato original (`_zh` para chino simplificado, `_ja`, `_fr` y así para los demás idiomas).
+- **Ocho idiomas de traducción.** Cambia entre 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español y Русский con un clic desde la barra de herramientas.
+- **Un PDF traducido en un clic.** Cuando el artículo está traducido entero, un clic guarda la traducción a su lado con el formato original.
 - **Controles de calidad integrados.** Se revisan las fórmulas, los números y el orden de las frases en cada respuesta, con reintentos automáticos, y un glosario propio de cada artículo mantiene los términos coherentes.
-- **Tú decides qué se traduce.** Haz clic derecho en cualquier bloque para traducirlo o dejarlo en inglés.
+- **Tú decides qué se traduce.** Haz clic derecho en cualquier bloque para traducirlo o dejar el original.
 - **Lee como prefieras.** Busca en el original y la traducción a la vez, recorre un índice bilingüe, señala un párrafo para encontrar su gemelo y muestra el original, la traducción o ambos. PaperDuet recuerda dónde lo dejaste.
-- **Exporta adonde quieras.** El PDF original con tus marcas como anotaciones estándar, el PDF traducido y tus notas en Markdown.
-- **Actualizaciones en un clic.** Las versiones nuevas aparecen en la propia app, firmadas y verificadas, y se instalan con un clic.
+- **Exporta adonde quieras.** El PDF original con tus marcas, el PDF traducido y tus notas en Markdown, que también se abren en otras apps.
+- **Actualizaciones en un clic.** Actualizar es fácil: un clic instala la versión nueva.
 - **Cuidado hasta el último detalle.** Un diseño limpio de cristal esmerilado, con modos claro, oscuro y de lectura nocturna.
 
 <p align="center">

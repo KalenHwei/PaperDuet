@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Le traducteur miroir IA ultime pour les articles de recherche !</em>
+  <em>Un traducteur d'articles IA léger, pensé pour les chercheurs !</em>
 </p>
 
 <p align="center">
@@ -71,13 +71,13 @@ La barre d'outils affiche où en est la traduction. Quand tout l'article est tra
 
 ## Et ce n'est pas tout
 
-- **Huit langues de traduction.** Passez de 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español à Русский depuis la barre d'outils ; chaque langue garde sa propre traduction.
-- **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre `<nom>_fr.pdf` à côté, avec la mise en page d'origine (`_zh` pour le chinois simplifié, `_ja`, `_de` et ainsi de suite pour les autres langues).
+- **Huit langues de traduction.** Passez en un clic, depuis la barre d'outils, d'une langue à l'autre : 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español et Русский.
+- **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre la traduction à côté, avec la mise en page d'origine.
 - **Contrôles de qualité intégrés.** Formules, nombres et ordre des phrases sont vérifiés dans chaque réponse, avec de nouvelles tentatives automatiques, et un glossaire propre à chaque article garde les termes cohérents.
-- **Vous décidez de ce qui est traduit.** Clic droit sur n'importe quel bloc pour le traduire ou le laisser en anglais.
+- **Vous décidez de ce qui est traduit.** Clic droit sur n'importe quel bloc pour le traduire ou garder l'original.
 - **Lisez à votre façon.** Cherchez dans l'original et la traduction en même temps, parcourez un sommaire bilingue, pointez un paragraphe pour trouver son jumeau, et affichez l'original, la traduction ou les deux. PaperDuet se souvient de l'endroit où vous vous êtes arrêté.
-- **Exportez où vous voulez.** Le PDF original avec vos marques sous forme d'annotations standard, le PDF traduit et vos notes en Markdown.
-- **Mises à jour en un clic.** Les nouvelles versions s'affichent directement dans l'app, signées et vérifiées, et s'installent en un clic.
+- **Exportez où vous voulez.** Le PDF original avec vos marques, le PDF traduit et vos notes en Markdown, lisibles aussi dans d'autres applications.
+- **Mises à jour en un clic.** La mise à jour est simple : un clic installe la nouvelle version.
 - **Soigné jusque dans l'apparence.** Un design épuré en verre dépoli, avec modes clair, sombre et lecture de nuit.
 
 <p align="center">

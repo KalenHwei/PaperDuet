@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>The Ultimate AI Mirror Translator for Research Papers!</em>
+  <em>A lightweight AI paper translator built for researchers!</em>
 </p>
 
 <p align="center">
@@ -71,13 +71,13 @@ The toolbar shows the translation progress. When the whole paper is done, the ri
 
 ## And there's more
 
-- **Eight languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский from the toolbar; each language keeps its own translation.
-- **A translated PDF in one click.** Once a paper is fully translated, one click saves `<name>_zh.pdf` next to it in the original layout (`_ja`, `_fr` and so on for other languages).
+- **Eight languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский in one click from the toolbar.
+- **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation next to it in the original layout.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
-- **You decide what gets translated.** Right-click any block to translate it or keep it in English.
+- **You decide what gets translated.** Right-click any block to translate it or keep the original.
 - **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
-- **Export anywhere.** The original PDF with your marks as standard annotations, the translated PDF, and your notes as Markdown.
-- **One-click updates.** New versions show up right in the app, signed and verified, and install with one click.
+- **Export anywhere.** The original PDF with your marks, the translated PDF and your notes as Markdown, all readable in other apps too.
+- **One-click updates.** Updating is easy: one click installs the new version.
 - **Made to look good.** A clean, beautiful glass design, with light, dark and night reading modes.
 
 <p align="center">
