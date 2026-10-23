@@ -15,12 +15,17 @@ All notable changes to PaperDuet are recorded here. The format follows
   Each language keeps its own translations, edits and glossary, so switching
   back and forth never translates a paper twice. Prompts, checks, sentence
   splitting, typography and fonts (on screen and in the exported PDF) follow
-  the language; the saved PDF is named `<name>_<language>.pdf`
+  the language; the translated PDF is named `<name>_<language>.pdf`
   (`_zh.pdf` for Simplified Chinese as before). Traditional Chinese is
   translated as Simplified Chinese and converted with OpenCC.
 
 ### Changed
 
+- The translated PDF is no longer saved by itself. When the whole paper is
+  translated, the progress ring turns into a green check and a bubble offers to
+  save the PDF next to the paper; it is written only when you click. A file of
+  that name that PaperDuet did not write is kept, and the PDF gets the next
+  free name. The setting for automatic saving is gone.
 - Opening the model card from the toolbar switches models without running the
   trial translation again; the trial is part of the first setup only.
 

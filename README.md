@@ -64,15 +64,15 @@ Highlight, underline or add a note on either side, and the matching sentence on 
 ## Progress? Speed? No problem!
 
 <p align="center">
-  <img src="docs/images/progress-ring.gif" width="880" alt="The camera moves in on the progress ring in the toolbar while a paper is being translated: pointing at it shows a red stop button, a click pauses and shows a blue play button, another click goes on">
+  <img src="docs/images/progress-save.gif" width="880" alt="The last paragraphs of the paper come in, the progress ring in the toolbar turns into a green check, a bubble offers to save the translation as a PDF, and one click saves it next to the original">
 </p>
 
-The toolbar shows the translation progress, and once the whole paper is translated, a translated version is saved on your Mac automatically. You can also choose from five models to suit your Mac and your needs!
+The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. You can also choose from five models to suit your Mac and your needs!
 
 ## And there's more
 
 - **Eight languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский from the toolbar; each language keeps its own translation.
-- **A translated PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout (`_ja`, `_fr` and so on for other languages).
+- **A translated PDF in one click.** Once a paper is fully translated, one click saves `<name>_zh.pdf` next to it in the original layout (`_ja`, `_fr` and so on for other languages).
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep it in English.
 - **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
@@ -159,7 +159,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
-- **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; changing models no longer reruns the trial translation.
+- **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; when a paper is done, the ring shows a green check and the translated PDF is saved with one click instead of automatically; changing models no longer reruns the trial translation.
 - **0.2.1** (2026-10-23): five translation models to choose from; a launch screen.
 - **0.2.0** (2026-10-23): update checks and one-click updates inside the app.
 - **0.1.0** (2026-10-22): first release.
