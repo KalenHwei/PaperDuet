@@ -22,9 +22,9 @@
 
 <p align="center">
   <strong>A lightweight mirror translator for papers that keeps the original layout.</strong><br>
-  Five open-source AI translation models built in.<br>
+  Five open-source AI translation models to choose from.<br>
   No sign-in, no fees, fully local.<br>
-  <sub>Attention Is All You Need (15 pages) translated from scratch on a MacBook Pro with M5 Pro, default settings. The animation runs at 1.3x speed. <a href="#speed-and-memory">Details</a>.</sub>
+  <sub>Attention Is All You Need (15 pages), translated from scratch on a MacBook Pro with M5 Pro. Animation at 1.3× speed.</sub>
 </p>
 
 <p align="center">
@@ -35,118 +35,89 @@
   <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a></sub>
 </p>
 
-Reading a paper in a second language usually means switching between a translator and the PDF, then finding your place and the figure again. PaperDuet shows the original and a Chinese translation side by side, page for page. A small model on your Mac does the translation, so you don't need an account or an API key, and the paper stays on your computer.
+Stop switching between a translator and your PDF. PaperDuet puts a paper and its Chinese translation side by side, page for page, with every formula, figure and table right where it was. The translation runs on your Mac: no account, no API key, no subscription, and your papers never leave your computer.
 
-## Same layout on both sides
+## Every page, mirrored
 
 <p align="center">
   <img src="docs/images/layout.gif" width="880" alt="Scrolling through pages 3 to 5: the Transformer diagram, the attention diagrams and the formulas sit in the same place on both sides, with the English text replaced by Chinese on the right">
 </p>
 
-The right side is the original page with the English replaced by Chinese in the same places. Formulas, figures and tables are left as they are. Both sides scroll and zoom together, so Figure 2 sits next to Figure 2 and equation (1) next to equation (1). PaperDuet recognises columns, headings, captions, footnotes and references, and it joins paragraphs that continue in the next column or on the next page.
+The right side is the original page with the English replaced by Chinese, in exactly the same place. Formulas, figures and tables stay untouched, and both sides scroll and zoom together, so Figure 2 always sits next to Figure 2. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up.
 
-## A progress ring you can pause
-
-<p align="center">
-  <img src="docs/images/progress-ring.gif" width="880" alt="The camera moves in on the progress ring in the toolbar while a paper is being translated: pointing at it shows a red stop button, a click pauses and shows a blue play button, another click goes on">
-</p>
-
-The ring in the toolbar shows how much of the paper is translated. When you point at it, it turns into a stop button. Click once to pause and again to go on. Paragraphs are saved as soon as they are translated, so when you open the paper again the translation is already there.
-
-## Double-click to read ahead
+## Start reading in seconds
 
 <p align="center">
   <img src="docs/images/double-click.gif" width="880" alt="On page 9, section 6.3 is not translated yet; a double-click on its first paragraph moves the section to the front, the status bar says so, and its paragraphs appear in Chinese one after another while the rest of the page waits">
 </p>
 
-PaperDuet translates the headings first, so the outline is in Chinese right away. The title, abstract and introduction come next, and then the rest of the paper from start to end. To read a later part first, double-click it. In the animation, a double-click on section 6.3 moves its paragraphs to the front of the queue, and the status bar shows how many were moved.
+Headings go first, so the outline turns Chinese almost instantly. The title, abstract and introduction come next, then the rest of the paper. Want a later section right now? Double-click it and it jumps to the front of the queue.
 
-## Highlights on both sides
+## Highlights in both languages
 
 <p align="center">
   <img src="docs/images/highlights.gif" width="880" alt="Two sentences of the abstract are selected on the original and highlighted yellow; the same sentences turn yellow in the translation. Then part of the last Chinese sentence is highlighted green, and the matching English sentence turns green on the left">
 </p>
 
-A highlight, underline or note made on one side appears on the other side at the matching sentence. You can also correct a translation by hand, and undo and redo work for all of these changes.
+Highlight, underline or add a note on either side, and it shows up on the matching sentence on the other. You can also polish any translation by hand, with full undo and redo.
 
-## Other features
+## Pause and resume anytime
 
-- When the whole paper is translated, a Chinese PDF in the original layout is saved next to it as `<name>_zh.pdf`. Its text can be selected and copied, and the file is updated when you change the translation. You can turn this off.
-- Every reply from the model is checked for sentence numbers, formulas and numbers. Sentences that fail are retried, and with Index-Translate-2B a glossary built for each paper keeps terms consistent.
-- If a figure label was translated or a paragraph was skipped, right-click the block to translate it or to leave it in English.
-- You can search both sides at once, follow a bilingual outline, hover over a paragraph to see its match on the other side, and choose to show the original, the translation or both. PaperDuet remembers where you stopped reading.
-- Exports: the original PDF with your marks as standard PDF annotations that other PDF readers show, the Chinese PDF, and your notes as Markdown.
-- PaperDuet checks GitHub for new versions. When one is out, a card shows what changed, and one click downloads and installs it; the new version starts after a restart. Update packages are signed, and PaperDuet installs only packages whose signature checks out.
-- The app uses the system's glass materials and has light and dark appearance and a night reading mode. Its animations are short and switch off with Reduce Motion. The interface is in Simplified Chinese.
+<p align="center">
+  <img src="docs/images/progress-ring.gif" width="880" alt="The camera moves in on the progress ring in the toolbar while a paper is being translated: pointing at it shows a red stop button, a click pauses and shows a blue play button, another click goes on">
+</p>
+
+The ring in the toolbar shows your progress. Point at it to stop, click to pause, click again to carry on. Every paragraph is saved the moment it is translated, so when you come back to a paper, its translation is waiting for you.
+
+## And there's more
+
+- **A Chinese PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout, with selectable text, and it stays in sync with your edits.
+- **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
+- **You decide what gets translated.** Right-click any block to translate it or keep it in English.
+- **Read your way.** Search both languages at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
+- **Export anywhere.** The original PDF with your marks as standard annotations, the Chinese PDF, and your notes as Markdown.
+- **One-click updates.** New versions show up right in the app, signed and verified, and install with one click.
+- **Made for the Mac.** Native glass materials, light and dark appearance, a night reading mode, and animations that respect Reduce Motion. The interface is in Simplified Chinese.
 
 <p align="center">
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet in dark appearance: page 3 with the Transformer diagram on both sides, a yellow and a green highlight on the original and on the translation, and the bilingual outline in the sidebar">
 </p>
 
-## Install
+## Five models, all on your Mac
 
-You need a Mac with Apple silicon (M1 or later), macOS 13.3 or later, and 2 to 8 GB of disk space for the translation model, depending on which one you choose (2.1 GB for the recommended one).
+Pick a model the first time you open PaperDuet, and switch anytime in Settings › 模型 › 更换模型. Every one of them is built for translation and runs fully offline once it is downloaded.
 
-### Download
+| Model | By | Size | Best for |
+| --- | --- | --- | --- |
+| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recommended)** | bilibili Index team | 2.1 GB | The best all-rounder, tuned for PaperDuet's checks and glossary |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Speed: the fastest and lightest |
+| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Translations that stay close to the source |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | The most fluent Chinese, on Macs with 16 GB of memory or more |
+| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Trying Google's translation model |
 
-1. Download `PaperDuet_<version>_aarch64.dmg` from [Releases](https://github.com/KalenHwei/PaperDuet/releases).
-2. Open it and drag PaperDuet into Applications, then open it from there. macOS does not let the translation engine inside the app run from the disk image or the Downloads folder.
-3. The app is not notarized by Apple, so the first time you open it macOS says it cannot check it. Open System Settings › Privacy & Security, scroll down to the message about PaperDuet, click "Open Anyway" and confirm. You only need to do this once.
-   You can also run this in Terminal instead: `xattr -dr com.apple.quarantine /Applications/PaperDuet.app`
-4. On first use, PaperDuet asks which translation model to use (Index-Translate-2B is recommended), looks for it on your Mac and downloads it if it is not there. Translation starts as soon as the model is in place. See [Translation model](#translation-model).
+With the recommended model, a 15-page paper takes about 2 minutes on an M5 Pro, or about 1 minute with "同时翻译几段" (paragraphs at once) set to 2 or 3 in Settings › 模型.
 
-Nothing else needs to be installed. The translation engine and its Metal acceleration are part of the app. Later versions install from inside the app, so you only download the disk image once.
+Already have one of these models from LM Studio, llama.cpp or Hugging Face? PaperDuet finds it and uses it where it is, with no second download.
 
-## Translation model
+## Private by design
 
-When you first open PaperDuet you pick one of five models. All of them were made for translation and run on your Mac. You can switch later in Settings › 模型 › 更换模型.
+- Your papers, translations and notes stay on your Mac.
+- No account, no usage tracking, no crash reports.
+- PaperDuet goes online only to download a model and to check for updates, and you can turn the update check off.
 
-| Model | From | Size | Memory | License |
-| --- | --- | --- | --- | --- |
-| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) (recommended) | bilibili Index team | 2.08 GB | about 3 GB | Apache-2.0 |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.91 GB | about 2.5 GB | Apache-2.0 |
-| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.69 GB | about 5.5 GB | Apache-2.0 |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 7.98 GB | about 9 GB (a Mac with 16 GB or more) | Apache-2.0 |
-| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.13 GB | about 5 GB | [Gemma Terms of Use](https://ai.google.dev/gemma/terms) |
+## Get started
 
-Index-Translate-2B is the recommended one because PaperDuet's prompt, checks and glossary were tuned for it. The other models get the prompt their publishers recommend, one paragraph at a time, and don't use the glossary. TranslateGemma has not been tested with PaperDuet yet. Switching models does not retranslate papers you have already translated.
+You need a Mac with Apple silicon (M1 or later) and macOS 13.3 or later.
 
-On the first four pages of _Attention Is All You Need_ (36 paragraphs, MacBook Pro with M5 Pro, engine start included), the four tested models all kept the layout, formulas and citations in place:
+1. Download the latest `.dmg` from [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. Drag PaperDuet into Applications and open it from there.
+3. First launch only: PaperDuet isn't notarized by Apple yet, so macOS asks you to confirm. Open System Settings › Privacy & Security and click **Open Anyway**. (Or run `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` in Terminal.)
+4. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
 
-| Model | Time | What we saw |
-| --- | --- | --- |
-| Index-Translate-2B | 68 s | Most consistent terms |
-| Hy-MT2-1.8B | 43 to 53 s | Fastest; now and then a loose phrase |
-| LMT-60-4B | 107 s | Literal; left an English phrase in the abstract |
-| Hy-MT2-7B | 216 s | Most fluent; slowest |
+That's all. The translation engine is built into the app, and new versions install from inside it.
 
-The app runs the model with its own copy of the llama.cpp server, so no other program has to be installed or running. If the model file is already on your Mac, PaperDuet checks it (SHA-256) and uses it where it is instead of downloading it again. It looks in these places:
-
-- LM Studio: `~/.lmstudio/models/` and `~/.cache/lm-studio/models/`
-- llama.cpp (`-hf`): `~/Library/Caches/llama.cpp/`
-- Hugging Face tools: `~/.cache/huggingface/hub/`
-
-Otherwise the model is downloaded from Hugging Face. Index-Translate-2B also comes from ModelScope when Hugging Face cannot be reached. You can pause and resume the download.
-
-### Speed and memory
-
-For Index-Translate-2B, measured on a MacBook Pro with M5 Pro on the 15-page _Attention Is All You Need_ (106 paragraphs):
-
-| Paragraphs at a time (Settings › Model) | Whole paper | Memory while translating |
-| --------------------------------------- | ----------- | ------------------------ |
-| 1 (default)                             | 118 s       | about 2.8 GB             |
-| 2, then 3 from halfway                  | 67 s        | about 3.0 to 3.2 GB      |
-
-The memory figures include the 2.1 GB model file. Activity Monitor counts that part as file cache, so it shows a smaller number. The engine stops after ten idle minutes and gives the memory back.
-
-## Privacy
-
-- Papers, translations, annotations and settings stay on your Mac, in `~/Library/Application Support/io.github.paperduet.app/`. The only file PaperDuet writes anywhere else is the Chinese PDF next to a translated paper (`<name>_zh.pdf`), and you can turn that off.
-- The translation engine listens only on your own Mac (127.0.0.1), on a random port, and accepts requests only with a key created at each launch.
-- PaperDuet goes online only to download the model (from huggingface.co or modelscope.cn), to check GitHub for a new version of the app, and to open links you click. The update check reads version information only, and you can turn it off in Settings › 关于.
-- It collects no usage statistics or crash reports, and there is no account.
-
-## Keyboard shortcuts
+<details>
+<summary><b>Keyboard shortcuts</b></summary>
 
 | Action                           | Shortcut                                     |
 | -------------------------------- | -------------------------------------------- |
@@ -166,57 +137,33 @@ The memory figures include the 2.1 GB model file. Activity Monitor counts that p
 | Synchronized scrolling on or off | ⌘L                                           |
 | All shortcuts                    | ⌘/                                           |
 
-H, N and 1 to 5 work while text is selected and you are not typing in a text field.
+H, N and 1 to 5 work on selected text.
 
-## Questions
+</details>
 
-### Can I use another model?
+## FAQ
 
-Yes, one of the five in [Translation model](#translation-model). Choose it when you set up PaperDuet, or later in Settings › 模型 › 更换模型. Other GGUF files can't be added yet.
+### Which model should I choose?
 
-### Why does a paper take a couple of minutes?
+Start with Index-Translate-2B. For more speed, pick Hy-MT2-1.8B. For the most fluent Chinese on a Mac with 16 GB of memory or more, pick Hy-MT2-7B.
 
-Every sentence is generated on your Mac. Because the outline, title, abstract and introduction come first, you can start reading right away, and you can double-click any other part to have it translated next. To roughly halve the time, set Settings › Model › "同时翻译几段" (paragraphs at once) to 2 or 3. This uses a few hundred MB more memory.
+### Is it free?
 
-### Does it work with scanned PDFs?
-
-No. A scanned PDF has no text layer, so PaperDuet can only show the original for reading and annotating.
-
-### A figure label was translated, or a paragraph was left in English
-
-Right-click the block and choose 翻译此块 (translate this block) or 不翻译此块 (leave this block in English). The choice is saved with the paper. Footnotes, captions and table notes can also be switched off as a group in Settings › 翻译.
-
-### macOS says the translation engine cannot run
-
-Move PaperDuet into Applications and open it from there (see [Download](#download)).
-
-### How do I remove everything?
-
-Delete PaperDuet from Applications, then delete `~/Library/Application Support/io.github.paperduet.app/` (translations, annotations, settings, and the model if PaperDuet downloaded it) and `~/Library/Logs/io.github.paperduet.app/`. The `_zh.pdf` files saved next to your papers stay where they are.
-
-### Can I use it at work?
-
-Personal study and research are free, and so is use at universities, research institutes, schools and other non-profit organizations. Using it at or for a company needs a commercial license; write to [junystugh@gmail.com](mailto:junystugh@gmail.com). See [License](#license).
+Yes, for personal study and research, and for universities, schools, research institutes and other non-profits. Using PaperDuet at or for a company needs a commercial license: write to [junystugh@gmail.com](mailto:junystugh@gmail.com).
 
 ## Roadmap
 
-- Re-typesetting from arXiv source: for papers on arXiv, translate the LaTeX source and compile it with Chinese fonts, so the translation gets a real typeset layout instead of text fitted into the original boxes. The pages of the two sides would then differ, and they would be matched paragraph by paragraph.
-- An English interface.
+- **Typeset translations from arXiv.** Translate a paper's LaTeX source and compile it with Chinese fonts for a fully typeset Chinese edition.
+- **An English interface.**
 
 ## License
 
-PaperDuet is free for noncommercial use under the [PolyForm Noncommercial License 1.0.0](LICENSE). In short:
-
-- You may use and share it for any noncommercial purpose, such as personal use, study, research and hobby projects, and it may be used by schools, universities, research institutes, charities and public bodies.
-- When you share it, pass on the license terms together with the line `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`.
-- Commercial use is not permitted. For a commercial license, write to [junystugh@gmail.com](mailto:junystugh@gmail.com).
-
-The [license text](LICENSE) is what counts; this is only a summary. The software PaperDuet is built on and the translation model keep their own licenses.
+PaperDuet is free for noncommercial use under the [PolyForm Noncommercial License 1.0.0](LICENSE). Use it and share it for personal, study, research or non-profit purposes; when you share it, include the license and the line `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`. For commercial use, write to [junystugh@gmail.com](mailto:junystugh@gmail.com).
 
 Copyright © 2026 Kalen Yongda Wei.
 
 ## Acknowledgments
 
-PaperDuet is built on [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) and [Lucide](https://lucide.dev), and it translates with [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) by the bilibili Index team, or with Hy-MT2 (Tencent Hunyuan), LMT (NiuTrans) or TranslateGemma (Google) if you choose one of them. Their full license texts are included in the app (Settings › 关于 › 第三方许可证).
+PaperDuet is built on [Tauri](https://tauri.app), [pdf.js](https://mozilla.github.io/pdf.js/), [pdf-lib](https://pdf-lib.js.org), [llama.cpp](https://github.com/ggml-org/llama.cpp), [React](https://react.dev), [Zustand](https://github.com/pmndrs/zustand) and [Lucide](https://lucide.dev). The translation models come from the bilibili Index team (Index-Translate-2B), Tencent Hunyuan (Hy-MT2), NiuTrans (LMT) and Google (TranslateGemma); they are released under Apache-2.0, except TranslateGemma, which is under the [Gemma Terms of Use](https://ai.google.dev/gemma/terms). Full license texts are in the app (Settings › 关于 › 第三方许可证).
 
-The paper in the animations is [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) by Vaswani et al., shown as an example.
+The paper in the animations is [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762) by Vaswani et al.

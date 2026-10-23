@@ -22,9 +22,9 @@
 
 <p align="center">
   <strong>这是一款能保留格式的轻量级镜像论文翻译器。</strong><br>
-  内置五种开源 AI 翻译模型。<br>
+  可选五种开源 AI 翻译模型。<br>
   无需登录，无需付费，完全本地。<br>
-  <sub>在 M5 Pro 的 MacBook Pro 上用默认设置从零翻译 Attention Is All You Need（15 页），动图按 1.3 倍速播放。<a href="#速度和内存">详细数据</a>。</sub>
+  <sub>在 M5 Pro 的 MacBook Pro 上从零翻译 Attention Is All You Need（15 页）的实录，动图 1.3 倍速。</sub>
 </p>
 
 <p align="center">
@@ -35,118 +35,89 @@
   <sub><a href="README.md">English</a> &middot; <b>简体中文</b></sub>
 </p>
 
-用第二语言读论文，常常要在翻译软件和 PDF 之间来回切换，切回来还得重新找读到哪儿、图在哪儿。PaperDuet 把原文和中文译文并排放在一起，一页对一页。翻译由你 Mac 上的一个小模型完成，不用注册账号，也不用 API 密钥，论文始终留在你的电脑里。
+不用再在翻译软件和 PDF 之间来回切换。PaperDuet 把论文原文和中文译文并排摆好，一页对一页，公式、图片、表格都在原来的位置。翻译在你的 Mac 上完成：不用注册，不用 API 密钥，不用订阅，论文不会离开你的电脑。
 
-## 格式一致，左右对照
-
-<p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="滚动浏览第 3 到 5 页：Transformer 结构图、注意力示意图和公式在两边位置相同，右边的英文换成了中文">
-</p>
-
-右边就是原文那一页，只是英文换成了中文，位置不变。公式、图和表格原样保留。两边一起滚动、一起缩放，图 2 对着图 2，公式 (1) 对着公式 (1)。PaperDuet 能认出分栏、标题、图表标题、脚注和参考文献，跨栏、跨页的段落会合成一段来译。
-
-## 可以暂停的进度圆环
+## 每一页，都是镜像
 
 <p align="center">
-  <img src="docs/images/progress-ring.gif" width="880" alt="翻译进行中，镜头推近工具栏上的进度圆环：鼠标移上去出现红色停止按钮，点一下暂停并变成蓝色播放按钮，再点一下继续">
+  <img src="docs/images/layout.gif" width="880" alt="滚动浏览第 3 到 5 页：Transformer 结构图、注意力示意图和公式在两边的位置完全一样，右边的英文换成了中文">
 </p>
 
-工具栏上的圆环显示整篇论文译了多少。鼠标移上去，它会变成停止按钮，点一下暂停，再点一下继续。每段译完就会保存，下次打开这篇论文时译文已经在那里。
+右边就是原来那一页，只是英文换成了中文，位置分毫不差。公式、图片和表格原样保留，两边一起滚动、一起缩放，图 2 永远挨着图 2。分栏、标题、图注、脚注和参考文献都能自动识别，跨栏、跨页的段落也会自动接上。
 
-## 双击，先译这一部分
+## 几秒钟就能开始读
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="第 9 页的 6.3 节还没有译；双击它的第一段，这一节排到最前，状态栏给出提示，各段依次出现中文，页面其余部分继续等待">
+  <img src="docs/images/double-click.gif" width="880" alt="第 9 页的 6.3 节还没有翻译；双击它的第一段，这一节就排到最前面，状态栏给出提示，各段依次变成中文，页面上其余部分稍后再译">
 </p>
 
-PaperDuet 先译各级标题，所以侧栏目录很快就是中文。接下来是论文标题、摘要和引言，然后从头到尾按顺序译。想先读后面的某一部分，在原文上双击它就行。动图里双击了 6.3 节，这一节的段落就排到了最前面，状态栏会显示排了几段。
+各级标题最先翻译，目录几乎立刻变成中文；接着是论文标题、摘要和引言，然后是其余部分。想先看后面的章节？双击它，马上排到最前面。
 
-## 高亮两边同步
+## 两边同步的高亮
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="在原文摘要里选中两句，标成黄色，译文里对应的两句也变黄；再在译文最后一句里选一段标成绿色，左边对应的英文句子也变绿">
+  <img src="docs/images/highlights.gif" width="880" alt="在原文里选中摘要的两句话并标成黄色，译文里对应的两句也变成黄色；接着在译文最后一句里标出一段绿色，左边对应的英文句子也变成绿色">
 </p>
 
-在一边做的高亮、下划线或备注，会出现在另一边对应的句子上。对译文不满意可以直接手动修改，这些操作都能撤销和重做。
+在任意一边高亮、划线或写批注，另一边对应的句子会同步标出来。哪句想译得更好，可以直接改，随时撤销、重做。
 
-## 其他功能
-
-- 整篇译完后，论文所在的文件夹里会多一份“文件名_zh.pdf”，版式和原文相同，文字可以选中复制。之后修改译文，这个文件会跟着更新。不需要的话可以在设置里关掉。
-- 模型的每次回复都会核对句子编号、公式和数字，出错的句子会重试。用 Index-Translate-2B 时，每篇论文还会自动整理一份术语表，让同一个术语前后译法一致。
-- 如果图里的文字被译了，或者某一段漏译了，在那一块上右键，选“翻译此块”或“不翻译此块”。
-- 可以两边同时查找，用中英对照的目录跳转，鼠标停在段落上时另一边对应的段落会描边。也可以只看原文、只看译文或者两边都看。PaperDuet 会记住你上次读到哪里。
-- 可以导出带标注的原文 PDF（用标准 PDF 批注，其他阅读器也能看到）、中文 PDF，以及 Markdown 格式的笔记。
-- PaperDuet 会去 GitHub 检查新版本。有新版本时会弹出一张卡片说明改了什么，点一下就下载并安装，重启后就是新版本。更新包都有签名，签名核对不上的不会安装。
-- 界面用的是系统的毛玻璃材质，有浅色、深色外观和夜间阅读模式。动画都很短，系统开启“减少动态效果”时会自动关闭。界面语言为简体中文。
+## 随时暂停，随时继续
 
 <p align="center">
-  <img src="docs/images/screenshot-dark.png" width="880" alt="深色外观下的 PaperDuet：第 3 页两边都是 Transformer 结构图，原文和译文上有同样的黄色和绿色高亮，侧栏是中英对照的目录">
+  <img src="docs/images/progress-ring.gif" width="880" alt="镜头推近工具栏上正在转动的进度圆环：鼠标移上去出现红色停止按钮，点一下暂停并变成蓝色播放按钮，再点一下继续翻译">
 </p>
 
-## 安装
+工具栏上的圆环显示翻译进度。鼠标移上去就能停，点一下暂停，再点一下继续。每段译完立刻保存，下次打开论文，译文已经在那里等你。
 
-需要一台 Apple 芯片的 Mac（M1 及以后），macOS 13.3 及以上，另外留出 2 到 8 GB 硬盘空间放翻译模型，具体看选哪个（推荐的那个是 2.1 GB）。
+## 还有这些
 
-### 下载安装
+- **自动生成中文 PDF**：整篇译完后，按原版式在论文旁边保存 `<文件名>_zh.pdf`，文字可以选中复制，改了译文它也跟着更新。
+- **内置质量检查**：每次回复都核对公式、数字和句子顺序，出错自动重试；每篇论文自动整理术语表，前后译法一致。
+- **翻译什么你说了算**：右键任意一块，选择翻译它或者保留英文。
+- **怎么读都顺手**：中英文同时搜索、双语目录、鼠标指向一段就能找到另一边对应的段落，可以只看原文、只看译文或者两边都看。PaperDuet 会记住你读到哪儿。
+- **导出到任何地方**：带标注的原文 PDF（标准 PDF 批注，其他阅读器也能看）、中文 PDF、Markdown 笔记。
+- **一键更新**：新版本直接在应用里提示，带签名校验，点一下就装好。
+- **为 Mac 而做**：系统原生毛玻璃材质，浅色、深色和夜间阅读模式，动画遵从“减弱动态效果”设置。
 
-1. 在 [Releases](https://github.com/KalenHwei/PaperDuet/releases) 下载 `PaperDuet_<版本>_aarch64.dmg`。
-2. 打开它，把 PaperDuet 拖进“应用程序”文件夹，之后从那里打开。macOS 不允许应用里自带的翻译引擎在磁盘映像或“下载”文件夹里运行。
-3. 这个应用没有经过苹果公证，第一次打开时 macOS 会提示无法验证。打开“系统设置 › 隐私与安全性”，往下找到关于 PaperDuet 的提示，点“仍要打开”并确认。这一步只需要做一次。
-   也可以在“终端”里运行：`xattr -dr com.apple.quarantine /Applications/PaperDuet.app`
-4. 第一次使用时，PaperDuet 会让你选一个翻译模型（推荐 Index-Translate-2B），先在本机找，找不到就下载。模型一到位就自动开始翻译。详见[翻译模型](#翻译模型)。
+<p align="center">
+  <img src="docs/images/screenshot-dark.png" width="880" alt="深色外观下的 PaperDuet：两边都是第 3 页的 Transformer 结构图，原文和译文上各有一处黄色和绿色高亮，侧栏是中英双语目录">
+</p>
 
-除此之外不用再装任何东西，翻译引擎和 Metal 加速都已经包含在应用里。以后的新版本直接在应用里更新，磁盘映像只需要下载这一次。
+## 五个模型，全在你的 Mac 上
 
-## 翻译模型
+第一次打开时选一个，之后随时在“设置 › 模型 › 更换模型”里换。五个都是专门做翻译的模型，下载好以后完全离线运行。
 
-第一次打开 PaperDuet 时，从下面五个模型里选一个。它们都是专门做翻译的模型，都在你的 Mac 上运行。之后可以在“设置 › 模型 › 更换模型”里换。
+| 模型 | 来自 | 大小 | 适合 |
+| --- | --- | --- | --- |
+| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)**（推荐）** | 哔哩哔哩 Index 团队 | 2.1 GB | 综合最好，PaperDuet 的检查和术语表专门为它调过 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.9 GB | 追求速度，最快也最轻 |
+| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻译 NiuTrans | 4.7 GB | 贴近原文的译法 |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 8.0 GB | 中文最通顺，适合 16 GB 以上内存的 Mac |
+| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF)（实验性） | Google | 4.1 GB | 想试试 Google 的翻译模型 |
 
-| 模型 | 来自 | 大小 | 内存 | 许可证 |
-| --- | --- | --- | --- | --- |
-| [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)（推荐） | 哔哩哔哩 Index 团队 | 2.08 GB | 约 3 GB | Apache-2.0 |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.91 GB | 约 2.5 GB | Apache-2.0 |
-| [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻译 NiuTrans | 4.69 GB | 约 5.5 GB | Apache-2.0 |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 7.98 GB | 约 9 GB（建议 16 GB 以上的 Mac） | Apache-2.0 |
-| [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF)（实验性） | Google | 4.13 GB | 约 5 GB | [Gemma 使用条款](https://ai.google.dev/gemma/terms) |
+用推荐的模型，15 页的论文在 M5 Pro 上大约 2 分钟译完；在“设置 › 模型”里把“同时翻译几段”调到 2 或 3，大约 1 分钟。
 
-推荐 Index-Translate-2B，是因为 PaperDuet 的提示词、译文检查和术语表都是按它调的。其他模型用各自发布方推荐的提示词，一次翻一段，不用术语表。TranslateGemma 还没有在 PaperDuet 里实测过。换模型不会重新翻译已经译好的论文。
-
-用 _Attention Is All You Need_ 的前 4 页（36 段，M5 Pro 的 MacBook Pro，含启动引擎的时间）实测，四个测过的模型都能保住版面、公式和引用编号：
-
-| 模型 | 用时 | 观察 |
-| --- | --- | --- |
-| Index-Translate-2B | 68 秒 | 术语最统一 |
-| Hy-MT2-1.8B | 43 到 53 秒 | 最快，偶尔有说法不准 |
-| LMT-60-4B | 107 秒 | 偏直译，摘要里留了半句英文 |
-| Hy-MT2-7B | 216 秒 | 最通顺，也最慢 |
-
-模型由应用自带的 llama.cpp 服务运行，不需要另外安装或打开其他程序。如果本机已经有模型文件，PaperDuet 会先核对 SHA-256，然后直接使用，不会重复下载。它会在这些位置查找：
-
-- LM Studio：`~/.lmstudio/models/` 和 `~/.cache/lm-studio/models/`
-- llama.cpp（`-hf`）：`~/Library/Caches/llama.cpp/`
-- Hugging Face 工具：`~/.cache/huggingface/hub/`
-
-找不到就从 Hugging Face 下载；Index-Translate-2B 在连不上 Hugging Face 时还会改从 ModelScope 下载。下载可以暂停和继续。
-
-### 速度和内存
-
-用 Index-Translate-2B，在 M5 Pro 的 MacBook Pro 上翻译 15 页的 _Attention Is All You Need_（106 段）实测：
-
-| 同时翻译几段（设置 › 模型） | 整篇用时 | 翻译时占用内存   |
-| --------------------------- | -------- | ---------------- |
-| 1（默认）                   | 118 秒   | 约 2.8 GB        |
-| 先 2 段，译到一半改成 3 段  | 67 秒    | 约 3.0 到 3.2 GB |
-
-表里的内存包括 2.1 GB 的模型文件。“活动监视器”把这部分算作文件缓存，所以那里显示的数字会小一些。翻译引擎空闲 10 分钟后会自动退出，把内存还给系统。
+已经用 LM Studio、llama.cpp 或 Hugging Face 下过这些模型？PaperDuet 会自动找到并直接使用，不用再下一遍。
 
 ## 隐私
 
-- 论文、译文、标注和设置都只存在本机的 `~/Library/Application Support/io.github.paperduet.app/`。PaperDuet 只会在另一个地方写文件，就是译完的论文旁边的“文件名_zh.pdf”，这个可以在设置里关掉。
-- 翻译引擎只在本机（127.0.0.1）的随机端口上监听，只接受带有本次启动时生成的密钥的请求。
-- PaperDuet 只在三种情况下联网：下载模型（从 huggingface.co 或 modelscope.cn）、去 GitHub 检查有没有新版本，以及打开你点击的链接。检查更新只读取版本信息，可以在“设置 › 关于”里关掉。
-- 它不统计使用数据，不发送崩溃报告，也没有账号。
+- 论文、译文和笔记都留在你的 Mac 上。
+- 不用注册账号，不收集使用数据，也不上传崩溃报告。
+- 只在下载模型和检查更新时联网，检查更新也可以关掉。
 
-## 快捷键
+## 开始使用
+
+需要 Apple 芯片的 Mac（M1 及以后）和 macOS 13.3 及以上。
+
+1. 从 [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) 下载最新的 `.dmg`。
+2. 把 PaperDuet 拖进“应用程序”，从那里打开。
+3. 仅第一次：PaperDuet 还没有经过 Apple 公证，macOS 会让你确认一下。打开“系统设置 › 隐私与安全性”，点 **仍要打开**。（也可以在终端里运行 `xattr -dr com.apple.quarantine /Applications/PaperDuet.app`。）
+4. 选一个模型。PaperDuet 会下载它，或者直接用你已有的那份，然后马上开始翻译。
+
+就这么简单。翻译引擎已经打包在应用里，以后的新版本在应用里一键升级。
+
+<details>
+<summary><b>快捷键</b></summary>
 
 | 操作                 | 快捷键                            |
 | -------------------- | --------------------------------- |
@@ -166,57 +137,33 @@ PaperDuet 先译各级标题，所以侧栏目录很快就是中文。接下来�
 | 开关同步滚动         | ⌘L                                |
 | 快捷键一览           | ⌘/                                |
 
-H、N、1 到 5 只在选中了文字、并且没有在输入框里打字时有效。
+H、N、1 到 5 作用于选中的文字。
+
+</details>
 
 ## 常见问题
 
-### 能换别的模型吗？
+### 选哪个模型好？
 
-能，可以换成[翻译模型](#翻译模型)里列的五个之一。设置时选，或者之后在“设置 › 模型 › 更换模型”里换。暂时还不能添加其他 GGUF 文件。
+先用 Index-Translate-2B。想要更快，选 Hy-MT2-1.8B；想要最通顺的中文，并且 Mac 有 16 GB 以上内存，选 Hy-MT2-7B。
 
-### 为什么一篇论文要译一两分钟？
+### 收费吗？
 
-每一句都在你的 Mac 上生成。目录、标题、摘要和引言最先翻译，所以马上就能开始读；想先看别的部分，双击它就会排到前面。把“设置 › 模型 › 同时翻译几段”调成 2 或 3，整篇用时大约减半，代价是多占几百 MB 内存。
-
-### 支持扫描版 PDF 吗？
-
-不支持。扫描件没有文字层，PaperDuet 能打开它，但只能阅读和标注原文。
-
-### 图里的文字被译了，或者某一段没有译
-
-在那一块上右键，选“翻译此块”或“不翻译此块”，选择会跟着这篇论文保存。脚注、图表标题和表注也可以在“设置 › 翻译”里整类关掉。
-
-### macOS 提示翻译引擎无法运行
-
-把 PaperDuet 拖进“应用程序”，从那里重新打开（见[下载安装](#下载安装)）。
-
-### 怎么彻底删除？
-
-把 PaperDuet 从“应用程序”里删掉，再删除 `~/Library/Application Support/io.github.paperduet.app/`（译文、标注、设置，以及 PaperDuet 自己下载的模型）和 `~/Library/Logs/io.github.paperduet.app/`。保存在论文旁边的 `_zh.pdf` 文件会留在原处，不需要的话自己删除。
-
-### 能在公司里用吗？
-
-个人学习和科研可以免费使用，在大学、科研院所、学校和其他非营利机构里也可以。在公司里使用或者用于商业目的需要商业授权，请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。详见[许可证](#许可证)。
+个人学习、科研免费，高校、中小学、科研院所和其他非营利机构使用也免费。在公司里或为公司使用需要商业授权，请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。
 
 ## 后续计划
 
-- 用 arXiv 源码重新排版：对 arXiv 上的论文，翻译 LaTeX 源码后用中文字体重新编译，让译文有真正的排版，而不是把文字塞进原来的方框。这样两边的分页会不同，改为按段落对应。
-- 英文界面。
+- **arXiv 论文重新排版**：直接翻译论文的 LaTeX 源码，用中文字体重新编译，得到真正排版好的中文版。
+- **英文界面**。
 
 ## 许可证
 
-PaperDuet 按 [PolyForm Noncommercial License 1.0.0](LICENSE) 发布，非商业用途免费。简单说：
+PaperDuet 按 [PolyForm Noncommercial 1.0.0](LICENSE) 许可证免费用于非商业用途：个人、学习、科研和非营利用途都可以使用和分享；分享时请附上许可证和这一行 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`。商业使用请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。
 
-- 可以出于任何非商业目的使用和分享，比如个人使用、学习、科研和业余项目；学校、大学、科研机构、公益组织和政府机构也可以使用。
-- 分享给别人时，要一并附上许可证条款和 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` 这一行。
-- 不得用于商业用途。需要商业授权，请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。
-
-以上只是概括，以[许可证原文](LICENSE)为准。PaperDuet 用到的软件和翻译模型各自遵循自己的许可证。
-
-版权所有 © 2026 Kalen Yongda Wei。
+Copyright © 2026 Kalen Yongda Wei.
 
 ## 致谢
 
-PaperDuet 基于 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev)，翻译用的是哔哩哔哩 Index 团队的 [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)，你选了别的模型时则是腾讯混元的 Hy-MT2、小牛翻译的 LMT 或 Google 的 TranslateGemma。它们的许可证全文已经包含在应用里（设置 › 关于 › 第三方许可证）。
+PaperDuet 基于 [Tauri](https://tauri.app)、[pdf.js](https://mozilla.github.io/pdf.js/)、[pdf-lib](https://pdf-lib.js.org)、[llama.cpp](https://github.com/ggml-org/llama.cpp)、[React](https://react.dev)、[Zustand](https://github.com/pmndrs/zustand) 和 [Lucide](https://lucide.dev) 构建。翻译模型来自哔哩哔哩 Index 团队（Index-Translate-2B）、腾讯混元（Hy-MT2）、小牛翻译（LMT）和 Google（TranslateGemma），除 TranslateGemma 遵循 [Gemma 使用条款](https://ai.google.dev/gemma/terms) 外均为 Apache-2.0 许可证。完整的许可证文本见应用内“设置 › 关于 › 第三方许可证”。
 
-动图里的论文是 Vaswani 等人的 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)，仅作示例。
+动图里的论文是 Vaswani 等人的 [_Attention Is All You Need_](https://arxiv.org/abs/1706.03762)。
