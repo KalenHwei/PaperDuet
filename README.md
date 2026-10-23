@@ -67,15 +67,16 @@ Highlight, underline or add a note on either side, and the matching sentence on 
   <img src="docs/images/progress-ring.gif" width="880" alt="The camera moves in on the progress ring in the toolbar while a paper is being translated: pointing at it shows a red stop button, a click pauses and shows a blue play button, another click goes on">
 </p>
 
-The toolbar shows the translation progress, and once the whole paper is translated, a Chinese version is saved on your Mac automatically. You can also choose from five models to suit your Mac and your needs!
+The toolbar shows the translation progress, and once the whole paper is translated, a translated version is saved on your Mac automatically. You can also choose from five models to suit your Mac and your needs!
 
 ## And there's more
 
-- **A Chinese PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout.
+- **Eight languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский from the toolbar; each language keeps its own translation.
+- **A translated PDF, automatically.** Once a paper is fully translated, `<name>_zh.pdf` is saved next to it in the original layout (`_ja`, `_fr` and so on for other languages).
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep it in English.
-- **Read your way.** Search both languages at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
-- **Export anywhere.** The original PDF with your marks as standard annotations, the Chinese PDF, and your notes as Markdown.
+- **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
+- **Export anywhere.** The original PDF with your marks as standard annotations, the translated PDF, and your notes as Markdown.
 - **One-click updates.** New versions show up right in the app, signed and verified, and install with one click.
 - **Made to look good.** A clean, beautiful glass design, with light, dark and night reading modes.
 
@@ -155,6 +156,15 @@ Yes, for personal study and research, and for universities, schools, research in
 
 - **Typeset translations from arXiv.** Translate a paper's LaTeX source and compile it with Chinese fonts for a fully typeset Chinese edition.
 - **An English interface.**
+
+## Changelog
+
+- **0.3.0** (2026-10-23): eight languages to translate into, switched from the toolbar; changing models no longer reruns the trial translation.
+- **0.2.1** (2026-10-23): five translation models to choose from; a launch screen.
+- **0.2.0** (2026-10-23): update checks and one-click updates inside the app.
+- **0.1.0** (2026-10-22): first release.
+
+Full history: [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

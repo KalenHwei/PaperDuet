@@ -6,6 +6,24 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-23
+
+### Added
+
+- Eight languages to translate into, chosen from a menu in the toolbar:
+  简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский.
+  Each language keeps its own translations, edits and glossary, so switching
+  back and forth never translates a paper twice. Prompts, checks, sentence
+  splitting, typography and fonts (on screen and in the exported PDF) follow
+  the language; the saved PDF is named `<name>_<language>.pdf`
+  (`_zh.pdf` for Simplified Chinese as before). Traditional Chinese is
+  translated as Simplified Chinese and converted with OpenCC.
+
+### Changed
+
+- Opening the model card from the toolbar switches models without running the
+  trial translation again; the trial is part of the first setup only.
+
 ## [0.2.1] - 2026-10-23
 
 ### Added
@@ -84,7 +102,8 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.0
 [0.2.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.1
 [0.2.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.2.0
 [0.1.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.1.0
