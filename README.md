@@ -14,12 +14,14 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple silicon)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-64--bit-111111?style=for-the-badge" alt="Download for Windows (64-bit)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 or later on Apple silicon">
-  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="The translation runs on your Mac">
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 and 11, 64-bit">
+  <img src="https://img.shields.io/badge/translation-on%20your%20computer-111111?style=flat-square" alt="The translation runs on your computer">
   <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="Models: 5 to choose from">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="License: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -35,7 +37,7 @@
   <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
 </p>
 
-PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No sign-up, no API key, no fees, and it runs entirely on your Mac!
+PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No sign-up, no API key, no fees, and it runs entirely on your computer!
 
 ## Every page, made easy
 
@@ -67,7 +69,7 @@ Highlight, underline or add a note on either side, and the matching sentence on 
   <img src="docs/images/progress-save.gif" width="880" alt="The last paragraphs of the paper come in, the progress ring in the toolbar turns into a green check, a bubble offers to save the translation as a PDF, and one click saves it next to the original">
 </p>
 
-The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. You can also choose from five models to suit your Mac and your needs!
+The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. You can also choose from five models to suit your computer and your needs!
 
 ## And there's more
 
@@ -84,7 +86,7 @@ The toolbar shows the translation progress. When the whole paper is done, the ri
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet in dark appearance: page 3 with the Transformer diagram on both sides, a yellow and a green highlight on the original and on the translation, and the bilingual outline in the sidebar">
 </p>
 
-## Five models, all on your Mac
+## Five models, all on your computer
 
 Pick a model the first time you open PaperDuet, and switch anytime in Settings › Model › Change Model. Every one of them is built for translation and runs fully offline once it is downloaded.
 
@@ -93,7 +95,7 @@ Pick a model the first time you open PaperDuet, and switch anytime in Settings �
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recommended)** | bilibili Index team | 2.1 GB | The best all-rounder, tuned for PaperDuet's checks and glossary |
 | [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Speed: the fastest and lightest |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Translations that stay close to the source |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | The most fluent Chinese, on Macs with 16 GB of memory or more |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | The most fluent Chinese, on computers with 16 GB of memory or more |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Trying Google's translation model |
 
 With the recommended model, a 15-page paper takes about 2 minutes on an M5 Pro, or about 1 minute with "Paragraphs at Once" set to 2 or 3 in Settings › Model.
@@ -102,18 +104,26 @@ Already have one of these models from LM Studio, llama.cpp or Hugging Face? Pape
 
 ## Private by design
 
-- Your papers, translations and notes stay on your Mac.
+- Your papers, translations and notes stay on your computer.
 - No account needed, and no usage data is collected.
 - PaperDuet goes online only to download a model and to check for updates, and you can turn the update check off.
 
 ## Get started
 
-You need a Mac with Apple silicon (M1 or later) and macOS 13.3 or later.
+A Mac needs Apple silicon (M1 or later) and macOS 13.3 or later; a PC needs 64-bit Windows 10 or 11.
+
+**Mac**
 
 1. Download the latest `.dmg` from [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Drag PaperDuet into Applications and open it from there.
 3. First launch only: PaperDuet isn't notarized by Apple yet, so macOS asks you to confirm. Open System Settings › Privacy & Security and click **Open Anyway**. (Or run `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` in Terminal.)
 4. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
+
+**Windows**
+
+1. Download the latest Windows installer (`_x64-setup.exe`) from [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. Run it. First time only: if Windows says “Windows protected your PC,” click **More info**, then **Run anyway**.
+3. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
 
 That's all. The translation engine is built into the app, and updates take one click.
 
@@ -138,7 +148,7 @@ That's all. The translation engine is built into the app, and updates take one c
 | Synchronized scrolling on or off | ⌘L                                           |
 | All shortcuts                    | ⌘/                                           |
 
-H, N and 1 to 5 work on selected text.
+H, N and 1 to 5 work on selected text. On Windows, use Ctrl for ⌘ and Shift for ⇧.
 
 </details>
 
@@ -146,7 +156,7 @@ H, N and 1 to 5 work on selected text.
 
 ### Which model should I choose?
 
-Start with Index-Translate-2B. For more speed, pick Hy-MT2-1.8B. For the most fluent Chinese on a Mac with 16 GB of memory or more, pick Hy-MT2-7B.
+Start with Index-Translate-2B. For more speed, pick Hy-MT2-1.8B. For the most fluent Chinese on a computer with 16 GB of memory or more, pick Hy-MT2-7B.
 
 ### Is it free?
 

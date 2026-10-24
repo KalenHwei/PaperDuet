@@ -14,12 +14,14 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Mac%20%C2%B7%20Apple%20%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac 版をダウンロード（Apple シリコン）" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Windows%20%C2%B7%2064%20%E3%83%93%E3%83%83%E3%83%88-111111?style=for-the-badge" alt="Windows 版をダウンロード（64 ビット）" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新リリース"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 以降、Apple シリコン">
-  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="翻訳は Mac 上で実行">
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10・11、64 ビット">
+  <img src="https://img.shields.io/badge/translation-on%20your%20computer-111111?style=flat-square" alt="翻訳はパソコン上で実行">
   <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="モデル：5 種類から選択">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="ライセンス：PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -35,7 +37,7 @@
   <sub>Attention Is All You Need（15 ページ）を最初から翻訳したときの録画</sub>
 </p>
 
-PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文と訳文を鏡のように並べ、数式・図・表もページごとに整えて位置をそろえます。登録も API キーも料金も不要で、すべて Mac の中で動きます！
+PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文と訳文を鏡のように並べ、数式・図・表もページごとに整えて位置をそろえます。登録も API キーも料金も不要で、すべてパソコンの中で動きます！
 
 ## どのページも見比べやすく
 
@@ -67,7 +69,7 @@ PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文
   <img src="docs/images/ja/progress-save.gif" width="880" alt="論文の最後の数段落が訳し終わると、ツールバーの進捗リングが緑のチェックに変わり、訳文を PDF として保存できるという吹き出しが出る。クリック 1 回で原文の隣に保存される">
 </p>
 
-翻訳の進み具合はツールバーに表示されます。全文を訳し終えるとリングが緑のチェックに変わり、吹き出しが出ます。クリック 1 回で、訳文を PDF として原文の隣に保存できます。お使いの Mac や用途に合わせて、5 種類のモデルから選ぶこともできます！
+翻訳の進み具合はツールバーに表示されます。全文を訳し終えるとリングが緑のチェックに変わり、吹き出しが出ます。クリック 1 回で、訳文を PDF として原文の隣に保存できます。お使いのパソコンや用途に合わせて、5 種類のモデルから選ぶこともできます！
 
 ## ほかにもいろいろ
 
@@ -84,7 +86,7 @@ PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文
   <img src="docs/images/screenshot-dark.png" width="880" alt="ダーク表示の PaperDuet。左右とも 3 ページの Transformer 構成図で、原文と訳文に黄色と緑のハイライトが 1 つずつあり、サイドバーには 2 か国語の目次">
 </p>
 
-## 5 つのモデルが、すべて Mac の中に
+## 5 つのモデルが、すべてパソコンの中に
 
 PaperDuet を初めて開くときにモデルを選び、あとから「設定 › モデル › モデルを変更」でいつでも切り替えられます。どれも翻訳専用のモデルで、ダウンロードが済めば完全にオフラインで動きます。
 
@@ -93,7 +95,7 @@ PaperDuet を初めて開くときにモデルを選び、あとから「設定 
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **（おすすめ）** | bilibili Index チーム | 2.1 GB | 総合力がいちばん高く、PaperDuet のチェックと用語集に合わせて調整済み |
 | [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | 速さ重視：いちばん速く、いちばん軽い |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | 原文に忠実な訳 |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | いちばん流暢な訳文。メモリ 16 GB 以上の Mac 向け |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | いちばん流暢な訳文。メモリ 16 GB 以上のパソコン向け |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) （試験的） | Google | 4.1 GB | Google の翻訳モデルを試したいときに |
 
 おすすめのモデルなら、15 ページの論文が M5 Pro で約 2 分。「設定 › モデル」で「同時に翻訳する段落数」を 2 か 3 にすれば約 1 分です。
@@ -102,18 +104,26 @@ LM Studio、llama.cpp、Hugging Face でこれらのモデルをすでにダウ�
 
 ## プライバシーを最初から大切に
 
-- 論文、訳文、メモはすべて Mac の中にとどまります。
+- 論文、訳文、メモはすべてパソコンの中にとどまります。
 - アカウントは不要で、利用データも集めません。
 - インターネットに接続するのは、モデルのダウンロードとアップデートの確認のときだけです。アップデートの確認はオフにできます。
 
 ## はじめかた
 
-Apple シリコン（M1 以降）を搭載した Mac と、macOS 13.3 以降が必要です。
+Mac は Apple シリコン（M1 以降）と macOS 13.3 以降、Windows は Windows 10 または 11（64 ビット）が必要です。
+
+**Mac**
 
 1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) から最新の `.dmg` をダウンロードします。
 2. PaperDuet を「アプリケーション」フォルダにドラッグし、そこから開きます。
 3. 初回のみ：PaperDuet はまだ Apple の公証を受けていないため、macOS が確認を求めます。システム設定 › プライバシーとセキュリティ を開き、**このまま開く** をクリックしてください。（ターミナルで `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` を実行しても構いません。）
 4. モデルを選びます。PaperDuet がダウンロードするか、手元にあるものを見つけて、すぐに翻訳を始めます。
+
+**Windows**
+
+1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) から最新の Windows 用インストーラー（`_x64-setup.exe`）をダウンロードします。
+2. インストーラーを実行します。初回のみ：「Windows によって PC が保護されました」と表示されたら、**詳細情報** をクリックし、**実行** をクリックします。
+3. モデルを選びます。PaperDuet がダウンロードするか、手元にあるものを見つけて、すぐに翻訳を始めます。
 
 これだけです。翻訳エンジンはアプリに組み込まれていて、アップデートもクリック 1 回です。
 
@@ -138,7 +148,7 @@ Apple シリコン（M1 以降）を搭載した Mac と、macOS 13.3 以降が�
 | スクロール同期のオン / オフ | ⌘L |
 | すべてのショートカット | ⌘/ |
 
-H、N、1〜5 は選択中のテキストに使えます。
+H、N、1〜5 は選択中のテキストに使えます。Windows では ⌘ の代わりに Ctrl、⇧ の代わりに Shift を使います。
 
 </details>
 
@@ -146,7 +156,7 @@ H、N、1〜5 は選択中のテキストに使えます。
 
 ### どのモデルを選べばいいですか？
 
-まずは Index-Translate-2B から。速さを求めるなら Hy-MT2-1.8B、メモリ 16 GB 以上の Mac でいちばん流暢な訳文が欲しいなら Hy-MT2-7B を選んでください。
+まずは Index-Translate-2B から。速さを求めるなら Hy-MT2-1.8B、メモリ 16 GB 以上のパソコンでいちばん流暢な訳文が欲しいなら Hy-MT2-7B を選んでください。
 
 ### 無料ですか？
 

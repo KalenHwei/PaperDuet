@@ -14,12 +14,14 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Mac%20%C2%B7%20Apple%20%E8%8A%AF%E7%89%87-111111?style=for-the-badge&logo=apple&logoColor=white" alt="下载 Mac 版（Apple 芯片）" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-Windows%20%C2%B7%2064%20%E4%BD%8D-111111?style=for-the-badge" alt="下载 Windows 版（64 位）" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新版本"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 及以上，Apple 芯片">
-  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="在本机翻译">
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 和 11，64 位">
+  <img src="https://img.shields.io/badge/translation-on%20your%20computer-111111?style=flat-square" alt="在本机翻译">
   <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="模型：五个可选">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="许可证：PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -84,7 +86,7 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
   <img src="docs/images/screenshot-dark.png" width="880" alt="深色外观下的 PaperDuet：两边都是第 3 页的 Transformer 结构图，原文和译文上各有一处黄色和绿色高亮，侧栏是中英双语目录">
 </p>
 
-## 五个模型，全在你的 Mac 上
+## 五个模型，全在你的电脑上
 
 第一次打开时选一个，之后随时在“设置 › 模型 › 更换模型”里换。五个都是专门做翻译的模型，下载好以后完全离线运行。
 
@@ -93,7 +95,7 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)**（推荐）** | 哔哩哔哩 Index 团队 | 2.1 GB | 综合最好，PaperDuet 的检查和术语表专门为它调过 |
 | [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.9 GB | 追求速度，最快也最轻 |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻译 NiuTrans | 4.7 GB | 贴近原文的译法 |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 8.0 GB | 中文最通顺，适合 16 GB 以上内存的 Mac |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 8.0 GB | 中文最通顺，适合 16 GB 以上内存的电脑 |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF)（实验性） | Google | 4.1 GB | 想试试 Google 的翻译模型 |
 
 用推荐的模型，15 页的论文在 M5 Pro 上大约 2 分钟译完；在“设置 › 模型”里把“同时翻译几段”调到 2 或 3，大约 1 分钟。
@@ -102,18 +104,26 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
 
 ## 隐私
 
-- 论文、译文和笔记都留在你的 Mac 上。
+- 论文、译文和笔记都留在你的电脑上。
 - 无需注册账号，不收集使用数据。
 - 只在下载模型和检查更新时联网，检查更新也可以关掉。
 
 ## 开始使用
 
-需要 Apple 芯片的 Mac（M1 及以后）和 macOS 13.3 及以上。
+Mac 需要 Apple 芯片（M1 及以后）和 macOS 13.3 及以上；Windows 需要 Windows 10 或 11（64 位）。
+
+**Mac**
 
 1. 从 [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) 下载最新的 `.dmg`。
 2. 把 PaperDuet 拖进“应用程序”，从那里打开。
 3. 仅第一次：PaperDuet 还没有经过 Apple 公证，macOS 会让你确认一下。打开“系统设置 › 隐私与安全性”，点 **仍要打开**。（也可以在终端里运行 `xattr -dr com.apple.quarantine /Applications/PaperDuet.app`。）
 4. 选一个模型。PaperDuet 会下载它，或者直接用你已有的那份，然后马上开始翻译。
+
+**Windows**
+
+1. 从 [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) 下载最新的 Windows 安装程序（`_x64-setup.exe`）。
+2. 运行安装程序。仅第一次：如果 Windows 提示“Windows 已保护你的电脑”，点 **更多信息**，再点 **仍要运行**。
+3. 选一个模型。PaperDuet 会下载它，或者直接用你已有的那份，然后马上开始翻译。
 
 就这么简单。翻译引擎已集成在应用里，支持一键升级。
 
@@ -138,7 +148,7 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
 | 开关同步滚动         | ⌘L                                |
 | 快捷键一览           | ⌘/                                |
 
-H、N、1 到 5 作用于选中的文字。
+H、N、1 到 5 作用于选中的文字。Windows 上用 Ctrl 代替 ⌘，用 Shift 代替 ⇧。
 
 </details>
 
@@ -146,7 +156,7 @@ H、N、1 到 5 作用于选中的文字。
 
 ### 选哪个模型好？
 
-先用 Index-Translate-2B。想要更快，选 Hy-MT2-1.8B；想要最通顺的中文，并且 Mac 有 16 GB 以上内存，选 Hy-MT2-7B。
+先用 Index-Translate-2B。想要更快，选 Hy-MT2-1.8B；想要最通顺的中文，并且电脑有 16 GB 以上内存，选 Hy-MT2-7B。
 
 ### 收费吗？
 

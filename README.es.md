@@ -14,12 +14,14 @@
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Descargar para Mac (Apple silicon)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Windows-64%20bits-111111?style=for-the-badge" alt="Descargar para Windows (64 bits)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Última versión"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 o posterior en Apple silicon">
-  <img src="https://img.shields.io/badge/translation-on%20your%20Mac-111111?style=flat-square" alt="La traducción se hace en tu Mac">
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 y 11, 64 bits">
+  <img src="https://img.shields.io/badge/translation-on%20your%20computer-111111?style=flat-square" alt="La traducción se hace en tu ordenador">
   <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="Modelos: 5 para elegir">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licencia: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -35,7 +37,7 @@
   <sub>Grabación de la traducción completa de Attention Is All You Need (15 páginas)</sub>
 </p>
 
-PaperDuet es un traductor espejo ligero con IA para artículos científicos. Coloca el original y la traducción uno frente al otro, como en un espejo, y corrige y alinea fórmulas, figuras y tablas página a página. Sin registro, sin clave de API, sin pagar nada, ¡y todo funciona en tu Mac!
+PaperDuet es un traductor espejo ligero con IA para artículos científicos. Coloca el original y la traducción uno frente al otro, como en un espejo, y corrige y alinea fórmulas, figuras y tablas página a página. Sin registro, sin clave de API, sin pagar nada, ¡y todo funciona en tu ordenador!
 
 ## Cada página, sin esfuerzo
 
@@ -67,7 +69,7 @@ Resalta, subraya o anota en un lado, y la frase correspondiente del otro lado se
   <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos del artículo, el anillo de progreso de la barra de herramientas se convierte en una marca verde, un globo ofrece guardar la traducción como PDF y un clic la guarda junto al original">
 </p>
 
-La barra de herramientas muestra cómo avanza la traducción. Cuando todo el artículo está traducido, el anillo se convierte en una marca verde y aparece un globo: con un clic, la traducción se guarda como PDF junto al original. Además, puedes elegir entre cinco modelos según tu Mac y lo que necesites.
+La barra de herramientas muestra cómo avanza la traducción. Cuando todo el artículo está traducido, el anillo se convierte en una marca verde y aparece un globo: con un clic, la traducción se guarda como PDF junto al original. Además, puedes elegir entre cinco modelos según tu ordenador y lo que necesites.
 
 ## Y hay más
 
@@ -84,7 +86,7 @@ La barra de herramientas muestra cómo avanza la traducción. Cuando todo el art
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet con apariencia oscura: la página 3 con el diagrama del Transformer en ambos lados, un resaltado amarillo y uno verde en el original y en la traducción, y el índice bilingüe en la barra lateral">
 </p>
 
-## Cinco modelos, todos en tu Mac
+## Cinco modelos, todos en tu ordenador
 
 Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en Ajustes › Modelo › Cambiar de modelo. Todos están hechos para traducir y funcionan totalmente sin conexión una vez descargados.
 
@@ -93,7 +95,7 @@ Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recomendado)** | equipo Index de bilibili | 2.1 GB | El mejor en general, ajustado a las comprobaciones y el glosario de PaperDuet |
 | [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | La velocidad: el más rápido y ligero |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Traducciones fieles al texto original |
-| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Las traducciones más fluidas, en Macs con 16 GB de memoria o más |
+| [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Las traducciones más fluidas, en ordenadores con 16 GB de memoria o más |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Probar el modelo de traducción de Google |
 
 Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en un M5 Pro, o alrededor de 1 minuto con «Párrafos simultáneos» en 2 o 3 en Ajustes › Modelo.
@@ -102,18 +104,26 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 
 ## Privacidad desde el diseño
 
-- Tus artículos, traducciones y notas se quedan en tu Mac.
+- Tus artículos, traducciones y notas se quedan en tu ordenador.
 - No hace falta cuenta y no se recogen datos de uso.
 - PaperDuet solo se conecta para descargar un modelo y buscar actualizaciones, y puedes desactivar esa búsqueda.
 
 ## Primeros pasos
 
-Necesitas un Mac con Apple silicon (M1 o posterior) y macOS 13.3 o posterior.
+En Mac necesitas Apple silicon (M1 o posterior) y macOS 13.3 o posterior; en PC, Windows 10 u 11 de 64 bits.
+
+**Mac**
 
 1. Descarga el `.dmg` más reciente desde [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Arrastra PaperDuet a Aplicaciones y ábrelo desde ahí.
 3. Solo la primera vez: PaperDuet todavía no está notarizado por Apple, así que macOS te pedirá confirmación. Abre Ajustes del Sistema › Privacidad y seguridad y haz clic en **Abrir igualmente**. (O ejecuta `xattr -dr com.apple.quarantine /Applications/PaperDuet.app` en Terminal.)
 4. Elige un modelo. PaperDuet lo descarga, o encuentra la copia que ya tienes, y empieza a traducir enseguida.
+
+**Windows**
+
+1. Descarga el instalador de Windows más reciente (`_x64-setup.exe`) desde [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. Ejecútalo. Solo la primera vez: si Windows muestra «Windows protegió su PC», haz clic en **Más información** y luego en **Ejecutar de todas formas**.
+3. Elige un modelo. PaperDuet lo descarga, o encuentra la copia que ya tienes, y empieza a traducir enseguida.
 
 Eso es todo. El motor de traducción viene integrado en la app y las actualizaciones se hacen con un clic.
 
@@ -138,7 +148,7 @@ Eso es todo. El motor de traducción viene integrado en la app y las actualizaci
 | Activar o desactivar el desplazamiento sincronizado | ⌘L |
 | Todos los atajos | ⌘/ |
 
-H, N y 1 a 5 actúan sobre el texto seleccionado.
+H, N y 1 a 5 actúan sobre el texto seleccionado. En Windows, Ctrl sustituye a ⌘ y Mayús a ⇧.
 
 </details>
 
@@ -146,7 +156,7 @@ H, N y 1 a 5 actúan sobre el texto seleccionado.
 
 ### ¿Qué modelo elijo?
 
-Empieza con Index-Translate-2B. Si quieres más velocidad, elige Hy-MT2-1.8B. Para las traducciones más fluidas en un Mac con 16 GB de memoria o más, elige Hy-MT2-7B.
+Empieza con Index-Translate-2B. Si quieres más velocidad, elige Hy-MT2-1.8B. Para las traducciones más fluidas en un ordenador con 16 GB de memoria o más, elige Hy-MT2-7B.
 
 ### ¿Es gratis?
 
