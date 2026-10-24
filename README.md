@@ -78,6 +78,8 @@ The toolbar shows the translation progress. When the whole paper is done, the ri
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep the original.
 - **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
+- **Your library, with AI search.** Every paper you read or import is in the library. AI Search finds one again by its title, text, translation or summary, in English or Chinese, and AI Organize sorts papers by field and topic.
+- **A summary of every paper.** Once a paper is translated, click the light bulb: the translation model writes a short summary in your interface language and keeps it with the paper.
 - **Export anywhere.** The original PDF with your marks, the translated PDF and your notes as Markdown, all readable in other apps too.
 - **One-click updates.** Updating is easy: one click installs the new version.
 - **Made to look good.** A clean, beautiful glass design, with light, dark and night reading modes.

@@ -78,6 +78,8 @@ Die Symbolleiste zeigt den Fortschritt der Übersetzung. Ist der ganze Artikel f
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
 - **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
 - **Lies, wie du willst.** Durchsuche Original und Übersetzung gleichzeitig, blättere im zweisprachigen Inhaltsverzeichnis, zeige auf einen Absatz, um sein Gegenstück zu finden, und lass dir das Original, die Übersetzung oder beides anzeigen. PaperDuet merkt sich, wo du aufgehört hast.
+- **Deine Bibliothek, mit KI-Suche.** Alle gelesenen und importierten Artikel liegen in der Bibliothek. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung wieder, auf Deutsch wie auf Englisch, und „Mit KI ordnen“ sortiert nach Fachgebiet und Thema.
+- **Eine Zusammenfassung zu jedem Artikel.** Ist ein Artikel übersetzt, klick auf die Glühbirne: Das Übersetzungsmodell schreibt eine kurze Zusammenfassung in der Sprache der Oberfläche und speichert sie mit dem Artikel.
 - **Exportiere, wohin du willst.** Das Original-PDF mit deinen Markierungen, das übersetzte PDF und deine Notizen als Markdown, die sich auch in anderen Apps öffnen lassen.
 - **Updates mit einem Klick.** Aktualisieren ist einfach: Ein Klick installiert die neue Version.
 - **Schön anzusehen.** Ein klares Glas-Design mit hellem, dunklem und Nachtlese-Modus.

@@ -86,13 +86,21 @@
     window.addEventListener("pageshow", function () { document.body.classList.remove("leaving"); });
   }
 
-  // Download buttons go straight to the newest .dmg, and show its version.
+  // Download buttons go straight to the newest installer (.dmg for Mac, .exe for Windows; the one in the
+  // top bar follows the visitor's system), and show its version.
+  var onWindows = /Windows/i.test(navigator.userAgent);
   fetch("https://api.github.com/repos/KalenHwei/PaperDuet/releases/latest")
     .then(function (r) { return r.ok ? r.json() : null; })
     .then(function (rel) {
       if (!rel) return;
-      var dmg = (rel.assets || []).filter(function (a) { return /\.dmg$/.test(a.name); })[0];
-      if (dmg) document.querySelectorAll(".js-dl").forEach(function (a) { a.href = dmg.browser_download_url; });
+      var find = function (re) { return (rel.assets || []).filter(function (a) { return re.test(a.name); })[0]; };
+      var dmg = find(/\.dmg$/), exe = find(/_x64-setup\.exe$/);
+      var point = function (sel, asset) {
+        if (asset) document.querySelectorAll(sel).forEach(function (a) { a.href = asset.browser_download_url; });
+      };
+      point(".js-dl", dmg);
+      point(".js-dl-win", exe);
+      point(".js-dl-auto", onWindows ? exe : dmg);
       document.querySelectorAll(".js-ver").forEach(function (s) { s.textContent = " · " + rel.tag_name; });
     })
     .catch(function () {});

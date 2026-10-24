@@ -78,6 +78,8 @@ La barra de herramientas muestra cómo avanza la traducción. Cuando todo el art
 - **Controles de calidad integrados.** Se revisan las fórmulas, los números y el orden de las frases en cada respuesta, con reintentos automáticos, y un glosario propio de cada artículo mantiene los términos coherentes.
 - **Tú decides qué se traduce.** Haz clic derecho en cualquier bloque para traducirlo o dejar el original.
 - **Lee como prefieras.** Busca en el original y la traducción a la vez, recorre un índice bilingüe, señala un párrafo para encontrar su gemelo y muestra el original, la traducción o ambos. PaperDuet recuerda dónde lo dejaste.
+- **Tu biblioteca, con búsqueda con IA.** Todos los artículos que lees o importas están en la biblioteca. La búsqueda con IA encuentra un artículo por su título, texto, traducción o resumen, en español o en inglés, y «Organizar con IA» los ordena por campo y tema.
+- **Un resumen de cada artículo.** Cuando un artículo está traducido, haz clic en la bombilla: el modelo de traducción escribe un resumen breve en el idioma de la interfaz y lo guarda con el artículo.
 - **Exporta adonde quieras.** El PDF original con tus marcas, el PDF traducido y tus notas en Markdown, que también se abren en otras apps.
 - **Actualizaciones en un clic.** Actualizar es fácil: un clic instala la versión nueva.
 - **Cuidado hasta el último detalle.** Un diseño limpio de cristal esmerilado, con modos claro, oscuro y de lectura nocturna.
