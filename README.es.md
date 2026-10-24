@@ -170,6 +170,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.4** (2026-10-24): Interfaz más limpia: se quitan los textos de explicación innecesarios; el campo de búsqueda con IA muestra «Buscar con IA».
 - **0.5.3** (2026-10-24): PaperDuet pregunta una vez si quieres compartir datos anónimos de uso y diagnóstico para mejorarlo; nunca el contenido de los artículos, y se puede desactivar en Ajustes › Datos.
 - **0.5.2** (2026-10-24): «Búsqueda con IA» 🔍 en la biblioteca: encuentra artículos leídos por título, texto original, traducción, resumen o etiquetas, en español o en inglés; la búsqueda y «Organizar con IA» suben los artículos encontrados y ponen en gris los demás.
 - **0.5.1** (2026-10-24): una biblioteca en lugar del panel de archivos, con todos los artículos leídos o importados, que se renombran ahí mismo y tienen su resumen; importación de varios PDF o de una carpeta entera; «Organizar con IA» ✨ filtra los artículos por campo y tema; correcciones de tablas ilegibles y de párrafos sin traducir en algunos artículos.

@@ -170,6 +170,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.4** (2026-10-24): a cleaner interface without the extra explanatory text; the AI search field now reads "Search with AI".
 - **0.5.3** (2026-10-24): PaperDuet now asks once whether you'd like to share anonymous usage and diagnostic data to help improve it; never paper content, and you can turn it off anytime in Settings › Data.
 - **0.5.2** (2026-10-24): AI Search 🔍 in the library finds papers you've read by title, original text, translation, summary or tags, in English or Chinese; search and AI Organize move the papers found to the top and grey out the rest.
 - **0.5.1** (2026-10-24): a library in place of the folder panel, with every paper read or imported, renamed in place and summarised; import many PDFs or a whole folder; AI Organize ✨ filters papers by field and topic; fixes for garbled tables and paragraphs that failed to translate in some papers.

@@ -170,6 +170,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.4** (2026-10-24): Schlankere Oberfläche: überflüssige Erklärtexte sind weg; das KI-Suchfeld zeigt „Mit KI durchsuchen“.
 - **0.5.3** (2026-10-24): PaperDuet fragt einmal, ob du anonyme Nutzungs- und Diagnosedaten teilen möchtest, um die App zu verbessern; nie Inhalte von Artikeln, jederzeit abschaltbar unter Einstellungen › Daten.
 - **0.5.2** (2026-10-24): „KI-Suche“ 🔍 in der Bibliothek findet gelesene Paper über Titel, Originaltext, Übersetzung, Zusammenfassung oder Schlagwörter, auf Deutsch wie auf Englisch; Suche und „Mit KI ordnen“ holen die Treffer nach oben und machen die übrigen grau.
 - **0.5.1** (2026-10-24): eine Bibliothek statt des Ordnerbereichs, mit allen gelesenen und importierten Papern, direkt umbenennbar und mit Zusammenfassung; Import mehrerer PDFs oder ganzer Ordner; „Mit KI ordnen“ ✨ filtert nach Fachgebiet und Thema; Korrekturen für zerstückelte Tabellen und nicht übersetzte Absätze in manchen Papern.

@@ -6,6 +6,18 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.4] - 2026-10-24
+
+### Changed
+
+- Explanatory hints are gone from the interface: the line under AI Organize,
+  the tooltips of the library and its search, the hints under import and
+  export menu items and the right-click block menu, the empty-panel hints and
+  most of the notes under settings. Settings notes that matter for a choice
+  (model memory, temperature, context, clearing translations, the license)
+  stay.
+- The AI search field reads "Search with AI".
+
 ## [0.5.3] - 2026-10-24
 
 ### Added
@@ -229,7 +241,8 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.5.3...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.5.4...HEAD
+[0.5.4]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.4
 [0.5.3]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.3
 [0.5.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.2
 [0.5.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.1
