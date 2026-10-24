@@ -6,6 +6,24 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.2] - 2026-10-24
+
+### Added
+
+- AI Search at the top of the library, above AI Organize. It finds papers
+  read before by their title, original text, translations, summaries and
+  tags. With a translation model ready, the query is also put into the other
+  language (a query in English into the translation language, any other into
+  English), so a Chinese query finds the English original and the reverse.
+  Under each paper found, a line shows where it was found, with the words
+  marked. Enter opens the first paper, Escape clears the search.
+
+### Changed
+
+- Searching and choosing tags in AI Organize reorder the library instead of
+  hiding papers: the papers found move to the top, the others move below and
+  turn grey, with a short animation.
+
 ## [0.5.1] - 2026-10-24
 
 ### Added
@@ -198,7 +216,10 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.4.1...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.5.2...HEAD
+[0.5.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.2
+[0.5.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.1
+[0.5.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.0
 [0.4.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.4.1
 [0.4.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.4.0
 [0.3.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.3.2
