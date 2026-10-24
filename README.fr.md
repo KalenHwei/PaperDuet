@@ -107,8 +107,8 @@ Vous avez déjà l'un de ces modèles grâce à LM Studio, llama.cpp ou Hugging 
 ## La confidentialité dès la conception
 
 - Vos articles, traductions et notes restent sur votre ordinateur.
-- Aucun compte requis, et aucune donnée d'utilisation n'est collectée.
-- PaperDuet ne se connecte que pour télécharger un modèle et vérifier les mises à jour, et vous pouvez désactiver cette vérification.
+- Aucun compte requis. Seulement si vous l'acceptez, PaperDuet envoie des données d'utilisation et de diagnostic anonymes (version, système, langue de l'interface, modèle et types d'erreurs), jamais le contenu des articles, et vous pouvez les désactiver à tout moment dans les réglages.
+- PaperDuet ne se connecte que pour télécharger un modèle, vérifier les mises à jour et envoyer ces données ; vous pouvez désactiver les deux derniers.
 
 ## Pour commencer
 
@@ -170,6 +170,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.3** (2026-10-24) : PaperDuet demande une fois si vous acceptez de partager des données d'utilisation et de diagnostic anonymes pour l'améliorer ; jamais le contenu des articles, et désactivable à tout moment dans Réglages › Données.
 - **0.5.2** (2026-10-24) : « Recherche IA » 🔍 dans la bibliothèque : retrouvez un article lu par son titre, son texte original, sa traduction, son résumé ou ses étiquettes, en français comme en anglais ; la recherche et « Organiser avec l’IA » font remonter les articles trouvés et grisent les autres.
 - **0.5.1** (2026-10-24) : une bibliothèque remplace le panneau des fichiers : tous les articles lus ou importés, à renommer sur place, avec leur résumé ; import de plusieurs PDF ou d'un dossier entier ; « Organiser avec l'IA » ✨ filtre les articles par domaine et par sujet ; corrections des tableaux illisibles et des paragraphes non traduits dans certains articles.
 - **0.5.0** (2026-10-24) : résumé de l'article 💡 derrière l'ampoule une fois tout traduit ; le panneau des fichiers ouvre son dossier en un clic ; version Windows.

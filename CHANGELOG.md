@@ -6,6 +6,19 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.3] - 2026-10-24
+
+### Added
+
+- PaperDuet asks once, after a paper is open and the model is ready, whether
+  you would like to share anonymous usage and diagnostic data to help improve
+  it. Only after you agree, at most one record a day is sent: the version, the
+  system, the interface language, the model, the kinds of errors and how often
+  they happened, and a random install ID that tells computers apart. Never
+  paper content, file names or personal information. "See exactly what" in the
+  card lists the values from your computer, and Settings › Data turns sharing
+  on or off.
+
 ## [0.5.2] - 2026-10-24
 
 ### Added
@@ -216,7 +229,8 @@ First release, for Apple silicon Macs with macOS 13.3 or later.
   of the software inside the app (collected at build time into
   `THIRD_PARTY_NOTICES.txt`).
 
-[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.5.2...HEAD
+[Unreleased]: https://github.com/KalenHwei/PaperDuet/compare/v0.5.3...HEAD
+[0.5.3]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.3
 [0.5.2]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.2
 [0.5.1]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.1
 [0.5.0]: https://github.com/KalenHwei/PaperDuet/releases/tag/v0.5.0

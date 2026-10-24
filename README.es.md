@@ -107,8 +107,8 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 ## Privacidad desde el diseño
 
 - Tus artículos, traducciones y notas se quedan en tu ordenador.
-- No hace falta cuenta y no se recogen datos de uso.
-- PaperDuet solo se conecta para descargar un modelo y buscar actualizaciones, y puedes desactivar esa búsqueda.
+- No hace falta cuenta. Solo si aceptas, PaperDuet envía datos anónimos de uso y diagnóstico (versión, sistema, idioma de la interfaz, modelo y tipos de errores), nunca el contenido de los artículos, y puedes desactivarlo cuando quieras en los ajustes.
+- PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos; puedes desactivar los dos últimos.
 
 ## Primeros pasos
 
@@ -170,6 +170,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.3** (2026-10-24): PaperDuet pregunta una vez si quieres compartir datos anónimos de uso y diagnóstico para mejorarlo; nunca el contenido de los artículos, y se puede desactivar en Ajustes › Datos.
 - **0.5.2** (2026-10-24): «Búsqueda con IA» 🔍 en la biblioteca: encuentra artículos leídos por título, texto original, traducción, resumen o etiquetas, en español o en inglés; la búsqueda y «Organizar con IA» suben los artículos encontrados y ponen en gris los demás.
 - **0.5.1** (2026-10-24): una biblioteca en lugar del panel de archivos, con todos los artículos leídos o importados, que se renombran ahí mismo y tienen su resumen; importación de varios PDF o de una carpeta entera; «Organizar con IA» ✨ filtra los artículos por campo y tema; correcciones de tablas ilegibles y de párrafos sin traducir en algunos artículos.
 - **0.5.0** (2026-10-24): resumen del artículo 💡 tras la bombilla cuando todo está traducido; el panel de archivos abre su carpeta con un clic; versión para Windows.

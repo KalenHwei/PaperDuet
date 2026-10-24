@@ -107,8 +107,8 @@ Already have one of these models from LM Studio, llama.cpp or Hugging Face? Pape
 ## Private by design
 
 - Your papers, translations and notes stay on your computer.
-- No account needed, and no usage data is collected.
-- PaperDuet goes online only to download a model and to check for updates, and you can turn the update check off.
+- No account needed. Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
+- PaperDuet goes online only to download a model, to check for updates and to send that data; you can turn off the last two.
 
 ## Get started
 
@@ -170,6 +170,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.3** (2026-10-24): PaperDuet now asks once whether you'd like to share anonymous usage and diagnostic data to help improve it; never paper content, and you can turn it off anytime in Settings › Data.
 - **0.5.2** (2026-10-24): AI Search 🔍 in the library finds papers you've read by title, original text, translation, summary or tags, in English or Chinese; search and AI Organize move the papers found to the top and grey out the rest.
 - **0.5.1** (2026-10-24): a library in place of the folder panel, with every paper read or imported, renamed in place and summarised; import many PDFs or a whole folder; AI Organize ✨ filters papers by field and topic; fixes for garbled tables and paragraphs that failed to translate in some papers.
 - **0.5.0** (2026-10-24): a paper summary 💡 behind the light bulb once the whole paper is translated; the folder panel opens its folder in one click; a Windows version.
