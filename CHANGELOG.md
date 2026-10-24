@@ -6,6 +6,45 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-10-24
+
+### Added
+
+- Library. The folder panel is now a list of every paper read or imported,
+  most recent first. A paper opens to its translations (language and
+  progress), and a translation opens the paper in that language, both sides.
+  A paper is called by its title; the pencil renames it in place and the
+  light bulb shows its summary. Right-click shows the file in Finder (File
+  Explorer on Windows) or removes the paper from the list.
+- Import button next to the panel buttons: several PDFs at once, or a folder
+  with its sub-folders. PDFs or folders dropped on the window are imported
+  too. Imported papers are analysed in the background and translated once
+  they are opened; the same file twice is one paper.
+- AI Organize at the top of the library. Each paper gets a field and, for AI
+  papers, a subfield from fixed lists, plus a few topics (the paper's own
+  keywords, its arXiv category when it has one, and the translation model's
+  reading). Choosing tags shows only the papers that have all of them.
+
+### Changed
+
+- Summaries, in the toolbar and in the library, are written in the interface
+  language.
+- The toolbar shows the paper's name instead of the file name.
+
+### Fixed
+
+- Tables set in fonts with tall line metrics (Charis SIL and the like) no
+  longer run their rows together, and their cells keep the original. Tables
+  labelled "Table 3" on a line of its own are recognised.
+- A raised character such as the 2 of R² no longer lands in the line above,
+  which made the paragraph fail to translate.
+- On two-column pages whose left column is mostly a table, the right column
+  stays in whole paragraphs.
+- A sentence the model cannot translate faithfully stays in English inside
+  its translated paragraph, instead of the whole paragraph staying in English.
+- A section number such as "4.2." at the start of a translated heading keeps
+  its dot.
+
 ## [0.5.0] - 2026-10-24
 
 ### Added

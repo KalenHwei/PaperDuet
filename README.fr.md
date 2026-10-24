@@ -168,6 +168,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.1** (2026-10-24) : une bibliothèque remplace le panneau des fichiers : tous les articles lus ou importés, à renommer sur place, avec leur résumé ; import de plusieurs PDF ou d'un dossier entier ; « Organiser avec l'IA » ✨ filtre les articles par domaine et par sujet ; corrections des tableaux illisibles et des paragraphes non traduits dans certains articles.
 - **0.5.0** (2026-10-24) : résumé de l'article 💡 derrière l'ampoule une fois tout traduit ; le panneau des fichiers ouvre son dossier en un clic ; version Windows.
 - **0.4.1** (2026-10-23) : descriptions plus claires dans la liste des modèles et dans les réglages.
 - **0.4.0** (2026-10-23) : l'interface existe en 9 langues. Par défaut, elle suit la langue du système ; on la change dans Réglages › Apparence › Langue de l’interface.
