@@ -168,6 +168,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.0** (2026-10-24): a paper summary 💡 behind the light bulb once the whole paper is translated; the folder panel opens its folder in one click; a Windows version.
 - **0.4.1** (2026-10-23): clearer descriptions in the model list and in Settings.
 - **0.4.0** (2026-10-23): the interface comes in 9 languages. It follows your system language by default, and you can switch it in Settings › Appearance › Interface Language.
 - **0.3.2** (2026-10-23): further alignment fixes when translating into other languages.

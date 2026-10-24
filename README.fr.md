@@ -168,6 +168,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.0** (2026-10-24) : résumé de l'article 💡 derrière l'ampoule une fois tout traduit ; le panneau des fichiers ouvre son dossier en un clic ; version Windows.
 - **0.4.1** (2026-10-23) : descriptions plus claires dans la liste des modèles et dans les réglages.
 - **0.4.0** (2026-10-23) : l'interface existe en 9 langues. Par défaut, elle suit la langue du système ; on la change dans Réglages › Apparence › Langue de l’interface.
 - **0.3.2** (2026-10-23) : nouvelles corrections de l'alignement lors de la traduction vers d'autres langues.

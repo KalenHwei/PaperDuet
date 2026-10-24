@@ -168,6 +168,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.0** (2026-10-24): Zusammenfassung des Artikels 💡 hinter der Glühbirne, sobald alles übersetzt ist; der Dateibereich öffnet seinen Ordner mit einem Klick; Windows-Version.
 - **0.4.1** (2026-10-23): klarere Beschreibungen in der Modellliste und in den Einstellungen.
 - **0.4.0** (2026-10-23): die Oberfläche gibt es in 9 Sprachen. Standardmäßig folgt sie der Systemsprache; umstellen lässt sie sich unter Einstellungen › Darstellung › Sprache der Oberfläche.
 - **0.3.2** (2026-10-23): weitere Korrekturen an der Ausrichtung beim Übersetzen in andere Sprachen.

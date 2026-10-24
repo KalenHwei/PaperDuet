@@ -6,6 +6,22 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-10-24
+
+### Added
+
+- Paper summary. Once the whole paper is translated, a light bulb appears next
+  to the progress ring. It opens a short summary written by the translation
+  model in the language of the translation: the field and subfield, the
+  question, the method and experiments, what the results show and the
+  conclusion. The summary is kept with the paper, and Regenerate asks the
+  model again.
+- A folder button in the folder panel, next to Refresh, opens the folder in
+  Finder (File Explorer on Windows).
+- Windows version (Windows 10 and 11, 64-bit), with an installer. A dedicated
+  graphics card (NVIDIA or AMD) is used through Vulkan; without one,
+  PaperDuet asks before translating on the CPU.
+
 ## [0.4.1] - 2026-10-23
 
 ### Changed

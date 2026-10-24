@@ -168,6 +168,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.0** (2026-10-24): resumen del artículo 💡 tras la bombilla cuando todo está traducido; el panel de archivos abre su carpeta con un clic; versión para Windows.
 - **0.4.1** (2026-10-23): descripciones más claras en la lista de modelos y en los ajustes.
 - **0.4.0** (2026-10-23): la interfaz está en 9 idiomas. Por defecto sigue el idioma del sistema, y se cambia en Ajustes › Aspecto › Idioma de la interfaz.
 - **0.3.2** (2026-10-23): más correcciones de alineación al traducir a otros idiomas.
