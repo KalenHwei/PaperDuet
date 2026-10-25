@@ -30,7 +30,7 @@
 <p align="center">
   <strong>PaperDuet est un traducteur miroir IA léger pour les articles, qui conserve la mise en page d'origine.</strong><br>
   Cinq modèles de traduction IA open source au choix.<br>
-  Sans inscription, gratuit, entièrement en local !
+  Gratuit, entièrement en local !
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
 </p>
 
-PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. Pas d'inscription, pas de clé d'API, rien à payer, et tout tourne sur votre ordinateur !
+PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. Pas de clé d'API, rien à payer, et tout tourne sur votre ordinateur !
 
 ## Chaque page, sans effort
 
@@ -116,7 +116,7 @@ Vous avez déjà l'un de ces modèles grâce à LM Studio, llama.cpp ou Hugging 
 ## La confidentialité dès la conception
 
 - Vos articles, traductions et notes restent sur votre ordinateur.
-- Aucun compte requis. Seulement si vous l'acceptez, PaperDuet envoie des données d'utilisation et de diagnostic anonymes (version, système, langue de l'interface, modèle et types d'erreurs), jamais le contenu des articles, et vous pouvez les désactiver à tout moment dans les réglages.
+- Seulement si vous l'acceptez, PaperDuet envoie des données d'utilisation et de diagnostic anonymes (version, système, langue de l'interface, modèle et types d'erreurs), jamais le contenu des articles, et vous pouvez les désactiver à tout moment dans les réglages.
 - PaperDuet ne se connecte que pour télécharger un modèle, vérifier les mises à jour et envoyer ces données ; vous pouvez désactiver les deux derniers.
 
 ## Pour commencer

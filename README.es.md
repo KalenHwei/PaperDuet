@@ -30,7 +30,7 @@
 <p align="center">
   <strong>PaperDuet es un traductor espejo ligero con IA para artículos que conserva el formato original.</strong><br>
   Cinco modelos de traducción con IA de código abierto para elegir.<br>
-  Sin registro, sin pagar, ¡todo en local!
+  Sin pagar, ¡todo en local!
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <sub>Grabación de la traducción completa de Attention Is All You Need (15 páginas)</sub>
 </p>
 
-PaperDuet es un traductor espejo ligero con IA para artículos científicos. Coloca el original y la traducción uno frente al otro, como en un espejo, y corrige y alinea fórmulas, figuras y tablas página a página. Sin registro, sin clave de API, sin pagar nada, ¡y todo funciona en tu ordenador!
+PaperDuet es un traductor espejo ligero con IA para artículos científicos. Coloca el original y la traducción uno frente al otro, como en un espejo, y corrige y alinea fórmulas, figuras y tablas página a página. Sin clave de API, sin pagar nada, ¡y todo funciona en tu ordenador!
 
 ## Cada página, sin esfuerzo
 
@@ -116,7 +116,7 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 ## Privacidad desde el diseño
 
 - Tus artículos, traducciones y notas se quedan en tu ordenador.
-- No hace falta cuenta. Solo si aceptas, PaperDuet envía datos anónimos de uso y diagnóstico (versión, sistema, idioma de la interfaz, modelo y tipos de errores), nunca el contenido de los artículos, y puedes desactivarlo cuando quieras en los ajustes.
+- Solo si aceptas, PaperDuet envía datos anónimos de uso y diagnóstico (versión, sistema, idioma de la interfaz, modelo y tipos de errores), nunca el contenido de los artículos, y puedes desactivarlo cuando quieras en los ajustes.
 - PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos; puedes desactivar los dos últimos.
 
 ## Primeros pasos

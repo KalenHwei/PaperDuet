@@ -30,7 +30,7 @@
 <p align="center">
   <strong>PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel, der das ursprüngliche Layout beibehält.</strong><br>
   Fünf Open-Source-KI-Übersetzungsmodelle zur Auswahl.<br>
-  Keine Anmeldung, keine Kosten, komplett lokal!
+  Keine Kosten, komplett lokal!
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
 </p>
 
-PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Keine Registrierung, kein API-Schlüssel, keine Kosten, und alles läuft auf deinem Computer!
+PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Kein API-Schlüssel, keine Kosten, und alles läuft auf deinem Computer!
 
 ## Jede Seite, ganz einfach
 
@@ -116,7 +116,7 @@ Du hast eines dieser Modelle schon über LM Studio, llama.cpp oder Hugging Face?
 ## Privatsphäre von Anfang an
 
 - Deine Artikel, Übersetzungen und Notizen bleiben auf deinem Computer.
-- Kein Konto nötig. Nur wenn du zustimmst, sendet PaperDuet anonyme Nutzungs- und Diagnosedaten (Version, System, Sprache der Oberfläche, Modell und Arten von Fehlern), nie Inhalte von Artikeln, und du kannst das jederzeit in den Einstellungen abschalten.
+- Nur wenn du zustimmst, sendet PaperDuet anonyme Nutzungs- und Diagnosedaten (Version, System, Sprache der Oberfläche, Modell und Arten von Fehlern), nie Inhalte von Artikeln, und du kannst das jederzeit in den Einstellungen abschalten.
 - PaperDuet geht nur online, um ein Modell herunterzuladen, nach Updates zu suchen und diese Daten zu senden; die letzten beiden lassen sich abschalten.
 
 ## Los geht's

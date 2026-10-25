@@ -30,7 +30,7 @@
 <p align="center">
   <strong>PaperDuet is a lightweight AI mirror translator for papers that keeps the original layout.</strong><br>
   Five open-source AI translation models to choose from.<br>
-  No sign-in, no fees, fully local!
+  No fees, fully local!
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
   <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
 </p>
 
-PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No sign-up, no API key, no fees, and it runs entirely on your computer!
+PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No API key, no fees, and it runs entirely on your computer!
 
 ## Every page, made easy
 
@@ -116,7 +116,7 @@ Already have one of these models from LM Studio, llama.cpp or Hugging Face? Pape
 ## Private by design
 
 - Your papers, translations and notes stay on your computer.
-- No account needed. Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
+- Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
 - PaperDuet goes online only to download a model, to check for updates and to send that data; you can turn off the last two.
 
 ## Get started
