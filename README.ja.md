@@ -5,7 +5,8 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>研究者のための、軽量な論文 AI 翻訳ツール！</em>
+  <em>研究者のための、軽量な論文 AI 翻訳ツール！</em><br>
+  <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
 <p align="center">

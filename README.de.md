@@ -5,7 +5,8 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Ein schlanker KI-Übersetzer für Fachartikel, gemacht für Forschende!</em>
+  <em>Ein schlanker KI-Übersetzer für Fachartikel, gemacht für Forschende!</em><br>
+  <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
 <p align="center">

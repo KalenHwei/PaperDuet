@@ -5,7 +5,8 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>¡Un traductor ligero de artículos con IA, hecho para investigadores!</em>
+  <em>¡Un traductor ligero de artículos con IA, hecho para investigadores!</em><br>
+  <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
 <p align="center">

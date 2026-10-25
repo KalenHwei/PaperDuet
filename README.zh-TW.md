@@ -5,7 +5,8 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>專為研究人員打造的輕量化論文 AI 翻譯器！</em>
+  <em>專為研究人員打造的輕量化論文 AI 翻譯器！</em><br>
+  <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
 <p align="center">
