@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste chinesisch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
+  <img src="docs/images/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
   <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
 </p>
 
@@ -43,7 +43,7 @@ PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und
 ## Jede Seite, ganz einfach
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Chinesisch ersetzt">
+  <img src="docs/images/de/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Deutsch ersetzt">
 </p>
 
 Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scrollen und zoomen gemeinsam. Spalten, Überschriften, Bildunterschriften, Fußnoten und Literaturangaben werden automatisch erkannt, und Absätze, die in der nächsten Spalte oder auf der nächsten Seite weitergehen, werden zusammengeführt. Beide Seiten stehen exakt nebeneinander, das macht den Vergleich leicht.
@@ -51,7 +51,7 @@ Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scr
 ## Speichern? Zusammenfassen? Erledigt.
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
+  <img src="docs/images/de/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
 </p>
 
 Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF neben dem Original. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus fünf Modellen, passend zu deinem Computer und deinen Ansprüchen.
@@ -59,7 +59,7 @@ Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel üb
 ## Denken. Finden.
 
 <p align="center">
-  <img src="docs/images/library.gif" width="880" alt="Eine Bibliothek mit einigen Dutzend Artikeln; in „Mit KI ordnen“ werden ein Fachgebiet und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringt eine KI-Suche die passenden Artikel nach oben, mit Auszügen aus Text und Zusammenfassung">
+  <img src="docs/images/de/library.gif" width="880" alt="Eine Bibliothek mit über fünfzig Artikeln; in „Mit KI ordnen“ werden „Computer Vision“ und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringen die KI-Suchen „Polypen Segmentierung“ und „Lernen durch Verstärkung“ die passenden englischen Artikel nach oben, mit Auszügen aus ihrer Zusammenfassung">
 </p>
 
 Alle Artikel, die du gelesen hast, liegen in der Bibliothek. „Mit KI ordnen“ versieht sie mit Schlagwörtern zu Fachgebiet und Thema, und die gewählten rücken nach oben. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung, auf Deutsch wie auf Englisch.
@@ -67,7 +67,7 @@ Alle Artikel, die du gelesen hast, liegen in der Bibliothek. „Mit KI ordnen“
 ## Nicht verstanden? Einfach klicken.
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="Während die ersten Seiten übersetzt werden, geht es hinunter zu Abschnitt 6.3 auf Seite 9, noch auf Englisch; ein Doppelklick auf den ersten Absatz zieht ihn vor, und er erscheint sofort auf Chinesisch">
+  <img src="docs/images/de/double-click.gif" width="880" alt="Während die ersten Seiten übersetzt werden, geht es hinunter zu Abschnitt 6.3 auf Seite 9, noch auf Englisch; ein Doppelklick auf den ersten Absatz zieht ihn vor, und er erscheint sofort auf Chinesisch">
 </p>
 
 Zuerst werden die Überschriften übersetzt, damit du den Aufbau sofort siehst; dann Titel, Abstract und Einleitung. Du willst eine spätere Stelle jetzt lesen? Doppelklick darauf, und sie kommt sofort dran, ohne auf den Fortschritt zu warten.
@@ -75,7 +75,7 @@ Zuerst werden die Überschriften übersetzt, damit du den Aufbau sofort siehst; 
 ## Notizen? Kein Problem.
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="In der chinesischen Übersetzung wird eine Stelle markiert und mit einer Notiz versehen; der passende englische Satz links bekommt dieselbe Markierung. Danach wird das Original-PDF mit Notizen exportiert und in Vorschau geöffnet, wo die Markierung zu sehen ist">
+  <img src="docs/images/de/highlights.gif" width="880" alt="In der deutschen Übersetzung wird ein Satz markiert und mit einer Notiz versehen; der passende englische Satz links bekommt dieselbe Markierung und öffnet dieselbe Notiz. Danach wird das Original-PDF mit Notizen exportiert und in Vorschau geöffnet, wo Markierung und Notiz zu sehen sind">
 </p>
 
 Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden Sätze im Original werden mitmarkiert. Das Original-PDF mit deinen Notizen wird mit Standard-PDF-Anmerkungen exportiert und ist in Vorschau, Zotero und anderen Apps zu sehen.

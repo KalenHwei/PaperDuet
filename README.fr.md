@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en chinois, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
+  <img src="docs/images/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
   <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
 </p>
 
@@ -43,7 +43,7 @@ PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il
 ## Chaque page, sans effort
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du chinois à droite">
+  <img src="docs/images/fr/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du français à droite">
 </p>
 
 L'article original est à gauche, sa traduction à droite, et les deux côtés défilent et zooment ensemble. Colonnes, titres, légendes, notes de bas de page et références sont reconnus automatiquement, et les paragraphes qui continuent dans la colonne ou la page suivante sont recollés. Les deux côtés sont parfaitement alignés, ce qui rend la comparaison facile.
@@ -51,7 +51,7 @@ L'article original est à gauche, sa traduction à droite, et les deux côtés d
 ## Enregistrer ? Résumer ? C'est fait.
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
+  <img src="docs/images/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
 </p>
 
 La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF à côté de l'original. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi cinq modèles selon votre ordinateur et vos besoins.
@@ -59,7 +59,7 @@ La barre d'outils indique où en est la traduction. Une fois l'article entièrem
 ## Pensez-y. Trouvez-le.
 
 <p align="center">
-  <img src="docs/images/library.gif" width="880" alt="Une bibliothèque de plusieurs dizaines d'articles ; dans « Organiser avec l'IA », le choix d'un domaine et d'un sujet fait remonter les articles concernés et grise les autres. Puis une recherche IA place en tête les articles correspondants, avec des extraits de leur texte et de leur résumé">
+  <img src="docs/images/fr/library.gif" width="880" alt="Une bibliothèque de plus de cinquante articles ; dans « Organiser avec l'IA », le choix de « Vision par ordinateur » et d'un sujet fait remonter les articles concernés et grise les autres. Puis les recherches IA « segmentation des polypes » et « apprentissage par renforcement » placent en tête les articles anglais correspondants, avec des extraits de leur résumé">
 </p>
 
 Tous les articles que vous avez lus sont dans la bibliothèque. « Organiser avec l'IA » les étiquette par domaine et par sujet, et ceux que vous choisissez remontent en tête. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais.
@@ -67,7 +67,7 @@ Tous les articles que vous avez lus sont dans la bibliothèque. « Organiser ave
 ## Un passage vous échappe ? Cliquez.
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="Pendant que les premières pages se traduisent, on descend jusqu'à la section 6.3, page 9, encore en anglais ; un double-clic sur son premier paragraphe la fait passer devant et elle apparaît aussitôt en chinois">
+  <img src="docs/images/fr/double-click.gif" width="880" alt="Pendant que les premières pages se traduisent, on descend jusqu'à la section 6.3, page 9, encore en anglais ; un double-clic sur son premier paragraphe la fait passer devant et elle apparaît aussitôt en chinois">
 </p>
 
 Les titres de section sont traduits d'abord, pour voir tout de suite la structure de l'article ; puis le titre, le résumé et l'introduction. Envie de lire un passage plus loin ? Double-cliquez dessus : il passe devant, sans attendre que la progression y arrive.
@@ -75,7 +75,7 @@ Les titres de section sont traduits d'abord, pour voir tout de suite la structur
 ## Des notes ? C'est parti.
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="Un passage de la traduction chinoise est sélectionné et annoté ; la phrase anglaise correspondante, à gauche, reçoit la même marque. Le PDF original annoté est ensuite exporté et ouvert dans Aperçu, où la marque apparaît">
+  <img src="docs/images/fr/highlights.gif" width="880" alt="Une phrase de la traduction française est sélectionnée et annotée ; la phrase anglaise correspondante, à gauche, reçoit la même marque et ouvre la même note. Le PDF original annoté est ensuite exporté et ouvert dans Aperçu, où la marque et la note sont là aussi">
 </p>
 
 Surlignez, soulignez et annotez directement la traduction ; les phrases correspondantes de l'original sont marquées aussi. Le PDF original annoté s'exporte avec des annotations PDF standard, visibles dans Aperçu, Zotero et d'autres apps.

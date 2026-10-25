@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet 從頭翻譯 Attention Is All You Need：側欄的目錄先變成中文，接著右頁的標題和摘要出現在和原文相同的位置"><br>
+  <img src="docs/images/zh-TW/hero.gif" width="880" alt="PaperDuet 從頭翻譯 Attention Is All You Need：側欄的目錄先變成繁體中文，接著右頁的標題和摘要出現在和原文相同的位置"><br>
   <sub>從頭翻譯 Attention Is All You Need（15 頁）的實際錄影</sub>
 </p>
 
@@ -43,7 +43,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 ## 每一頁都輕鬆對照
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="捲動瀏覽第 3 到 5 頁：Transformer 架構圖、注意力示意圖和公式在左右兩邊位置相同，右邊的英文換成了中文">
+  <img src="docs/images/zh-TW/layout.gif" width="880" alt="捲動瀏覽第 3 到 5 頁：Transformer 架構圖、注意力示意圖和公式在左右兩邊位置相同，右邊的英文換成了繁體中文">
 </p>
 
 左邊是論文原文，右邊是譯文，兩邊一起捲動、一起縮放。分欄、標題、圖說、註腳和參考文獻都會自動辨識，跨欄、跨頁的段落也會自動接起來。左右完全對齊，對照起來很輕鬆。
@@ -51,7 +51,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 ## 存譯文？AI 概要？沒問題！
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="論文最後幾段翻完，工具列上的進度圓環變成綠色勾號，點一下就把譯文存成 PDF；接著點開旁邊的燈泡，AI 寫的全文概要逐字出現">
+  <img src="docs/images/zh-TW/progress-save.gif" width="880" alt="論文最後幾段翻完，工具列上的進度圓環變成綠色勾號，點一下就把譯文存成 PDF；接著點開旁邊的燈泡，AI 寫的全文概要逐字出現">
 </p>
 
 工具列會顯示翻譯進度。整篇翻完後，圓環變成綠色勾號並跳出提示：點一下就能把譯文存成 PDF，放在原文旁邊。旁邊的小燈泡是 AI 概要：點開就能看到模型讀完全文後寫的總結，研究問題、方法和結果一目了然。另外有五種模型可選，依你的電腦和需求自由搭配！
@@ -59,7 +59,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 ## 想到，就找到。
 
 <p align="center">
-  <img src="docs/images/library.gif" width="880" alt="論文庫裡有幾十篇論文；在 AI 整理裡選一個方向和主題，相關論文浮到最上面，其餘變灰；再在 AI 檢索框輸入檢索詞，相符的論文帶著原文和概要片段排到前面">
+  <img src="docs/images/zh-TW/library.gif" width="880" alt="論文庫裡有五十多篇論文；在 AI 整理裡選「電腦視覺」和一個主題，相關論文浮到最上面，其餘變灰；再在 AI 檢索框輸入「息肉分割」「強化學習」，相關的英文論文帶著概要片段排到前面">
 </p>
 
 讀過的論文都收在論文庫裡。AI 整理依領域、方向和主題自動貼上標籤，點選標籤，相關論文就浮到最前面；AI 檢索可以搜標題、原文、譯文和概要，中文、英文檢索詞都能用。
@@ -67,7 +67,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 ## 看不懂？點一下。
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="前幾頁還在翻譯時，直接捲到第 9 頁還沒翻的 6.3 節，在第一段上點兩下，這一節立刻排到最前面先翻出來">
+  <img src="docs/images/zh-TW/double-click.gif" width="880" alt="前幾頁還在翻譯時，直接捲到第 9 頁還沒翻的 6.3 節，在第一段上點兩下，這一節立刻排到最前面先翻出來">
 </p>
 
 先翻各級標題，馬上看出論文的架構；接著是標題、摘要和引言。想先看後面哪一段？在原文上點兩下，它就插隊先翻，不用等進度走到那裡。
@@ -75,7 +75,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 ## 想做筆記？安排！
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="在中文譯文裡選取一段並寫下筆記，左邊對應的英文句子也出現同樣的標記；接著匯出帶標註的原文 PDF，在「預覽程式」裡打開，標記都在">
+  <img src="docs/images/zh-TW/highlights.gif" width="880" alt="在繁體中文譯文裡選取一句並寫下筆記，左邊對應的英文句子也出現同樣的標記，點開是同一則筆記；接著匯出帶標註的原文 PDF，在「預覽程式」裡打開，標記和筆記都在">
 </p>
 
 直接在譯文上畫重點、加底線、寫筆記，原文對應的句子會自動同步標記。匯出帶標註的原文 PDF，用的是標準 PDF 註解，「預覽程式」、Zotero 等 App 都能直接看到。

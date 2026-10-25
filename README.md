@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/hero.gif" width="880" alt="PaperDuet translating Attention Is All You Need from scratch: the outline in the sidebar turns Chinese first, then the title and the abstract appear on the right page, in the same place as on the original"><br>
+  <img src="docs/images/en/hero.gif" width="880" alt="PaperDuet translating Attention Is All You Need from scratch: the outline in the sidebar turns Chinese first, then the title and the abstract appear on the right page, in the same place as on the original"><br>
   <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
 </p>
 
@@ -43,7 +43,7 @@ PaperDuet is a lightweight AI mirror translator for papers. It lays out the orig
 ## Every page, made easy
 
 <p align="center">
-  <img src="docs/images/layout.gif" width="880" alt="Scrolling through pages 3 to 5: the Transformer diagram, the attention diagrams and the formulas sit in the same place on both sides, with the English text replaced by Chinese on the right">
+  <img src="docs/images/en/layout.gif" width="880" alt="Scrolling through pages 3 to 5: the Transformer diagram, the attention diagrams and the formulas sit in the same place on both sides, with the English text replaced by Chinese on the right">
 </p>
 
 The original paper is on the left and its translation on the right, and both sides scroll and zoom together. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up. The two sides line up exactly, so comparing them is easy.
@@ -51,7 +51,7 @@ The original paper is on the left and its translation on the right, and both sid
 ## Saving translation? AI summary? No problem!
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
+  <img src="docs/images/en/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
 </p>
 
 The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from five models to suit your computer and your needs!
@@ -59,7 +59,7 @@ The toolbar shows the translation progress. When the whole paper is done, the ri
 ## Think it. Find it.
 
 <p align="center">
-  <img src="docs/images/library.gif" width="880" alt="A library of over fifty papers; in AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then Chinese queries in AI Search (polyp segmentation, reinforcement learning) bring up the matching English papers, with passages from their summaries">
+  <img src="docs/images/en/library.gif" width="880" alt="A library of over fifty papers; in AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then the AI Search queries “polyp segmentation” and “reinforcement learning” bring up the matching papers, with passages from their summaries">
 </p>
 
 Every paper you've read lives in your library. AI Organize tags each one by field and topic, and the papers you pick rise to the top. AI Search finds a paper by its title, its text, its translation or its summary, in English or Chinese.
@@ -67,7 +67,7 @@ Every paper you've read lives in your library. AI Organize tags each one by fiel
 ## Don't get it? Go click it.
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="While the first pages are still translating, the view jumps down to section 6.3 on page 9, not translated yet; a double-click on its first paragraph puts it first and it appears in Chinese right away">
+  <img src="docs/images/en/double-click.gif" width="880" alt="While the first pages are still translating, the view jumps down to section 6.3 on page 9, not translated yet; a double-click on its first paragraph puts it first and it appears in Chinese right away">
 </p>
 
 Headings are translated first, so you can see how the paper is structured; then the title, abstract and introduction. Want a later passage now? Double-click it and it jumps the queue, no waiting for the progress to get there.
@@ -75,7 +75,7 @@ Headings are translated first, so you can see how the paper is structured; then 
 ## Taking notes? You got it!
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="A sentence of the Chinese translation is selected and a note is written; the matching English sentence on the left gets the same mark and opens the same note. Then the original PDF with the note is exported and opened in Preview, where the mark and the note are there too">
+  <img src="docs/images/en/highlights.gif" width="880" alt="A sentence of the Chinese translation is selected and a note is written; the matching English sentence on the left gets the same mark and opens the same note. Then the original PDF with the note is exported and opened in Preview, where the mark and the note are there too">
 </p>
 
 Highlight, underline and write notes right on the translation; the matching sentences in the original are marked too. Export the original PDF with your notes as standard PDF annotations, ready for Preview, Zotero and other apps.
