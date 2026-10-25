@@ -47,29 +47,37 @@ PaperDuet is a lightweight AI mirror translator for papers. It lays out the orig
 
 The original paper is on the left and its translation on the right, and both sides scroll and zoom together. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up. The two sides line up exactly, so comparing them is easy.
 
-## Fast! Fast! Fast!
+## Saving translation? AI summary? No problem!
 
 <p align="center">
-  <img src="docs/images/double-click.gif" width="880" alt="On page 9, section 6.3 is not translated yet; a double-click on its first paragraph moves the section to the front, the status bar says so, and its paragraphs appear in Chinese one after another while the rest of the page waits">
+  <img src="docs/images/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
 </p>
 
-Headings are translated first, so you can see how the paper is structured; the title, abstract and introduction come next, so you get the key points quickly. Want to read a later section first? Just double-click its paragraph in the original and it starts right away!
+The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from five models to suit your computer and your needs!
 
-## Notes? Just make them on the translation!
+## Think it. Find it.
 
 <p align="center">
-  <img src="docs/images/highlights.gif" width="880" alt="Two sentences of the abstract are selected on the original and highlighted yellow; the same sentences turn yellow in the translation. Then part of the last Chinese sentence is highlighted green, and the matching English sentence turns green on the left">
+  <img src="docs/images/library.gif" width="880" alt="A library of over fifty papers; in AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then Chinese queries in AI Search (polyp segmentation, reinforcement learning) bring up the matching English papers, with passages from their summaries">
 </p>
 
-Highlight, underline or add a note on either side, and the matching sentence on the other side is marked too.
+Every paper you've read lives in your library. AI Organize tags each one by field and topic, and the papers you pick rise to the top. AI Search finds a paper by its title, its text, its translation or its summary, in English or Chinese.
 
-## Progress? Speed? No problem!
+## Don't get it? Go click it.
 
 <p align="center">
-  <img src="docs/images/progress-save.gif" width="880" alt="The last paragraphs of the paper come in, the progress ring in the toolbar turns into a green check, a bubble offers to save the translation as a PDF, and one click saves it next to the original">
+  <img src="docs/images/double-click.gif" width="880" alt="While the first pages are still translating, the view jumps down to section 6.3 on page 9, not translated yet; a double-click on its first paragraph puts it first and it appears in Chinese right away">
 </p>
 
-The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. You can also choose from five models to suit your computer and your needs!
+Headings are translated first, so you can see how the paper is structured; then the title, abstract and introduction. Want a later passage now? Double-click it and it jumps the queue, no waiting for the progress to get there.
+
+## Taking notes? You got it!
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="A sentence of the Chinese translation is selected and a note is written; the matching English sentence on the left gets the same mark and opens the same note. Then the original PDF with the note is exported and opened in Preview, where the mark and the note are there too">
+</p>
+
+Highlight, underline and write notes right on the translation; the matching sentences in the original are marked too. Export the original PDF with your notes as standard PDF annotations, ready for Preview, Zotero and other apps.
 
 ## And there's more
 

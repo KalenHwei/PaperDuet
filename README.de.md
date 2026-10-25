@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
+  <img src="docs/images/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste chinesisch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
   <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
 </p>
 
@@ -42,34 +42,42 @@ PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und
 ## Jede Seite, ganz einfach
 
 <p align="center">
-  <img src="docs/images/de/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Deutsch ersetzt">
+  <img src="docs/images/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Chinesisch ersetzt">
 </p>
 
 Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scrollen und zoomen gemeinsam. Spalten, Überschriften, Bildunterschriften, Fußnoten und Literaturangaben werden automatisch erkannt, und Absätze, die in der nächsten Spalte oder auf der nächsten Seite weitergehen, werden zusammengeführt. Beide Seiten stehen exakt nebeneinander, das macht den Vergleich leicht.
 
-## Schnell! Schnell! Schnell!
+## Speichern? Zusammenfassen? Erledigt.
 
 <p align="center">
-  <img src="docs/images/de/double-click.gif" width="880" alt="Auf Seite 10 ist Abschnitt 7 (das Fazit) noch nicht übersetzt; ein Doppelklick auf seinen ersten Absatz holt den Abschnitt nach vorn, die Statusleiste meldet es, und seine Absätze erscheinen nacheinander auf Deutsch, während der Rest der Seite wartet">
+  <img src="docs/images/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
 </p>
 
-Zuerst werden die Überschriften übersetzt, damit du sofort siehst, wie der Artikel aufgebaut ist; danach folgen Titel, Abstract und Einleitung, damit du schnell das Wichtigste erfasst. Du willst einen späteren Abschnitt zuerst lesen? Doppelklick auf einen seiner Absätze im Original, und es geht sofort los!
+Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF neben dem Original. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus fünf Modellen, passend zu deinem Computer und deinen Ansprüchen.
 
-## Notizen? Einfach in der Übersetzung!
+## Denken. Finden.
 
 <p align="center">
-  <img src="docs/images/de/highlights.gif" width="880" alt="Zwei Sätze des Abstracts werden im Original markiert und gelb hervorgehoben; dieselben Sätze werden in der Übersetzung gelb. Dann wird ein Teil des letzten deutschen Satzes grün hervorgehoben, und der passende englische Satz links wird grün">
+  <img src="docs/images/library.gif" width="880" alt="Eine Bibliothek mit einigen Dutzend Artikeln; in „Mit KI ordnen“ werden ein Fachgebiet und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringt eine KI-Suche die passenden Artikel nach oben, mit Auszügen aus Text und Zusammenfassung">
 </p>
 
-Markiere, unterstreiche oder notiere auf einer Seite, und der passende Satz auf der anderen Seite wird ebenfalls markiert.
+Alle Artikel, die du gelesen hast, liegen in der Bibliothek. „Mit KI ordnen“ versieht sie mit Schlagwörtern zu Fachgebiet und Thema, und die gewählten rücken nach oben. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung, auf Deutsch wie auf Englisch.
 
-## Fortschritt? Tempo? Kein Problem!
+## Nicht verstanden? Einfach klicken.
 
 <p align="center">
-  <img src="docs/images/de/progress-save.gif" width="880" alt="Die letzten Absätze des Artikels kommen herein, der Fortschrittsring in der Symbolleiste wird zu einem grünen Häkchen, eine Sprechblase bietet an, die Übersetzung als PDF zu speichern, und ein Klick speichert sie neben dem Original">
+  <img src="docs/images/double-click.gif" width="880" alt="Während die ersten Seiten übersetzt werden, geht es hinunter zu Abschnitt 6.3 auf Seite 9, noch auf Englisch; ein Doppelklick auf den ersten Absatz zieht ihn vor, und er erscheint sofort auf Chinesisch">
 </p>
 
-Die Symbolleiste zeigt den Fortschritt der Übersetzung. Ist der ganze Artikel fertig, wird der Ring zu einem grünen Häkchen und eine Sprechblase erscheint: Ein Klick speichert die Übersetzung als PDF neben dem Original. Außerdem kannst du aus fünf Modellen wählen, passend zu deinem Computer und deinem Bedarf!
+Zuerst werden die Überschriften übersetzt, damit du den Aufbau sofort siehst; dann Titel, Abstract und Einleitung. Du willst eine spätere Stelle jetzt lesen? Doppelklick darauf, und sie kommt sofort dran, ohne auf den Fortschritt zu warten.
+
+## Notizen? Kein Problem.
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="In der chinesischen Übersetzung wird eine Stelle markiert und mit einer Notiz versehen; der passende englische Satz links bekommt dieselbe Markierung. Danach wird das Original-PDF mit Notizen exportiert und in Vorschau geöffnet, wo die Markierung zu sehen ist">
+</p>
+
+Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden Sätze im Original werden mitmarkiert. Das Original-PDF mit deinen Notizen wird mit Standard-PDF-Anmerkungen exportiert und ist in Vorschau, Zotero und anderen Apps zu sehen.
 
 ## Und noch mehr
 

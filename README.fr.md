@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
+  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en chinois, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
   <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
 </p>
 
@@ -42,34 +42,42 @@ PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il
 ## Chaque page, sans effort
 
 <p align="center">
-  <img src="docs/images/fr/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du français à droite">
+  <img src="docs/images/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du chinois à droite">
 </p>
 
 L'article original est à gauche, sa traduction à droite, et les deux côtés défilent et zooment ensemble. Colonnes, titres, légendes, notes de bas de page et références sont reconnus automatiquement, et les paragraphes qui continuent dans la colonne ou la page suivante sont recollés. Les deux côtés sont parfaitement alignés, ce qui rend la comparaison facile.
 
-## Vite ! Vite ! Vite !
+## Enregistrer ? Résumer ? C'est fait.
 
 <p align="center">
-  <img src="docs/images/fr/double-click.gif" width="880" alt="Page 9, la section 6.3 n'est pas encore traduite ; un double-clic sur son premier paragraphe la fait passer en tête de file, la barre d'état l'indique, et ses paragraphes apparaissent en français l'un après l'autre pendant que le reste de la page attend">
+  <img src="docs/images/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
 </p>
 
-Les titres sont traduits en premier, pour voir tout de suite comment l'article est construit ; viennent ensuite le titre, le résumé et l'introduction, pour saisir vite l'essentiel. Envie de lire d'abord une section plus loin ? Double-cliquez sur l'un de ses paragraphes dans l'original, et la traduction démarre aussitôt !
+La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF à côté de l'original. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi cinq modèles selon votre ordinateur et vos besoins.
 
-## Des notes ? Prenez-les directement sur la traduction !
+## Pensez-y. Trouvez-le.
 
 <p align="center">
-  <img src="docs/images/fr/highlights.gif" width="880" alt="Deux phrases du résumé sont sélectionnées dans l'original et surlignées en jaune ; les mêmes phrases passent en jaune dans la traduction. Puis une partie de la dernière phrase française est surlignée en vert, et la phrase anglaise correspondante passe en vert à gauche">
+  <img src="docs/images/library.gif" width="880" alt="Une bibliothèque de plusieurs dizaines d'articles ; dans « Organiser avec l'IA », le choix d'un domaine et d'un sujet fait remonter les articles concernés et grise les autres. Puis une recherche IA place en tête les articles correspondants, avec des extraits de leur texte et de leur résumé">
 </p>
 
-Surlignez, soulignez ou annotez d'un côté, et la phrase correspondante est marquée de l'autre.
+Tous les articles que vous avez lus sont dans la bibliothèque. « Organiser avec l'IA » les étiquette par domaine et par sujet, et ceux que vous choisissez remontent en tête. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais.
 
-## La progression ? La vitesse ? Aucun souci !
+## Un passage vous échappe ? Cliquez.
 
 <p align="center">
-  <img src="docs/images/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression de la barre d'outils devient une coche verte, une bulle propose d'enregistrer la traduction en PDF, et un clic l'enregistre à côté de l'original">
+  <img src="docs/images/double-click.gif" width="880" alt="Pendant que les premières pages se traduisent, on descend jusqu'à la section 6.3, page 9, encore en anglais ; un double-clic sur son premier paragraphe la fait passer devant et elle apparaît aussitôt en chinois">
 </p>
 
-La barre d'outils affiche où en est la traduction. Quand tout l'article est traduit, l'anneau devient une coche verte et une bulle apparaît : un clic suffit pour enregistrer la traduction en PDF à côté de l'original. Vous pouvez aussi choisir parmi cinq modèles, selon votre ordinateur et vos besoins !
+Les titres de section sont traduits d'abord, pour voir tout de suite la structure de l'article ; puis le titre, le résumé et l'introduction. Envie de lire un passage plus loin ? Double-cliquez dessus : il passe devant, sans attendre que la progression y arrive.
+
+## Des notes ? C'est parti.
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="Un passage de la traduction chinoise est sélectionné et annoté ; la phrase anglaise correspondante, à gauche, reçoit la même marque. Le PDF original annoté est ensuite exporté et ouvert dans Aperçu, où la marque apparaît">
+</p>
+
+Surlignez, soulignez et annotez directement la traduction ; les phrases correspondantes de l'original sont marquées aussi. Le PDF original annoté s'exporte avec des annotations PDF standard, visibles dans Aperçu, Zotero et d'autres apps.
 
 ## Et ce n'est pas tout
 

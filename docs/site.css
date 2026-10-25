@@ -395,6 +395,7 @@ footer p { max-width: 900px; margin: 8px 0; }
 /* Chinese, Japanese and Korean set looser than Latin display type. */
 html:is(:lang(zh-CN), :lang(zh-TW), :lang(ja), :lang(ko)) :is(.slogan, .intro p, h2, h3, .final h2) { letter-spacing: -0.005em; }
 html:is(:lang(zh-CN), :lang(zh-TW), :lang(ja)) .feature h2 { line-height: 1.18; }
+.feature h2 .nw { white-space: nowrap; }
 html:is(:lang(ja), :lang(ko)) .eyebrow { letter-spacing: 0.04em; }
 
 /* Language button and its menu. */

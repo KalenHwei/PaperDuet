@@ -33,7 +33,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/es/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al español, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original"><br>
+  <img src="docs/images/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al chino, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original"><br>
   <sub>Grabación de la traducción completa de Attention Is All You Need (15 páginas)</sub>
 </p>
 
@@ -42,34 +42,42 @@ PaperDuet es un traductor espejo ligero con IA para artículos científicos. Col
 ## Cada página, sin esfuerzo
 
 <p align="center">
-  <img src="docs/images/es/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por español">
+  <img src="docs/images/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por chino">
 </p>
 
 A la izquierda está el artículo original y a la derecha su traducción; los dos lados se desplazan y hacen zoom a la vez. Columnas, títulos, pies de figura, notas al pie y referencias se reconocen automáticamente, y los párrafos que siguen en la columna o la página siguiente se vuelven a unir. Los dos lados quedan perfectamente alineados, así que compararlos es muy fácil.
 
-## ¡Rápido! ¡Rápido! ¡Rápido!
+## ¿Guardar? ¿Resumir? Hecho.
 
 <p align="center">
-  <img src="docs/images/es/double-click.gif" width="880" alt="En la página 10, la sección 7 (la conclusión) aún no está traducida; un doble clic en su primer párrafo la pasa al principio de la cola, la barra de estado lo indica y sus párrafos aparecen en español uno tras otro mientras el resto de la página espera">
+  <img src="docs/images/progress-save.gif" width="880" alt="Llegan los últimos párrafos, el anillo de progreso se convierte en una marca verde y un clic guarda la traducción en PDF; después se abre la bombilla de al lado y el resumen con IA de todo el artículo aparece poco a poco">
 </p>
 
-Primero se traducen los encabezados, para que veas enseguida cómo está organizado el artículo; después vienen el título, el resumen y la introducción, para que captes rápido lo esencial. ¿Quieres leer antes una sección más adelante? Haz doble clic en uno de sus párrafos del original, ¡y empieza a traducirse al momento!
+La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF junto al original. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre cinco modelos según tu ordenador y lo que necesites.
 
-## ¿Notas? ¡Tómalas directamente en la traducción!
+## Piénsalo. Encuéntralo.
 
 <p align="center">
-  <img src="docs/images/es/highlights.gif" width="880" alt="Se seleccionan dos frases del resumen en el original y se resaltan en amarillo; las mismas frases se vuelven amarillas en la traducción. Después se resalta en verde parte de la última frase en español, y la frase en inglés correspondiente se vuelve verde a la izquierda">
+  <img src="docs/images/library.gif" width="880" alt="Una biblioteca con decenas de artículos; en «Organizar con IA» se eligen un campo y un tema, los artículos que encajan suben y el resto se pone en gris. Después, una búsqueda con IA sube los artículos que coinciden, con fragmentos de su texto y su resumen">
 </p>
 
-Resalta, subraya o anota en un lado, y la frase correspondiente del otro lado se marca también.
+Todos los artículos que has leído están en la biblioteca. «Organizar con IA» los etiqueta por campo y tema, y los que eliges suben arriba. La búsqueda con IA encuentra un artículo por su título, su texto, su traducción o su resumen, en español o en inglés.
 
-## ¿Progreso? ¿Velocidad? ¡Sin problema!
+## ¿No lo entiendes? Haz clic.
 
 <p align="center">
-  <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos del artículo, el anillo de progreso de la barra de herramientas se convierte en una marca verde, un globo ofrece guardar la traducción como PDF y un clic la guarda junto al original">
+  <img src="docs/images/double-click.gif" width="880" alt="Mientras se traducen las primeras páginas, se baja hasta la sección 6.3 de la página 9, aún en inglés; un doble clic en su primer párrafo la adelanta y aparece al momento en chino">
 </p>
 
-La barra de herramientas muestra cómo avanza la traducción. Cuando todo el artículo está traducido, el anillo se convierte en una marca verde y aparece un globo: con un clic, la traducción se guarda como PDF junto al original. Además, puedes elegir entre cinco modelos según tu ordenador y lo que necesites.
+Primero se traducen los títulos de sección, para ver enseguida la estructura del artículo; luego el título, el resumen y la introducción. ¿Quieres leer ya un pasaje de más adelante? Haz doble clic en él y se adelanta, sin esperar a que llegue el progreso.
+
+## ¿Apuntes? Claro que sí.
+
+<p align="center">
+  <img src="docs/images/highlights.gif" width="880" alt="Se selecciona un pasaje de la traducción al chino y se escribe una nota; la frase en inglés correspondiente, a la izquierda, recibe la misma marca. Después se exporta el PDF original con notas y se abre en Vista Previa, donde la marca sigue ahí">
+</p>
+
+Resalta, subraya y anota directamente sobre la traducción; las frases correspondientes del original se marcan también. El PDF original con tus notas se exporta con anotaciones PDF estándar, visibles en Vista Previa, Zotero y otras apps.
 
 ## Y hay más
 
