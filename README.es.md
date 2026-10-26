@@ -179,6 +179,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.5** (2026-10-25): Las líneas muy espaciadas de los artículos de revista ya no se parten en palabras sueltas, que faltaban o quedaban fuera de sitio en la traducción; el resumen se traduce justo después del título; menos «Error en el análisis del diseño»; los guiones de los artículos de Elsevier ya no aparecen como «e».
 - **0.5.4** (2026-10-24): Interfaz más limpia: se quitan los textos de explicación innecesarios; el campo de búsqueda con IA muestra «Buscar con IA».
 - **0.5.3** (2026-10-24): PaperDuet pregunta una vez si quieres compartir datos anónimos de uso y diagnóstico para mejorarlo; nunca el contenido de los artículos, y se puede desactivar en Ajustes › Datos.
 - **0.5.2** (2026-10-24): «Búsqueda con IA» 🔍 en la biblioteca: encuentra artículos leídos por título, texto original, traducción, resumen o etiquetas, en español o en inglés; la búsqueda y «Organizar con IA» suben los artículos encontrados y ponen en gris los demás.

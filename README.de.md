@@ -179,6 +179,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.5** (2026-10-25): Zeilen mit stark gedehnten Wortabständen in Zeitschriftenartikeln zerfallen nicht mehr in einzelne Wörter, die in der Übersetzung fehlten oder verrutschten; die Zusammenfassung wird direkt nach dem Titel übersetzt; seltener „Layoutanalyse fehlgeschlagen“; Gedankenstriche in Elsevier-Artikeln erscheinen nicht mehr als „e“.
 - **0.5.4** (2026-10-24): Schlankere Oberfläche: überflüssige Erklärtexte sind weg; das KI-Suchfeld zeigt „Mit KI durchsuchen“.
 - **0.5.3** (2026-10-24): PaperDuet fragt einmal, ob du anonyme Nutzungs- und Diagnosedaten teilen möchtest, um die App zu verbessern; nie Inhalte von Artikeln, jederzeit abschaltbar unter Einstellungen › Daten.
 - **0.5.2** (2026-10-24): „KI-Suche“ 🔍 in der Bibliothek findet gelesene Paper über Titel, Originaltext, Übersetzung, Zusammenfassung oder Schlagwörter, auf Deutsch wie auf Englisch; Suche und „Mit KI ordnen“ holen die Treffer nach oben und machen die übrigen grau.

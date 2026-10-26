@@ -6,6 +6,33 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.5] - 2026-10-25
+
+### Fixed
+
+- Journal papers set loosely, where justification stretches the spaces of a
+  line well beyond a word space, no longer have such lines broken into stray
+  words. Those words used to be translated one by one and drawn on top of the
+  paragraph, the paragraph's translation lacked them, and reference links
+  landed in the wrong place.
+- The abstract is translated right after the title, ahead of the
+  introduction, also when its heading is set as spaced-out small capitals
+  ("a b s t r a c t"). It used to wait until the whole introduction was done
+  and stayed blank in the meantime.
+- When the background reader cannot read a paper on a computer, the paper is
+  read the way the reader displays it and analysed there, instead of showing
+  "Layout analysis failed".
+- Dashes in Elsevier papers no longer reach the translation as the letter "e".
+- A small translation model that repeats the prompt's example before its
+  answer no longer has to be asked again.
+- In the library, a paper whose detected title begins with punctuation no
+  longer shows it.
+
+### Changed
+
+- The note popover no longer has the line about positions being approximate
+  to the sentence.
+
 ## [0.5.4] - 2026-10-24
 
 ### Changed

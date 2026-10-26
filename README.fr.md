@@ -179,6 +179,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.5** (2026-10-25) : Les lignes très espacées des articles de revue ne sont plus découpées en mots isolés, absents ou mal placés dans la traduction ; le résumé est traduit juste après le titre ; moins d’« Échec de l’analyse de la mise en page » ; les tirets des articles Elsevier ne s’affichent plus comme « e ».
 - **0.5.4** (2026-10-24) : Interface allégée : les textes d'explication superflus ont disparu ; le champ de recherche IA affiche « Rechercher avec l’IA ».
 - **0.5.3** (2026-10-24) : PaperDuet demande une fois si vous acceptez de partager des données d'utilisation et de diagnostic anonymes pour l'améliorer ; jamais le contenu des articles, et désactivable à tout moment dans Réglages › Données.
 - **0.5.2** (2026-10-24) : « Recherche IA » 🔍 dans la bibliothèque : retrouvez un article lu par son titre, son texte original, sa traduction, son résumé ou ses étiquettes, en français comme en anglais ; la recherche et « Organiser avec l’IA » font remonter les articles trouvés et grisent les autres.
