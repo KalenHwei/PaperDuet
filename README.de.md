@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <b>Deutsch</b> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <b>Deutsch</b> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden S�
 
 ## Und noch mehr
 
-- **Acht Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español und Русский.
+- **Neun Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano und Русский.
 - **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout daneben.
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
 - **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
@@ -117,7 +117,8 @@ Du hast eines dieser Modelle schon über LM Studio, llama.cpp oder Hugging Face?
 
 - Deine Artikel, Übersetzungen und Notizen bleiben auf deinem Computer.
 - Nur wenn du zustimmst, sendet PaperDuet anonyme Nutzungs- und Diagnosedaten (Version, System, Sprache der Oberfläche, Modell und Arten von Fehlern), nie Inhalte von Artikeln, und du kannst das jederzeit in den Einstellungen abschalten.
-- PaperDuet geht nur online, um ein Modell herunterzuladen, nach Updates zu suchen und diese Daten zu senden; die letzten beiden lassen sich abschalten.
+- Bei Fehlern sendet PaperDuet einen Fehlerbericht an den Entwickler: was schiefging, Version und System, ohne Dateipfade und ohne Inhalte von Artikeln. Abschalten lässt sich das unter Einstellungen › Daten.
+- PaperDuet geht nur online, um ein Modell herunterzuladen, nach Updates zu suchen und diese Daten und Berichte zu senden; alles außer dem Modell-Download lässt sich abschalten.
 
 ## Los geht's
 
@@ -179,6 +180,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.6** (2026-10-25): Italienisch als Ziel- und Oberflächensprache; bei Fehlern geht ein Fehlerbericht an den Entwickler, damit sich Probleme beheben lassen (standardmäßig an, abschaltbar unter Einstellungen › Daten).
 - **0.5.5** (2026-10-25): Zeilen mit stark gedehnten Wortabständen in Zeitschriftenartikeln zerfallen nicht mehr in einzelne Wörter, die in der Übersetzung fehlten oder verrutschten; die Zusammenfassung wird direkt nach dem Titel übersetzt; seltener „Layoutanalyse fehlgeschlagen“; Gedankenstriche in Elsevier-Artikeln erscheinen nicht mehr als „e“.
 - **0.5.4** (2026-10-24): Schlankere Oberfläche: überflüssige Erklärtexte sind weg; das KI-Suchfeld zeigt „Mit KI durchsuchen“.
 - **0.5.3** (2026-10-24): PaperDuet fragt einmal, ob du anonyme Nutzungs- und Diagnosedaten teilen möchtest, um die App zu verbessern; nie Inhalte von Artikeln, jederzeit abschaltbar unter Einstellungen › Daten.

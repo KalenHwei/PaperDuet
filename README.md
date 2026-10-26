@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ Highlight, underline and write notes right on the translation; the matching sent
 
 ## And there's more
 
-- **Eight languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español and Русский in one click from the toolbar.
+- **Nine languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano and Русский in one click from the toolbar.
 - **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation next to it in the original layout.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep the original.
@@ -117,7 +117,8 @@ Already have one of these models from LM Studio, llama.cpp or Hugging Face? Pape
 
 - Your papers, translations and notes stay on your computer.
 - Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
-- PaperDuet goes online only to download a model, to check for updates and to send that data; you can turn off the last two.
+- When something goes wrong, PaperDuet sends an error report to the developer: what went wrong, the version and the system, without file paths or paper content. You can turn this off in Settings › Data.
+- PaperDuet goes online only to download a model, to check for updates and to send the data and reports above; you can turn off all but the model download.
 
 ## Get started
 
@@ -179,6 +180,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.6** (2026-10-25): Italian as a translation and interface language; error reports to the developer when something goes wrong, to help fix problems (on by default, can be turned off in Settings › Data).
 - **0.5.5** (2026-10-25): fixed loosely set lines in journal papers being split into stray words, which left words out of the translation or put them in the wrong place; the abstract is translated right after the title; fewer "Layout analysis failed" errors; dashes in Elsevier papers no longer read as "e".
 - **0.5.4** (2026-10-24): a cleaner interface without the extra explanatory text; the AI search field now reads "Search with AI".
 - **0.5.3** (2026-10-24): PaperDuet now asks once whether you'd like to share anonymous usage and diagnostic data to help improve it; never paper content, and you can turn it off anytime in Settings › Data.

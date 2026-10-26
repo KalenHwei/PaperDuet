@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <b>简体中文</b> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <b>简体中文</b> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
 
 ## 还有这些
 
-- **八种译文语言**：在工具栏一键切换简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Русский。
+- **九种译文语言**：在工具栏一键切换简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Русский。
 - **一键保存译文 PDF**：整篇译完后点一下，按原格式在论文旁边保存。
 - **内置质量检查**：每次回复都核对公式、数字和句子顺序，出错自动重试；每篇论文自动整理术语表，前后译法一致。
 - **翻译什么你说了算**：右键任意一块，选择翻译它或保留原文。
@@ -117,7 +117,8 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
 
 - 论文、译文和笔记都留在你的电脑上。
 - 只有经你同意，才会发送匿名的使用和诊断数据（版本、系统、界面语言、所用模型和出错类型），不含论文内容，随时可以在设置里关掉。
-- 只在下载模型、检查更新和发送上面这份数据时联网，后两项都可以关掉。
+- 出错时会把报错信息发给开发者：出了什么错、版本和系统，不含文件路径和论文内容；可以在“设置 › 数据”里关掉。
+- 只在下载模型、检查更新和发送上面的数据和报错信息时联网，除了下载模型都可以关掉。
 
 ## 开始使用
 
@@ -179,6 +180,7 @@ H、N、1 到 5 作用于选中的文字。Windows 上用 Ctrl 代替 ⌘，用 
 
 ## 更新日志
 
+- **0.5.6**（2026-10-25）：新增意大利语（译文语言和界面语言）；出错时向开发者发送报错信息，帮助修复问题（默认开启，可在“设置 › 数据”里关闭）。
 - **0.5.5**（2026-10-25）：修复期刊论文中排得较松的行被拆成零散单词、译文缺词和错位；摘要紧跟标题优先翻译；减少“版面分析失败”；Elsevier 论文的破折号不再显示为 e。
 - **0.5.4**（2026-10-24）：界面更简洁，去掉各处多余的说明文字；AI 搜索框改为“使用 AI 检索内容”。
 - **0.5.3**（2026-10-24）：新增一次性询问：是否自愿共享匿名的使用和诊断数据，帮助改进 PaperDuet；不含论文内容，可随时在“设置 › 数据”里关闭。

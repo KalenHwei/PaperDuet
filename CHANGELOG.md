@@ -6,6 +6,19 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.6] - 2026-10-25
+
+### Added
+
+- Italian: papers can be translated into Italian, and the interface is
+  available in Italian (chosen by default on a Mac or PC set to Italian).
+- Error reports: when something goes wrong, PaperDuet sends the developer what
+  went wrong (the kind of error, its message and where in the code it
+  happened) with the version, the system, the interface language and the
+  model. File paths, file names, web and e-mail addresses and quoted text are
+  taken out first, and nothing of a paper is sent. On by default; Settings ›
+  Data turns it off.
+
 ## [0.5.5] - 2026-10-25
 
 ### Fixed
