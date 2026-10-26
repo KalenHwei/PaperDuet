@@ -6,6 +6,20 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.8] - 2026-10-26
+
+### Added
+
+- Polish as a translation language and as an interface language.
+
+### Fixed
+
+- On macOS 26 and earlier, the text of papers could not be read, so nothing
+  was translated and the text could not be selected or searched.
+- On macOS 27, saving the translated PDF failed for papers with sans-serif
+  text. PingFang cannot be embedded there; Hiragino Sans GB (Heiti for
+  Traditional Chinese) is used instead.
+
 ## [0.5.7] - 2026-10-26
 
 ### Fixed

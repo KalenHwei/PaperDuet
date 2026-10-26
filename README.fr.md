@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <b>Français</b> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <b>Français</b> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ Surlignez, soulignez et annotez directement la traduction ; les phrases correspo
 
 ## Et ce n'est pas tout
 
-- **Neuf langues de traduction.** Passez en un clic, depuis la barre d'outils, d'une langue à l'autre : 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano et Русский.
+- **Dix langues de traduction.** Passez en un clic, depuis la barre d'outils, d'une langue à l'autre : 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski et Русский.
 - **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre la traduction à côté, avec la mise en page d'origine.
 - **Contrôles de qualité intégrés.** Formules, nombres et ordre des phrases sont vérifiés dans chaque réponse, avec de nouvelles tentatives automatiques, et un glossaire propre à chaque article garde les termes cohérents.
 - **Vous décidez de ce qui est traduit.** Clic droit sur n'importe quel bloc pour le traduire ou garder l'original.
@@ -180,6 +180,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.8** (2026-10-26) : Le polonais rejoint les langues de traduction et de l’interface ; corrections : sous macOS 26 et versions antérieures, les articles ne pouvaient être ni lus ni traduits ; sous macOS 27, l'enregistrement du PDF traduit échouait pour certains articles.
 - **0.5.7** (2026-10-26) : Lecture plus juste des articles de revues, testée sur des articles de 20 grandes revues : colonnes, titres, références, tableaux, légendes et symboles propres aux éditeurs ; les articles de Science ne restent plus en grande partie non traduits, et les annexes après les références sont traduites.
 - **0.5.6** (2026-10-25) : L’italien rejoint les langues de traduction et de l’interface ; en cas d’erreur, un rapport est envoyé au développeur pour corriger le problème (activé par défaut, désactivable dans Réglages › Données).
 - **0.5.5** (2026-10-25) : Les lignes très espacées des articles de revue ne sont plus découpées en mots isolés, absents ou mal placés dans la traduction ; le résumé est traduit juste après le titre ; moins d’« Échec de l’analyse de la mise en page » ; les tirets des articles Elsevier ne s’affichent plus comme « e ».

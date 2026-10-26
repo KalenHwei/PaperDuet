@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <b>日本語</b> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <b>日本語</b> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ PaperDuet は論文向けの軽量な AI ミラー翻訳ツールです。原文
 
 ## ほかにもいろいろ
 
-- **9 つの言語に翻訳**：ツールバーで简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Русскийをワンクリックで切り替えられます。
+- **10 の言語に翻訳**：ツールバーで简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Polski、Русскийをワンクリックで切り替えられます。
 - **訳文 PDF をクリック 1 回で**：全文を訳し終えたら、クリック 1 回で元のレイアウトのまま論文の隣に保存します。
 - **品質チェックを内蔵**：モデルの返答ごとに数式、数値、文の順番を確かめ、問題があれば自動でやり直します。論文ごとの用語集で訳語もそろえます。
 - **何を訳すかはあなた次第**：どのブロックも右クリックで、翻訳するか原文のまま残すかを選べます。
@@ -180,6 +180,7 @@ H、N、1〜5 は選択中のテキストに使えます。Windows では ⌘ �
 
 ## 更新履歴
 
+- **0.5.8**（2026-10-26）：ポーランド語を追加しました（訳文の言語と表示言語）。macOS 26 以前で論文を読み込めず翻訳できない問題と、macOS 27 で一部の論文の訳文 PDF を保存できない問題を修正しました。
 - **0.5.7**（2026-10-26）：学術誌の論文のレイアウト認識と翻訳がより正確になりました（20 誌の論文で一本ずつ検証）。段組み、見出し、参考文献、表、図のキャプション、出版社独自の記号を正しく読み取ります。Science などの論文で本文の大部分が訳されない問題を修正し、参考文献の後の付録も翻訳するようになりました。
 - **0.5.6**（2026-10-25）：イタリア語を追加しました（訳文の言語と表示言語）。エラーが起きたときに開発者へエラー情報を送り、問題の修正に役立てます（初期設定でオン、「設定 › データ」でオフにできます）。
 - **0.5.5**（2026-10-25）：ジャーナル論文で語間の広い行が単語ごとにばらばらになり、訳文が抜けたりずれたりする問題を修正しました。要旨はタイトルのすぐ後に訳します。「レイアウトの解析に失敗」が起きにくくなりました。Elsevier の論文のダッシュが e と表示されなくなりました。

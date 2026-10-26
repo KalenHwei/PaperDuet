@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <b>한국어</b> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <b>한국어</b> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문�
 
 ## 이 밖에도
 
-- **9개 언어로 번역**: 도구 막대에서 클릭 한 번으로 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Русский 사이를 전환할 수 있습니다.
+- **10개 언어로 번역**: 도구 막대에서 클릭 한 번으로 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski, Русский 사이를 전환할 수 있습니다.
 - **클릭 한 번으로 번역 PDF**: 논문 전체 번역이 끝나면 클릭 한 번으로 원래 레이아웃 그대로 논문 옆에 저장합니다.
 - **품질 검사 내장**: 모델이 답할 때마다 수식, 숫자, 문장 순서를 확인하고 문제가 있으면 자동으로 다시 시도합니다. 논문마다 용어집을 만들어 용어 번역도 일관되게 유지합니다.
 - **번역할 부분은 내가 결정**: 어떤 블록이든 오른쪽 클릭으로 번역할지, 원문 그대로 둘지 고를 수 있습니다.
@@ -180,6 +180,7 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 
 ## 변경 기록
 
+- **0.5.8** (2026-10-26): 폴란드어를 추가했습니다(번역 언어와 인터페이스 언어). macOS 26 이하에서 논문을 읽지 못해 번역되지 않던 문제와 macOS 27에서 일부 논문의 번역 PDF 저장이 실패하던 문제를 고쳤습니다.
 - **0.5.7** (2026-10-26): 학술지 논문의 레이아웃 인식과 번역이 더 정확해졌습니다(20개 학술지의 논문으로 한 편씩 검증). 다단 배치, 제목, 참고문헌, 표, 그림 설명, 출판사 고유 기호를 바르게 읽습니다. Science 등의 논문에서 본문 대부분이 번역되지 않던 문제를 고쳤고, 참고문헌 뒤의 부록도 번역합니다.
 - **0.5.6** (2026-10-25): 이탈리아어를 추가했습니다(번역 언어와 인터페이스 언어). 오류가 생기면 개발자에게 오류 정보를 보내 문제 해결에 활용합니다(기본으로 켜져 있으며 ‘설정 › 데이터’에서 끌 수 있습니다).
 - **0.5.5** (2026-10-25): 저널 논문에서 간격이 넓은 줄이 단어별로 흩어져 번역문이 빠지거나 어긋나던 문제를 고쳤습니다. 초록은 제목 바로 다음에 번역합니다. ‘레이아웃 분석 실패’가 덜 일어납니다. Elsevier 논문의 대시가 더 이상 e로 표시되지 않습니다.

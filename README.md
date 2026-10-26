@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><b>English</b> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ Highlight, underline and write notes right on the translation; the matching sent
 
 ## And there's more
 
-- **Nine languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano and Русский in one click from the toolbar.
+- **Ten languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski and Русский in one click from the toolbar.
 - **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation next to it in the original layout.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep the original.
@@ -180,6 +180,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.8** (2026-10-26): Polish as a translation and interface language; fixes: on macOS 26 and earlier, papers could not be read or translated; on macOS 27, saving the translated PDF failed for some papers.
 - **0.5.7** (2026-10-26): better reading and translation of journal papers, tested paper by paper on articles from 20 journals: columns, headings, reference lists, tables, captions and publishers' own symbols; Science papers are no longer left largely in English, and appendices after the references are translated.
 - **0.5.6** (2026-10-25): Italian as a translation and interface language; error reports to the developer when something goes wrong, to help fix problems (on by default, can be turned off in Settings › Data).
 - **0.5.5** (2026-10-25): fixed loosely set lines in journal papers being split into stray words, which left words out of the translation or put them in the wrong place; the abstract is translated right after the title; fewer "Layout analysis failed" errors; dashes in Elsevier papers no longer read as "e".

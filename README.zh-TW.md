@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <b>繁體中文</b> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <b>繁體中文</b> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <a href="README.de.md">Deutsch</a> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 
 ## 還有這些
 
-- **九種譯文語言**：在工具列一鍵切換简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Русский。
+- **十種譯文語言**：在工具列一鍵切換简体中文、繁體中文、日本語、한국어、Français、Deutsch、Español、Italiano、Polski、Русский。
 - **一鍵儲存譯文 PDF**：整篇翻完後點一下，就會依原始版面存到論文旁邊。
 - **內建品質檢查**：每次回覆都會核對公式、數字和句子順序，出錯自動重試；每篇論文自動整理術語表，讓譯法前後一致。
 - **翻譯什麼由你決定**：在任一區塊按右鍵，選擇翻譯它或保留原文。
@@ -180,6 +180,7 @@ H、N、1 到 5 作用於選取的文字。Windows 上用 Ctrl 代替 ⌘，用 
 
 ## 更新紀錄
 
+- **0.5.8**（2026-10-26）：新增波蘭文（譯文語言和介面語言）；修正 macOS 26 及更早系統上論文無法讀取、無法翻譯的問題；修正 macOS 27 上部分論文儲存譯文 PDF 失敗的問題。
 - **0.5.7**（2026-10-26）：期刊論文的版面辨識和翻譯更準確（逐篇測試了 20 種頂尖期刊的論文）：分欄、標題、參考文獻、表格、圖說和出版商的特殊符號；Science 等論文不再大段漏譯，參考文獻後面的附錄也會翻譯。
 - **0.5.6**（2026-10-25）：新增義大利文（譯文語言和介面語言）；出錯時向開發者傳送錯誤資訊，幫助修正問題（預設開啟，可在「設定 › 資料」裡關閉）。
 - **0.5.5**（2026-10-25）：修正期刊論文中排得較鬆的行被拆成零散單字、譯文缺字和錯位的問題；摘要緊接標題優先翻譯；減少「版面分析失敗」；Elsevier 論文的破折號不再顯示為 e。

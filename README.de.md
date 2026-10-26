@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <b>Deutsch</b> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.ru.md">Русский</a></sub>
+  <sub><a href="README.md">English</a> &middot; <a href="README.zh-CN.md">简体中文</a> &middot; <a href="README.zh-TW.md">繁體中文</a> &middot; <a href="README.ja.md">日本語</a> &middot; <a href="README.ko.md">한국어</a> &middot; <a href="README.fr.md">Français</a> &middot; <b>Deutsch</b> &middot; <a href="README.es.md">Español</a> &middot; <a href="README.it.md">Italiano</a> &middot; <a href="README.pl.md">Polski</a> &middot; <a href="README.ru.md">Русский</a></sub>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@ Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden S�
 
 ## Und noch mehr
 
-- **Neun Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano und Русский.
+- **Zehn Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski und Русский.
 - **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout daneben.
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
 - **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
@@ -180,6 +180,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.8** (2026-10-26): Polnisch als Ziel- und Oberflächensprache; Fehlerbehebungen: Unter macOS 26 und älter konnten Artikel weder gelesen noch übersetzt werden; unter macOS 27 schlug bei manchen Artikeln das Speichern des übersetzten PDFs fehl.
 - **0.5.7** (2026-10-26): Zeitschriftenartikel werden genauer gelesen und übersetzt (geprüft an Artikeln aus 20 führenden Zeitschriften): Spalten, Überschriften, Literaturverzeichnisse, Tabellen, Bildunterschriften und verlagseigene Symbole; Artikel aus Science bleiben nicht mehr größtenteils unübersetzt, und Anhänge nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.6** (2026-10-25): Italienisch als Ziel- und Oberflächensprache; bei Fehlern geht ein Fehlerbericht an den Entwickler, damit sich Probleme beheben lassen (standardmäßig an, abschaltbar unter Einstellungen › Daten).
 - **0.5.5** (2026-10-25): Zeilen mit stark gedehnten Wortabständen in Zeitschriftenartikeln zerfallen nicht mehr in einzelne Wörter, die in der Übersetzung fehlten oder verrutschten; die Zusammenfassung wird direkt nach dem Titel übersetzt; seltener „Layoutanalyse fehlgeschlagen“; Gedankenstriche in Elsevier-Artikeln erscheinen nicht mehr als „e“.
