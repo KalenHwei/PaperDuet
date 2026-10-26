@@ -6,6 +6,40 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.7] - 2026-10-26
+
+### Fixed
+
+Tested paper by paper on highly cited articles from 20 journals across the
+sciences, medicine and the social sciences (Nature, Science, Cell, The Lancet,
+NEJM, PNAS, JACS, QJE, APSR, Management Science and others):
+
+- Science papers are translated in full. Their thin column rules were taken
+  for figures, and most of the text inside them was left in English.
+- Columns are read in the right order also when the gutter between them is
+  narrow, and a title or author line across both columns stays whole.
+- Headings set in capitals, with Roman numerals ("IV. RESULTS") or in heavy
+  faces (Cell) are recognised as headings.
+- Reference lists without a "References" heading (Nature, Physical Review
+  Letters, Science, NEJM) are recognised and left in English, and appendices
+  after the references are translated again.
+- Tables end where they end: text beside or below a table, a footnote's rule
+  or a fraction bar no longer pulls the body text into the table, where it
+  was left untranslated.
+- Text set around a figure or a table no longer covers it with its translation,
+  and a caption set beside the text is kept apart from it.
+- Captions: "Fig. 3" and its text on one line, a label on a line of its own
+  over its title, and captions set centred line by line are kept together and
+  set as in the original; a caption set inside its figure's box is translated.
+- Publishers' own symbols read as what they show: Elsevier's and Cell's minus,
+  plus, equals and slash signs, quotation marks, primes and list bullets,
+  subscripts handed over with the following words, and small capitals.
+- Running heads, DOI lines and a journal's cover page are not translated.
+- Fewer sentences are left in English: one that fails is tried once more on
+  its own; numbers written with a leading zero ("07") or without it,
+  "COVID-19" rendered as 新冠 and numbered headings in the translation are
+  accepted; a citation after the full stop no longer joins two sentences.
+
 ## [0.5.6] - 2026-10-25
 
 ### Added

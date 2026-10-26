@@ -180,6 +180,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.7** (2026-10-26): Zeitschriftenartikel werden genauer gelesen und übersetzt (geprüft an Artikeln aus 20 führenden Zeitschriften): Spalten, Überschriften, Literaturverzeichnisse, Tabellen, Bildunterschriften und verlagseigene Symbole; Artikel aus Science bleiben nicht mehr größtenteils unübersetzt, und Anhänge nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.6** (2026-10-25): Italienisch als Ziel- und Oberflächensprache; bei Fehlern geht ein Fehlerbericht an den Entwickler, damit sich Probleme beheben lassen (standardmäßig an, abschaltbar unter Einstellungen › Daten).
 - **0.5.5** (2026-10-25): Zeilen mit stark gedehnten Wortabständen in Zeitschriftenartikeln zerfallen nicht mehr in einzelne Wörter, die in der Übersetzung fehlten oder verrutschten; die Zusammenfassung wird direkt nach dem Titel übersetzt; seltener „Layoutanalyse fehlgeschlagen“; Gedankenstriche in Elsevier-Artikeln erscheinen nicht mehr als „e“.
 - **0.5.4** (2026-10-24): Schlankere Oberfläche: überflüssige Erklärtexte sind weg; das KI-Suchfeld zeigt „Mit KI durchsuchen“.

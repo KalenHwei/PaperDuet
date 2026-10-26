@@ -180,6 +180,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.7** (2026-10-26): better reading and translation of journal papers, tested paper by paper on articles from 20 journals: columns, headings, reference lists, tables, captions and publishers' own symbols; Science papers are no longer left largely in English, and appendices after the references are translated.
 - **0.5.6** (2026-10-25): Italian as a translation and interface language; error reports to the developer when something goes wrong, to help fix problems (on by default, can be turned off in Settings › Data).
 - **0.5.5** (2026-10-25): fixed loosely set lines in journal papers being split into stray words, which left words out of the translation or put them in the wrong place; the abstract is translated right after the title; fewer "Layout analysis failed" errors; dashes in Elsevier papers no longer read as "e".
 - **0.5.4** (2026-10-24): a cleaner interface without the extra explanatory text; the AI search field now reads "Search with AI".

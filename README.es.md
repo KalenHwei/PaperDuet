@@ -180,6 +180,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.7** (2026-10-26): Lectura más precisa de artículos de revistas, probada con artículos de 20 revistas de referencia: columnas, títulos, referencias, tablas, pies de figura y símbolos propios de cada editorial; los artículos de Science ya no quedan en gran parte sin traducir, y los apéndices tras las referencias se traducen.
 - **0.5.6** (2026-10-25): Italiano como idioma de traducción y de la interfaz; cuando algo falla, se envía un informe de error al desarrollador para corregirlo (activado por defecto, se puede desactivar en Ajustes › Datos).
 - **0.5.5** (2026-10-25): Las líneas muy espaciadas de los artículos de revista ya no se parten en palabras sueltas, que faltaban o quedaban fuera de sitio en la traducción; el resumen se traduce justo después del título; menos «Error en el análisis del diseño»; los guiones de los artículos de Elsevier ya no aparecen como «e».
 - **0.5.4** (2026-10-24): Interfaz más limpia: se quitan los textos de explicación innecesarios; el campo de búsqueda con IA muestra «Buscar con IA».
