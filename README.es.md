@@ -113,12 +113,14 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 
 ¿Ya tienes alguno de estos modelos por LM Studio, llama.cpp o Hugging Face? PaperDuet lo encuentra y lo usa donde está, sin volver a descargarlo.
 
+¿Tu ordenador no puede con los modelos locales? Elige «Usar una API» en la selección de modelo e introduce tu propia clave de API para usar OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao o cualquier servicio compatible con OpenAI. Los modelos locales se pliegan, y la traducción, los resúmenes y la organización y búsqueda con IA pasan por ese servicio. Tu clave se queda en tu ordenador.
+
 ## Privacidad desde el diseño
 
-- Tus artículos, traducciones y notas se quedan en tu ordenador.
+- Tus artículos, traducciones y notas se quedan en tu ordenador. Con una API, el texto que se traduce se envía al servicio que elijas.
 - Solo si aceptas, PaperDuet envía datos anónimos de uso y diagnóstico (versión, sistema, idioma de la interfaz, modelo y tipos de errores), nunca el contenido de los artículos, y puedes desactivarlo cuando quieras en los ajustes.
 - Cuando algo falla, PaperDuet envía un informe de error al desarrollador: qué falló, la versión y el sistema, sin rutas de archivos ni contenido de los artículos. Puedes desactivarlo en Ajustes › Datos.
-- PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos e informes; puedes desactivar todo salvo la descarga del modelo.
+- Con un modelo local, PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos e informes; puedes desactivar todo salvo la descarga del modelo.
 
 ## Primeros pasos
 
@@ -168,7 +170,7 @@ H, N y 1 a 5 actúan sobre el texto seleccionado. En Windows, Ctrl sustituye a �
 
 ### ¿Qué modelo elijo?
 
-Empieza con Index-Translate-2B. Si quieres más velocidad, elige Hy-MT2-1.8B. Para las traducciones más fluidas en un ordenador con 16 GB de memoria o más, elige Hy-MT2-7B.
+Empieza con Index-Translate-2B. Si quieres más velocidad, elige Hy-MT2-1.8B. Para las traducciones más fluidas en un ordenador con 16 GB de memoria o más, elige Hy-MT2-7B. Si tu ordenador no puede, elige «Usar una API».
 
 ### ¿Es gratis?
 
@@ -180,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.10** (2026-10-27): Traducción mediante una API en línea: si tu ordenador no puede con los modelos locales, elige «Usar una API» en la selección de modelo para usar OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao o cualquier servicio compatible con OpenAI; la lista de modelos locales se pliega al hacerlo.
 - **0.5.9** (2026-10-26): Corrección de problemas existentes.
 - **0.5.8** (2026-10-26): Polaco como idioma de traducción y de la interfaz; correcciones: en macOS 26 y anteriores no se podían leer ni traducir los artículos; en macOS 27 no se podía guardar el PDF traducido de algunos artículos.
 - **0.5.7** (2026-10-26): Lectura más precisa de artículos de revistas, probada con artículos de 20 revistas de referencia: columnas, títulos, referencias, tablas, pies de figura y símbolos propios de cada editorial; los artículos de Science ya no quedan en gran parte sin traducir, y los apéndices tras las referencias se traducen.

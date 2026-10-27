@@ -113,12 +113,14 @@ Z zalecanym modelem tłumaczenie 15-stronicowego artykułu trwa na M5 Pro około
 
 Masz już któryś z tych modeli z LM Studio, llama.cpp lub Hugging Face? PaperDuet go znajdzie i użyje tam, gdzie jest, bez ponownego pobierania.
 
+Komputer nie radzi sobie z lokalnymi modelami? Wybierz „Użyj API” przy wyborze modelu i wpisz własny klucz API, aby korzystać z OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao lub dowolnej usługi zgodnej z OpenAI. Lista lokalnych modeli się zwinie, a tłumaczenie, streszczenia oraz porządkowanie i wyszukiwanie z AI będą działać przez tę usługę. Klucz zostaje na Twoim komputerze.
+
 ## Prywatność od podstaw
 
-- Twoje artykuły, tłumaczenia i notatki zostają na Twoim komputerze.
+- Twoje artykuły, tłumaczenia i notatki zostają na Twoim komputerze. Przy korzystaniu z API tłumaczony tekst trafia do wybranej usługi.
 - Tylko jeśli się zgodzisz, PaperDuet wysyła anonimowe dane o użytkowaniu i diagnostyce (wersja, system, język interfejsu, model i rodzaje błędów), nigdy treść artykułów, a wysyłanie możesz w każdej chwili wyłączyć w Ustawieniach.
 - Gdy coś pójdzie nie tak, PaperDuet wysyła twórcy raport o błędzie: co się nie udało, wersję i system, bez ścieżek plików i treści artykułów. Możesz to wyłączyć w Ustawieniach › Dane.
-- PaperDuet łączy się z internetem tylko po to, by pobrać model, sprawdzić uaktualnienia i wysłać powyższe dane i raporty; wyłączyć możesz wszystko oprócz pobierania modelu.
+- Z modelem lokalnym PaperDuet łączy się z internetem tylko po to, by pobrać model, sprawdzić uaktualnienia i wysłać powyższe dane i raporty; wyłączyć możesz wszystko oprócz pobierania modelu.
 
 ## Pierwsze kroki
 
@@ -168,7 +170,7 @@ H, N i klawisze od 1 do 5 działają na zaznaczonym tekście. W systemie Windows
 
 ### Który model wybrać?
 
-Zacznij od Index-Translate-2B. Jeśli zależy Ci na szybkości, wybierz Hy-MT2-1.8B. Po najpłynniejsze tłumaczenie na komputerze z 16 GB pamięci lub więcej sięgnij po Hy-MT2-7B.
+Zacznij od Index-Translate-2B. Jeśli zależy Ci na szybkości, wybierz Hy-MT2-1.8B. Po najpłynniejsze tłumaczenie na komputerze z 16 GB pamięci lub więcej sięgnij po Hy-MT2-7B. Jeśli komputer sobie nie radzi, wybierz „Użyj API”.
 
 ### Czy PaperDuet jest bezpłatny?
 
@@ -180,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.5.10** (2026-10-27): tłumaczenie przez API online: jeśli komputer nie radzi sobie z lokalnymi modelami, wybierz „Użyj API” przy wyborze modelu, by korzystać z OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao lub dowolnej usługi zgodnej z OpenAI; lista lokalnych modeli się wtedy zwija.
 - **0.5.9** (2026-10-26): poprawki istniejących błędów.
 - **0.5.8** (2026-10-26): polski jako język tłumaczenia i interfejsu; poprawki: w macOS 26 i starszych nie dało się odczytać ani przetłumaczyć artykułów; w macOS 27 dla niektórych artykułów nie udawało się zachować przetłumaczonego PDF.
 - **0.5.7** (2026-10-26): dokładniejsze odczytywanie i tłumaczenie artykułów z czasopism, sprawdzone artykuł po artykule na tekstach z 20 czasopism: kolumny, nagłówki, bibliografia, tabele, podpisy i symbole charakterystyczne dla wydawców; artykuły z Science nie zostają już w dużej części nieprzetłumaczone, a dodatki po bibliografii są tłumaczone.

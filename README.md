@@ -113,12 +113,14 @@ With the recommended model, a 15-page paper takes about 2 minutes on an M5 Pro, 
 
 Already have one of these models from LM Studio, llama.cpp or Hugging Face? PaperDuet finds it and uses it where it is, with no second download.
 
+Computer too slow for a local model? Pick **Use an API** in the model choice and enter your own API key to use OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao or any OpenAI-compatible service. The local models fold away, and translation, summaries, AI Organize and AI Search all go through that service. Your key stays on your computer.
+
 ## Private by design
 
-- Your papers, translations and notes stay on your computer.
+- Your papers, translations and notes stay on your computer. With an API, the text to translate is sent to the service you chose.
 - Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
 - When something goes wrong, PaperDuet sends an error report to the developer: what went wrong, the version and the system, without file paths or paper content. You can turn this off in Settings › Data.
-- PaperDuet goes online only to download a model, to check for updates and to send the data and reports above; you can turn off all but the model download.
+- With a local model, PaperDuet goes online only to download a model, to check for updates and to send the data and reports above; you can turn off all but the model download.
 
 ## Get started
 
@@ -168,7 +170,7 @@ H, N and 1 to 5 work on selected text. On Windows, use Ctrl for ⌘ and Shift fo
 
 ### Which model should I choose?
 
-Start with Index-Translate-2B. For more speed, pick Hy-MT2-1.8B. For the most fluent Chinese on a computer with 16 GB of memory or more, pick Hy-MT2-7B.
+Start with Index-Translate-2B. For more speed, pick Hy-MT2-1.8B. For the most fluent Chinese on a computer with 16 GB of memory or more, pick Hy-MT2-7B. If your computer struggles, pick **Use an API**.
 
 ### Is it free?
 
@@ -180,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.10** (2026-10-27): translation through an online API: if your computer struggles with the local models, pick Use an API in the model choice to use OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao or any OpenAI-compatible service; the local model list folds away when you do.
 - **0.5.9** (2026-10-26): fixed existing problems.
 - **0.5.8** (2026-10-26): Polish as a translation and interface language; fixes: on macOS 26 and earlier, papers could not be read or translated; on macOS 27, saving the translated PDF failed for some papers.
 - **0.5.7** (2026-10-26): better reading and translation of journal papers, tested paper by paper on articles from 20 journals: columns, headings, reference lists, tables, captions and publishers' own symbols; Science papers are no longer left largely in English, and appendices after the references are translated.

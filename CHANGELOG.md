@@ -6,6 +6,17 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.10] - 2026-10-27
+
+### Added
+
+- Translation through an online API, for computers too slow for the local
+  models: choose Use an API in the model choice and connect OpenAI, Claude,
+  DeepSeek, Qwen, Kimi, GLM, Doubao or any OpenAI-compatible service with your
+  own API key. The local models fold away while it is chosen, and translation,
+  summaries, AI Organize and AI Search all go through that service. The key is
+  kept only on this computer.
+
 ## [0.5.9] - 2026-10-26
 
 ### Fixed
