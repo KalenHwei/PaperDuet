@@ -182,7 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
-- **0.5.12** (2026-10-27): journal papers come out more accurately: lines of statistics, numbered subsection headings, sentences running on into the next column, Greek letters such as χ², accented names and minus signs in tables are no longer garbled; the exported translated PDF has even letter spacing. Thanks to momo on RedNote for the suggestions.
+- **0.5.12** (2026-10-27): journal papers come out more accurately: lines of statistics, numbered subsection headings, sentences running on into the next column, Greek letters such as χ², accented names and minus signs in tables are no longer garbled; the exported translated PDF has even letter spacing. Special thanks to momo on RedNote for the suggestions.
 - **0.5.11** (2026-10-27): pseudo-code is translated line by line, keeping its line numbers, indentation and keywords; tables are found more reliably, their cells stay in the original and only titles and notes are translated, so they no longer come out jumbled; sums within a sentence no longer go missing from the translation.
 - **0.5.10** (2026-10-27): translation through an online API: if your computer struggles with the local models, pick Use an API in the model choice to use OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao or any OpenAI-compatible service; the local model list folds away when you do.
 - **0.5.9** (2026-10-26): fixed existing problems.
