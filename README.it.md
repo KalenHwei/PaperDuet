@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.5.12** (2026-10-27): gli articoli di riviste vengono resi con più precisione: righe di statistiche, sottotitoli numerati, frasi che proseguono nella colonna successiva, lettere greche come χ², nomi accentati e segni meno nelle tabelle non risultano più alterati; il PDF tradotto esportato ha una spaziatura tra le lettere uniforme. Grazie a momo su RedNote per i suggerimenti.
 - **0.5.11** (2026-10-27): lo pseudocodice viene tradotto riga per riga, mantenendo numeri di riga, rientri e parole chiave; le tabelle vengono riconosciute meglio, il loro contenuto resta in originale e si traducono solo titoli e note, quindi non risultano più scomposte; le sommatorie nel testo non spariscono più dalla traduzione.
 - **0.5.10** (2026-10-27): traduzione tramite un’API online: se il computer fatica con i modelli locali, scegli «Usa un’API» nella scelta del modello per usare OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao o qualsiasi servizio compatibile con OpenAI; l’elenco dei modelli locali si richiude.
 - **0.5.9** (2026-10-26): correzione di problemi esistenti.

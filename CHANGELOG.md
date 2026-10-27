@@ -6,6 +6,27 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.12] - 2026-10-27
+
+### Fixed
+
+- Journal papers: a line of statistics run on from the line above
+  ("t(75) = 32.74") is no longer taken for a list item; a numbered heading on
+  a line of its own keeps apart from its first subsection; a sentence that
+  stops after a comma at the foot of a column goes on in the next.
+- χ² and other Greek letters in a symbol font come out right, and one set a
+  little larger no longer splits its paragraph; accented names (Zoë, Núñez)
+  and minus signs in tables come out right too.
+- Chinese: hypothesis numbers ("H1."), figure labels and notes keep their
+  punctuation, and no block of the translation starts with a full stop.
+- A section number the model adds by itself ("4.2. 2 …") is caught and the
+  sentence translated again.
+- The exported translated PDF has even letter spacing.
+
+### Thanks
+
+- momo on RedNote, for the suggestions.
+
 ## [0.5.11] - 2026-10-27
 
 ### Changed

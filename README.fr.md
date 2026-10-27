@@ -182,6 +182,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.12** (2026-10-27) : Les articles de revues sont mieux rendus : lignes de statistiques, intertitres numérotés, phrases qui continuent dans la colonne suivante, lettres grecques comme χ², noms accentués et signes moins dans les tableaux ne sont plus déformés ; le PDF traduit exporté a un espacement des lettres régulier. Merci à momo sur RedNote pour ses suggestions.
 - **0.5.11** (2026-10-27) : Le pseudo-code est traduit ligne par ligne, numéros de ligne, indentation et mots-clés conservés ; les tableaux sont mieux repérés, leur contenu reste en version originale et seuls titres et notes sont traduits, si bien qu'ils ne sont plus désorganisés ; les sommes dans le texte ne disparaissent plus de la traduction.
 - **0.5.10** (2026-10-27) : Traduction par une API en ligne : si votre ordinateur peine avec les modèles locaux, choisissez « Utiliser une API » dans le choix du modèle pour passer par OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao ou tout service compatible OpenAI ; la liste des modèles locaux se replie alors.
 - **0.5.9** (2026-10-26) : Correction de problèmes existants.
