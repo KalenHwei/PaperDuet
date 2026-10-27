@@ -180,6 +180,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.5.9** (2026-10-26): correzione di problemi esistenti.
 - **0.5.8** (2026-10-26): il polacco come lingua di traduzione e dell’interfaccia; correzioni: su macOS 26 e precedenti gli articoli non si potevano leggere né tradurre; su macOS 27 non si riusciva a salvare il PDF tradotto di alcuni articoli.
 - **0.5.7** (2026-10-26): lettura più accurata degli articoli di rivista, provata su articoli di 20 grandi riviste: colonne, titoli, bibliografia, tabelle, didascalie e simboli propri degli editori; gli articoli di Science non restano più in gran parte non tradotti, e le appendici dopo la bibliografia vengono tradotte.
 - **0.5.6** (2026-10-25): l’italiano come lingua di traduzione e dell’interfaccia; segnalazioni di errore allo sviluppatore quando qualcosa va storto, per aiutare a risolvere i problemi (attive per impostazione predefinita, si possono disattivare in Impostazioni › Dati).

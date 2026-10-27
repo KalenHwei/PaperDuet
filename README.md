@@ -180,6 +180,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.9** (2026-10-26): fixed existing problems.
 - **0.5.8** (2026-10-26): Polish as a translation and interface language; fixes: on macOS 26 and earlier, papers could not be read or translated; on macOS 27, saving the translated PDF failed for some papers.
 - **0.5.7** (2026-10-26): better reading and translation of journal papers, tested paper by paper on articles from 20 journals: columns, headings, reference lists, tables, captions and publishers' own symbols; Science papers are no longer left largely in English, and appendices after the references are translated.
 - **0.5.6** (2026-10-25): Italian as a translation and interface language; error reports to the developer when something goes wrong, to help fix problems (on by default, can be turned off in Settings › Data).

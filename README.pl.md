@@ -180,6 +180,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.5.9** (2026-10-26): poprawki istniejących błędów.
 - **0.5.8** (2026-10-26): polski jako język tłumaczenia i interfejsu; poprawki: w macOS 26 i starszych nie dało się odczytać ani przetłumaczyć artykułów; w macOS 27 dla niektórych artykułów nie udawało się zachować przetłumaczonego PDF.
 - **0.5.7** (2026-10-26): dokładniejsze odczytywanie i tłumaczenie artykułów z czasopism, sprawdzone artykuł po artykule na tekstach z 20 czasopism: kolumny, nagłówki, bibliografia, tabele, podpisy i symbole charakterystyczne dla wydawców; artykuły z Science nie zostają już w dużej części nieprzetłumaczone, a dodatki po bibliografii są tłumaczone.
 - **0.5.6** (2026-10-25): włoski jako język tłumaczenia i interfejsu; raporty o błędach wysyłane do twórcy, gdy coś pójdzie nie tak, aby pomóc w naprawianiu problemów (domyślnie włączone, można je wyłączyć w Ustawieniach › Dane).

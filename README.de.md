@@ -180,6 +180,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.9** (2026-10-26): Behebung bestehender Fehler.
 - **0.5.8** (2026-10-26): Polnisch als Ziel- und Oberflächensprache; Fehlerbehebungen: Unter macOS 26 und älter konnten Artikel weder gelesen noch übersetzt werden; unter macOS 27 schlug bei manchen Artikeln das Speichern des übersetzten PDFs fehl.
 - **0.5.7** (2026-10-26): Zeitschriftenartikel werden genauer gelesen und übersetzt (geprüft an Artikeln aus 20 führenden Zeitschriften): Spalten, Überschriften, Literaturverzeichnisse, Tabellen, Bildunterschriften und verlagseigene Symbole; Artikel aus Science bleiben nicht mehr größtenteils unübersetzt, und Anhänge nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.6** (2026-10-25): Italienisch als Ziel- und Oberflächensprache; bei Fehlern geht ein Fehlerbericht an den Entwickler, damit sich Probleme beheben lassen (standardmäßig an, abschaltbar unter Einstellungen › Daten).
