@@ -182,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.5.11** (2026-10-27): pseudokod jest tłumaczony wiersz po wierszu z zachowaniem numerów wierszy, wcięć i słów kluczowych; tabele są lepiej rozpoznawane, ich zawartość zostaje w oryginale, a tłumaczone są tylko tytuły i przypisy, więc już się nie rozjeżdżają; sumy w tekście nie znikają już z tłumaczenia.
 - **0.5.10** (2026-10-27): tłumaczenie przez API online: jeśli komputer nie radzi sobie z lokalnymi modelami, wybierz „Użyj API” przy wyborze modelu, by korzystać z OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao lub dowolnej usługi zgodnej z OpenAI; lista lokalnych modeli się wtedy zwija.
 - **0.5.9** (2026-10-26): poprawki istniejących błędów.
 - **0.5.8** (2026-10-26): polski jako język tłumaczenia i interfejsu; poprawki: w macOS 26 i starszych nie dało się odczytać ani przetłumaczyć artykułów; w macOS 27 dla niektórych artykułów nie udawało się zachować przetłumaczonego PDF.

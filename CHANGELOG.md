@@ -6,6 +6,27 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.11] - 2026-10-27
+
+### Changed
+
+- Pseudo-code under an "Algorithm N" caption is translated step by step and
+  each step is set where it was: line numbers, indentation, keywords (for, do,
+  end for) and formulas stay as they are, and a comment beside a step is
+  translated on its own.
+- Table cells stay in the original; only table titles and notes are
+  translated. Tables are found more reliably: a caption with a table on each
+  side takes the one on the side the paper's other captions have theirs, rows
+  over a table's first rule, tables with upright rules and grids of rules
+  without a caption nearby.
+
+### Fixed
+
+- A sum set inline in a sentence (STIX fonts, Elsevier) no longer goes missing
+  from the translation, and no stray piece of it is left above the line.
+- The text of a table caption under a label of its own ("Table B.6") is
+  translated with it.
+
 ## [0.5.10] - 2026-10-27
 
 ### Added

@@ -182,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.11** (2026-10-27): pseudo-code is translated line by line, keeping its line numbers, indentation and keywords; tables are found more reliably, their cells stay in the original and only titles and notes are translated, so they no longer come out jumbled; sums within a sentence no longer go missing from the translation.
 - **0.5.10** (2026-10-27): translation through an online API: if your computer struggles with the local models, pick Use an API in the model choice to use OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao or any OpenAI-compatible service; the local model list folds away when you do.
 - **0.5.9** (2026-10-26): fixed existing problems.
 - **0.5.8** (2026-10-26): Polish as a translation and interface language; fixes: on macOS 26 and earlier, papers could not be read or translated; on macOS 27, saving the translated PDF failed for some papers.

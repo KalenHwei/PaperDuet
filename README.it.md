@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.5.11** (2026-10-27): lo pseudocodice viene tradotto riga per riga, mantenendo numeri di riga, rientri e parole chiave; le tabelle vengono riconosciute meglio, il loro contenuto resta in originale e si traducono solo titoli e note, quindi non risultano più scomposte; le sommatorie nel testo non spariscono più dalla traduzione.
 - **0.5.10** (2026-10-27): traduzione tramite un’API online: se il computer fatica con i modelli locali, scegli «Usa un’API» nella scelta del modello per usare OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao o qualsiasi servizio compatibile con OpenAI; l’elenco dei modelli locali si richiude.
 - **0.5.9** (2026-10-26): correzione di problemi esistenti.
 - **0.5.8** (2026-10-26): il polacco come lingua di traduzione e dell’interfaccia; correzioni: su macOS 26 e precedenti gli articoli non si potevano leggere né tradurre; su macOS 27 non si riusciva a salvare il PDF tradotto di alcuni articoli.

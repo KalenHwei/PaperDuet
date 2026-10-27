@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.11** (2026-10-27): Pseudocode wird Zeile für Zeile übersetzt; Zeilennummern, Einrückung und Schlüsselwörter bleiben erhalten. Tabellen werden zuverlässiger erkannt, ihr Inhalt bleibt im Original und nur Titel und Anmerkungen werden übersetzt, sodass sie nicht mehr durcheinandergeraten. Summen im Fließtext fehlen nicht mehr in der Übersetzung.
 - **0.5.10** (2026-10-27): Übersetzung über eine Online-API: Ist dein Computer mit den lokalen Modellen überfordert, wähle in der Modellauswahl „API verwenden“ für OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao oder einen beliebigen OpenAI-kompatiblen Dienst; die Liste der lokalen Modelle klappt sich dann weg.
 - **0.5.9** (2026-10-26): Behebung bestehender Fehler.
 - **0.5.8** (2026-10-26): Polnisch als Ziel- und Oberflächensprache; Fehlerbehebungen: Unter macOS 26 und älter konnten Artikel weder gelesen noch übersetzt werden; unter macOS 27 schlug bei manchen Artikeln das Speichern des übersetzten PDFs fehl.
