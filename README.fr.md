@@ -183,6 +183,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.1** (2026-10-28) : Correction de quelques problèmes de mise en forme connus.
 - **0.6.0** (2026-10-28) : Visite guidée des principales fonctions à la première ouverture d’un article, et avis bêta : envoyez-nous vos remarques directement depuis la barre d’état.
 - **0.5.17** (2026-10-28) : Correction de quelques problèmes de mise en forme connus.
 - **0.5.16** (2026-10-28) : Les paragraphes des manuscrits (exportés de Word, en double interligne) ne restent plus en anglais : les lignes surlignées sont traduites, les paragraphes en double interligne sont traduits en entier et non ligne par ligne, et les légendes des figures placées après les références sont traduites.

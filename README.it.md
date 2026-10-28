@@ -183,6 +183,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.1** (2026-10-28): corretti alcuni problemi di formattazione noti.
 - **0.6.0** (2026-10-28): un breve tour delle funzioni principali la prima volta che apri un articolo e il feedback beta: inviaci la tua opinione direttamente dalla barra di stato.
 - **0.5.17** (2026-10-28): corretti alcuni problemi di formattazione noti.
 - **0.5.16** (2026-10-28): i paragrafi dei manoscritti (esportati da Word, con interlinea doppia) non restano più in inglese: le righe evidenziate vengono tradotte, i paragrafi con interlinea doppia vengono tradotti interi e non riga per riga, e le didascalie delle figure poste dopo la bibliografia vengono tradotte.

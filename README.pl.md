@@ -183,6 +183,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.1** (2026-10-28): poprawiono kilka znanych problemów z formatowaniem.
 - **0.6.0** (2026-10-28): krótki przewodnik po najważniejszych funkcjach przy pierwszym otwarciu artykułu oraz opinie w wersji beta: wyślij nam swoje uwagi prosto z paska stanu.
 - **0.5.17** (2026-10-28): poprawiono kilka znanych problemów z formatowaniem.
 - **0.5.16** (2026-10-28): akapity rękopisów (eksportowanych z Worda, z podwójną interlinią) nie zostają już po angielsku: wyróżnione wiersze są tłumaczone, akapity z podwójną interlinią są tłumaczone w całości, a nie wiersz po wierszu, a podpisy rycin umieszczone po bibliografii są tłumaczone.

@@ -183,6 +183,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.1** (2026-10-28): fixed some known formatting issues.
 - **0.6.0** (2026-10-28): a short tour of the main controls the first time you open a paper, and Beta feedback: send us a note right from the status bar.
 - **0.5.17** (2026-10-28): fixed some known formatting issues.
 - **0.5.16** (2026-10-28): paragraphs of manuscripts (exported from Word, double-spaced) no longer stay in English: lines with a highlight behind them are translated, double-spaced paragraphs are translated whole instead of line by line, and figure legends after the references are translated.

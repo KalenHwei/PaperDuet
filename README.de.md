@@ -183,6 +183,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.1** (2026-10-28): Einige bekannte Formatierungsprobleme behoben.
 - **0.6.0** (2026-10-28): Kurze Einführung in die wichtigsten Funktionen beim ersten geöffneten Paper und Beta-Feedback: Schick uns deine Meinung direkt aus der Statusleiste.
 - **0.5.17** (2026-10-28): Einige bekannte Formatierungsprobleme behoben.
 - **0.5.16** (2026-10-28): Absätze von Manuskripten (aus Word exportiert, mit doppeltem Zeilenabstand) bleiben nicht mehr auf Englisch: Hinterlegte Zeilen werden übersetzt, Absätze mit doppeltem Zeilenabstand werden als Ganzes statt Zeile für Zeile übersetzt, und Abbildungslegenden nach dem Literaturverzeichnis werden übersetzt.

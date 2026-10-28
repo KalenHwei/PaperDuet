@@ -183,6 +183,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.1** (2026-10-28): Se corrigieron algunos problemas de formato conocidos.
 - **0.6.0** (2026-10-28): Un recorrido breve por las funciones principales la primera vez que abres un artículo, y comentarios beta: envíanos tu opinión directamente desde la barra de estado.
 - **0.5.17** (2026-10-28): Se corrigieron algunos problemas de formato conocidos.
 - **0.5.16** (2026-10-28): Los párrafos de manuscritos (exportados de Word, a doble espacio) ya no se quedan en inglés: las líneas resaltadas se traducen, los párrafos a doble espacio se traducen enteros y no línea por línea, y las leyendas de las figuras situadas después de las referencias se traducen.
