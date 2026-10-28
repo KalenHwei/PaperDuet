@@ -182,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.5.14** (2026-10-28): poprawiono kilka znanych błędów formatowania.
 - **0.5.13** (2026-10-28): wzory nie są już zniekształcane: wzory wyświetlane z ułamkami i sumami pozostają w całości zamiast być tłumaczone kawałkami na samych sobie, a sumy w tekście, pierwiastki i mocno rozstrzelone wiersze ze wzorami nie rozbijają już zdania.
 - **0.5.12** (2026-10-27): artykuły z czasopism są odwzorowywane dokładniej: wiersze ze statystykami, numerowane śródtytuły, zdania przechodzące do następnej kolumny, greckie litery takie jak χ², nazwiska ze znakami diakrytycznymi i znaki minus w tabelach już się nie psują; wyeksportowany przetłumaczony PDF ma równe odstępy między literami. Dziękujemy momo z RedNote za sugestie.
 - **0.5.11** (2026-10-27): pseudokod jest tłumaczony wiersz po wierszu z zachowaniem numerów wierszy, wcięć i słów kluczowych; tabele są lepiej rozpoznawane, ich zawartość zostaje w oryginale, a tłumaczone są tylko tytuły i przypisy, więc już się nie rozjeżdżają; sumy w tekście nie znikają już z tłumaczenia.
