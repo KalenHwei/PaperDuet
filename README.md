@@ -182,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.16** (2026-10-28): paragraphs of manuscripts (exported from Word, double-spaced) no longer stay in English: lines with a highlight behind them are translated, double-spaced paragraphs are translated whole instead of line by line, and figure legends after the references are translated.
 - **0.5.15** (2026-10-28): formula symbols in Elsevier journals are no longer garbled: Greek letters, ≤, ∀, ≠ and hatted letters (Ŝ, q̂) no longer show up as plain letters, and a superscript set high no longer jumps to the line above.
 - **0.5.14** (2026-10-28): fixed some known formatting errors.
 - **0.5.13** (2026-10-28): formulas no longer come out garbled: display equations with fractions and sums are kept whole instead of being translated piece by piece over themselves, and inline sums, square roots and widely spaced lines of formulas no longer break their sentence apart.

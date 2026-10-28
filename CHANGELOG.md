@@ -6,6 +6,20 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.16] - 2026-10-28
+
+### Fixed
+
+- A fill behind a line of text (a manuscript's highlight, even in white) is no
+  longer taken for a figure: the lines it covered were left in English.
+- Double-spaced text (manuscripts) is read in paragraphs instead of line by
+  line; a paragraph set without indent or space before it starts after the
+  short last line of the one before, and so does one that opens with a run-in
+  heading ("Label Smoothing.").
+- Figure legends after the references are translated instead of being taken
+  for entries of the list; a manuscript's title, set in the face of its
+  figures' labels, is translated.
+
 ## [0.5.15] - 2026-10-28
 
 ### Fixed

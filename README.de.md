@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.16** (2026-10-28): Absätze von Manuskripten (aus Word exportiert, mit doppeltem Zeilenabstand) bleiben nicht mehr auf Englisch: Hinterlegte Zeilen werden übersetzt, Absätze mit doppeltem Zeilenabstand werden als Ganzes statt Zeile für Zeile übersetzt, und Abbildungslegenden nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.15** (2026-10-28): Formelzeichen in Elsevier-Zeitschriften werden nicht mehr verstümmelt: Griechische Buchstaben, ≤, ∀, ≠ und Buchstaben mit Dach (Ŝ, q̂) erscheinen nicht mehr als gewöhnliche Buchstaben, und ein hochgestellter Exponent rutscht nicht mehr in die Zeile darüber.
 - **0.5.14** (2026-10-28): Einige bekannte Formatierungsfehler behoben.
 - **0.5.13** (2026-10-28): Formeln werden nicht mehr verstümmelt: Abgesetzte Formeln mit Brüchen und Summen bleiben als Ganzes erhalten, statt stückweise über sich selbst übersetzt zu werden, und Summen im Fließtext, Wurzeln sowie weit gesperrte Formelzeilen trennen den Satz nicht mehr auf.

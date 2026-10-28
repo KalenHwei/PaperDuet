@@ -182,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.5.16** (2026-10-28): akapity rękopisów (eksportowanych z Worda, z podwójną interlinią) nie zostają już po angielsku: wyróżnione wiersze są tłumaczone, akapity z podwójną interlinią są tłumaczone w całości, a nie wiersz po wierszu, a podpisy rycin umieszczone po bibliografii są tłumaczone.
 - **0.5.15** (2026-10-28): symbole we wzorach w czasopismach Elsevier nie są już zniekształcane: litery greckie, ≤, ∀, ≠ i litery z daszkiem (Ŝ, q̂) nie wyświetlają się już jako zwykłe litery, a wysoko podniesiony indeks górny nie trafia już do wiersza powyżej.
 - **0.5.14** (2026-10-28): poprawiono kilka znanych błędów formatowania.
 - **0.5.13** (2026-10-28): wzory nie są już zniekształcane: wzory wyświetlane z ułamkami i sumami pozostają w całości zamiast być tłumaczone kawałkami na samych sobie, a sumy w tekście, pierwiastki i mocno rozstrzelone wiersze ze wzorami nie rozbijają już zdania.

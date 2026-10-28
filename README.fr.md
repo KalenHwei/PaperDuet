@@ -182,6 +182,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.16** (2026-10-28) : Les paragraphes des manuscrits (exportés de Word, en double interligne) ne restent plus en anglais : les lignes surlignées sont traduites, les paragraphes en double interligne sont traduits en entier et non ligne par ligne, et les légendes des figures placées après les références sont traduites.
 - **0.5.15** (2026-10-28) : Les symboles des formules dans les revues Elsevier ne sont plus brouillés : lettres grecques, ≤, ∀, ≠ et lettres chapeautées (Ŝ, q̂) ne s'affichent plus comme de simples lettres, et un exposant placé haut ne passe plus à la ligne du dessus.
 - **0.5.14** (2026-10-28) : Correction de quelques erreurs de mise en forme connues.
 - **0.5.13** (2026-10-28) : Les formules ne sont plus brouillées : les équations centrées avec fractions et sommes restent entières au lieu d'être traduites par morceaux par-dessus elles-mêmes, et les sommes dans le texte, les racines carrées et les lignes de formules très espacées ne coupent plus la phrase.
