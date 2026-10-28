@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.17** (2026-10-28): Formeln im Fließtext erscheinen wie gedruckt: In den Schriften des Textes gesetzte Formeln (griechische Buchstaben, kursive Variablen, Dächer und Tilden, Zeichen) werden aus der Originalseite übernommen, statt neu gesetzt zu werden, was „θ ˜“, Lücken oder Kästchen ergab; ebenso im exportierten PDF.
 - **0.5.16** (2026-10-28): Absätze von Manuskripten (aus Word exportiert, mit doppeltem Zeilenabstand) bleiben nicht mehr auf Englisch: Hinterlegte Zeilen werden übersetzt, Absätze mit doppeltem Zeilenabstand werden als Ganzes statt Zeile für Zeile übersetzt, und Abbildungslegenden nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.15** (2026-10-28): Formelzeichen in Elsevier-Zeitschriften werden nicht mehr verstümmelt: Griechische Buchstaben, ≤, ∀, ≠ und Buchstaben mit Dach (Ŝ, q̂) erscheinen nicht mehr als gewöhnliche Buchstaben, und ein hochgestellter Exponent rutscht nicht mehr in die Zeile darüber.
 - **0.5.14** (2026-10-28): Einige bekannte Formatierungsfehler behoben.

@@ -182,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.5.17** (2026-10-28): inline formulas look as printed: formulas set in the text's fonts (Greek letters, italic variables, hats and tildes, signs) are taken from the original page instead of being set again, which gave “θ ˜”, blanks or boxes; the same in the exported PDF.
 - **0.5.16** (2026-10-28): paragraphs of manuscripts (exported from Word, double-spaced) no longer stay in English: lines with a highlight behind them are translated, double-spaced paragraphs are translated whole instead of line by line, and figure legends after the references are translated.
 - **0.5.15** (2026-10-28): formula symbols in Elsevier journals are no longer garbled: Greek letters, ≤, ∀, ≠ and hatted letters (Ŝ, q̂) no longer show up as plain letters, and a superscript set high no longer jumps to the line above.
 - **0.5.14** (2026-10-28): fixed some known formatting errors.

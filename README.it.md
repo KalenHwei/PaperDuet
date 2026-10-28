@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.5.17** (2026-10-28): le formule nel testo appaiono come stampate: quelle composte con i caratteri del testo (lettere greche, variabili in corsivo, cappelli e tilde, segni) sono riprese dalla pagina originale invece di essere ricomposte, cosa che dava «θ ˜», spazi vuoti o quadratini; lo stesso nel PDF esportato.
 - **0.5.16** (2026-10-28): i paragrafi dei manoscritti (esportati da Word, con interlinea doppia) non restano più in inglese: le righe evidenziate vengono tradotte, i paragrafi con interlinea doppia vengono tradotti interi e non riga per riga, e le didascalie delle figure poste dopo la bibliografia vengono tradotte.
 - **0.5.15** (2026-10-28): i simboli delle formule nelle riviste Elsevier non risultano più alterati: lettere greche, ≤, ∀, ≠ e lettere con il cappello (Ŝ, q̂) non appaiono più come lettere normali, e un apice posto molto in alto non finisce più nella riga sopra.
 - **0.5.14** (2026-10-28): corretti alcuni errori di formattazione noti.
