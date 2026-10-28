@@ -8,22 +8,9 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [0.5.17] - 2026-10-28
 
-### Changed
-
-- Formulas set in text fonts (Oxford, PNAS, INFORMS and Elsevier journals):
-  Greek letters, signs, italic letters, the accents over them, and the figures
-  and brackets between them are cut out of the page with the formula around
-  them, instead of being set again in the translation's face ("θ ˜", blanks,
-  boxes for an equals sign).
-
 ### Fixed
 
-- When the model keeps leaving such a formula out of a sentence, the sentence is
-  translated with the formula typed in, rather than left in English.
-- Exported PDF: a formula ending in figures of a run of text ("N = 2000") is
-  drawn whole.
-- A radical's bar set on its sign's raised baseline no longer leaves a blank in
-  the line above.
+- Some known formatting issues.
 
 ## [0.5.16] - 2026-10-28
 
