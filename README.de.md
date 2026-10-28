@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.5.13** (2026-10-28): Formeln werden nicht mehr verstümmelt: Abgesetzte Formeln mit Brüchen und Summen bleiben als Ganzes erhalten, statt stückweise über sich selbst übersetzt zu werden, und Summen im Fließtext, Wurzeln sowie weit gesperrte Formelzeilen trennen den Satz nicht mehr auf.
 - **0.5.12** (2026-10-27): Zeitschriftenartikel werden genauer wiedergegeben: Statistikzeilen, nummerierte Zwischenüberschriften, Sätze, die in der nächsten Spalte weitergehen, griechische Buchstaben wie χ², Namen mit Akzenten und Minuszeichen in Tabellen kommen nicht mehr durcheinander; das exportierte übersetzte PDF hat einen gleichmäßigen Zeichenabstand. Danke an momo auf RedNote für die Vorschläge.
 - **0.5.11** (2026-10-27): Pseudocode wird Zeile für Zeile übersetzt; Zeilennummern, Einrückung und Schlüsselwörter bleiben erhalten. Tabellen werden zuverlässiger erkannt, ihr Inhalt bleibt im Original und nur Titel und Anmerkungen werden übersetzt, sodass sie nicht mehr durcheinandergeraten. Summen im Fließtext fehlen nicht mehr in der Übersetzung.
 - **0.5.10** (2026-10-27): Übersetzung über eine Online-API: Ist dein Computer mit den lokalen Modellen überfordert, wähle in der Modellauswahl „API verwenden“ für OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao oder einen beliebigen OpenAI-kompatiblen Dienst; die Liste der lokalen Modelle klappt sich dann weg.

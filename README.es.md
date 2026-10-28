@@ -182,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.13** (2026-10-28): Las fórmulas ya no salen desordenadas: las ecuaciones en línea aparte con fracciones y sumatorios se conservan enteras en lugar de traducirse a trozos encima de sí mismas, y los sumatorios dentro del texto, las raíces y las líneas de fórmulas muy espaciadas ya no parten la frase.
 - **0.5.12** (2026-10-27): Los artículos de revistas salen con más precisión: las líneas de estadísticas, los subtítulos numerados, las frases que siguen en la columna siguiente, letras griegas como χ², los nombres con tilde y los signos menos de las tablas ya no se estropean; el PDF traducido exportado tiene un espaciado entre letras uniforme. Gracias a momo en RedNote por sus sugerencias.
 - **0.5.11** (2026-10-27): El pseudocódigo se traduce línea a línea y conserva la numeración, la sangría y las palabras clave; las tablas se detectan mejor, su contenido queda en el original y solo se traducen títulos y notas, así que ya no se desordenan; los sumatorios dentro del texto ya no desaparecen de la traducción.
 - **0.5.10** (2026-10-27): Traducción mediante una API en línea: si tu ordenador no puede con los modelos locales, elige «Usar una API» en la selección de modelo para usar OpenAI, Claude, DeepSeek, Qwen, Kimi, GLM, Doubao o cualquier servicio compatible con OpenAI; la lista de modelos locales se pliega al hacerlo.

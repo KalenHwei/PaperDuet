@@ -6,6 +6,24 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.13] - 2026-10-28
+
+### Fixed
+
+- Display equations set in text fonts (Oxford journals and others): the
+  numerators, denominators and limits of a formula with fractions and sums
+  are kept as one formula, not translated piece by piece and set over it,
+  covering its summation sign.
+- A sum from an extension font ("TeX_Times_Math_Extension") set inline sits
+  in its line and no longer splits it in two.
+- A line of formulas and a few words, set with wide spaces, stays one line.
+- A letter under a radical's bar or a wide accent (√N, w̃) is cut out with
+  its formula; a word after a subscript, in the subscript's size, is read as
+  text.
+- Appendix equation numbers such as "(A.5)" are recognised.
+- Chinese: the dots of "1, 2, . . . , n" are no longer turned into full
+  stops.
+
 ## [0.5.12] - 2026-10-27
 
 ### Fixed
