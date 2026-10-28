@@ -6,6 +6,19 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.5.15] - 2026-10-28
+
+### Fixed
+
+- Elsevier's maths fonts (Advent 3B2) are read as their symbols: Greek letters
+  ("g" for η), ≤, ≥, ∀, ∈, ≠, →, ∞, the comma of the italic maths font,
+  wide hats (Ŝ, q̂) and big sums, brackets and radicals; a glyph that cannot be
+  read is cut out of the page with its formula instead of being dropped.
+- A superscript set high over a subscript (Ŝ⁻¹ with T under it) stays with its
+  letter instead of joining the line above.
+- A line with a big radical and no words of text ("RMSFEj = √…") is kept as a
+  display formula.
+
 ## [0.5.14] - 2026-10-28
 
 ### Fixed

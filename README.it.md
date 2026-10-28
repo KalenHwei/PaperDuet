@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.5.15** (2026-10-28): i simboli delle formule nelle riviste Elsevier non risultano più alterati: lettere greche, ≤, ∀, ≠ e lettere con il cappello (Ŝ, q̂) non appaiono più come lettere normali, e un apice posto molto in alto non finisce più nella riga sopra.
 - **0.5.14** (2026-10-28): corretti alcuni errori di formattazione noti.
 - **0.5.13** (2026-10-28): le formule non risultano più alterate: le equazioni in display con frazioni e sommatorie restano intere invece di essere tradotte a pezzi sopra se stesse, e le sommatorie nel testo, le radici e le righe di formule molto spaziate non spezzano più la frase.
 - **0.5.12** (2026-10-27): gli articoli di riviste vengono resi con più precisione: righe di statistiche, sottotitoli numerati, frasi che proseguono nella colonna successiva, lettere greche come χ², nomi accentati e segni meno nelle tabelle non risultano più alterati; il PDF tradotto esportato ha una spaziatura tra le lettere uniforme. Grazie a momo su RedNote per i suggerimenti.

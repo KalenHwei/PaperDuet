@@ -182,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.5.15** (2026-10-28): Los símbolos de las fórmulas en revistas de Elsevier ya no salen desordenados: las letras griegas, ≤, ∀, ≠ y las letras con circunflejo (Ŝ, q̂) ya no aparecen como letras normales, y un superíndice colocado muy alto ya no pasa a la línea de arriba.
 - **0.5.14** (2026-10-28): Se corrigieron algunos errores de formato conocidos.
 - **0.5.13** (2026-10-28): Las fórmulas ya no salen desordenadas: las ecuaciones en línea aparte con fracciones y sumatorios se conservan enteras en lugar de traducirse a trozos encima de sí mismas, y los sumatorios dentro del texto, las raíces y las líneas de fórmulas muy espaciadas ya no parten la frase.
 - **0.5.12** (2026-10-27): Los artículos de revistas salen con más precisión: las líneas de estadísticas, los subtítulos numerados, las frases que siguen en la columna siguiente, letras griegas como χ², los nombres con tilde y los signos menos de las tablas ya no se estropean; el PDF traducido exportado tiene un espaciado entre letras uniforme. Gracias a momo en RedNote por sus sugerencias.

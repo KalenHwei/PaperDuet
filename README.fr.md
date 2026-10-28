@@ -182,6 +182,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.5.15** (2026-10-28) : Les symboles des formules dans les revues Elsevier ne sont plus brouillés : lettres grecques, ≤, ∀, ≠ et lettres chapeautées (Ŝ, q̂) ne s'affichent plus comme de simples lettres, et un exposant placé haut ne passe plus à la ligne du dessus.
 - **0.5.14** (2026-10-28) : Correction de quelques erreurs de mise en forme connues.
 - **0.5.13** (2026-10-28) : Les formules ne sont plus brouillées : les équations centrées avec fractions et sommes restent entières au lieu d'être traduites par morceaux par-dessus elles-mêmes, et les sommes dans le texte, les racines carrées et les lignes de formules très espacées ne coupent plus la phrase.
 - **0.5.12** (2026-10-27) : Les articles de revues sont mieux rendus : lignes de statistiques, intertitres numérotés, phrases qui continuent dans la colonne suivante, lettres grecques comme χ², noms accentués et signes moins dans les tableaux ne sont plus déformés ; le PDF traduit exporté a un espacement des lettres régulier. Merci à momo sur RedNote pour ses suggestions.
