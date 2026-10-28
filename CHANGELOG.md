@@ -6,6 +6,17 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-10-28
+
+### Added
+
+- A short tour of the main controls the first time a paper is opened.
+- Beta feedback: the Feedback button in the status bar sends your note (and an email address, if you give one) to the developer.
+
+### Changed
+
+- The status bar keeps the shield and drops the slogan next to it.
+
 ## [0.5.17] - 2026-10-28
 
 ### Fixed

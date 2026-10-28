@@ -120,7 +120,8 @@ Votre ordinateur peine avec les modèles locaux ? Choisissez « Utiliser une API
 - Vos articles, traductions et notes restent sur votre ordinateur. Avec une API, le texte à traduire est envoyé au service choisi.
 - Seulement si vous l'acceptez, PaperDuet envoie des données d'utilisation et de diagnostic anonymes (version, système, langue de l'interface, modèle et types d'erreurs), jamais le contenu des articles, et vous pouvez les désactiver à tout moment dans les réglages.
 - En cas d’erreur, PaperDuet envoie un rapport au développeur : ce qui s’est passé, la version et le système, sans chemins de fichiers ni contenu des articles. Vous pouvez le désactiver dans Réglages › Données.
-- Avec un modèle local, PaperDuet ne se connecte que pour télécharger un modèle, vérifier les mises à jour et envoyer ces données et rapports ; tout sauf le téléchargement du modèle peut être désactivé.
+- Quand vous écrivez un avis dans l’application et cliquez sur Envoyer, votre texte (et votre e-mail, si vous l’indiquez) est envoyé au développeur avec la version et le système.
+- Avec un modèle local, PaperDuet ne se connecte que pour télécharger un modèle, vérifier les mises à jour et envoyer ces données et rapports, ainsi que vos avis ; tout sauf le téléchargement du modèle peut être désactivé.
 
 ## Pour commencer
 
@@ -182,6 +183,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.0** (2026-10-28) : Visite guidée des principales fonctions à la première ouverture d’un article, et avis bêta : envoyez-nous vos remarques directement depuis la barre d’état.
 - **0.5.17** (2026-10-28) : Correction de quelques problèmes de mise en forme connus.
 - **0.5.16** (2026-10-28) : Les paragraphes des manuscrits (exportés de Word, en double interligne) ne restent plus en anglais : les lignes surlignées sont traduites, les paragraphes en double interligne sont traduits en entier et non ligne par ligne, et les légendes des figures placées après les références sont traduites.
 - **0.5.15** (2026-10-28) : Les symboles des formules dans les revues Elsevier ne sont plus brouillés : lettres grecques, ≤, ∀, ≠ et lettres chapeautées (Ŝ, q̂) ne s'affichent plus comme de simples lettres, et un exposant placé haut ne passe plus à la ligne du dessus.

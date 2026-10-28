@@ -120,7 +120,8 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 - Tus artículos, traducciones y notas se quedan en tu ordenador. Con una API, el texto que se traduce se envía al servicio que elijas.
 - Solo si aceptas, PaperDuet envía datos anónimos de uso y diagnóstico (versión, sistema, idioma de la interfaz, modelo y tipos de errores), nunca el contenido de los artículos, y puedes desactivarlo cuando quieras en los ajustes.
 - Cuando algo falla, PaperDuet envía un informe de error al desarrollador: qué falló, la versión y el sistema, sin rutas de archivos ni contenido de los artículos. Puedes desactivarlo en Ajustes › Datos.
-- Con un modelo local, PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos e informes; puedes desactivar todo salvo la descarga del modelo.
+- Cuando escribes comentarios en la app y pulsas Enviar, lo que escribiste (y tu correo, si lo das) se envía al desarrollador junto con la versión y el sistema.
+- Con un modelo local, PaperDuet solo se conecta para descargar un modelo, buscar actualizaciones y enviar esos datos e informes y tus comentarios; puedes desactivar todo salvo la descarga del modelo.
 
 ## Primeros pasos
 
@@ -182,6 +183,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.0** (2026-10-28): Un recorrido breve por las funciones principales la primera vez que abres un artículo, y comentarios beta: envíanos tu opinión directamente desde la barra de estado.
 - **0.5.17** (2026-10-28): Se corrigieron algunos problemas de formato conocidos.
 - **0.5.16** (2026-10-28): Los párrafos de manuscritos (exportados de Word, a doble espacio) ya no se quedan en inglés: las líneas resaltadas se traducen, los párrafos a doble espacio se traducen enteros y no línea por línea, y las leyendas de las figuras situadas después de las referencias se traducen.
 - **0.5.15** (2026-10-28): Los símbolos de las fórmulas en revistas de Elsevier ya no salen desordenados: las letras griegas, ≤, ∀, ≠ y las letras con circunflejo (Ŝ, q̂) ya no aparecen como letras normales, y un superíndice colocado muy alto ya no pasa a la línea de arriba.

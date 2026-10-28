@@ -120,7 +120,8 @@ Ist dein Computer mit den lokalen Modellen überfordert? Wähle in der Modellaus
 - Deine Artikel, Übersetzungen und Notizen bleiben auf deinem Computer. Mit einer API wird der zu übersetzende Text an den gewählten Dienst gesendet.
 - Nur wenn du zustimmst, sendet PaperDuet anonyme Nutzungs- und Diagnosedaten (Version, System, Sprache der Oberfläche, Modell und Arten von Fehlern), nie Inhalte von Artikeln, und du kannst das jederzeit in den Einstellungen abschalten.
 - Bei Fehlern sendet PaperDuet einen Fehlerbericht an den Entwickler: was schiefging, Version und System, ohne Dateipfade und ohne Inhalte von Artikeln. Abschalten lässt sich das unter Einstellungen › Daten.
-- Mit einem lokalen Modell geht PaperDuet nur online, um ein Modell herunterzuladen, nach Updates zu suchen und diese Daten und Berichte zu senden; alles außer dem Modell-Download lässt sich abschalten.
+- Wenn du in der App Feedback schreibst und auf Senden klickst, geht dein Text (und deine E-Mail-Adresse, falls angegeben) mit Version und System an den Entwickler.
+- Mit einem lokalen Modell geht PaperDuet nur online, um ein Modell herunterzuladen, nach Updates zu suchen und diese Daten, Berichte und dein Feedback zu senden; alles außer dem Modell-Download lässt sich abschalten.
 
 ## Los geht's
 
@@ -182,6 +183,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.0** (2026-10-28): Kurze Einführung in die wichtigsten Funktionen beim ersten geöffneten Paper und Beta-Feedback: Schick uns deine Meinung direkt aus der Statusleiste.
 - **0.5.17** (2026-10-28): Einige bekannte Formatierungsprobleme behoben.
 - **0.5.16** (2026-10-28): Absätze von Manuskripten (aus Word exportiert, mit doppeltem Zeilenabstand) bleiben nicht mehr auf Englisch: Hinterlegte Zeilen werden übersetzt, Absätze mit doppeltem Zeilenabstand werden als Ganzes statt Zeile für Zeile übersetzt, und Abbildungslegenden nach dem Literaturverzeichnis werden übersetzt.
 - **0.5.15** (2026-10-28): Formelzeichen in Elsevier-Zeitschriften werden nicht mehr verstümmelt: Griechische Buchstaben, ≤, ∀, ≠ und Buchstaben mit Dach (Ŝ, q̂) erscheinen nicht mehr als gewöhnliche Buchstaben, und ein hochgestellter Exponent rutscht nicht mehr in die Zeile darüber.

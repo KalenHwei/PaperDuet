@@ -120,7 +120,8 @@ Il tuo computer fatica con i modelli locali? Scegli «Usa un’API» nella scelt
 - I tuoi articoli, le traduzioni e le note restano sul tuo computer. Con un’API, il testo da tradurre viene inviato al servizio scelto.
 - Solo se acconsenti, PaperDuet invia dati anonimi di utilizzo e diagnostica (versione, sistema, lingua dell’interfaccia, modello e tipi di errore), mai il contenuto degli articoli, e puoi disattivare l’invio in qualsiasi momento nelle Impostazioni.
 - Quando qualcosa va storto, PaperDuet invia una segnalazione di errore allo sviluppatore: cosa non ha funzionato, la versione e il sistema, senza percorsi dei file né contenuto degli articoli. Puoi disattivarla in Impostazioni › Dati.
-- Con un modello locale, PaperDuet si collega a internet solo per scaricare un modello, cercare aggiornamenti e inviare i dati e le segnalazioni qui sopra; puoi disattivare tutto tranne il download del modello.
+- Quando scrivi un feedback nell’app e fai clic su Invia, quello che hai scritto (e la tua email, se la indichi) viene inviato allo sviluppatore insieme alla versione e al sistema.
+- Con un modello locale, PaperDuet si collega a internet solo per scaricare un modello, cercare aggiornamenti e inviare i dati e le segnalazioni qui sopra e il tuo feedback; puoi disattivare tutto tranne il download del modello.
 
 ## Per iniziare
 
@@ -182,6 +183,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.0** (2026-10-28): un breve tour delle funzioni principali la prima volta che apri un articolo e il feedback beta: inviaci la tua opinione direttamente dalla barra di stato.
 - **0.5.17** (2026-10-28): corretti alcuni problemi di formattazione noti.
 - **0.5.16** (2026-10-28): i paragrafi dei manoscritti (esportati da Word, con interlinea doppia) non restano più in inglese: le righe evidenziate vengono tradotte, i paragrafi con interlinea doppia vengono tradotti interi e non riga per riga, e le didascalie delle figure poste dopo la bibliografia vengono tradotte.
 - **0.5.15** (2026-10-28): i simboli delle formule nelle riviste Elsevier non risultano più alterati: lettere greche, ≤, ∀, ≠ e lettere con il cappello (Ŝ, q̂) non appaiono più come lettere normali, e un apice posto molto in alto non finisce più nella riga sopra.

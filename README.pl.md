@@ -120,7 +120,8 @@ Komputer nie radzi sobie z lokalnymi modelami? Wybierz „Użyj API” przy wybo
 - Twoje artykuły, tłumaczenia i notatki zostają na Twoim komputerze. Przy korzystaniu z API tłumaczony tekst trafia do wybranej usługi.
 - Tylko jeśli się zgodzisz, PaperDuet wysyła anonimowe dane o użytkowaniu i diagnostyce (wersja, system, język interfejsu, model i rodzaje błędów), nigdy treść artykułów, a wysyłanie możesz w każdej chwili wyłączyć w Ustawieniach.
 - Gdy coś pójdzie nie tak, PaperDuet wysyła twórcy raport o błędzie: co się nie udało, wersję i system, bez ścieżek plików i treści artykułów. Możesz to wyłączyć w Ustawieniach › Dane.
-- Z modelem lokalnym PaperDuet łączy się z internetem tylko po to, by pobrać model, sprawdzić uaktualnienia i wysłać powyższe dane i raporty; wyłączyć możesz wszystko oprócz pobierania modelu.
+- Gdy napiszesz w aplikacji opinię i klikniesz Wyślij, Twój tekst (i adres e-mail, jeśli go podasz) trafia do twórcy razem z wersją i systemem.
+- Z modelem lokalnym PaperDuet łączy się z internetem tylko po to, by pobrać model, sprawdzić uaktualnienia i wysłać powyższe dane i raporty oraz Twoje opinie; wyłączyć możesz wszystko oprócz pobierania modelu.
 
 ## Pierwsze kroki
 
@@ -182,6 +183,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.0** (2026-10-28): krótki przewodnik po najważniejszych funkcjach przy pierwszym otwarciu artykułu oraz opinie w wersji beta: wyślij nam swoje uwagi prosto z paska stanu.
 - **0.5.17** (2026-10-28): poprawiono kilka znanych problemów z formatowaniem.
 - **0.5.16** (2026-10-28): akapity rękopisów (eksportowanych z Worda, z podwójną interlinią) nie zostają już po angielsku: wyróżnione wiersze są tłumaczone, akapity z podwójną interlinią są tłumaczone w całości, a nie wiersz po wierszu, a podpisy rycin umieszczone po bibliografii są tłumaczone.
 - **0.5.15** (2026-10-28): symbole we wzorach w czasopismach Elsevier nie są już zniekształcane: litery greckie, ≤, ∀, ≠ i litery z daszkiem (Ŝ, q̂) nie wyświetlają się już jako zwykłe litery, a wysoko podniesiony indeks górny nie trafia już do wiersza powyżej.

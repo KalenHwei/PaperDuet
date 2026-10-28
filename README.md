@@ -120,7 +120,8 @@ Computer too slow for a local model? Pick **Use an API** in the model choice and
 - Your papers, translations and notes stay on your computer. With an API, the text to translate is sent to the service you chose.
 - Only if you agree, PaperDuet sends anonymous usage and diagnostic data (version, system, interface language, model and kinds of errors), never paper content, and you can turn it off anytime in Settings.
 - When something goes wrong, PaperDuet sends an error report to the developer: what went wrong, the version and the system, without file paths or paper content. You can turn this off in Settings › Data.
-- With a local model, PaperDuet goes online only to download a model, to check for updates and to send the data and reports above; you can turn off all but the model download.
+- When you write feedback in the app and click Send, what you wrote (and your email, if you give one) goes to the developer with the version and the system.
+- With a local model, PaperDuet goes online only to download a model, to check for updates, to send the data and reports above and to send your feedback; you can turn off all but the model download.
 
 ## Get started
 
@@ -182,6 +183,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.0** (2026-10-28): a short tour of the main controls the first time you open a paper, and Beta feedback: send us a note right from the status bar.
 - **0.5.17** (2026-10-28): fixed some known formatting issues.
 - **0.5.16** (2026-10-28): paragraphs of manuscripts (exported from Word, double-spaced) no longer stay in English: lines with a highlight behind them are translated, double-spaced paragraphs are translated whole instead of line by line, and figure legends after the references are translated.
 - **0.5.15** (2026-10-28): formula symbols in Elsevier journals are no longer garbled: Greek letters, ≤, ∀, ≠ and hatted letters (Ŝ, q̂) no longer show up as plain letters, and a superscript set high no longer jumps to the line above.
