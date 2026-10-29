@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong>PaperDuet to lekki lustrzany tłumacz artykułów oparty na AI, który zachowuje ich oryginalny układ.</strong><br>
-  Pięć modeli tłumaczeniowych AI typu open source do wyboru.<br>
-  Bez opłat, w pełni lokalnie!
+  Pięć modeli tłumaczeniowych AI typu open source działa na Twoim komputerze, możesz też podłączyć API online.<br>
+  Za darmo i bez rejestracji!
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>Nagranie tłumaczenia Attention Is All You Need (15 stron) od zera</sub>
 </p>
 
-PaperDuet to lekki lustrzany tłumacz artykułów naukowych oparty na AI. Układa oryginał i tłumaczenie obok siebie jak lustrzane odbicia, a wzory, rysunki i tabele poprawia i wyrównuje strona po stronie. Bez klucza API, bez opłat, a wszystko działa na Twoim komputerze!
+PaperDuet to lekki lustrzany tłumacz artykułów naukowych oparty na AI. Układa oryginał i tłumaczenie obok siebie jak lustrzane odbicia, a wzory, rysunki i tabele poprawia i wyrównuje strona po stronie. Za darmo: z modelem lokalnym wszystko działa na Twoim komputerze, a w razie potrzeby możesz podłączyć API online.
 
 ## Każda strona – bez wysiłku
 

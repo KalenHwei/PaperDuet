@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong>PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel, der das ursprüngliche Layout beibehält.</strong><br>
-  Fünf Open-Source-KI-Übersetzungsmodelle zur Auswahl.<br>
-  Keine Kosten, komplett lokal!
+  Fünf Open-Source-KI-Übersetzungsmodelle laufen auf deinem Computer, oder du bindest eine Online-API an.<br>
+  Kostenlos, ohne Anmeldung!
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
 </p>
 
-PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Kein API-Schlüssel, keine Kosten, und alles läuft auf deinem Computer!
+PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Kostenlos: Mit einem lokalen Modell läuft alles auf deinem Computer, und eine Online-API kannst du bei Bedarf anbinden.
 
 ## Jede Seite, ganz einfach
 

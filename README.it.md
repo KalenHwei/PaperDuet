@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong>PaperDuet è un traduttore a specchio con IA, leggero, che mantiene l’impaginazione originale degli articoli.</strong><br>
-  Cinque modelli di traduzione IA open source tra cui scegliere.<br>
-  Nessun costo, tutto in locale!
+  Cinque modelli di traduzione IA open source girano sul tuo computer, oppure collega un’API online.<br>
+  Gratis e senza registrazione!
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>Registrazione di Attention Is All You Need (15 pagine) tradotto da zero</sub>
 </p>
 
-PaperDuet è un traduttore a specchio con IA, leggero, per articoli scientifici. Affianca originale e traduzione come immagini allo specchio, con formule, figure e tabelle corrette e allineate pagina per pagina. Niente chiave API, nessun costo, e funziona interamente sul tuo computer!
+PaperDuet è un traduttore a specchio con IA, leggero, per articoli scientifici. Affianca originale e traduzione come immagini allo specchio, con formule, figure e tabelle corrette e allineate pagina per pagina. È gratis: con un modello locale funziona interamente sul tuo computer, e se vuoi puoi collegare un’API online.
 
 ## Ogni pagina, senza sforzo
 

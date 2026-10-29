@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong>PaperDuet is a lightweight AI mirror translator for papers that keeps the original layout.</strong><br>
-  Five open-source AI translation models to choose from.<br>
-  No fees, fully local!
+  Five open-source AI translation models run on your computer, or connect an online API.<br>
+  Free to use, no sign-up needed!
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
 </p>
 
-PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. No API key, no fees, and it runs entirely on your computer!
+PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. It's free: with a local model everything runs on your computer, and an online API is there if you want one.
 
 ## Every page, made easy
 

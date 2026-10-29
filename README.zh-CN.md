@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong> PaperDuet 是一款能保留格式的轻量级论文镜像AI翻译器。</strong><br>
-  可选五种开源 AI 翻译模型。<br>
-  无需付费，完全本地！
+  五种开源 AI 翻译模型在本机运行，也可以接入在线 API。<br>
+  免费使用，无需注册！
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>从零翻译 Attention Is All You Need（15 页）的实录</sub>
 </p>
 
-PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像排列，公式、图片、表格逐页修正、对齐。 PaperDuet 无需 API 密钥，无需付费，完全本地运行！
+PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像排列，公式、图片、表格逐页修正、对齐。 PaperDuet 免费使用：用本地模型时一切都在本机运行，也可以按需接入在线 API。
 
 ## 每一页，都方便
 

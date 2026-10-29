@@ -28,8 +28,8 @@
 
 <p align="center">
   <strong>PaperDuet est un traducteur miroir IA léger pour les articles, qui conserve la mise en page d'origine.</strong><br>
-  Cinq modèles de traduction IA open source au choix.<br>
-  Gratuit, entièrement en local !
+  Cinq modèles de traduction IA open source tournent sur votre ordinateur, ou connectez une API en ligne.<br>
+  Gratuit, sans inscription !
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
   <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
 </p>
 
-PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. Pas de clé d'API, rien à payer, et tout tourne sur votre ordinateur !
+PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. C'est gratuit : avec un modèle local, tout tourne sur votre ordinateur, et une API en ligne reste possible si vous le souhaitez.
 
 ## Chaque page, sans effort
 
