@@ -22,8 +22,7 @@
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Najnowsza wersja"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 lub nowszy, Mac z czipem Apple">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 i 11, wersja 64-bitowa">
-  <img src="https://img.shields.io/badge/translation-on%20your%20computer-111111?style=flat-square" alt="Tłumaczenie odbywa się na Twoim komputerze">
-  <img src="https://img.shields.io/badge/models-5_to_choose_from-111111?style=flat-square" alt="Modele: 5 do wyboru">
+  <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Języki tłumaczenia: 10 do wyboru">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licencja: PolyForm Noncommercial 1.0.0"></a>
 </p>
 
