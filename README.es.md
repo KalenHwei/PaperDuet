@@ -182,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.3** (2026-10-29): Se resolvieron problemas conocidos de lógica de la interfaz.
 - **0.6.2** (2026-10-28): En Windows puedes elegir dónde se guardan los modelos; los ya descargados se mueven allí.
 - **0.6.1** (2026-10-28): Se corrigieron algunos problemas de formato conocidos.
 - **0.6.0** (2026-10-28): Un recorrido breve por las funciones principales la primera vez que abres un artículo, y comentarios beta: envíanos tu opinión directamente desde la barra de estado.
