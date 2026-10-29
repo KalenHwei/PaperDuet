@@ -183,6 +183,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.2** (2026-10-28): w systemie Windows można wybrać folder na modele; pobrane już modele zostaną tam przeniesione.
 - **0.6.1** (2026-10-28): poprawiono kilka znanych problemów z formatowaniem.
 - **0.6.0** (2026-10-28): krótki przewodnik po najważniejszych funkcjach przy pierwszym otwarciu artykułu oraz opinie w wersji beta: wyślij nam swoje uwagi prosto z paska stanu.
 - **0.5.17** (2026-10-28): poprawiono kilka znanych problemów z formatowaniem.

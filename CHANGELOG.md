@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-10-28
+
+### Added
+
+- Windows: choose the folder the translation models are kept in (on another drive, for example); models already downloaded move there.
+
 ## [0.6.1] - 2026-10-28
 
 ### Fixed

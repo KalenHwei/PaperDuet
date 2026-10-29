@@ -183,6 +183,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.2** (2026-10-28): su Windows si può scegliere dove tenere i modelli; quelli già scaricati vengono spostati lì.
 - **0.6.1** (2026-10-28): corretti alcuni problemi di formattazione noti.
 - **0.6.0** (2026-10-28): un breve tour delle funzioni principali la prima volta che apri un articolo e il feedback beta: inviaci la tua opinione direttamente dalla barra di stato.
 - **0.5.17** (2026-10-28): corretti alcuni problemi di formattazione noti.
