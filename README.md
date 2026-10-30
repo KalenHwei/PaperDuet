@@ -182,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.4** (2026-10-30): fixed some known formatting issues.
 - **0.6.3** (2026-10-29): fixed some known interface logic issues.
 - **0.6.2** (2026-10-28): on Windows, you can choose where the models are kept; models already downloaded move along.
 - **0.6.1** (2026-10-28): fixed some known formatting issues.

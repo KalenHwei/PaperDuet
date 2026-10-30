@@ -182,6 +182,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.4** (2026-10-30) : Correction de quelques problèmes de mise en forme connus.
 - **0.6.3** (2026-10-29) : Correction de problèmes connus dans la logique de l’interface.
 - **0.6.2** (2026-10-28) : Sous Windows, vous pouvez choisir le dossier des modèles ; ceux déjà téléchargés y sont déplacés.
 - **0.6.1** (2026-10-28) : Correction de quelques problèmes de mise en forme connus.
