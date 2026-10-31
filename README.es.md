@@ -182,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.5** (2026-10-31): En artículos con números de línea (manuscritos enviados, por ejemplo), los números ya no se mezclan con la traducción ni parten los párrafos.
 - **0.6.4** (2026-10-30): Se corrigieron algunos problemas de formato conocidos.
 - **0.6.3** (2026-10-29): Se resolvieron problemas conocidos de lógica de la interfaz.
 - **0.6.2** (2026-10-28): En Windows puedes elegir dónde se guardan los modelos; los ya descargados se mueven allí.

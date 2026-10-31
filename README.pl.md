@@ -182,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.5** (2026-10-31): w artykułach z numeracją wierszy (np. w rękopisach) numery nie trafiają już do tłumaczenia i nie dzielą akapitów.
 - **0.6.4** (2026-10-30): poprawiono kilka znanych problemów z formatowaniem.
 - **0.6.3** (2026-10-29): rozwiązano znane problemy z logiką interfejsu.
 - **0.6.2** (2026-10-28): w systemie Windows można wybrać folder na modele; pobrane już modele zostaną tam przeniesione.

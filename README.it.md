@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.5** (2026-10-31): negli articoli con numeri di riga (ad esempio i manoscritti inviati) i numeri non finiscono più nella traduzione e non spezzano i paragrafi.
 - **0.6.4** (2026-10-30): corretti alcuni problemi di formattazione noti.
 - **0.6.3** (2026-10-29): risolti alcuni problemi noti nella logica dell’interfaccia.
 - **0.6.2** (2026-10-28): su Windows si può scegliere dove tenere i modelli; quelli già scaricati vengono spostati lì.

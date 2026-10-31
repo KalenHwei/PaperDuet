@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.5] - 2026-10-31
+
+### Fixed
+
+- Papers with line numbers (manuscripts, for example): the numbers are no longer read into the text, so they stay out of the translation and no longer break paragraphs apart.
+
 ## [0.6.4] - 2026-10-30
 
 ### Fixed

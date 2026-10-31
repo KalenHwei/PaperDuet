@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.5** (2026-10-31): Artikel mit Zeilennummern (etwa eingereichte Manuskripte): Die Nummern geraten nicht mehr in die Übersetzung und zerteilen keine Absätze mehr.
 - **0.6.4** (2026-10-30): Einige bekannte Formatierungsprobleme behoben.
 - **0.6.3** (2026-10-29): Bekannte Probleme in der Logik der Oberfläche behoben.
 - **0.6.2** (2026-10-28): Unter Windows lässt sich der Speicherort der Modelle wählen; bereits geladene Modelle ziehen mit um.
