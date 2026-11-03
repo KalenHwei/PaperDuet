@@ -182,6 +182,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.6** (2026-11-03): Layout mancher Zeitschriftenartikel besser erkannt: Die beiden Spalten vermischen sich nicht mehr, eine Zusammenfassung auf farbigem Hintergrund wird übersetzt, und das Inhaltsverzeichnis zeigt nur die Abschnittsüberschriften.
 - **0.6.5** (2026-10-31): Artikel mit Zeilennummern (etwa eingereichte Manuskripte): Die Nummern geraten nicht mehr in die Übersetzung und zerteilen keine Absätze mehr.
 - **0.6.4** (2026-10-30): Einige bekannte Formatierungsprobleme behoben.
 - **0.6.3** (2026-10-29): Bekannte Probleme in der Logik der Oberfläche behoben.

@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.6] - 2026-11-03
+
+### Fixed
+
+- Journal papers whose layout was misread: the two columns no longer run together, an abstract on a shaded panel is translated, a table ruled column by column stays a table, and the outline lists only the section headings.
+
 ## [0.6.5] - 2026-10-31
 
 ### Fixed

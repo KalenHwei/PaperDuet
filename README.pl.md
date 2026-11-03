@@ -182,6 +182,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.6** (2026-11-03): lepsze rozpoznawanie układu niektórych artykułów z czasopism: dwie kolumny już się nie mieszają, streszczenie na kolorowym tle jest tłumaczone, a spis treści pokazuje tylko tytuły rozdziałów.
 - **0.6.5** (2026-10-31): w artykułach z numeracją wierszy (np. w rękopisach) numery nie trafiają już do tłumaczenia i nie dzielą akapitów.
 - **0.6.4** (2026-10-30): poprawiono kilka znanych problemów z formatowaniem.
 - **0.6.3** (2026-10-29): rozwiązano znane problemy z logiką interfejsu.

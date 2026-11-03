@@ -182,6 +182,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.6** (2026-11-03): riconoscimento migliore dell'impaginazione di alcuni articoli di rivista: le due colonne non si mescolano più, l'abstract su uno sfondo colorato viene tradotto e l'indice mostra solo i titoli delle sezioni.
 - **0.6.5** (2026-10-31): negli articoli con numeri di riga (ad esempio i manoscritti inviati) i numeri non finiscono più nella traduzione e non spezzano i paragrafi.
 - **0.6.4** (2026-10-30): corretti alcuni problemi di formattazione noti.
 - **0.6.3** (2026-10-29): risolti alcuni problemi noti nella logica dell’interfaccia.

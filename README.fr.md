@@ -182,6 +182,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.6** (2026-11-03) : Mise en page de certains articles de revue mieux reconnue : les deux colonnes ne se mélangent plus, un résumé sur fond coloré est traduit et la table des matières ne montre que les titres de section.
 - **0.6.5** (2026-10-31) : Articles avec numéros de ligne (manuscrits soumis, par exemple) : les numéros ne se mêlent plus à la traduction et ne coupent plus les paragraphes.
 - **0.6.4** (2026-10-30) : Correction de quelques problèmes de mise en forme connus.
 - **0.6.3** (2026-10-29) : Correction de problèmes connus dans la logique de l’interface.

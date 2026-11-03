@@ -182,6 +182,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.6** (2026-11-03): Mejor reconocimiento del diseño de algunos artículos de revista: las dos columnas ya no se mezclan, el resumen sobre un fondo de color se traduce y el índice muestra solo los títulos de sección.
 - **0.6.5** (2026-10-31): En artículos con números de línea (manuscritos enviados, por ejemplo), los números ya no se mezclan con la traducción ni parten los párrafos.
 - **0.6.4** (2026-10-30): Se corrigieron algunos problemas de formato conocidos.
 - **0.6.3** (2026-10-29): Se resolvieron problemas conocidos de lógica de la interfaz.

@@ -182,6 +182,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.6** (2026-11-03): journal papers whose layout was misread: the two columns no longer run together, an abstract on a shaded panel is translated, and the outline lists only the section headings.
 - **0.6.5** (2026-10-31): papers with line numbers (manuscripts, for example): the numbers no longer get into the translation or break paragraphs apart.
 - **0.6.4** (2026-10-30): fixed some known formatting issues.
 - **0.6.3** (2026-10-29): fixed some known interface logic issues.
