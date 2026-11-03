@@ -182,7 +182,7 @@ Commencez par Index-Translate-2B. Pour plus de vitesse, prenez Hy-MT2-1.8B. Pour
 
 ### Est-ce gratuit ?
 
-Oui, pour les études et la recherche personnelles, ainsi que pour les universités, écoles, instituts de recherche et autres organismes à but non lucratif. Utiliser PaperDuet dans une entreprise ou pour son compte demande une licence commerciale : écrivez à [junystugh@gmail.com](mailto:junystugh@gmail.com).
+Oui, pour les études et la recherche personnelles, ainsi que pour les universités, écoles, instituts de recherche et autres organismes à but non lucratif. Utiliser PaperDuet dans une entreprise ou pour son compte demande une licence commerciale : écrivez à [support@paperduet.com](mailto:support@paperduet.com).
 
 ## Feuille de route
 
@@ -229,7 +229,7 @@ Historique complet : [CHANGELOG.md](CHANGELOG.md).
 
 ## Licence
 
-PaperDuet est gratuit pour un usage non commercial, sous la [PolyForm Noncommercial License 1.0.0](LICENSE). Utilisez-le et partagez-le à des fins personnelles, d'études, de recherche ou non lucratives ; si vous le partagez, joignez la licence et la ligne `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`. Pour un usage commercial, écrivez à [junystugh@gmail.com](mailto:junystugh@gmail.com).
+PaperDuet est gratuit pour un usage non commercial, sous la [PolyForm Noncommercial License 1.0.0](LICENSE). Utilisez-le et partagez-le à des fins personnelles, d'études, de recherche ou non lucratives ; si vous le partagez, joignez la licence et la ligne `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`. Pour un usage commercial, écrivez à [support@paperduet.com](mailto:support@paperduet.com).
 
 Copyright © 2026 Kalen Yongda Wei.
 

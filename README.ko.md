@@ -182,7 +182,7 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 
 ### 무료인가요?
 
-네. 개인 학습과 연구, 그리고 대학, 학교, 연구 기관, 기타 비영리 단체에서는 무료입니다. 회사에서 또는 회사를 위해 사용하려면 상업용 라이선스가 필요하니 [junystugh@gmail.com](mailto:junystugh@gmail.com)으로 연락해 주세요.
+네. 개인 학습과 연구, 그리고 대학, 학교, 연구 기관, 기타 비영리 단체에서는 무료입니다. 회사에서 또는 회사를 위해 사용하려면 상업용 라이선스가 필요하니 [support@paperduet.com](mailto:support@paperduet.com)으로 연락해 주세요.
 
 ## 로드맵
 
@@ -229,7 +229,7 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 
 ## 라이선스
 
-PaperDuet는 [PolyForm Noncommercial License 1.0.0](LICENSE)에 따라 비상업적 용도라면 무료입니다. 개인, 학습, 연구, 비영리 목적으로 사용하고 공유할 수 있으며, 공유할 때는 라이선스와 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` 한 줄을 함께 넣어 주세요. 상업적 사용은 [junystugh@gmail.com](mailto:junystugh@gmail.com)으로 문의해 주세요.
+PaperDuet는 [PolyForm Noncommercial License 1.0.0](LICENSE)에 따라 비상업적 용도라면 무료입니다. 개인, 학습, 연구, 비영리 목적으로 사용하고 공유할 수 있으며, 공유할 때는 라이선스와 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` 한 줄을 함께 넣어 주세요. 상업적 사용은 [support@paperduet.com](mailto:support@paperduet.com)으로 문의해 주세요.
 
 Copyright © 2026 Kalen Yongda Wei.
 

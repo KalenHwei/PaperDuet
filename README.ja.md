@@ -182,7 +182,7 @@ H、N、1〜5 は選択中のテキストに使えます。Windows と Linux で
 
 ### 無料ですか？
 
-はい。個人の学習や研究、大学、学校、研究機関、その他の非営利団体での利用は無料です。企業内での利用や企業のための利用には商用ライセンスが必要です。[junystugh@gmail.com](mailto:junystugh@gmail.com) までご連絡ください。
+はい。個人の学習や研究、大学、学校、研究機関、その他の非営利団体での利用は無料です。企業内での利用や企業のための利用には商用ライセンスが必要です。[support@paperduet.com](mailto:support@paperduet.com) までご連絡ください。
 
 ## 今後の予定
 
@@ -229,7 +229,7 @@ H、N、1〜5 は選択中のテキストに使えます。Windows と Linux で
 
 ## ライセンス
 
-PaperDuet は [PolyForm Noncommercial License 1.0.0](LICENSE) のもと、非商用なら無料で使えます。個人、学習、研究、非営利の目的で使ったり共有したりできます。共有するときは、ライセンスと `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` の 1 行を添えてください。商用利用については [junystugh@gmail.com](mailto:junystugh@gmail.com) までご連絡ください。
+PaperDuet は [PolyForm Noncommercial License 1.0.0](LICENSE) のもと、非商用なら無料で使えます。個人、学習、研究、非営利の目的で使ったり共有したりできます。共有するときは、ライセンスと `Required Notice: Copyright (c) 2026 Kalen Yongda Wei` の 1 行を添えてください。商用利用については [support@paperduet.com](mailto:support@paperduet.com) までご連絡ください。
 
 Copyright © 2026 Kalen Yongda Wei.
 

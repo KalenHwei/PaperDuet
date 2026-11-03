@@ -182,7 +182,7 @@ H、N、1 到 5 作用于选中的文字。Windows 和 Linux 上用 Ctrl 代替 
 
 ### 收费吗？
 
-个人学习、科研免费，高校、中小学、科研院所和其他非营利机构使用也免费。在公司里或为公司使用需要商业授权，请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。
+个人学习、科研免费，高校、中小学、科研院所和其他非营利机构使用也免费。在公司里或为公司使用需要商业授权，请写信到 [support@paperduet.com](mailto:support@paperduet.com)。
 
 ## 后续计划
 
@@ -229,7 +229,7 @@ H、N、1 到 5 作用于选中的文字。Windows 和 Linux 上用 Ctrl 代替 
 
 ## 许可证
 
-PaperDuet 按 [PolyForm Noncommercial 1.0.0](LICENSE) 许可证免费用于非商业用途：个人、学习、科研和非营利用途都可以使用和分享；分享时请附上许可证和这一行 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`。商业使用请写信到 [junystugh@gmail.com](mailto:junystugh@gmail.com)。
+PaperDuet 按 [PolyForm Noncommercial 1.0.0](LICENSE) 许可证免费用于非商业用途：个人、学习、科研和非营利用途都可以使用和分享；分享时请附上许可证和这一行 `Required Notice: Copyright (c) 2026 Kalen Yongda Wei`。商业使用请写信到 [support@paperduet.com](mailto:support@paperduet.com)。
 
 Copyright © 2026 Kalen Yongda Wei.
 
