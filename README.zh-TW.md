@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Mac%20%C2%B7%20Apple%20%E6%99%B6%E7%89%87-111111?style=for-the-badge&logo=apple&logoColor=white" alt="下載 Mac 版（Apple 晶片）" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Windows%20%C2%B7%2064%20%E4%BD%8D%E5%85%83-111111?style=for-the-badge" alt="下載 Windows 版（64 位元）" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Linux%20%C2%B7%2064%20%E4%BD%8D%E5%85%83-111111?style=for-the-badge" alt="下載 Linux 版（64 位元）" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新版本"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 以上，Apple 晶片">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 和 11，64 位元">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux：Ubuntu 22.04 以上，64 位元">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="譯文語言：十種可選">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="授權：PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
 
 ## 開始使用
 
-Mac 需要 Apple 晶片（M1 以後）和 macOS 13.3 以上；Windows 需要 Windows 10 或 11（64 位元）。
+Mac 需要 Apple 晶片（M1 以後）和 macOS 13.3 以上；Windows 需要 Windows 10 或 11（64 位元）；Linux 需要 64 位元的 Ubuntu 22.04 以上（或同樣新的發行版）。
 
 **Mac**
 
@@ -137,6 +139,12 @@ Mac 需要 Apple 晶片（M1 以後）和 macOS 13.3 以上；Windows 需要 Win
 
 1. 從 [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) 下載最新的 Windows 安裝程式（`_x64-setup.exe`）。
 2. 執行安裝程式。僅限第一次：如果 Windows 顯示「Windows 已保護您的電腦」，按 **其他資訊**，再按 **仍要執行**。
+3. 選一個模型。PaperDuet 會下載它，或找到你已有的那份，然後馬上開始翻譯。
+
+**Linux**
+
+1. 從 [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) 下載最新的 `.deb`（Ubuntu、Debian）或 `.AppImage`（其他發行版，或沒有管理員權限時）。
+2. `.deb`：在終端機執行 `sudo apt install ./PaperDuet_*_amd64.deb`，之後從應用程式選單打開。`.AppImage`：不必安裝，執行 `chmod +x PaperDuet_*_amd64.AppImage` 後直接打開。
 3. 選一個模型。PaperDuet 會下載它，或找到你已有的那份，然後馬上開始翻譯。
 
 就這麼簡單。翻譯引擎已經內建在 App 裡，更新也只要點一下。
@@ -162,7 +170,7 @@ Mac 需要 Apple 晶片（M1 以後）和 macOS 13.3 以上；Windows 需要 Win
 | 開關同步捲動 | ⌘L |
 | 所有快速鍵 | ⌘/ |
 
-H、N、1 到 5 作用於選取的文字。Windows 上用 Ctrl 代替 ⌘，用 Shift 代替 ⇧。
+H、N、1 到 5 作用於選取的文字。Windows 和 Linux 上用 Ctrl 代替 ⌘，用 Shift 代替 ⇧。
 
 </details>
 
@@ -182,6 +190,7 @@ H、N、1 到 5 作用於選取的文字。Windows 上用 Ctrl 代替 ⌘，用 
 
 ## 更新紀錄
 
+- **0.6.7**（2026-11-03）：很高興發布 Linux 版本！
 - **0.6.6**（2026-11-03）：修正部分期刊論文的版面辨識：兩欄不再混在一起，帶底色的摘要也會翻譯，目錄只顯示章節標題。
 - **0.6.5**（2026-10-31）：帶行號的論文（如投稿稿）翻譯時，行號不再混進譯文，段落也不再被拆開。
 - **0.6.4**（2026-10-30）：修正了一些已知的格式問題。

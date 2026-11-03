@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Скачать для Mac (Apple silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Windows-64%20%D0%B1%D0%B8%D1%82-111111?style=for-the-badge" alt="Скачать для Windows (64 бит)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C%20%D0%B4%D0%BB%D1%8F%20Linux-64%20%D0%B1%D0%B8%D1%82-111111?style=for-the-badge" alt="Скачать для Linux (64 бит)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Последняя версия"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 и новее на Apple silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 и 11, 64 бит">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 и новее, 64 бит">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Языки перевода: 10 на выбор">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Лицензия: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ PaperDuet — лёгкий ИИ-переводчик научных статей
 
 ## Начало работы
 
-Для Mac нужен Apple silicon (M1 или новее) и macOS 13.3 или новее, для ПК — 64-разрядная Windows 10 или 11.
+Для Mac нужен Apple silicon (M1 или новее) и macOS 13.3 или новее, для ПК — 64-разрядная Windows 10 или 11, для Linux — 64-разрядная Ubuntu 22.04 или новее (или другой столь же свежий дистрибутив).
 
 **Mac**
 
@@ -137,6 +139,12 @@ PaperDuet — лёгкий ИИ-переводчик научных статей
 
 1. Скачайте последний установщик для Windows (`_x64-setup.exe`) со страницы [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Запустите его. Только в первый раз: если Windows покажет «Система Windows защитила ваш компьютер», нажмите **Подробнее**, затем **Выполнить в любом случае**.
+3. Выберите модель. PaperDuet скачает её или найдёт уже имеющуюся копию и сразу начнёт переводить.
+
+**Linux**
+
+1. Скачайте последний `.deb` (Ubuntu, Debian) или `.AppImage` (другие дистрибутивы или без прав администратора) со страницы [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. `.deb`: выполните в терминале `sudo apt install ./PaperDuet_*_amd64.deb` и откройте PaperDuet из меню приложений. `.AppImage`: устанавливать не нужно — выполните `chmod +x PaperDuet_*_amd64.AppImage` и откройте файл.
 3. Выберите модель. PaperDuet скачает её или найдёт уже имеющуюся копию и сразу начнёт переводить.
 
 Вот и всё. Движок перевода встроен в приложение, а обновления ставятся в один щелчок.
@@ -162,7 +170,7 @@ PaperDuet — лёгкий ИИ-переводчик научных статей
 | Включить или выключить синхронную прокрутку | ⌘L |
 | Все сочетания клавиш | ⌘/ |
 
-H, N и 1–5 действуют на выделенный текст. В Windows вместо ⌘ используйте Ctrl, вместо ⇧ — Shift.
+H, N и 1–5 действуют на выделенный текст. В Windows и Linux вместо ⌘ используйте Ctrl, вместо ⇧ — Shift.
 
 </details>
 
@@ -182,6 +190,7 @@ H, N и 1–5 действуют на выделенный текст. В Window
 
 ## История изменений
 
+- **0.6.7** (2026-11-03): Рады представить версию для Linux!
 - **0.6.6** (2026-11-03): Улучшено распознавание вёрстки некоторых журнальных статей: две колонки больше не смешиваются, аннотация на цветной подложке переводится, а в оглавлении остаются только заголовки разделов.
 - **0.6.5** (2026-10-31): В статьях с нумерацией строк (например, в рукописях) номера больше не попадают в перевод и не разбивают абзацы.
 - **0.6.4** (2026-10-30): Исправлены некоторые известные проблемы с форматированием.

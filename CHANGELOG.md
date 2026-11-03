@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.7] - 2026-11-03
+
+### Added
+
+- A Linux version (64-bit): a .deb package for Ubuntu and Debian, and an AppImage that runs without installation.
+
 ## [0.6.6] - 2026-11-03
 
 ### Fixed

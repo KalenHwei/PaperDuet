@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20pour%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Télécharger pour Mac (Apple silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20pour%20Windows-64%20bits-111111?style=for-the-badge" alt="Télécharger pour Windows (64 bits)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger%20pour%20Linux-64%20bits-111111?style=for-the-badge" alt="Télécharger pour Linux (64 bits)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Dernière version"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 ou plus récent sur Apple silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 et 11, 64 bits">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux : Ubuntu 22.04 ou plus récent, 64 bits">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Langues de traduction : 10 au choix">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licence : PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ Votre ordinateur peine avec les modèles locaux ? Choisissez « Utiliser une API
 
 ## Pour commencer
 
-Sur Mac, il faut une puce Apple (M1 ou plus récent) et macOS 13.3 ou plus récent ; sur PC, Windows 10 ou 11 en 64 bits.
+Sur Mac, il faut une puce Apple (M1 ou plus récent) et macOS 13.3 ou plus récent ; sur PC, Windows 10 ou 11 en 64 bits ; sous Linux, Ubuntu 22.04 ou plus récent en 64 bits (ou une distribution aussi récente).
 
 **Mac**
 
@@ -137,6 +139,12 @@ Sur Mac, il faut une puce Apple (M1 ou plus récent) et macOS 13.3 ou plus réce
 
 1. Téléchargez le dernier programme d'installation Windows (`_x64-setup.exe`) depuis les [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Lancez-le. La première fois seulement : si Windows affiche « Windows a protégé votre ordinateur », cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
+3. Choisissez un modèle. PaperDuet le télécharge, ou trouve la copie que vous avez déjà, et commence à traduire aussitôt.
+
+**Linux**
+
+1. Téléchargez le dernier `.deb` (Ubuntu, Debian) ou le dernier `.AppImage` (autres distributions, ou sans droits d'administrateur) depuis les [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. `.deb` : lancez `sudo apt install ./PaperDuet_*_amd64.deb` dans un terminal, puis ouvrez PaperDuet depuis le menu des applications. `.AppImage` : rien à installer ; lancez `chmod +x PaperDuet_*_amd64.AppImage`, puis ouvrez le fichier.
 3. Choisissez un modèle. PaperDuet le télécharge, ou trouve la copie que vous avez déjà, et commence à traduire aussitôt.
 
 C'est tout. Le moteur de traduction est intégré à l'app, et les mises à jour se font en un clic.
@@ -162,7 +170,7 @@ C'est tout. Le moteur de traduction est intégré à l'app, et les mises à jour
 | Activer ou désactiver le défilement synchronisé | ⌘L |
 | Tous les raccourcis | ⌘/ |
 
-H, N et 1 à 5 agissent sur le texte sélectionné. Sous Windows, Ctrl remplace ⌘ et Maj remplace ⇧.
+H, N et 1 à 5 agissent sur le texte sélectionné. Sous Windows et Linux, Ctrl remplace ⌘ et Maj remplace ⇧.
 
 </details>
 
@@ -182,6 +190,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.7** (2026-11-03) : Nous sommes heureux de publier la version Linux !
 - **0.6.6** (2026-11-03) : Mise en page de certains articles de revue mieux reconnue : les deux colonnes ne se mélangent plus, un résumé sur fond coloré est traduit et la table des matières ne montre que les titres de section.
 - **0.6.5** (2026-10-31) : Articles avec numéros de ligne (manuscrits soumis, par exemple) : les numéros ne se mêlent plus à la traduction et ne coupent plus les paragraphes.
 - **0.6.4** (2026-10-30) : Correction de quelques problèmes de mise en forme connus.

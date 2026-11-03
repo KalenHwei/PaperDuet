@@ -123,7 +123,8 @@ main > section, #features > section { padding: 0 24px; }
 .btn.ghost { color: var(--text); background: var(--card); border: 1px solid var(--line); backdrop-filter: blur(12px); }
 .apple { width: 15px; height: 18px; margin-top: -2px; }
 .win { width: 14px; height: 14px; }
-/* Get started: Mac and Windows steps, each under its own small heading. */
+.term { width: 16px; height: 16px; }
+/* Get started: Mac, Windows and Linux steps, each under its own small heading. */
 .steps-for {
   display: flex;
   align-items: center;
@@ -135,6 +136,7 @@ main > section, #features > section { padding: 0 24px; }
 .steps-for + .steps { margin-top: 16px; }
 .steps-for .apple { width: 16px; height: 19px; }
 .steps-for .win { width: 15px; height: 15px; }
+.steps-for .term { width: 17px; height: 17px; }
 
 /* Soft moving light behind the hero and the last call to action. */
 .aurora { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: -1; }

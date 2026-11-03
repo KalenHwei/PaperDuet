@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Pobierz%20na%20Maca-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Pobierz na Maca (Apple silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Pobierz%20na%20Windows-64--bit-111111?style=for-the-badge" alt="Pobierz na Windows (64-bit)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Pobierz%20na%20Linuksa-64--bit-111111?style=for-the-badge" alt="Pobierz na Linuksa (64-bit)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Najnowsza wersja"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 lub nowszy, Mac z czipem Apple">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 i 11, wersja 64-bitowa">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 lub nowszy, wersja 64-bitowa">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Języki tłumaczenia: 10 do wyboru">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licencja: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ Komputer nie radzi sobie z lokalnymi modelami? Wybierz „Użyj API” przy wybo
 
 ## Pierwsze kroki
 
-Na Macu potrzebujesz czipu Apple (M1 lub nowszego) i systemu macOS 13.3 lub nowszego; na PC – 64-bitowego systemu Windows 10 lub 11.
+Na Macu potrzebujesz czipu Apple (M1 lub nowszego) i systemu macOS 13.3 lub nowszego; na PC – 64-bitowego systemu Windows 10 lub 11; na Linuksie – 64-bitowego Ubuntu 22.04 lub nowszego (albo innej równie nowej dystrybucji).
 
 **Mac**
 
@@ -137,6 +139,12 @@ Na Macu potrzebujesz czipu Apple (M1 lub nowszego) i systemu macOS 13.3 lub nows
 
 1. Pobierz najnowszy instalator dla Windows (`_x64-setup.exe`) z [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Uruchom go. Tylko za pierwszym razem: jeśli Windows wyświetli komunikat „System Windows ochronił ten komputer”, kliknij **Więcej informacji**, a potem **Uruchom mimo to**.
+3. Wybierz model. PaperDuet go pobierze albo znajdzie kopię, którą już masz, i od razu zacznie tłumaczyć.
+
+**Linux**
+
+1. Pobierz najnowszy plik `.deb` (Ubuntu, Debian) lub `.AppImage` (inne dystrybucje albo brak uprawnień administratora) z [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. `.deb`: uruchom w terminalu `sudo apt install ./PaperDuet_*_amd64.deb`, a potem otwórz PaperDuet z menu aplikacji. `.AppImage`: nie trzeba niczego instalować – uruchom `chmod +x PaperDuet_*_amd64.AppImage` i otwórz plik.
 3. Wybierz model. PaperDuet go pobierze albo znajdzie kopię, którą już masz, i od razu zacznie tłumaczyć.
 
 To wszystko. Silnik tłumaczenia jest wbudowany w aplikację, a uaktualnienie wymaga jednego kliknięcia.
@@ -162,7 +170,7 @@ To wszystko. Silnik tłumaczenia jest wbudowany w aplikację, a uaktualnienie wy
 | Włącz lub wyłącz przewijanie synchroniczne | ⌘L |
 | Wszystkie skróty | ⌘/ |
 
-H, N i klawisze od 1 do 5 działają na zaznaczonym tekście. W systemie Windows używaj Ctrl zamiast ⌘ i Shift zamiast ⇧.
+H, N i klawisze od 1 do 5 działają na zaznaczonym tekście. W systemach Windows i Linux używaj Ctrl zamiast ⌘ i Shift zamiast ⇧.
 
 </details>
 
@@ -182,6 +190,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.7** (2026-11-03): z radością publikujemy wersję na Linuksa!
 - **0.6.6** (2026-11-03): lepsze rozpoznawanie układu niektórych artykułów z czasopism: dwie kolumny już się nie mieszają, streszczenie na kolorowym tle jest tłumaczone, a spis treści pokazuje tylko tytuły rozdziałów.
 - **0.6.5** (2026-10-31): w artykułach z numeracją wierszy (np. w rękopisach) numery nie trafiają już do tłumaczenia i nie dzielą akapitów.
 - **0.6.4** (2026-10-30): poprawiono kilka znanych problemów z formatowaniem.

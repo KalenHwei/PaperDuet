@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20f%C3%BCr%20Mac-Apple%20Silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download für Mac (Apple Silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20f%C3%BCr%20Windows-64%20Bit-111111?style=for-the-badge" alt="Download für Windows (64 Bit)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20f%C3%BCr%20Linux-64%20Bit-111111?style=for-the-badge" alt="Download für Linux (64 Bit)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Neueste Version"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 oder neuer auf Apple Silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 und 11, 64 Bit">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 oder neuer, 64 Bit">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Zielsprachen: 10 zur Auswahl">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Lizenz: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ Ist dein Computer mit den lokalen Modellen überfordert? Wähle in der Modellaus
 
 ## Los geht's
 
-Auf dem Mac brauchst du Apple Silicon (M1 oder neuer) und macOS 13.3 oder neuer, auf dem PC Windows 10 oder 11 in 64 Bit.
+Auf dem Mac brauchst du Apple Silicon (M1 oder neuer) und macOS 13.3 oder neuer, auf dem PC Windows 10 oder 11 in 64 Bit, unter Linux Ubuntu 22.04 oder neuer in 64 Bit (oder eine ähnlich aktuelle Distribution).
 
 **Mac**
 
@@ -137,6 +139,12 @@ Auf dem Mac brauchst du Apple Silicon (M1 oder neuer) und macOS 13.3 oder neuer,
 
 1. Lade das neueste Windows-Installationsprogramm (`_x64-setup.exe`) unter [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) herunter.
 2. Starte es. Nur beim ersten Mal: Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicke auf **Weitere Informationen** und dann auf **Trotzdem ausführen**.
+3. Wähle ein Modell. PaperDuet lädt es herunter oder findet die Kopie, die du schon hast, und beginnt sofort mit der Übersetzung.
+
+**Linux**
+
+1. Lade das neueste `.deb` (Ubuntu, Debian) oder `.AppImage` (andere Distributionen oder ohne Administratorrechte) unter [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) herunter.
+2. `.deb`: Führe im Terminal `sudo apt install ./PaperDuet_*_amd64.deb` aus und öffne PaperDuet dann über das Anwendungsmenü. `.AppImage`: Keine Installation nötig; führe `chmod +x PaperDuet_*_amd64.AppImage` aus und öffne die Datei.
 3. Wähle ein Modell. PaperDuet lädt es herunter oder findet die Kopie, die du schon hast, und beginnt sofort mit der Übersetzung.
 
 Das war's. Die Übersetzungs-Engine ist in die App eingebaut, und Updates brauchen nur einen Klick.
@@ -162,7 +170,7 @@ Das war's. Die Übersetzungs-Engine ist in die App eingebaut, und Updates brauch
 | Synchrones Scrollen ein oder aus | ⌘L |
 | Alle Tastenkürzel | ⌘/ |
 
-H, N und 1 bis 5 wirken auf markierten Text. Unter Windows steht Strg für ⌘ und Umschalt für ⇧.
+H, N und 1 bis 5 wirken auf markierten Text. Unter Windows und Linux steht Strg für ⌘ und Umschalt für ⇧.
 
 </details>
 
@@ -182,6 +190,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.7** (2026-11-03): Wir freuen uns, die Linux-Version zu veröffentlichen!
 - **0.6.6** (2026-11-03): Layout mancher Zeitschriftenartikel besser erkannt: Die beiden Spalten vermischen sich nicht mehr, eine Zusammenfassung auf farbigem Hintergrund wird übersetzt, und das Inhaltsverzeichnis zeigt nur die Abschnittsüberschriften.
 - **0.6.5** (2026-10-31): Artikel mit Zeilennummern (etwa eingereichte Manuskripte): Die Nummern geraten nicht mehr in die Übersetzung und zerteilen keine Absätze mehr.
 - **0.6.4** (2026-10-30): Einige bekannte Formatierungsprobleme behoben.

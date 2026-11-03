@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac (Apple silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-64--bit-111111?style=for-the-badge" alt="Download for Windows (64-bit)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Linux-64--bit-111111?style=for-the-badge" alt="Download for Linux (64-bit)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 or later on Apple silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 and 11, 64-bit">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 or later, 64-bit">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Languages: 10 to translate into">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="License: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ Computer too slow for a local model? Pick **Use an API** in the model choice and
 
 ## Get started
 
-A Mac needs Apple silicon (M1 or later) and macOS 13.3 or later; a PC needs 64-bit Windows 10 or 11.
+A Mac needs Apple silicon (M1 or later) and macOS 13.3 or later; a PC needs 64-bit Windows 10 or 11; Linux needs 64-bit Ubuntu 22.04 or later (or a similarly recent distribution).
 
 **Mac**
 
@@ -137,6 +139,12 @@ A Mac needs Apple silicon (M1 or later) and macOS 13.3 or later; a PC needs 64-b
 
 1. Download the latest Windows installer (`_x64-setup.exe`) from [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Run it. First time only: if Windows says “Windows protected your PC,” click **More info**, then **Run anyway**.
+3. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
+
+**Linux**
+
+1. Download the latest `.deb` (Ubuntu, Debian) or `.AppImage` (other distributions, or without administrator rights) from [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. `.deb`: run `sudo apt install ./PaperDuet_*_amd64.deb` in a terminal, then open PaperDuet from the applications menu. `.AppImage`: nothing to install; run `chmod +x PaperDuet_*_amd64.AppImage`, then open it.
 3. Pick a model. PaperDuet downloads it, or finds the copy you already have, and starts translating right away.
 
 That's all. The translation engine is built into the app, and updates take one click.
@@ -162,7 +170,7 @@ That's all. The translation engine is built into the app, and updates take one c
 | Synchronized scrolling on or off | ⌘L                                           |
 | All shortcuts                    | ⌘/                                           |
 
-H, N and 1 to 5 work on selected text. On Windows, use Ctrl for ⌘ and Shift for ⇧.
+H, N and 1 to 5 work on selected text. On Windows and Linux, use Ctrl for ⌘ and Shift for ⇧.
 
 </details>
 
@@ -182,6 +190,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.7** (2026-11-03): we're happy to release PaperDuet for Linux!
 - **0.6.6** (2026-11-03): journal papers whose layout was misread: the two columns no longer run together, an abstract on a shaded panel is translated, and the outline lists only the section headings.
 - **0.6.5** (2026-10-31): papers with line numbers (manuscripts, for example): the numbers no longer get into the translation or break paragraphs apart.
 - **0.6.4** (2026-10-30): fixed some known formatting issues.

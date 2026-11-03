@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Mac-Apple%20silicon-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Descargar para Mac (Apple silicon)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Windows-64%20bits-111111?style=for-the-badge" alt="Descargar para Windows (64 bits)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/Descargar%20para%20Linux-64%20bits-111111?style=for-the-badge" alt="Descargar para Linux (64 bits)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="Última versión"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 o posterior en Apple silicon">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10 y 11, 64 bits">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 o posterior, 64 bits">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="Idiomas de traducción: 10 para elegir">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="Licencia: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ Con el modelo recomendado, un artículo de 15 páginas tarda unos 2 minutos en u
 
 ## Primeros pasos
 
-En Mac necesitas Apple silicon (M1 o posterior) y macOS 13.3 o posterior; en PC, Windows 10 u 11 de 64 bits.
+En Mac necesitas Apple silicon (M1 o posterior) y macOS 13.3 o posterior; en PC, Windows 10 u 11 de 64 bits; en Linux, Ubuntu 22.04 o posterior de 64 bits (u otra distribución igual de reciente).
 
 **Mac**
 
@@ -137,6 +139,12 @@ En Mac necesitas Apple silicon (M1 o posterior) y macOS 13.3 o posterior; en PC,
 
 1. Descarga el instalador de Windows más reciente (`_x64-setup.exe`) desde [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
 2. Ejecútalo. Solo la primera vez: si Windows muestra «Windows protegió su PC», haz clic en **Más información** y luego en **Ejecutar de todas formas**.
+3. Elige un modelo. PaperDuet lo descarga, o encuentra la copia que ya tienes, y empieza a traducir enseguida.
+
+**Linux**
+
+1. Descarga el `.deb` (Ubuntu, Debian) o el `.AppImage` (otras distribuciones, o si no tienes permisos de administrador) más reciente desde [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest).
+2. `.deb`: ejecuta `sudo apt install ./PaperDuet_*_amd64.deb` en una terminal y abre PaperDuet desde el menú de aplicaciones. `.AppImage`: no hace falta instalarlo; ejecuta `chmod +x PaperDuet_*_amd64.AppImage` y ábrelo.
 3. Elige un modelo. PaperDuet lo descarga, o encuentra la copia que ya tienes, y empieza a traducir enseguida.
 
 Eso es todo. El motor de traducción viene integrado en la app y las actualizaciones se hacen con un clic.
@@ -162,7 +170,7 @@ Eso es todo. El motor de traducción viene integrado en la app y las actualizaci
 | Activar o desactivar el desplazamiento sincronizado | ⌘L |
 | Todos los atajos | ⌘/ |
 
-H, N y 1 a 5 actúan sobre el texto seleccionado. En Windows, Ctrl sustituye a ⌘ y Mayús a ⇧.
+H, N y 1 a 5 actúan sobre el texto seleccionado. En Windows y Linux, Ctrl sustituye a ⌘ y Mayús a ⇧.
 
 </details>
 
@@ -182,6 +190,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.7** (2026-11-03): ¡Nos alegra publicar la versión para Linux!
 - **0.6.6** (2026-11-03): Mejor reconocimiento del diseño de algunos artículos de revista: las dos columnas ya no se mezclan, el resumen sobre un fondo de color se traduce y el índice muestra solo los títulos de sección.
 - **0.6.5** (2026-10-31): En artículos con números de línea (manuscritos enviados, por ejemplo), los números ya no se mezclan con la traducción ni parten los párrafos.
 - **0.6.4** (2026-10-30): Se corrigieron algunos problemas de formato conocidos.

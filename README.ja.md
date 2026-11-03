@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Mac%20%C2%B7%20Apple%20%E3%82%B7%E3%83%AA%E3%82%B3%E3%83%B3-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac 版をダウンロード（Apple シリコン）" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Windows%20%C2%B7%2064%20%E3%83%93%E3%83%83%E3%83%88-111111?style=for-the-badge" alt="Windows 版をダウンロード（64 ビット）" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Linux%20%C2%B7%2064%20%E3%83%93%E3%83%83%E3%83%88-111111?style=for-the-badge" alt="Linux 版をダウンロード（64 ビット）" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="最新リリース"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="macOS 13.3 以降、Apple シリコン">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10・11、64 ビット">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux：Ubuntu 22.04 以降、64 ビット">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="訳文の言語：10 種類から選択">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="ライセンス：PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ LM Studio、llama.cpp、Hugging Face でこれらのモデルをすでにダウ�
 
 ## はじめかた
 
-Mac は Apple シリコン（M1 以降）と macOS 13.3 以降、Windows は Windows 10 または 11（64 ビット）が必要です。
+Mac は Apple シリコン（M1 以降）と macOS 13.3 以降、Windows は Windows 10 または 11（64 ビット）、Linux は 64 ビット版の Ubuntu 22.04 以降（または同程度に新しいディストリビューション）が必要です。
 
 **Mac**
 
@@ -137,6 +139,12 @@ Mac は Apple シリコン（M1 以降）と macOS 13.3 以降、Windows は Win
 
 1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) から最新の Windows 用インストーラー（`_x64-setup.exe`）をダウンロードします。
 2. インストーラーを実行します。初回のみ：「Windows によって PC が保護されました」と表示されたら、**詳細情報** をクリックし、**実行** をクリックします。
+3. モデルを選びます。PaperDuet がダウンロードするか、手元にあるものを見つけて、すぐに翻訳を始めます。
+
+**Linux**
+
+1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest) から最新の `.deb`（Ubuntu、Debian）か `.AppImage`（その他のディストリビューション、または管理者権限がない場合）をダウンロードします。
+2. `.deb` はターミナルで `sudo apt install ./PaperDuet_*_amd64.deb` を実行し、アプリケーションメニューから開きます。`.AppImage` はインストール不要で、`chmod +x PaperDuet_*_amd64.AppImage` を実行してからそのまま開きます。
 3. モデルを選びます。PaperDuet がダウンロードするか、手元にあるものを見つけて、すぐに翻訳を始めます。
 
 これだけです。翻訳エンジンはアプリに組み込まれていて、アップデートもクリック 1 回です。
@@ -162,7 +170,7 @@ Mac は Apple シリコン（M1 以降）と macOS 13.3 以降、Windows は Win
 | スクロール同期のオン / オフ | ⌘L |
 | すべてのショートカット | ⌘/ |
 
-H、N、1〜5 は選択中のテキストに使えます。Windows では ⌘ の代わりに Ctrl、⇧ の代わりに Shift を使います。
+H、N、1〜5 は選択中のテキストに使えます。Windows と Linux では ⌘ の代わりに Ctrl、⇧ の代わりに Shift を使います。
 
 </details>
 
@@ -182,6 +190,7 @@ H、N、1〜5 は選択中のテキストに使えます。Windows では ⌘ �
 
 ## 更新履歴
 
+- **0.6.7**（2026-11-03）：Linux 版をリリースしました！
 - **0.6.6**（2026-11-03）：一部の学術誌論文のレイアウト認識を修正しました。2段組が混ざらなくなり、背景色付きの枠内の要旨も翻訳され、目次には章見出しだけが表示されます。
 - **0.6.5**（2026-10-31）：行番号付きの論文（投稿原稿など）で、行番号が訳文に混ざったり段落が分断されたりしなくなりました。
 - **0.6.4**（2026-10-30）：既知の書式の不具合をいくつか修正しました。

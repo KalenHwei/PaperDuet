@@ -16,12 +16,14 @@
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Mac%20%C2%B7%20Apple%20%EC%8B%A4%EB%A6%AC%EC%BD%98-111111?style=for-the-badge&logo=apple&logoColor=white" alt="Mac용 다운로드(Apple 실리콘)" height="36"></a>
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Windows%20%C2%B7%2064%EB%B9%84%ED%8A%B8-111111?style=for-the-badge" alt="Windows용 다운로드(64비트)" height="36"></a>
+  <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Linux%20%C2%B7%2064%EB%B9%84%ED%8A%B8-111111?style=for-the-badge" alt="Linux용 다운로드(64비트)" height="36"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/KalenHwei/PaperDuet/releases/latest"><img src="https://img.shields.io/github/v/release/KalenHwei/PaperDuet?style=flat-square&color=111111&label=release" alt="최신 릴리스"></a>
   <img src="https://img.shields.io/badge/macOS-13.3%2B%20%C2%B7%20Apple%20silicon-111111?style=flat-square" alt="Apple 실리콘, macOS 13.3 이상">
   <img src="https://img.shields.io/badge/Windows-10%20%2F%2011%20%C2%B7%2064--bit-111111?style=flat-square" alt="Windows 10·11, 64비트">
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2022.04%2B%20%C2%B7%2064--bit-111111?style=flat-square" alt="Linux: Ubuntu 22.04 이상, 64비트">
   <img src="https://img.shields.io/badge/languages-10_to_translate_into-111111?style=flat-square" alt="번역 언어: 10가지 중 선택">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-PolyForm%20Noncommercial-111111?style=flat-square" alt="라이선스: PolyForm Noncommercial 1.0.0"></a>
 </p>
@@ -124,7 +126,7 @@ LM Studio, llama.cpp, Hugging Face로 이미 이 모델들을 받아 두셨나�
 
 ## 시작하기
 
-Mac은 Apple 실리콘(M1 이상)과 macOS 13.3 이상, Windows는 Windows 10 또는 11(64비트)이 필요합니다.
+Mac은 Apple 실리콘(M1 이상)과 macOS 13.3 이상, Windows는 Windows 10 또는 11(64비트), Linux는 64비트 Ubuntu 22.04 이상(또는 그만큼 새로운 배포판)이 필요합니다.
 
 **Mac**
 
@@ -137,6 +139,12 @@ Mac은 Apple 실리콘(M1 이상)과 macOS 13.3 이상, Windows는 Windows 10 �
 
 1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest)에서 최신 Windows 설치 프로그램(`_x64-setup.exe`)을 다운로드합니다.
 2. 설치 프로그램을 실행합니다. 처음 한 번만: 'Windows의 PC 보호' 창이 뜨면 **추가 정보**를 누른 뒤 **실행**을 누릅니다.
+3. 모델을 고릅니다. PaperDuet가 모델을 다운로드하거나 이미 있는 사본을 찾아 바로 번역을 시작합니다.
+
+**Linux**
+
+1. [Releases](https://github.com/KalenHwei/PaperDuet/releases/latest)에서 최신 `.deb`(Ubuntu, Debian) 또는 `.AppImage`(다른 배포판이거나 관리자 권한이 없을 때)를 다운로드합니다.
+2. `.deb`는 터미널에서 `sudo apt install ./PaperDuet_*_amd64.deb`를 실행한 뒤 애플리케이션 메뉴에서 엽니다. `.AppImage`는 설치할 필요 없이 `chmod +x PaperDuet_*_amd64.AppImage`를 실행한 뒤 바로 엽니다.
 3. 모델을 고릅니다. PaperDuet가 모델을 다운로드하거나 이미 있는 사본을 찾아 바로 번역을 시작합니다.
 
 이게 전부입니다. 번역 엔진은 앱에 내장되어 있고, 업데이트도 클릭 한 번이면 됩니다.
@@ -162,7 +170,7 @@ Mac은 Apple 실리콘(M1 이상)과 macOS 13.3 이상, Windows는 Windows 10 �
 | 스크롤 동기화 켜기 / 끄기 | ⌘L |
 | 모든 단축키 | ⌘/ |
 
-H, N, 1~5는 선택한 텍스트에 적용됩니다. Windows에서는 ⌘ 대신 Ctrl, ⇧ 대신 Shift를 사용합니다.
+H, N, 1~5는 선택한 텍스트에 적용됩니다. Windows와 Linux에서는 ⌘ 대신 Ctrl, ⇧ 대신 Shift를 사용합니다.
 
 </details>
 
@@ -182,6 +190,7 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 
 ## 변경 기록
 
+- **0.6.7** (2026-11-03): Linux 버전을 출시하게 되어 기쁩니다!
 - **0.6.6** (2026-11-03): 일부 저널 논문의 레이아웃 인식을 고쳤습니다. 두 단이 더 이상 섞이지 않고, 배경색 상자 안의 초록도 번역되며, 목차에는 장 제목만 표시됩니다.
 - **0.6.5** (2026-10-31): 줄 번호가 있는 논문(투고 원고 등)에서 줄 번호가 번역문에 섞이거나 문단이 나뉘지 않습니다.
 - **0.6.4** (2026-10-30): 알려진 서식 문제 몇 가지를 고쳤습니다.
