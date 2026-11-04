@@ -191,7 +191,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
-- **0.6.11** (2026-11-04): poprawiono artykuły, które w ogóle się nie tłumaczyły, akapity pozostawione po angielsku i nieprzetłumaczone tytuły tabel.
+- **0.6.11** (2026-11-04): Dziękujemy wielu użytkownikom za bardzo cenne zgłoszenia błędów; ze względu na prywatność nie możemy podziękować im publicznie. Ta aktualizacja naprawia przede wszystkim artykuły, które w ogóle się nie tłumaczyły z powodu błędu rekurencji, akapity częściowo nieprzetłumaczone, bo reguła sprawdzająca błędnie je oceniała, oraz niedokładne rozpoznawanie układu strony. Mamy nadzieję, że ta aktualizacja zapewni wszystkim lepsze wrażenia.
 - **0.6.10** (2026-11-04): poprawiono problemy z połączeniem z API.
 - **0.6.9** (2026-11-03): poprawiono przycinające się przewijanie w wersji na Linuksa.
 - **0.6.8** (2026-11-03): nowy model LMT-60-0.6B: najmniejszy (805 MB) i najszybszy, dla słabszych komputerów.

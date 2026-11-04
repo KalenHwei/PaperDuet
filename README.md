@@ -191,7 +191,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
-- **0.6.11** (2026-11-04): papers that would not translate at all, paragraphs left in English, and untranslated table titles are fixed.
+- **0.6.11** (2026-11-04): Thank you to the many users who have sent us so many valuable error reports; for privacy reasons we cannot thank you by name. This update mainly fixes whole papers that could not be translated because of a recursion bug, paragraphs partly left untranslated because a checking rule misjudged them, and inaccurate layout recognition. We hope this update brings everyone a better experience.
 - **0.6.10** (2026-11-04): API connection issues are fixed.
 - **0.6.9** (2026-11-03): laggy scrolling in the Linux version is fixed.
 - **0.6.8** (2026-11-03): a new model, LMT-60-0.6B: the smallest (805 MB) and fastest, for modest computers.

@@ -191,7 +191,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
-- **0.6.11** (2026-11-04) : Corrigé : articles entiers non traduits, paragraphes restés en anglais et titres de tableaux non traduits.
+- **0.6.11** (2026-11-04) : Merci aux nombreux utilisateurs qui nous ont envoyé de très précieux rapports d'erreur ; pour des raisons de confidentialité, nous ne pouvons pas les remercier publiquement. Cette mise à jour corrige surtout des articles entiers qui ne se traduisaient pas à cause d'un bogue de récursion, des paragraphes en partie non traduits parce qu'une règle de vérification se trompait, et des imprécisions dans la reconnaissance de la mise en page. Nous espérons qu'elle vous offrira à tous une meilleure expérience.
 - **0.6.10** (2026-11-04) : Problèmes de connexion à l’API corrigés.
 - **0.6.9** (2026-11-03) : Défilement saccadé corrigé dans la version Linux.
 - **0.6.8** (2026-11-03) : Nouveau modèle LMT-60-0.6B : le plus petit (805 Mo) et le plus rapide, pour les ordinateurs modestes.
