@@ -191,6 +191,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.10** (2026-11-04): corretti i problemi di connessione all’API.
 - **0.6.9** (2026-11-03): corretto lo scorrimento a scatti nella versione per Linux.
 - **0.6.8** (2026-11-03): nuovo modello LMT-60-0.6B: il più piccolo (805 MB) e il più veloce, per computer meno potenti.
 - **0.6.7** (2026-11-03): siamo felici di pubblicare la versione per Linux!

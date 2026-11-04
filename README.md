@@ -191,6 +191,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.10** (2026-11-04): API connection issues are fixed.
 - **0.6.9** (2026-11-03): laggy scrolling in the Linux version is fixed.
 - **0.6.8** (2026-11-03): a new model, LMT-60-0.6B: the smallest (805 MB) and fastest, for modest computers.
 - **0.6.7** (2026-11-03): we're happy to release PaperDuet for Linux!

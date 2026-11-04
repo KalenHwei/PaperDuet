@@ -191,6 +191,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.10** (2026-11-04): poprawiono problemy z połączeniem z API.
 - **0.6.9** (2026-11-03): poprawiono przycinające się przewijanie w wersji na Linuksa.
 - **0.6.8** (2026-11-03): nowy model LMT-60-0.6B: najmniejszy (805 MB) i najszybszy, dla słabszych komputerów.
 - **0.6.7** (2026-11-03): z radością publikujemy wersję na Linuksa!

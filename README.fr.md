@@ -191,6 +191,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.10** (2026-11-04) : Problèmes de connexion à l’API corrigés.
 - **0.6.9** (2026-11-03) : Défilement saccadé corrigé dans la version Linux.
 - **0.6.8** (2026-11-03) : Nouveau modèle LMT-60-0.6B : le plus petit (805 Mo) et le plus rapide, pour les ordinateurs modestes.
 - **0.6.7** (2026-11-03) : Nous sommes heureux de publier la version Linux !
