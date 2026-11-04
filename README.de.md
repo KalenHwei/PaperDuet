@@ -191,6 +191,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.9** (2026-11-03): Ruckelndes Scrollen in der Linux-Version behoben.
 - **0.6.8** (2026-11-03): Neues Modell LMT-60-0.6B: das kleinste (805 MB) und schnellste, für einfachere Computer.
 - **0.6.7** (2026-11-03): Wir freuen uns, die Linux-Version zu veröffentlichen!
 - **0.6.6** (2026-11-03): Layout mancher Zeitschriftenartikel besser erkannt: Die beiden Spalten vermischen sich nicht mehr, eine Zusammenfassung auf farbigem Hintergrund wird übersetzt, und das Inhaltsverzeichnis zeigt nur die Abschnittsüberschriften.

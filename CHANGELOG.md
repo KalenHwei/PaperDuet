@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.9] - 2026-11-03
+
+### Fixed
+
+- Laggy scrolling in the Linux version, especially on high-resolution screens.
+
 ## [0.6.8] - 2026-11-03
 
 ### Added

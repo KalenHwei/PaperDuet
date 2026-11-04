@@ -191,6 +191,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.9** (2026-11-03): Corregido el desplazamiento entrecortado en la versión para Linux.
 - **0.6.8** (2026-11-03): Nuevo modelo LMT-60-0.6B: el más pequeño (805 MB) y el más rápido, para ordenadores modestos.
 - **0.6.7** (2026-11-03): ¡Nos alegra publicar la versión para Linux!
 - **0.6.6** (2026-11-03): Mejor reconocimiento del diseño de algunos artículos de revista: las dos columnas ya no se mezclan, el resumen sobre un fondo de color se traduce y el índice muestra solo los títulos de sección.

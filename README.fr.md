@@ -191,6 +191,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.9** (2026-11-03) : Défilement saccadé corrigé dans la version Linux.
 - **0.6.8** (2026-11-03) : Nouveau modèle LMT-60-0.6B : le plus petit (805 Mo) et le plus rapide, pour les ordinateurs modestes.
 - **0.6.7** (2026-11-03) : Nous sommes heureux de publier la version Linux !
 - **0.6.6** (2026-11-03) : Mise en page de certains articles de revue mieux reconnue : les deux colonnes ne se mélangent plus, un résumé sur fond coloré est traduit et la table des matières ne montre que les titres de section.
