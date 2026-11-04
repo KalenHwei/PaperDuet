@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet es un traductor espejo ligero con IA para artículos que conserva el formato original.</strong><br>
-  Cinco modelos de traducción con IA de código abierto funcionan en tu ordenador, o conecta una API en línea.<br>
+  Seis modelos de traducción con IA de código abierto funcionan en tu ordenador, o conecta una API en línea.<br>
   ¡Gratis y sin registrarte!
 </p>
 
@@ -55,7 +55,7 @@ A la izquierda está el artículo original y a la derecha su traducción; los do
   <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos, el anillo de progreso se convierte en una marca verde y un clic guarda la traducción en PDF; después se abre la bombilla de al lado y el resumen con IA de todo el artículo aparece poco a poco">
 </p>
 
-La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF junto al original. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre cinco modelos según tu ordenador y lo que necesites.
+La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF junto al original. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre seis modelos según tu ordenador y lo que necesites.
 
 ## Piénsalo. Encuéntralo.
 
@@ -98,15 +98,16 @@ Resalta, subraya y anota directamente sobre la traducción; las frases correspon
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet con apariencia oscura: la página 3 con el diagrama del Transformer en ambos lados, un resaltado amarillo y uno verde en el original y en la traducción, y el índice bilingüe en la barra lateral">
 </p>
 
-## Cinco modelos, todos en tu ordenador
+## Seis modelos, todos en tu ordenador
 
 Elige un modelo la primera vez que abras PaperDuet y cámbialo cuando quieras en Ajustes › Modelo › Cambiar de modelo. Todos están hechos para traducir y funcionan totalmente sin conexión una vez descargados.
 
 | Modelo | De | Tamaño | Ideal para |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recomendado)** | equipo Index de bilibili | 2.1 GB | El mejor en general, ajustado a las comprobaciones y el glosario de PaperDuet |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | La velocidad: el más rápido y ligero |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Rápido y ligero |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Traducciones fieles al texto original |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Ordenadores modestos: el más pequeño y rápido |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Las traducciones más fluidas, en ordenadores con 16 GB de memoria o más |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Probar el modelo de traducción de Google |
 
@@ -190,6 +191,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.8** (2026-11-03): Nuevo modelo LMT-60-0.6B: el más pequeño (805 MB) y el más rápido, para ordenadores modestos.
 - **0.6.7** (2026-11-03): ¡Nos alegra publicar la versión para Linux!
 - **0.6.6** (2026-11-03): Mejor reconocimiento del diseño de algunos artículos de revista: las dos columnas ya no se mezclan, el resumen sobre un fondo de color se traduce y el índice muestra solo los títulos de sección.
 - **0.6.5** (2026-10-31): En artículos con números de línea (manuscritos enviados, por ejemplo), los números ya no se mezclan con la traducción ni parten los párrafos.

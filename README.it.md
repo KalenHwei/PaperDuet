@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet è un traduttore a specchio con IA, leggero, che mantiene l’impaginazione originale degli articoli.</strong><br>
-  Cinque modelli di traduzione IA open source girano sul tuo computer, oppure collega un’API online.<br>
+  Sei modelli di traduzione IA open source girano sul tuo computer, oppure collega un’API online.<br>
   Gratis e senza registrazione!
 </p>
 
@@ -55,7 +55,7 @@ A sinistra c’è l’articolo originale, a destra la sua traduzione, con scorri
   <img src="docs/images/it/progress-save.gif" width="880" alt="Arrivano gli ultimi paragrafi, l’anello di avanzamento nella barra degli strumenti diventa un segno di spunta verde e un clic salva la traduzione in PDF; poi si apre la lampadina accanto e il riassunto IA dell’intero articolo compare riga per riga">
 </p>
 
-La barra degli strumenti mostra l’avanzamento della traduzione. Quando l’articolo è tutto tradotto, l’anello diventa un segno di spunta verde e compare un fumetto: un clic salva la traduzione in PDF accanto all’originale. La lampadina lì accanto apre il riassunto IA, scritto dal modello dopo aver letto l’intero articolo: cosa si chiede, come funziona e cosa ha scoperto. E puoi scegliere tra cinque modelli, in base al tuo computer e alle tue esigenze!
+La barra degli strumenti mostra l’avanzamento della traduzione. Quando l’articolo è tutto tradotto, l’anello diventa un segno di spunta verde e compare un fumetto: un clic salva la traduzione in PDF accanto all’originale. La lampadina lì accanto apre il riassunto IA, scritto dal modello dopo aver letto l’intero articolo: cosa si chiede, come funziona e cosa ha scoperto. E puoi scegliere tra sei modelli, in base al tuo computer e alle tue esigenze!
 
 ## Pensalo. Trovalo.
 
@@ -98,15 +98,16 @@ Evidenzia, sottolinea e scrivi note direttamente sulla traduzione; anche le fras
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet con aspetto scuro: la pagina 3 con lo schema del Transformer su entrambi i lati, un’evidenziazione gialla e una verde sull’originale e sulla traduzione, e l’indice bilingue nella barra laterale">
 </p>
 
-## Cinque modelli, tutti sul tuo computer
+## Sei modelli, tutti sul tuo computer
 
 Scegli un modello la prima volta che apri PaperDuet e cambialo quando vuoi in Impostazioni › Modello › Cambia modello. Sono tutti pensati per la traduzione e, una volta scaricati, funzionano completamente offline.
 
 | Modello | Di | Dimensione | Ideale per |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(consigliato)** | team Index di bilibili | 2.1 GB | Il più completo, calibrato sui controlli e sul glossario di PaperDuet |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Velocità: il più rapido e leggero |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Rapido e leggero |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Traduzioni fedeli al testo di partenza |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Computer meno potenti: il più piccolo e veloce |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | La traduzione più scorrevole, su computer con 16 GB di memoria o più |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (sperimentale) | Google | 4.1 GB | Provare il modello di traduzione di Google |
 
@@ -190,6 +191,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.8** (2026-11-03): nuovo modello LMT-60-0.6B: il più piccolo (805 MB) e il più veloce, per computer meno potenti.
 - **0.6.7** (2026-11-03): siamo felici di pubblicare la versione per Linux!
 - **0.6.6** (2026-11-03): riconoscimento migliore dell'impaginazione di alcuni articoli di rivista: le due colonne non si mescolano più, l'abstract su uno sfondo colorato viene tradotto e l'indice mostra solo i titoli delle sezioni.
 - **0.6.5** (2026-10-31): negli articoli con numeri di riga (ad esempio i manoscritti inviati) i numeri non finiscono più nella traduzione e non spezzano i paragrafi.

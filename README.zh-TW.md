@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet 是一款保留原始版面的輕量 AI 論文鏡像翻譯器。</strong><br>
-  五種開源 AI 翻譯模型在本機執行，也可以接上線上 API。<br>
+  六種開源 AI 翻譯模型在本機執行，也可以接上線上 API。<br>
   免費使用，不需註冊！
 </p>
 
@@ -55,7 +55,7 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
   <img src="docs/images/zh-TW/progress-save.gif" width="880" alt="論文最後幾段翻完，工具列上的進度圓環變成綠色勾號，點一下就把譯文存成 PDF；接著點開旁邊的燈泡，AI 寫的全文概要逐字出現">
 </p>
 
-工具列會顯示翻譯進度。整篇翻完後，圓環變成綠色勾號並跳出提示：點一下就能把譯文存成 PDF，放在原文旁邊。旁邊的小燈泡是 AI 概要：點開就能看到模型讀完全文後寫的總結，研究問題、方法和結果一目了然。另外有五種模型可選，依你的電腦和需求自由搭配！
+工具列會顯示翻譯進度。整篇翻完後，圓環變成綠色勾號並跳出提示：點一下就能把譯文存成 PDF，放在原文旁邊。旁邊的小燈泡是 AI 概要：點開就能看到模型讀完全文後寫的總結，研究問題、方法和結果一目了然。另外有六種模型可選，依你的電腦和需求自由搭配！
 
 ## 想到，就找到。
 
@@ -98,15 +98,16 @@ PaperDuet 是一款輕量的 AI 論文鏡像翻譯器。它把原文和譯文像
   <img src="docs/images/screenshot-dark.png" width="880" alt="深色外觀的 PaperDuet：左右都是第 3 頁的 Transformer 架構圖，原文和譯文上各有一處黃色和綠色標記，側欄是中英雙語目錄">
 </p>
 
-## 五種模型，全在你的電腦上
+## 六種模型，全在你的電腦上
 
-第一次打開 PaperDuet 時選一個模型，之後隨時可以在「設定 › 模型 › 更換模型」裡更換。五種都是翻譯專用模型，下載後完全離線執行。
+第一次打開 PaperDuet 時選一個模型，之後隨時可以在「設定 › 模型 › 更換模型」裡更換。六種都是翻譯專用模型，下載後完全離線執行。
 
 | 模型 | 來自 | 大小 | 適合 |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **（推薦）** | 嗶哩嗶哩 Index 團隊 | 2.1 GB | 綜合表現最好，PaperDuet 的檢查和術語表專門為它調整過 |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 騰訊混元 | 1.9 GB | 追求速度：最快也最輕 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 騰訊混元 | 1.9 GB | 速度快、體積小 |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻譯 NiuTrans | 4.7 GB | 貼近原文的譯法 |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | 小牛翻譯 NiuTrans | 0.8 GB | 電腦配置較低：最小也最快 |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 騰訊混元 | 8.0 GB | 譯文最通順，適合 16 GB 以上記憶體的電腦 |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) （實驗性） | Google | 4.1 GB | 想試試 Google 的翻譯模型 |
 
@@ -190,6 +191,7 @@ H、N、1 到 5 作用於選取的文字。Windows 和 Linux 上用 Ctrl 代替 
 
 ## 更新紀錄
 
+- **0.6.8**（2026-11-03）：新增 LMT-60-0.6B 模型：體積最小（805 MB）、速度最快，適合配置較低的電腦。
 - **0.6.7**（2026-11-03）：很高興發布 Linux 版本！
 - **0.6.6**（2026-11-03）：修正部分期刊論文的版面辨識：兩欄不再混在一起，帶底色的摘要也會翻譯，目錄只顯示章節標題。
 - **0.6.5**（2026-10-31）：帶行號的論文（如投稿稿）翻譯時，行號不再混進譯文，段落也不再被拆開。

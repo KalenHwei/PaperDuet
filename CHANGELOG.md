@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.8] - 2026-11-03
+
+### Added
+
+- LMT-60-0.6B, a sixth translation model: the smallest (805 MB) and fastest, for modest computers; its terms are less precise than the larger models'.
+
 ## [0.6.7] - 2026-11-03
 
 ### Added

@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet est un traducteur miroir IA léger pour les articles, qui conserve la mise en page d'origine.</strong><br>
-  Cinq modèles de traduction IA open source tournent sur votre ordinateur, ou connectez une API en ligne.<br>
+  Six modèles de traduction IA open source tournent sur votre ordinateur, ou connectez une API en ligne.<br>
   Gratuit, sans inscription !
 </p>
 
@@ -55,7 +55,7 @@ L'article original est à gauche, sa traduction à droite, et les deux côtés d
   <img src="docs/images/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
 </p>
 
-La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF à côté de l'original. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi cinq modèles selon votre ordinateur et vos besoins.
+La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF à côté de l'original. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi six modèles selon votre ordinateur et vos besoins.
 
 ## Pensez-y. Trouvez-le.
 
@@ -98,15 +98,16 @@ Surlignez, soulignez et annotez directement la traduction ; les phrases correspo
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet en apparence sombre : la page 3 avec le schéma du Transformer des deux côtés, un surlignage jaune et un vert sur l'original et sur la traduction, et le sommaire bilingue dans la barre latérale">
 </p>
 
-## Cinq modèles, tous sur votre ordinateur
+## Six modèles, tous sur votre ordinateur
 
 Choisissez un modèle au premier lancement de PaperDuet, et changez quand vous voulez dans Réglages › Modèle › Changer de modèle. Tous sont conçus pour la traduction et fonctionnent entièrement hors ligne une fois téléchargés.
 
 | Modèle | Par | Taille | Idéal pour |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recommandé)** | équipe Index de bilibili | 2.1 GB | Le meilleur polyvalent, réglé pour les contrôles et le glossaire de PaperDuet |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | La vitesse : le plus rapide et le plus léger |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Rapide et léger |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Des traductions proches du texte source |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Les ordinateurs modestes : le plus petit et le plus rapide |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Les traductions les plus fluides, sur un ordinateur avec 16 Go de mémoire ou plus |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (expérimental) | Google | 4.1 GB | Essayer le modèle de traduction de Google |
 
@@ -190,6 +191,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.6.8** (2026-11-03) : Nouveau modèle LMT-60-0.6B : le plus petit (805 Mo) et le plus rapide, pour les ordinateurs modestes.
 - **0.6.7** (2026-11-03) : Nous sommes heureux de publier la version Linux !
 - **0.6.6** (2026-11-03) : Mise en page de certains articles de revue mieux reconnue : les deux colonnes ne se mélangent plus, un résumé sur fond coloré est traduit et la table des matières ne montre que les titres de section.
 - **0.6.5** (2026-10-31) : Articles avec numéros de ligne (manuscrits soumis, par exemple) : les numéros ne se mêlent plus à la traduction et ne coupent plus les paragraphes.

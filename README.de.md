@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel, der das ursprüngliche Layout beibehält.</strong><br>
-  Fünf Open-Source-KI-Übersetzungsmodelle laufen auf deinem Computer, oder du bindest eine Online-API an.<br>
+  Sechs Open-Source-KI-Übersetzungsmodelle laufen auf deinem Computer, oder du bindest eine Online-API an.<br>
   Kostenlos, ohne Anmeldung!
 </p>
 
@@ -55,7 +55,7 @@ Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scr
   <img src="docs/images/de/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
 </p>
 
-Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF neben dem Original. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus fünf Modellen, passend zu deinem Computer und deinen Ansprüchen.
+Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF neben dem Original. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus sechs Modellen, passend zu deinem Computer und deinen Ansprüchen.
 
 ## Denken. Finden.
 
@@ -98,15 +98,16 @@ Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden S�
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet im dunklen Erscheinungsbild: Seite 3 mit dem Transformer-Diagramm auf beiden Seiten, je eine gelbe und eine grüne Hervorhebung im Original und in der Übersetzung, und das zweisprachige Inhaltsverzeichnis in der Seitenleiste">
 </p>
 
-## Fünf Modelle, alle auf deinem Computer
+## Sechs Modelle, alle auf deinem Computer
 
 Wähle beim ersten Start von PaperDuet ein Modell und wechsle jederzeit unter Einstellungen › Modell › Modell wechseln. Alle sind für die Übersetzung gebaut und laufen nach dem Download komplett offline.
 
 | Modell | Von | Größe | Am besten für |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(empfohlen)** | bilibili-Index-Team | 2.1 GB | Der beste Allrounder, abgestimmt auf die Prüfungen und das Glossar von PaperDuet |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Tempo: das schnellste und leichteste |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Schnell und leicht |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Übersetzungen nah am Ausgangstext |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Einfachere Computer: das kleinste und schnellste |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Die flüssigsten Übersetzungen, auf Computern mit 16 GB Arbeitsspeicher oder mehr |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimentell) | Google | 4.1 GB | Googles Übersetzungsmodell ausprobieren |
 
@@ -190,6 +191,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.6.8** (2026-11-03): Neues Modell LMT-60-0.6B: das kleinste (805 MB) und schnellste, für einfachere Computer.
 - **0.6.7** (2026-11-03): Wir freuen uns, die Linux-Version zu veröffentlichen!
 - **0.6.6** (2026-11-03): Layout mancher Zeitschriftenartikel besser erkannt: Die beiden Spalten vermischen sich nicht mehr, eine Zusammenfassung auf farbigem Hintergrund wird übersetzt, und das Inhaltsverzeichnis zeigt nur die Abschnittsüberschriften.
 - **0.6.5** (2026-10-31): Artikel mit Zeilennummern (etwa eingereichte Manuskripte): Die Nummern geraten nicht mehr in die Übersetzung und zerteilen keine Absätze mehr.

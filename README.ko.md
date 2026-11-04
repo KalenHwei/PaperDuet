@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet는 원래 레이아웃을 그대로 유지하는 가벼운 AI 논문 미러 번역기입니다.</strong><br>
-  오픈소스 AI 번역 모델 5가지가 내 컴퓨터에서 돌아가고, 온라인 API도 연결할 수 있습니다.<br>
+  오픈소스 AI 번역 모델 6가지가 내 컴퓨터에서 돌아가고, 온라인 API도 연결할 수 있습니다.<br>
   무료, 가입도 필요 없습니다!
 </p>
 
@@ -55,7 +55,7 @@ PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문�
   <img src="docs/images/ko/progress-save.gif" width="880" alt="논문의 마지막 문단이 번역되자 도구 막대의 진행 링이 초록색 체크로 바뀌고, 클릭 한 번에 번역문이 PDF로 저장된다. 이어서 옆의 전구를 열면 AI가 쓴 전체 요약이 조금씩 나타난다">
 </p>
 
-번역 진행 상황은 도구 막대에 표시됩니다. 논문 전체가 번역되면 링이 초록색 체크로 바뀌고, 클릭 한 번으로 번역문을 PDF로 원문 옆에 저장합니다. 옆의 전구를 열면 모델이 전체를 읽고 쓴 AI 요약이 나옵니다. 연구 질문, 방법, 결과가 한눈에 보입니다. 다섯 가지 모델 중 컴퓨터와 용도에 맞게 고를 수 있어요.
+번역 진행 상황은 도구 막대에 표시됩니다. 논문 전체가 번역되면 링이 초록색 체크로 바뀌고, 클릭 한 번으로 번역문을 PDF로 원문 옆에 저장합니다. 옆의 전구를 열면 모델이 전체를 읽고 쓴 AI 요약이 나옵니다. 연구 질문, 방법, 결과가 한눈에 보입니다. 여섯 가지 모델 중 컴퓨터와 용도에 맞게 고를 수 있어요.
 
 ## 떠올리면, 찾아집니다.
 
@@ -98,15 +98,16 @@ PaperDuet는 가벼운 AI 논문 미러 번역기입니다. 원문과 번역문�
   <img src="docs/images/screenshot-dark.png" width="880" alt="다크 모드의 PaperDuet: 양쪽 모두 3쪽의 Transformer 구조도이고, 원문과 번역문에 노란색과 초록색 강조가 하나씩 있으며, 사이드바에는 이중 언어 목차가 있다">
 </p>
 
-## 5가지 모델, 모두 내 컴퓨터에서
+## 6가지 모델, 모두 내 컴퓨터에서
 
 PaperDuet를 처음 열 때 모델을 고르고, 나중에 설정 › 모델 › 모델 변경에서 언제든 바꿀 수 있습니다. 모두 번역 전용 모델이며, 한 번 다운로드하면 완전히 오프라인으로 동작합니다.
 
 | 모델 | 제공 | 크기 | 추천 용도 |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(추천)** | bilibili Index 팀 | 2.1 GB | 가장 뛰어난 만능형, PaperDuet의 검사와 용어집에 맞춰 조정됨 |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | 속도: 가장 빠르고 가벼움 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | 빠르고 가벼움 |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | 원문에 충실한 번역 |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | 사양이 낮은 컴퓨터: 가장 작고 가장 빠름 |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | 가장 자연스러운 번역, 메모리 16GB 이상 컴퓨터용 |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (실험적) | Google | 4.1 GB | Google의 번역 모델을 써 보고 싶을 때 |
 
@@ -190,6 +191,7 @@ Index-Translate-2B로 시작하세요. 더 빠른 속도를 원하면 Hy-MT2-1.8
 
 ## 변경 기록
 
+- **0.6.8** (2026-11-03): LMT-60-0.6B 모델 추가: 가장 작고(805 MB) 가장 빨라 사양이 낮은 컴퓨터에 알맞습니다.
 - **0.6.7** (2026-11-03): Linux 버전을 출시하게 되어 기쁩니다!
 - **0.6.6** (2026-11-03): 일부 저널 논문의 레이아웃 인식을 고쳤습니다. 두 단이 더 이상 섞이지 않고, 배경색 상자 안의 초록도 번역되며, 목차에는 장 제목만 표시됩니다.
 - **0.6.5** (2026-10-31): 줄 번호가 있는 논문(투고 원고 등)에서 줄 번호가 번역문에 섞이거나 문단이 나뉘지 않습니다.

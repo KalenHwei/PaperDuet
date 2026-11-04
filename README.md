@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet is a lightweight AI mirror translator for papers that keeps the original layout.</strong><br>
-  Five open-source AI translation models run on your computer, or connect an online API.<br>
+  Six open-source AI translation models run on your computer, or connect an online API.<br>
   Free to use, no sign-up needed!
 </p>
 
@@ -55,7 +55,7 @@ The original paper is on the left and its translation on the right, and both sid
   <img src="docs/images/en/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
 </p>
 
-The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from five models to suit your computer and your needs!
+The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from six models to suit your computer and your needs!
 
 ## Think it. Find it.
 
@@ -98,15 +98,16 @@ Highlight, underline and write notes right on the translation; the matching sent
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet in dark appearance: page 3 with the Transformer diagram on both sides, a yellow and a green highlight on the original and on the translation, and the bilingual outline in the sidebar">
 </p>
 
-## Five models, all on your computer
+## Six models, all on your computer
 
 Pick a model the first time you open PaperDuet, and switch anytime in Settings › Model › Change Model. Every one of them is built for translation and runs fully offline once it is downloaded.
 
 | Model | By | Size | Best for |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(recommended)** | bilibili Index team | 2.1 GB | The best all-rounder, tuned for PaperDuet's checks and glossary |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Speed: the fastest and lightest |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Fast and light |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Translations that stay close to the source |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Modest computers: the smallest and fastest |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | The most fluent Chinese, on computers with 16 GB of memory or more |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (experimental) | Google | 4.1 GB | Trying Google's translation model |
 
@@ -190,6 +191,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.6.8** (2026-11-03): a new model, LMT-60-0.6B: the smallest (805 MB) and fastest, for modest computers.
 - **0.6.7** (2026-11-03): we're happy to release PaperDuet for Linux!
 - **0.6.6** (2026-11-03): journal papers whose layout was misread: the two columns no longer run together, an abstract on a shaded panel is translated, and the outline lists only the section headings.
 - **0.6.5** (2026-10-31): papers with line numbers (manuscripts, for example): the numbers no longer get into the translation or break paragraphs apart.

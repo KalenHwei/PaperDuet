@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong> PaperDuet 是一款能保留格式的轻量级论文镜像AI翻译器。</strong><br>
-  五种开源 AI 翻译模型在本机运行，也可以接入在线 API。<br>
+  六种开源 AI 翻译模型在本机运行，也可以接入在线 API。<br>
   免费使用，无需注册！
 </p>
 
@@ -55,7 +55,7 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
   <img src="docs/images/progress-save.gif" width="880" alt="论文最后几段译完，工具栏上的进度圆环变成绿色的勾，点一下就把译文保存为 PDF；接着点开旁边的灯泡，AI 写的全文概要逐字出现">
 </p>
 
-在工具栏上提供了翻译进度。全文翻译完，圆环变成绿色的勾，并弹出提示：点一下就能把译文保存为 PDF，放在原文旁边。旁边的小灯泡是 AI 概要：点开就能看到模型读完全文后写的总结，研究问题、方法和结果一目了然。另外可选五种模型，根据你的配置与需求自由选择！
+在工具栏上提供了翻译进度。全文翻译完，圆环变成绿色的勾，并弹出提示：点一下就能把译文保存为 PDF，放在原文旁边。旁边的小灯泡是 AI 概要：点开就能看到模型读完全文后写的总结，研究问题、方法和结果一目了然。另外可选六种模型，根据你的配置与需求自由选择！
 
 ## 想到，就找到。
 
@@ -98,15 +98,16 @@ PaperDuet 是一款轻量级论文镜像AI翻译器，将原文与翻译镜像�
   <img src="docs/images/screenshot-dark.png" width="880" alt="深色外观下的 PaperDuet：两边都是第 3 页的 Transformer 结构图，原文和译文上各有一处黄色和绿色高亮，侧栏是中英双语目录">
 </p>
 
-## 五个模型，全在你的电脑上
+## 六个模型，全在你的电脑上
 
-第一次打开时选一个，之后随时在“设置 › 模型 › 更换模型”里换。五个都是专门做翻译的模型，下载好以后完全离线运行。
+第一次打开时选一个，之后随时在“设置 › 模型 › 更换模型”里换。六个都是专门做翻译的模型，下载好以后完全离线运行。
 
 | 模型 | 来自 | 大小 | 适合 |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B)**（推荐）** | 哔哩哔哩 Index 团队 | 2.1 GB | 综合最好，PaperDuet 的检查和术语表专门为它调过 |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.9 GB | 追求速度，最快也最轻 |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | 腾讯混元 | 1.9 GB | 速度快、体积小 |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | 小牛翻译 NiuTrans | 4.7 GB | 贴近原文的译法 |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | 小牛翻译 NiuTrans | 0.8 GB | 电脑配置较低：最小也最快 |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | 腾讯混元 | 8.0 GB | 中文最通顺，适合 16 GB 以上内存的电脑 |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF)（实验性） | Google | 4.1 GB | 想试试 Google 的翻译模型 |
 
@@ -190,6 +191,7 @@ H、N、1 到 5 作用于选中的文字。Windows 和 Linux 上用 Ctrl 代替 
 
 ## 更新日志
 
+- **0.6.8**（2026-11-03）：新增 LMT-60-0.6B 模型：体积最小（805 MB）、速度最快，适合配置较低的电脑。
 - **0.6.7**（2026-11-03）：很高兴发布 Linux 版本！
 - **0.6.6**（2026-11-03）：修复部分期刊论文的版面识别：两栏不再混在一起，带底色的摘要也会翻译，目录只显示章节标题。
 - **0.6.5**（2026-10-31）：带行号的论文（如投稿稿）翻译时，行号不再混进译文，段落也不再被拆开。

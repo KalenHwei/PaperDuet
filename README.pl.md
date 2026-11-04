@@ -30,7 +30,7 @@
 
 <p align="center">
   <strong>PaperDuet to lekki lustrzany tłumacz artykułów oparty na AI, który zachowuje ich oryginalny układ.</strong><br>
-  Pięć modeli tłumaczeniowych AI typu open source działa na Twoim komputerze, możesz też podłączyć API online.<br>
+  Sześć modeli tłumaczeniowych AI typu open source działa na Twoim komputerze, możesz też podłączyć API online.<br>
   Za darmo i bez rejestracji!
 </p>
 
@@ -55,7 +55,7 @@ Po lewej jest oryginalny artykuł, po prawej jego tłumaczenie, a obie strony pr
   <img src="docs/images/pl/progress-save.gif" width="880" alt="Spływają ostatnie akapity, pierścień postępu na pasku narzędzi zmienia się w zielony haczyk, a jedno kliknięcie zachowuje tłumaczenie jako PDF; potem otwiera się żarówka obok i streszczenie AI całego artykułu pojawia się wiersz po wierszu">
 </p>
 
-Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF obok oryginału. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z pięciu modeli, dopasowany do Twojego komputera i potrzeb!
+Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF obok oryginału. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z sześciu modeli, dopasowany do Twojego komputera i potrzeb!
 
 ## Pomyśl. Znajdź.
 
@@ -98,15 +98,16 @@ Wyróżniaj, podkreślaj i pisz notatki bezpośrednio na tłumaczeniu; odpowiada
   <img src="docs/images/screenshot-dark.png" width="880" alt="PaperDuet w ciemnym motywie: strona 3 ze schematem Transformera po lewej i po prawej, żółte i zielone wyróżnienie w oryginale i w tłumaczeniu oraz dwujęzyczny spis treści na pasku bocznym">
 </p>
 
-## Pięć modeli, wszystkie na Twoim komputerze
+## Sześć modeli, wszystkie na Twoim komputerze
 
 Wybierz model przy pierwszym uruchomieniu PaperDuet, a zmienisz go w dowolnej chwili w Ustawieniach › Model › Zmień model. Wszystkie są stworzone do tłumaczenia i po pobraniu działają całkowicie offline.
 
 | Model | Twórca | Rozmiar | Kiedy wybrać |
 | --- | --- | --- | --- |
 | [Index-Translate-2B](https://huggingface.co/IndexTeam/Index-Translate-2B) **(zalecany)** | Zespół Index z bilibili | 2.1 GB | Najlepszy wszechstronny wybór; kontrole i glosariusz PaperDuet są dostrojone właśnie do niego |
-| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Gdy liczy się szybkość: najszybszy i najlżejszy |
+| [Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF) | Tencent Hunyuan | 1.9 GB | Szybki i lekki |
 | [LMT-60-4B](https://huggingface.co/NiuTrans/LMT-60-4B) | NiuTrans | 4.7 GB | Gdy tłumaczenie ma być bliskie oryginałowi |
+| [LMT-60-0.6B](https://huggingface.co/NiuTrans/LMT-60-0.6B) | NiuTrans | 0.8 GB | Słabsze komputery: najmniejszy i najszybszy |
 | [Hy-MT2-7B](https://huggingface.co/tencent/Hy-MT2-7B-GGUF) | Tencent Hunyuan | 8.0 GB | Gdy chcesz najpłynniejszego tłumaczenia, na komputerze z 16 GB pamięci lub więcej |
 | [TranslateGemma-4B](https://huggingface.co/mradermacher/translategemma-4b-it-GGUF) (eksperymentalny) | Google | 4.1 GB | Gdy chcesz wypróbować model tłumaczeniowy Google |
 
@@ -190,6 +191,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.8** (2026-11-03): nowy model LMT-60-0.6B: najmniejszy (805 MB) i najszybszy, dla słabszych komputerów.
 - **0.6.7** (2026-11-03): z radością publikujemy wersję na Linuksa!
 - **0.6.6** (2026-11-03): lepsze rozpoznawanie układu niektórych artykułów z czasopism: dwie kolumny już się nie mieszają, streszczenie na kolorowym tle jest tłumaczone, a spis treści pokazuje tylko tytuły rozdziałów.
 - **0.6.5** (2026-10-31): w artykułach z numeracją wierszy (np. w rękopisach) numery nie trafiają już do tłumaczenia i nie dzielą akapitów.
