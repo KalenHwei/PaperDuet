@@ -191,6 +191,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.11** (2026-11-04): Corregidos los artículos que no se traducían, los párrafos que quedaban en inglés y los títulos de tablas sin traducir.
 - **0.6.10** (2026-11-04): Corregidos los problemas de conexión con la API.
 - **0.6.9** (2026-11-03): Corregido el desplazamiento entrecortado en la versión para Linux.
 - **0.6.8** (2026-11-03): Nuevo modelo LMT-60-0.6B: el más pequeño (805 MB) y el más rápido, para ordenadores modestos.

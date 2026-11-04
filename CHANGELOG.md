@@ -6,6 +6,14 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.11] - 2026-11-04
+
+### Fixed
+
+- Some papers were not translated at all (an error in the layout analysis on figures with many shapes).
+- Single paragraphs left in English when the translation kept names such as reagents or products.
+- Table titles left untranslated in IEEE, Science and NEJM papers.
+
 ## [0.6.10] - 2026-11-04
 
 ### Fixed
