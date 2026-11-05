@@ -191,6 +191,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.6.12** (2026-11-05): per risolvere i problemi di impaginazione, un modello visivo dell’impaginazione controlla ora ogni pagina: tabelle, formule, figure, intestazioni e piè di pagina non vengono più tradotti per errore e il testo scambiato per una tabella viene tradotto, rendendo la traduzione molto più precisa e robusta. Il modello si scarica in background insieme al modello di traduzione.
 - **0.6.11** (2026-11-04): Grazie ai tanti utenti che ci hanno inviato segnalazioni di errori davvero preziose; per motivi di privacy non possiamo ringraziarli pubblicamente. Questo aggiornamento corregge soprattutto gli articoli interi che non venivano tradotti a causa di un bug di ricorsione, i paragrafi rimasti in parte non tradotti perché una regola di controllo li valutava in modo errato e le imprecisioni nel riconoscimento dell'impaginazione. Speriamo che offra a tutti un'esperienza migliore.
 - **0.6.10** (2026-11-04): corretti i problemi di connessione all’API.
 - **0.6.9** (2026-11-03): corretto lo scorrimento a scatti nella versione per Linux.

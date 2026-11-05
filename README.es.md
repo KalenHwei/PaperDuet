@@ -191,6 +191,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.6.12** (2026-11-05): Para resolver los problemas de maquetación, un modelo visual de maquetación revisa ahora cada página: tablas, fórmulas, figuras, encabezados y pies de página ya no se traducen por error, y el texto confundido con una tabla se traduce, lo que hace la traducción mucho más precisa y robusta. El modelo se descarga en segundo plano junto con el modelo de traducción.
 - **0.6.11** (2026-11-04): Gracias a los muchos usuarios que nos han enviado informes de errores muy valiosos; por motivos de privacidad no podemos agradecérselo públicamente. Esta actualización corrige sobre todo los artículos completos que no se traducían por un error de recursión, los párrafos que quedaban en parte sin traducir porque una regla de comprobación los juzgaba mal y la imprecisión en el reconocimiento del diseño de página. Esperamos que les ofrezca a todos una mejor experiencia.
 - **0.6.10** (2026-11-04): Corregidos los problemas de conexión con la API.
 - **0.6.9** (2026-11-03): Corregido el desplazamiento entrecortado en la versión para Linux.

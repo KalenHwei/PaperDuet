@@ -191,6 +191,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.6.12** (2026-11-05): aby rozwiązać problemy z układem stron, wizualny model układu sprawdza teraz każdą stronę: tabele, wzory, rysunki, nagłówki i stopki nie są już tłumaczone przez pomyłkę, a tekst wzięty za tabelę jest tłumaczony, dzięki czemu tłumaczenie jest znacznie dokładniejsze i stabilniejsze. Model układu pobiera się w tle razem z modelem tłumaczenia.
 - **0.6.11** (2026-11-04): Dziękujemy wielu użytkownikom za bardzo cenne zgłoszenia błędów; ze względu na prywatność nie możemy podziękować im publicznie. Ta aktualizacja naprawia przede wszystkim artykuły, które w ogóle się nie tłumaczyły z powodu błędu rekurencji, akapity częściowo nieprzetłumaczone, bo reguła sprawdzająca błędnie je oceniała, oraz niedokładne rozpoznawanie układu strony. Mamy nadzieję, że ta aktualizacja zapewni wszystkim lepsze wrażenia.
 - **0.6.10** (2026-11-04): poprawiono problemy z połączeniem z API.
 - **0.6.9** (2026-11-03): poprawiono przycinające się przewijanie w wersji na Linuksa.

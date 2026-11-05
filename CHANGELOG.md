@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.6.12] - 2026-11-05
+
+### Changed
+
+- A page layout model (Docling Heron, Apache-2.0, run on your computer with ONNX Runtime) gives a second opinion on each page: blocks it sees as tables, formulas, pictures, page headers and footers or code are no longer translated, and lines of text taken for a table are. It downloads in the background (about 200 MB) with the translation model, or after the app starts if a model was chosen before; until then the layout is as before.
+
 ## [0.6.11] - 2026-11-04
 
 ### Fixed
