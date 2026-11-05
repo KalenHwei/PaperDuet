@@ -191,6 +191,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.0** (2026-11-05) : Nous avons repensé l’AI Library 🎉 ! Elle accueille l’Espace de connaissances et devient bien plus agréable à utiliser. Les boutons de la barre d’outils sont aussi plus simples et plus pratiques.
 - **0.6.12** (2026-11-05) : Pour résoudre les problèmes de mise en page, un modèle visuel de mise en page contrôle désormais chaque page : les tableaux, formules, figures, en-têtes et pieds de page ne sont plus traduits par erreur, et le texte pris pour un tableau est bien traduit, ce qui rend la traduction bien plus précise et robuste. Le modèle se télécharge en arrière-plan avec le modèle de traduction.
 - **0.6.11** (2026-11-04) : Merci aux nombreux utilisateurs qui nous ont envoyé de très précieux rapports d'erreur ; pour des raisons de confidentialité, nous ne pouvons pas les remercier publiquement. Cette mise à jour corrige surtout des articles entiers qui ne se traduisaient pas à cause d'un bogue de récursion, des paragraphes en partie non traduits parce qu'une règle de vérification se trompait, et des imprécisions dans la reconnaissance de la mise en page. Nous espérons qu'elle vous offrira à tous une meilleure expérience.
 - **0.6.10** (2026-11-04) : Problèmes de connexion à l’API corrigés.

@@ -191,6 +191,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.0** (2026-11-05): Wir haben die AI Library neu gebaut 🎉! Neu ist der Wissensraum, und die AI Library lässt sich deutlich angenehmer bedienen. Außerdem sind die Schaltflächen der oberen Symbolleiste schlanker und praktischer.
 - **0.6.12** (2026-11-05): Gegen Layoutprobleme prüft jetzt ein visuelles Layoutmodell jede Seite: Tabellen, Formeln, Abbildungen, Kopf- und Fußzeilen werden nicht mehr versehentlich übersetzt, und für Tabellen gehaltener Text wird übersetzt; die Übersetzung wird dadurch deutlich genauer und robuster. Das Layoutmodell wird mit dem Übersetzungsmodell im Hintergrund heruntergeladen.
 - **0.6.11** (2026-11-04): Vielen Dank an die vielen Nutzerinnen und Nutzer, die uns sehr wertvolle Fehlerberichte geschickt haben; aus Datenschutzgründen können wir uns nicht öffentlich bei ihnen bedanken. Dieses Update behebt vor allem ganze Artikel, die wegen eines Rekursionsfehlers nicht übersetzt wurden, Absätze, die teilweise unübersetzt blieben, weil eine Prüfregel sie falsch beurteilte, und Ungenauigkeiten bei der Layouterkennung. Wir hoffen, dass dieses Update allen ein besseres Erlebnis bringt.
 - **0.6.10** (2026-11-04): Probleme mit der API-Verbindung behoben.

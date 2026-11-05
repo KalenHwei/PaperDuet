@@ -6,6 +6,22 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-05
+
+### Added
+
+- Knowledge Space, under AI Organize in the library: the papers you have studied as spheres in a 3D space, around their fields and subfields and joined by the topics they share. Ctrl-drag turns it, the wheel or a pinch zooms, double-clicking a field goes into it. A timeline shows the days you studied and what you read each day; study time is counted from this version on.
+- Your own labels for papers (an emoji and a name; five ready-made), from the right-click menu or by dragging papers onto a label; ⌘-click and Shift-click pick several papers at once. AI Organize lists your labels first, and typing # in AI Search filters by a label or tag.
+- Library order as in the Finder: last studied, date added or name, in sections. PDFs and folders dropped on the library are imported.
+- Settings › Translation: Translate papers when opened (turn it off to start each translation from the progress ring), and Save Files (the annotated original, the translated PDF, the notes).
+
+### Changed
+
+- The library list is more compact: one line per name, the date and field below it, and a ring for the translation.
+- Toolbar: a Home button takes the place of Import (importing is on the start page, and by dropping files on the library); exports moved to Settings › Translation › Save Files.
+- Saving the translated PDF from the finished-translation bubble asks where to save it.
+- The page layout model also downloads for users whose translation model was installed before models could be chosen.
+
 ## [0.6.12] - 2026-11-05
 
 ### Changed

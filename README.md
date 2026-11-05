@@ -191,6 +191,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.0** (2026-11-05): we rebuilt the AI Library 🎉! It adds the Knowledge Space, and working with the library is much smoother. The toolbar buttons are also simpler and more practical.
 - **0.6.12** (2026-11-05): to fix layout problems, a visual page layout model now checks the layout: tables, formulas, pictures, page headers and footers are no longer translated by mistake, and text taken for a table is translated, which makes translations far more accurate and robust. The layout model downloads in the background with the translation model.
 - **0.6.11** (2026-11-04): Thank you to the many users who have sent us so many valuable error reports; for privacy reasons we cannot thank you by name. This update mainly fixes whole papers that could not be translated because of a recursion bug, paragraphs partly left untranslated because a checking rule misjudged them, and inaccurate layout recognition. We hope this update brings everyone a better experience.
 - **0.6.10** (2026-11-04): API connection issues are fixed.
