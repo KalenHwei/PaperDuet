@@ -55,15 +55,23 @@ The original paper is on the left and its translation on the right, and both sid
   <img src="docs/images/en/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
 </p>
 
-The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF next to the original. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from six models to suit your computer and your needs!
+The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF wherever you choose. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from six models to suit your computer and your needs!
 
 ## Think it. Find it.
 
 <p align="center">
-  <img src="docs/images/en/library.gif" width="880" alt="A library of over fifty papers; in AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then the AI Search queries “polyp segmentation” and “reinforcement learning” bring up the matching papers, with passages from their summaries">
+  <img src="docs/images/en/library.gif" width="880" alt="A library of over fifty papers, ordered by name and by date added, then back to last studied; a right-click gives a paper the ⭐️ label. In AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then the AI Search query “polyp segmentation” brings up the matching papers, with passages from their summaries">
 </p>
 
-Every paper you've read lives in your library. AI Organize tags each one by field and topic, and the papers you pick rise to the top. AI Search finds a paper by its title, its text, its translation or its summary, in English or Chinese.
+Every paper you've read lives in your library, ordered by last studied, date added or name, and a right-click puts your own labels on it. AI Organize tags each one by field and topic, and the papers you pick rise to the top. AI Search finds a paper by its title, its text, its translation or its summary, in English or Chinese.
+
+## Everything you've learned, at a glance.
+
+<p align="center">
+  <img src="docs/images/en/knowledge-space.gif" width="880" alt="The Knowledge Space opens: the papers studied gather in spheres by field. Dragging with Control held turns the whole space; pointing at a paper shows how far it was read and when it was last studied; a double-click on Computer Vision flies the camera in and fades the rest. Finally the timeline shows what was studied each day">
+</p>
+
+Open the Knowledge Space in your library: the papers you've studied gather by field, subfield and topic in a 3D space. Drag with Control held to turn it, scroll to zoom, and double-click a field to see only its papers. The timeline keeps track of which papers you read each day, for how long, and how many days in a row you've kept at it.
 
 ## Don't get it? Go click it.
 
@@ -84,11 +92,11 @@ Highlight, underline and write notes right on the translation; the matching sent
 ## And there's more
 
 - **Ten languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski and Русский in one click from the toolbar.
-- **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation next to it in the original layout.
+- **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation wherever you choose, in the original layout.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep the original.
 - **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
-- **Your library, with AI search.** Every paper you read or import is in the library. AI Search finds one again by its title, text, translation or summary, in English or Chinese, and AI Organize sorts papers by field and topic.
+- **Your library, Knowledge Space and AI search.** Every paper you read or import is in the library, ordered by last studied, date added or name, with your own labels a right-click away. AI Search finds one again by its title, text, translation or summary, in English or Chinese, AI Organize sorts papers by field and topic, and the Knowledge Space shows what you've studied as a 3D map and a timeline.
 - **A summary of every paper.** Once a paper is translated, click the light bulb: the translation model writes a short summary in your interface language and keeps it with the paper.
 - **Export anywhere.** The original PDF with your marks, the translated PDF and your notes as Markdown, all readable in other apps too.
 - **One-click updates.** Updating is easy: one click installs the new version.
@@ -191,6 +199,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.1** (2026-11-05): we made the library nicer to use.
 - **0.7.0** (2026-11-05): we rebuilt the AI Library 🎉! It adds the Knowledge Space, and working with the library is much smoother. The toolbar buttons are also simpler and more practical.
 - **0.6.12** (2026-11-05): to fix layout problems, a visual page layout model now checks the layout: tables, formulas, pictures, page headers and footers are no longer translated by mistake, and text taken for a table is translated, which makes translations far more accurate and robust. The layout model downloads in the background with the translation model.
 - **0.6.11** (2026-11-04): Thank you to the many users who have sent us so many valuable error reports; for privacy reasons we cannot thank you by name. This update mainly fixes whole papers that could not be translated because of a recursion bug, paragraphs partly left untranslated because a checking rule misjudged them, and inaccurate layout recognition. We hope this update brings everyone a better experience.

@@ -55,15 +55,23 @@ Po lewej jest oryginalny artykuł, po prawej jego tłumaczenie, a obie strony pr
   <img src="docs/images/pl/progress-save.gif" width="880" alt="Spływają ostatnie akapity, pierścień postępu na pasku narzędzi zmienia się w zielony haczyk, a jedno kliknięcie zachowuje tłumaczenie jako PDF; potem otwiera się żarówka obok i streszczenie AI całego artykułu pojawia się wiersz po wierszu">
 </p>
 
-Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF obok oryginału. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z sześciu modeli, dopasowany do Twojego komputera i potrzeb!
+Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF w wybranym przez Ciebie miejscu. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z sześciu modeli, dopasowany do Twojego komputera i potrzeb!
 
 ## Pomyśl. Znajdź.
 
 <p align="center">
-  <img src="docs/images/pl/library.gif" width="880" alt="Biblioteka z ponad pięćdziesięcioma artykułami; w „Uporządkuj z AI” wybierane są „Widzenie komputerowe” i temat, pasujące artykuły przesuwają się na górę, a pozostałe robią się szare. Potem wyszukiwania AI „segmentacja polipów” i „uczenie się ze wzmocnieniem” wynoszą na górę pasujące artykuły, z fragmentami ich streszczeń">
+  <img src="docs/images/pl/library.gif" width="880" alt="Biblioteka z ponad pięćdziesięcioma artykułami, posortowana według nazwy i daty dodania, a potem znów według ostatniej nauki; kliknięcie prawym przyciskiem dodaje artykułowi etykietę ⭐️. W „Uporządkuj z AI” wybierane są „Widzenie komputerowe” i temat, pasujące artykuły przesuwają się na górę, a pozostałe robią się szare. Potem wyszukiwanie AI „segmentacja polipów” wynosi na górę pasujące artykuły, z fragmentami ich streszczeń">
 </p>
 
-Każdy przeczytany artykuł trafia do Twojej biblioteki. „Uporządkuj z AI” oznacza każdy z nich tagami według dziedziny i tematu, a wybrane przez Ciebie artykuły przesuwają się na górę. Wyszukiwanie AI znajduje artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku.
+Każdy przeczytany artykuł trafia do Twojej biblioteki, którą sortujesz według ostatniej nauki, daty dodania lub nazwy, a prawym przyciskiem dodajesz własne etykiety. „Uporządkuj z AI” oznacza każdy z nich tagami według dziedziny i tematu, a wybrane przez Ciebie artykuły przesuwają się na górę. Wyszukiwanie AI znajduje artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku.
+
+## Twoja nauka na pierwszy rzut oka.
+
+<p align="center">
+  <img src="docs/images/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym Control obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
+</p>
+
+Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą się według dziedzin, poddziedzin i tematów w przestrzeni 3D. Przeciągnij z wciśniętym Control, aby ją obrócić, przewiń, aby przybliżyć, i kliknij dwukrotnie dziedzinę, aby zobaczyć tylko jej artykuły. Oś czasu zapisuje, jakie artykuły i jak długo czytasz każdego dnia oraz ile dni z rzędu się uczysz.
 
 ## Nie rozumiesz? Kliknij.
 
@@ -84,11 +92,11 @@ Wyróżniaj, podkreślaj i pisz notatki bezpośrednio na tłumaczeniu; odpowiada
 ## I to nie wszystko
 
 - **Dziesięć języków tłumaczenia.** Jednym kliknięciem na pasku narzędzi przełączasz się między językami: 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski i Русский.
-- **Przetłumaczony PDF jednym kliknięciem.** Gdy artykuł jest w całości przetłumaczony, jedno kliknięcie zachowuje tłumaczenie obok niego, w oryginalnym układzie.
+- **Przetłumaczony PDF jednym kliknięciem.** Gdy artykuł jest w całości przetłumaczony, jedno kliknięcie zachowuje tłumaczenie w wybranym miejscu, w oryginalnym układzie.
 - **Wbudowana kontrola jakości.** Wzory, liczby i kolejność zdań są sprawdzane w każdej odpowiedzi modelu, z automatycznymi ponownymi próbami, a glosariusz tworzony dla każdego artykułu dba o spójność terminów.
 - **Ty decydujesz, co tłumaczyć.** Kliknij prawym przyciskiem dowolny blok, aby go przetłumaczyć lub zostawić oryginał.
 - **Czytaj po swojemu.** Przeszukuj oryginał i tłumaczenie jednocześnie, przeglądaj dwujęzyczny spis treści, wskaż akapit, aby znaleźć jego odpowiednik, i wyświetlaj oryginał, tłumaczenie albo oba naraz. PaperDuet pamięta ostatnio czytane miejsce.
-- **Twoja biblioteka z wyszukiwaniem AI.** Każdy przeczytany lub zaimportowany artykuł jest w bibliotece. Wyszukiwanie AI odnajdzie go po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku, a „Uporządkuj z AI” grupuje artykuły według dziedziny i tematu.
+- **Twoja biblioteka, przestrzeń wiedzy i wyszukiwanie AI.** Każdy przeczytany lub zaimportowany artykuł jest w bibliotece, którą sortujesz według ostatniej nauki, daty dodania lub nazwy, a prawym przyciskiem dodajesz etykiety. Wyszukiwanie AI odnajdzie artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku, „Uporządkuj z AI” grupuje artykuły według dziedziny i tematu, a przestrzeń wiedzy pokazuje przeczytane artykuły jako mapę 3D i oś czasu.
 - **Streszczenie każdego artykułu.** Gdy artykuł jest przetłumaczony, kliknij żarówkę: model tłumaczeniowy napisze krótkie streszczenie w języku interfejsu i zachowa je razem z artykułem.
 - **Eksportuj, dokąd chcesz.** Oryginalny PDF z Twoimi oznaczeniami, przetłumaczony PDF i notatki w formacie Markdown, czytelne także w innych aplikacjach.
 - **Uaktualnienia jednym kliknięciem.** Uaktualnianie jest proste: jedno kliknięcie instaluje nową wersję.
@@ -191,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.1** (2026-11-05): usprawniliśmy korzystanie z biblioteki.
 - **0.7.0** (2026-11-05): przebudowaliśmy AI Library 🎉! Doszła Przestrzeń wiedzy, a z AI Library korzysta się teraz znacznie wygodniej. Przyciski górnego paska są też prostsze i bardziej praktyczne.
 - **0.6.12** (2026-11-05): aby rozwiązać problemy z układem stron, wizualny model układu sprawdza teraz każdą stronę: tabele, wzory, rysunki, nagłówki i stopki nie są już tłumaczone przez pomyłkę, a tekst wzięty za tabelę jest tłumaczony, dzięki czemu tłumaczenie jest znacznie dokładniejsze i stabilniejsze. Model układu pobiera się w tle razem z modelem tłumaczenia.
 - **0.6.11** (2026-11-04): Dziękujemy wielu użytkownikom za bardzo cenne zgłoszenia błędów; ze względu na prywatność nie możemy podziękować im publicznie. Ta aktualizacja naprawia przede wszystkim artykuły, które w ogóle się nie tłumaczyły z powodu błędu rekurencji, akapity częściowo nieprzetłumaczone, bo reguła sprawdzająca błędnie je oceniała, oraz niedokładne rozpoznawanie układu strony. Mamy nadzieję, że ta aktualizacja zapewni wszystkim lepsze wrażenia.

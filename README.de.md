@@ -55,15 +55,23 @@ Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scr
   <img src="docs/images/de/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
 </p>
 
-Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF neben dem Original. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus sechs Modellen, passend zu deinem Computer und deinen Ansprüchen.
+Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF, wo du willst. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus sechs Modellen, passend zu deinem Computer und deinen Ansprüchen.
 
 ## Denken. Finden.
 
 <p align="center">
-  <img src="docs/images/de/library.gif" width="880" alt="Eine Bibliothek mit über fünfzig Artikeln; in „Mit KI ordnen“ werden „Computer Vision“ und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringen die KI-Suchen „Polypen Segmentierung“ und „Lernen durch Verstärkung“ die passenden englischen Artikel nach oben, mit Auszügen aus ihrer Zusammenfassung">
+  <img src="docs/images/de/library.gif" width="880" alt="Eine Bibliothek mit über fünfzig Artikeln, erst nach Name, dann nach Hinzufügedatum sortiert und zurück zu „zuletzt gelernt“; ein Rechtsklick auf einen Artikel gibt ihm das Label ⭐️. In „Mit KI ordnen“ werden „Computer Vision“ und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringt die KI-Suche „Polypen Segmentierung“ die passenden englischen Artikel nach oben, mit Auszügen aus ihrer Zusammenfassung">
 </p>
 
-Alle Artikel, die du gelesen hast, liegen in der Bibliothek. „Mit KI ordnen“ versieht sie mit Schlagwörtern zu Fachgebiet und Thema, und die gewählten rücken nach oben. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung, auf Deutsch wie auf Englisch.
+Alle Artikel, die du gelesen hast, liegen in der Bibliothek, sortiert nach zuletzt gelernt, Hinzufügedatum oder Name, und per Rechtsklick vergibst du eigene Labels. „Mit KI ordnen“ versieht sie mit Schlagwörtern zu Fachgebiet und Thema, und die gewählten rücken nach oben. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung, auf Deutsch wie auf Englisch.
+
+## Was du gelernt hast, auf einen Blick.
+
+<p align="center">
+  <img src="docs/images/de/knowledge-space.gif" width="880" alt="Der Wissensraum öffnet sich: Die gelernten Artikel sammeln sich in Kugeln nach Fachgebiet. Ziehen mit gedrückter Control-Taste dreht den ganzen Raum; zeigt der Zeiger auf einen Artikel, steht da, wie weit er gelesen ist und wann zuletzt; ein Doppelklick auf „Computer Vision“ lässt die Kamera hineinfliegen, der Rest verblasst. Zum Schluss zeigt die Zeitleiste, was an jedem Tag gelernt wurde">
+</p>
+
+Öffne in der Bibliothek den „Wissensraum“: Deine gelernten Artikel sammeln sich nach Fachgebiet, Teilgebiet und Thema in einem 3D-Raum. Ziehen mit gedrückter Control-Taste dreht ihn, scrollen zoomt, ein Doppelklick auf ein Fachgebiet zeigt nur dessen Artikel. Die Zeitleiste hält fest, welche Artikel du an jedem Tag wie lange gelesen hast und wie viele Tage du am Stück lernst.
 
 ## Nicht verstanden? Einfach klicken.
 
@@ -84,11 +92,11 @@ Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden S�
 ## Und noch mehr
 
 - **Zehn Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski und Русский.
-- **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout daneben.
+- **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout, wo du willst.
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
 - **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
 - **Lies, wie du willst.** Durchsuche Original und Übersetzung gleichzeitig, blättere im zweisprachigen Inhaltsverzeichnis, zeige auf einen Absatz, um sein Gegenstück zu finden, und lass dir das Original, die Übersetzung oder beides anzeigen. PaperDuet merkt sich, wo du aufgehört hast.
-- **Deine Bibliothek, mit KI-Suche.** Alle gelesenen und importierten Artikel liegen in der Bibliothek. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung wieder, auf Deutsch wie auf Englisch, und „Mit KI ordnen“ sortiert nach Fachgebiet und Thema.
+- **Deine Bibliothek, der Wissensraum und die KI-Suche.** Alle gelesenen und importierten Artikel liegen in der Bibliothek, sortierbar nach zuletzt gelernt, Hinzufügedatum oder Name, mit eigenen Labels per Rechtsklick. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung wieder, auf Deutsch wie auf Englisch, „Mit KI ordnen“ sortiert nach Fachgebiet und Thema, und der Wissensraum zeigt deine gelernten Artikel als 3D-Karte und Zeitleiste.
 - **Eine Zusammenfassung zu jedem Artikel.** Ist ein Artikel übersetzt, klick auf die Glühbirne: Das Übersetzungsmodell schreibt eine kurze Zusammenfassung in der Sprache der Oberfläche und speichert sie mit dem Artikel.
 - **Exportiere, wohin du willst.** Das Original-PDF mit deinen Markierungen, das übersetzte PDF und deine Notizen als Markdown, die sich auch in anderen Apps öffnen lassen.
 - **Updates mit einem Klick.** Aktualisieren ist einfach: Ein Klick installiert die neue Version.
@@ -191,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.1** (2026-11-05): Wir haben die Bedienung der Bibliothek verbessert.
 - **0.7.0** (2026-11-05): Wir haben die AI Library neu gebaut 🎉! Neu ist der Wissensraum, und die AI Library lässt sich deutlich angenehmer bedienen. Außerdem sind die Schaltflächen der oberen Symbolleiste schlanker und praktischer.
 - **0.6.12** (2026-11-05): Gegen Layoutprobleme prüft jetzt ein visuelles Layoutmodell jede Seite: Tabellen, Formeln, Abbildungen, Kopf- und Fußzeilen werden nicht mehr versehentlich übersetzt, und für Tabellen gehaltener Text wird übersetzt; die Übersetzung wird dadurch deutlich genauer und robuster. Das Layoutmodell wird mit dem Übersetzungsmodell im Hintergrund heruntergeladen.
 - **0.6.11** (2026-11-04): Vielen Dank an die vielen Nutzerinnen und Nutzer, die uns sehr wertvolle Fehlerberichte geschickt haben; aus Datenschutzgründen können wir uns nicht öffentlich bei ihnen bedanken. Dieses Update behebt vor allem ganze Artikel, die wegen eines Rekursionsfehlers nicht übersetzt wurden, Absätze, die teilweise unübersetzt blieben, weil eine Prüfregel sie falsch beurteilte, und Ungenauigkeiten bei der Layouterkennung. Wir hoffen, dass dieses Update allen ein besseres Erlebnis bringt.

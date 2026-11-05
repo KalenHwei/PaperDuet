@@ -55,15 +55,23 @@ A la izquierda está el artículo original y a la derecha su traducción; los do
   <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos, el anillo de progreso se convierte en una marca verde y un clic guarda la traducción en PDF; después se abre la bombilla de al lado y el resumen con IA de todo el artículo aparece poco a poco">
 </p>
 
-La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF junto al original. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre seis modelos según tu ordenador y lo que necesites.
+La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF donde tú elijas. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre seis modelos según tu ordenador y lo que necesites.
 
 ## Piénsalo. Encuéntralo.
 
 <p align="center">
-  <img src="docs/images/es/library.gif" width="880" alt="Una biblioteca con más de cincuenta artículos; en «Organizar con IA» se eligen «Visión por computador» y un tema, los artículos que encajan suben y el resto se pone en gris. Después, las búsquedas con IA «segmentación de pólipos» y «aprendizaje por refuerzo» suben los artículos en inglés que coinciden, con fragmentos de su resumen">
+  <img src="docs/images/es/library.gif" width="880" alt="Una biblioteca con más de cincuenta artículos, ordenada por nombre y por fecha de adición antes de volver al último estudio; un clic derecho en un artículo le pone la etiqueta ⭐️. En «Organizar con IA» se eligen «Visión por computador» y un tema, los artículos que encajan suben y el resto se pone en gris. Después, la búsqueda con IA «segmentación de pólipos» sube los artículos en inglés que coinciden, con fragmentos de su resumen">
 </p>
 
-Todos los artículos que has leído están en la biblioteca. «Organizar con IA» los etiqueta por campo y tema, y los que eliges suben arriba. La búsqueda con IA encuentra un artículo por su título, su texto, su traducción o su resumen, en español o en inglés.
+Todos los artículos que has leído están en la biblioteca, ordenados por último estudio, fecha de adición o nombre, y con un clic derecho les pones tus propias etiquetas. «Organizar con IA» los etiqueta por campo y tema, y los que eliges suben arriba. La búsqueda con IA encuentra un artículo por su título, su texto, su traducción o su resumen, en español o en inglés.
+
+## Lo que has aprendido, de un vistazo.
+
+<p align="center">
+  <img src="docs/images/es/knowledge-space.gif" width="880" alt="Se abre el espacio de conocimiento: los artículos estudiados se agrupan en esferas por área. Arrastrar con Control hace girar todo el espacio; al señalar un artículo se ve hasta dónde se leyó y cuándo se estudió por última vez; un doble clic en «Visión por computador» hace entrar la cámara y difumina el resto. Por último, la línea de tiempo muestra qué se estudió cada día">
+</p>
+
+Abre el «Espacio de conocimiento» de la biblioteca: los artículos que has estudiado se agrupan por área, subárea y tema en un espacio 3D. Arrastra con Control para girarlo, desplázate para acercar o alejar, y haz doble clic en un área para ver solo sus artículos. La línea de tiempo recoge qué artículos leíste cada día, durante cuánto tiempo y cuántos días seguidos llevas estudiando.
 
 ## ¿No lo entiendes? Haz clic.
 
@@ -84,11 +92,11 @@ Resalta, subraya y anota directamente sobre la traducción; las frases correspon
 ## Y hay más
 
 - **Diez idiomas de traducción.** Cambia entre 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski y Русский con un clic desde la barra de herramientas.
-- **Un PDF traducido en un clic.** Cuando el artículo está traducido entero, un clic guarda la traducción a su lado con el formato original.
+- **Un PDF traducido en un clic.** Cuando el artículo está traducido entero, un clic guarda la traducción donde tú elijas, con el formato original.
 - **Controles de calidad integrados.** Se revisan las fórmulas, los números y el orden de las frases en cada respuesta, con reintentos automáticos, y un glosario propio de cada artículo mantiene los términos coherentes.
 - **Tú decides qué se traduce.** Haz clic derecho en cualquier bloque para traducirlo o dejar el original.
 - **Lee como prefieras.** Busca en el original y la traducción a la vez, recorre un índice bilingüe, señala un párrafo para encontrar su gemelo y muestra el original, la traducción o ambos. PaperDuet recuerda dónde lo dejaste.
-- **Tu biblioteca, con búsqueda con IA.** Todos los artículos que lees o importas están en la biblioteca. La búsqueda con IA encuentra un artículo por su título, texto, traducción o resumen, en español o en inglés, y «Organizar con IA» los ordena por campo y tema.
+- **Tu biblioteca, el espacio de conocimiento y la búsqueda con IA.** Todos los artículos que lees o importas están en la biblioteca, que puedes ordenar por último estudio, fecha de adición o nombre, y marcar con tus etiquetas con un clic derecho. La búsqueda con IA encuentra un artículo por su título, texto, traducción o resumen, en español o en inglés, «Organizar con IA» los ordena por campo y tema, y el espacio de conocimiento muestra lo que has estudiado en un mapa 3D y una línea de tiempo.
 - **Un resumen de cada artículo.** Cuando un artículo está traducido, haz clic en la bombilla: el modelo de traducción escribe un resumen breve en el idioma de la interfaz y lo guarda con el artículo.
 - **Exporta adonde quieras.** El PDF original con tus marcas, el PDF traducido y tus notas en Markdown, que también se abren en otras apps.
 - **Actualizaciones en un clic.** Actualizar es fácil: un clic instala la versión nueva.
@@ -191,6 +199,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.7.1** (2026-11-05): Hemos mejorado la experiencia de uso de la biblioteca.
 - **0.7.0** (2026-11-05): ¡Hemos rehecho la AI Library 🎉! Incorpora el Espacio de conocimiento y es mucho más cómoda de usar. Además, los botones de la barra superior son más sencillos y prácticos.
 - **0.6.12** (2026-11-05): Para resolver los problemas de maquetación, un modelo visual de maquetación revisa ahora cada página: tablas, fórmulas, figuras, encabezados y pies de página ya no se traducen por error, y el texto confundido con una tabla se traduce, lo que hace la traducción mucho más precisa y robusta. El modelo se descarga en segundo plano junto con el modelo de traducción.
 - **0.6.11** (2026-11-04): Gracias a los muchos usuarios que nos han enviado informes de errores muy valiosos; por motivos de privacidad no podemos agradecérselo públicamente. Esta actualización corrige sobre todo los artículos completos que no se traducían por un error de recursión, los párrafos que quedaban en parte sin traducir porque una regla de comprobación los juzgaba mal y la imprecisión en el reconocimiento del diseño de página. Esperamos que les ofrezca a todos una mejor experiencia.

@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-11-05
+
+### Changed
+
+- The tour of the reading view now also shows the translation progress ring and the Knowledge Space (it opens the library for it); everyone sees it once more with this version.
+
 ## [0.7.0] - 2026-11-05
 
 ### Added

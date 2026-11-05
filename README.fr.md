@@ -55,15 +55,23 @@ L'article original est à gauche, sa traduction à droite, et les deux côtés d
   <img src="docs/images/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
 </p>
 
-La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF à côté de l'original. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi six modèles selon votre ordinateur et vos besoins.
+La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF, à l'endroit de votre choix. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi six modèles selon votre ordinateur et vos besoins.
 
 ## Pensez-y. Trouvez-le.
 
 <p align="center">
-  <img src="docs/images/fr/library.gif" width="880" alt="Une bibliothèque de plus de cinquante articles ; dans « Organiser avec l'IA », le choix de « Vision par ordinateur » et d'un sujet fait remonter les articles concernés et grise les autres. Puis les recherches IA « segmentation des polypes » et « apprentissage par renforcement » placent en tête les articles anglais correspondants, avec des extraits de leur résumé">
+  <img src="docs/images/fr/library.gif" width="880" alt="Une bibliothèque de plus de cinquante articles, triée par nom puis par date d'ajout avant de revenir à la dernière étude ; un clic droit sur un article lui ajoute le libellé ⭐️. Dans « Organiser avec l'IA », le choix de « Vision par ordinateur » et d'un sujet fait remonter les articles concernés et grise les autres. Puis la recherche IA « segmentation des polypes » place en tête les articles anglais correspondants, avec des extraits de leur résumé">
 </p>
 
-Tous les articles que vous avez lus sont dans la bibliothèque. « Organiser avec l'IA » les étiquette par domaine et par sujet, et ceux que vous choisissez remontent en tête. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais.
+Tous les articles que vous avez lus sont dans la bibliothèque, triés par dernière étude, date d'ajout ou nom, et un clic droit leur ajoute vos propres libellés. « Organiser avec l'IA » les étiquette par domaine et par sujet, et ceux que vous choisissez remontent en tête. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais.
+
+## Ce que vous avez appris, d'un coup d'œil.
+
+<p align="center">
+  <img src="docs/images/fr/knowledge-space.gif" width="880" alt="L'espace de connaissances s'ouvre : les articles étudiés se regroupent en sphères par domaine. Un glisser avec Contrôle fait pivoter tout l'espace ; pointer un article montre jusqu'où il a été lu et quand il a été étudié pour la dernière fois ; un double-clic sur « Vision par ordinateur » y fait plonger la caméra et estompe le reste. Enfin, la frise montre ce qui a été étudié chaque jour">
+</p>
+
+Ouvrez « Espace de connaissances » dans la bibliothèque : vos articles étudiés se regroupent par domaine, sous-domaine et sujet dans un espace 3D. Faites glisser avec Contrôle pour le faire pivoter, faites défiler pour zoomer, double-cliquez sur un domaine pour n'en voir que les articles. La frise garde la trace de ce que vous avez lu chaque jour, combien de temps, et de vos jours d'étude d'affilée.
 
 ## Un passage vous échappe ? Cliquez.
 
@@ -84,11 +92,11 @@ Surlignez, soulignez et annotez directement la traduction ; les phrases correspo
 ## Et ce n'est pas tout
 
 - **Dix langues de traduction.** Passez en un clic, depuis la barre d'outils, d'une langue à l'autre : 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski et Русский.
-- **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre la traduction à côté, avec la mise en page d'origine.
+- **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre la traduction où vous voulez, avec la mise en page d'origine.
 - **Contrôles de qualité intégrés.** Formules, nombres et ordre des phrases sont vérifiés dans chaque réponse, avec de nouvelles tentatives automatiques, et un glossaire propre à chaque article garde les termes cohérents.
 - **Vous décidez de ce qui est traduit.** Clic droit sur n'importe quel bloc pour le traduire ou garder l'original.
 - **Lisez à votre façon.** Cherchez dans l'original et la traduction en même temps, parcourez un sommaire bilingue, pointez un paragraphe pour trouver son jumeau, et affichez l'original, la traduction ou les deux. PaperDuet se souvient de l'endroit où vous vous êtes arrêté.
-- **Votre bibliothèque, avec la recherche IA.** Tous les articles lus ou importés sont dans la bibliothèque. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais, et « Organiser avec l'IA » les classe par domaine et par sujet.
+- **Votre bibliothèque, l'espace de connaissances et la recherche IA.** Tous les articles lus ou importés sont dans la bibliothèque, à trier par dernière étude, date d'ajout ou nom, et à marquer de vos libellés d'un clic droit. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais, « Organiser avec l'IA » les classe par domaine et par sujet, et l'espace de connaissances montre vos articles étudiés en carte 3D et en frise.
 - **Un résumé de chaque article.** Une fois l'article traduit, cliquez sur l'ampoule : le modèle de traduction écrit un court résumé dans la langue de l'interface et le garde avec l'article.
 - **Exportez où vous voulez.** Le PDF original avec vos marques, le PDF traduit et vos notes en Markdown, lisibles aussi dans d'autres applications.
 - **Mises à jour en un clic.** La mise à jour est simple : un clic installe la nouvelle version.
@@ -191,6 +199,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.1** (2026-11-05) : Nous avons rendu la bibliothèque plus agréable à utiliser.
 - **0.7.0** (2026-11-05) : Nous avons repensé l’AI Library 🎉 ! Elle accueille l’Espace de connaissances et devient bien plus agréable à utiliser. Les boutons de la barre d’outils sont aussi plus simples et plus pratiques.
 - **0.6.12** (2026-11-05) : Pour résoudre les problèmes de mise en page, un modèle visuel de mise en page contrôle désormais chaque page : les tableaux, formules, figures, en-têtes et pieds de page ne sont plus traduits par erreur, et le texte pris pour un tableau est bien traduit, ce qui rend la traduction bien plus précise et robuste. Le modèle se télécharge en arrière-plan avec le modèle de traduction.
 - **0.6.11** (2026-11-04) : Merci aux nombreux utilisateurs qui nous ont envoyé de très précieux rapports d'erreur ; pour des raisons de confidentialité, nous ne pouvons pas les remercier publiquement. Cette mise à jour corrige surtout des articles entiers qui ne se traduisaient pas à cause d'un bogue de récursion, des paragraphes en partie non traduits parce qu'une règle de vérification se trompait, et des imprécisions dans la reconnaissance de la mise en page. Nous espérons qu'elle vous offrira à tous une meilleure expérience.
