@@ -68,10 +68,10 @@ Every paper you've read lives in your library, ordered by last studied, date add
 ## Everything you've learned, at a glance.
 
 <p align="center">
-  <img src="docs/images/en/knowledge-space.gif" width="880" alt="The Knowledge Space opens: the papers studied gather in spheres by field. Dragging with Control held turns the whole space; pointing at a paper shows how far it was read and when it was last studied; a double-click on Computer Vision flies the camera in and fades the rest. Finally the timeline shows what was studied each day">
+  <img src="docs/images/en/knowledge-space.gif" width="880" alt="The Knowledge Space opens: the papers studied gather in spheres by field. Dragging with ⌘ held turns the whole space; pointing at a paper shows how far it was read and when it was last studied; a double-click on Computer Vision flies the camera in and fades the rest. Finally the timeline shows what was studied each day">
 </p>
 
-Open the Knowledge Space in your library: the papers you've studied gather by field, subfield and topic in a 3D space. Drag with Control held to turn it, scroll to zoom, and double-click a field to see only its papers. The timeline keeps track of which papers you read each day, for how long, and how many days in a row you've kept at it.
+Open the Knowledge Space in your library: the papers you've studied gather by field, subfield and topic in a 3D space. Drag with ⌘ held (Ctrl on Windows and Linux) to turn it, scroll to zoom, and double-click a field to see only its papers. The timeline keeps track of which papers you read each day, for how long, and how many days in a row you've kept at it.
 
 ## Don't get it? Go click it.
 
@@ -199,6 +199,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.2** (2026-11-05): smoother animations.
 - **0.7.1** (2026-11-05): we made the library nicer to use.
 - **0.7.0** (2026-11-05): we rebuilt the AI Library 🎉! It adds the Knowledge Space, and working with the library is much smoother. The toolbar buttons are also simpler and more practical.
 - **0.6.12** (2026-11-05): to fix layout problems, a visual page layout model now checks the layout: tables, formulas, pictures, page headers and footers are no longer translated by mistake, and text taken for a table is translated, which makes translations far more accurate and robust. The layout model downloads in the background with the translation model.

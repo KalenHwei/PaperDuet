@@ -68,10 +68,10 @@ Tous les articles que vous avez lus sont dans la bibliothèque, triés par derni
 ## Ce que vous avez appris, d'un coup d'œil.
 
 <p align="center">
-  <img src="docs/images/fr/knowledge-space.gif" width="880" alt="L'espace de connaissances s'ouvre : les articles étudiés se regroupent en sphères par domaine. Un glisser avec Contrôle fait pivoter tout l'espace ; pointer un article montre jusqu'où il a été lu et quand il a été étudié pour la dernière fois ; un double-clic sur « Vision par ordinateur » y fait plonger la caméra et estompe le reste. Enfin, la frise montre ce qui a été étudié chaque jour">
+  <img src="docs/images/fr/knowledge-space.gif" width="880" alt="L'espace de connaissances s'ouvre : les articles étudiés se regroupent en sphères par domaine. Un glisser avec ⌘ fait pivoter tout l'espace ; pointer un article montre jusqu'où il a été lu et quand il a été étudié pour la dernière fois ; un double-clic sur « Vision par ordinateur » y fait plonger la caméra et estompe le reste. Enfin, la frise montre ce qui a été étudié chaque jour">
 </p>
 
-Ouvrez « Espace de connaissances » dans la bibliothèque : vos articles étudiés se regroupent par domaine, sous-domaine et sujet dans un espace 3D. Faites glisser avec Contrôle pour le faire pivoter, faites défiler pour zoomer, double-cliquez sur un domaine pour n'en voir que les articles. La frise garde la trace de ce que vous avez lu chaque jour, combien de temps, et de vos jours d'étude d'affilée.
+Ouvrez « Espace de connaissances » dans la bibliothèque : vos articles étudiés se regroupent par domaine, sous-domaine et sujet dans un espace 3D. Faites glisser avec ⌘ (Ctrl sous Windows et Linux) pour le faire pivoter, faites défiler pour zoomer, double-cliquez sur un domaine pour n'en voir que les articles. La frise garde la trace de ce que vous avez lu chaque jour, combien de temps, et de vos jours d'étude d'affilée.
 
 ## Un passage vous échappe ? Cliquez.
 
@@ -199,6 +199,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.2** (2026-11-05) : Animations améliorées.
 - **0.7.1** (2026-11-05) : Nous avons rendu la bibliothèque plus agréable à utiliser.
 - **0.7.0** (2026-11-05) : Nous avons repensé l’AI Library 🎉 ! Elle accueille l’Espace de connaissances et devient bien plus agréable à utiliser. Les boutons de la barre d’outils sont aussi plus simples et plus pratiques.
 - **0.6.12** (2026-11-05) : Pour résoudre les problèmes de mise en page, un modèle visuel de mise en page contrôle désormais chaque page : les tableaux, formules, figures, en-têtes et pieds de page ne sont plus traduits par erreur, et le texte pris pour un tableau est bien traduit, ce qui rend la traduction bien plus précise et robuste. Le modèle se télécharge en arrière-plan avec le modèle de traduction.

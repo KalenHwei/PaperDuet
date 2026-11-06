@@ -6,6 +6,17 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.2] - 2026-11-05
+
+### Added
+
+- Settings › About: Play the Welcome Tour After Every Update (off unless turned on).
+
+### Changed
+
+- Knowledge Space: moved or zoomed past its edges it springs back, the wheel zooms smoothly, and left alone for a few seconds the camera slowly turns. ⌘-drag turns it on a Mac (Ctrl-drag on Windows and Linux). It opens out of its button and closes back into it; a paper opens with a double-click (a click shows its card) as the camera dives in.
+- Saving moved to the bubble on the finished progress ring: tick the translated PDF, the annotated original and the notes; several are saved into one folder. The translated PDF saved there keeps your highlights and notes.
+
 ## [0.7.1] - 2026-11-05
 
 ### Changed

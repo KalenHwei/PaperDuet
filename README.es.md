@@ -68,10 +68,10 @@ Todos los artículos que has leído están en la biblioteca, ordenados por últi
 ## Lo que has aprendido, de un vistazo.
 
 <p align="center">
-  <img src="docs/images/es/knowledge-space.gif" width="880" alt="Se abre el espacio de conocimiento: los artículos estudiados se agrupan en esferas por área. Arrastrar con Control hace girar todo el espacio; al señalar un artículo se ve hasta dónde se leyó y cuándo se estudió por última vez; un doble clic en «Visión por computador» hace entrar la cámara y difumina el resto. Por último, la línea de tiempo muestra qué se estudió cada día">
+  <img src="docs/images/es/knowledge-space.gif" width="880" alt="Se abre el espacio de conocimiento: los artículos estudiados se agrupan en esferas por área. Arrastrar con ⌘ hace girar todo el espacio; al señalar un artículo se ve hasta dónde se leyó y cuándo se estudió por última vez; un doble clic en «Visión por computador» hace entrar la cámara y difumina el resto. Por último, la línea de tiempo muestra qué se estudió cada día">
 </p>
 
-Abre el «Espacio de conocimiento» de la biblioteca: los artículos que has estudiado se agrupan por área, subárea y tema en un espacio 3D. Arrastra con Control para girarlo, desplázate para acercar o alejar, y haz doble clic en un área para ver solo sus artículos. La línea de tiempo recoge qué artículos leíste cada día, durante cuánto tiempo y cuántos días seguidos llevas estudiando.
+Abre el «Espacio de conocimiento» de la biblioteca: los artículos que has estudiado se agrupan por área, subárea y tema en un espacio 3D. Arrastra con ⌘ (Ctrl en Windows y Linux) para girarlo, desplázate para acercar o alejar, y haz doble clic en un área para ver solo sus artículos. La línea de tiempo recoge qué artículos leíste cada día, durante cuánto tiempo y cuántos días seguidos llevas estudiando.
 
 ## ¿No lo entiendes? Haz clic.
 
@@ -199,6 +199,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.7.2** (2026-11-05): Animaciones mejoradas.
 - **0.7.1** (2026-11-05): Hemos mejorado la experiencia de uso de la biblioteca.
 - **0.7.0** (2026-11-05): ¡Hemos rehecho la AI Library 🎉! Incorpora el Espacio de conocimiento y es mucho más cómoda de usar. Además, los botones de la barra superior son más sencillos y prácticos.
 - **0.6.12** (2026-11-05): Para resolver los problemas de maquetación, un modelo visual de maquetación revisa ahora cada página: tablas, fórmulas, figuras, encabezados y pies de página ya no se traducen por error, y el texto confundido con una tabla se traduce, lo que hace la traducción mucho más precisa y robusta. El modelo se descarga en segundo plano junto con el modelo de traducción.

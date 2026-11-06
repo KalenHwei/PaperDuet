@@ -68,10 +68,10 @@ Ogni articolo che hai letto è nella tua libreria, ordinabile per ultimo studio,
 ## Quello che hai imparato, a colpo d’occhio.
 
 <p align="center">
-  <img src="docs/images/it/knowledge-space.gif" width="880" alt="Si apre lo spazio della conoscenza: gli articoli studiati si raccolgono in sfere per settore. Trascinando con Control tutto lo spazio ruota; puntando un articolo si vede fin dove è stato letto e quando è stato studiato l’ultima volta; un doppio clic su «Visione artificiale» fa entrare la telecamera e sbiadisce il resto. Infine la cronologia mostra cosa è stato studiato ogni giorno">
+  <img src="docs/images/it/knowledge-space.gif" width="880" alt="Si apre lo spazio della conoscenza: gli articoli studiati si raccolgono in sfere per settore. Trascinando con ⌘ tutto lo spazio ruota; puntando un articolo si vede fin dove è stato letto e quando è stato studiato l’ultima volta; un doppio clic su «Visione artificiale» fa entrare la telecamera e sbiadisce il resto. Infine la cronologia mostra cosa è stato studiato ogni giorno">
 </p>
 
-Apri lo «Spazio della conoscenza» nella libreria: gli articoli che hai studiato si raccolgono per settore, sottosettore e argomento in uno spazio 3D. Trascina tenendo premuto Control per ruotarlo, scorri per lo zoom, fai doppio clic su un settore per vederne solo gli articoli. La cronologia tiene traccia di quali articoli hai letto ogni giorno, per quanto tempo, e di quanti giorni di fila stai studiando.
+Apri lo «Spazio della conoscenza» nella libreria: gli articoli che hai studiato si raccolgono per settore, sottosettore e argomento in uno spazio 3D. Trascina tenendo premuto ⌘ (Ctrl su Windows e Linux) per ruotarlo, scorri per lo zoom, fai doppio clic su un settore per vederne solo gli articoli. La cronologia tiene traccia di quali articoli hai letto ogni giorno, per quanto tempo, e di quanti giorni di fila stai studiando.
 
 ## Non è chiaro? Fai clic.
 
@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.7.2** (2026-11-05): animazioni migliorate.
 - **0.7.1** (2026-11-05): abbiamo migliorato l’esperienza d’uso della libreria.
 - **0.7.0** (2026-11-05): abbiamo ricostruito l’AI Library 🎉! Arriva lo Spazio della conoscenza e l’AI Library è molto più comoda da usare. Anche i pulsanti della barra in alto sono più essenziali e pratici.
 - **0.6.12** (2026-11-05): per risolvere i problemi di impaginazione, un modello visivo dell’impaginazione controlla ora ogni pagina: tabelle, formule, figure, intestazioni e piè di pagina non vengono più tradotti per errore e il testo scambiato per una tabella viene tradotto, rendendo la traduzione molto più precisa e robusta. Il modello si scarica in background insieme al modello di traduzione.

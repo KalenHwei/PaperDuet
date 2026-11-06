@@ -68,10 +68,10 @@ Każdy przeczytany artykuł trafia do Twojej biblioteki, którą sortujesz wedł
 ## Twoja nauka na pierwszy rzut oka.
 
 <p align="center">
-  <img src="docs/images/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym Control obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
+  <img src="docs/images/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym ⌘ obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
 </p>
 
-Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą się według dziedzin, poddziedzin i tematów w przestrzeni 3D. Przeciągnij z wciśniętym Control, aby ją obrócić, przewiń, aby przybliżyć, i kliknij dwukrotnie dziedzinę, aby zobaczyć tylko jej artykuły. Oś czasu zapisuje, jakie artykuły i jak długo czytasz każdego dnia oraz ile dni z rzędu się uczysz.
+Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą się według dziedzin, poddziedzin i tematów w przestrzeni 3D. Przeciągnij z wciśniętym ⌘ (Ctrl w Windows i Linuksie), aby ją obrócić, przewiń, aby przybliżyć, i kliknij dwukrotnie dziedzinę, aby zobaczyć tylko jej artykuły. Oś czasu zapisuje, jakie artykuły i jak długo czytasz każdego dnia oraz ile dni z rzędu się uczysz.
 
 ## Nie rozumiesz? Kliknij.
 
@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.2** (2026-11-05): dopracowane animacje.
 - **0.7.1** (2026-11-05): usprawniliśmy korzystanie z biblioteki.
 - **0.7.0** (2026-11-05): przebudowaliśmy AI Library 🎉! Doszła Przestrzeń wiedzy, a z AI Library korzysta się teraz znacznie wygodniej. Przyciski górnego paska są też prostsze i bardziej praktyczne.
 - **0.6.12** (2026-11-05): aby rozwiązać problemy z układem stron, wizualny model układu sprawdza teraz każdą stronę: tabele, wzory, rysunki, nagłówki i stopki nie są już tłumaczone przez pomyłkę, a tekst wzięty za tabelę jest tłumaczony, dzięki czemu tłumaczenie jest znacznie dokładniejsze i stabilniejsze. Model układu pobiera się w tle razem z modelem tłumaczenia.

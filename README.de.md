@@ -68,10 +68,10 @@ Alle Artikel, die du gelesen hast, liegen in der Bibliothek, sortiert nach zulet
 ## Was du gelernt hast, auf einen Blick.
 
 <p align="center">
-  <img src="docs/images/de/knowledge-space.gif" width="880" alt="Der Wissensraum öffnet sich: Die gelernten Artikel sammeln sich in Kugeln nach Fachgebiet. Ziehen mit gedrückter Control-Taste dreht den ganzen Raum; zeigt der Zeiger auf einen Artikel, steht da, wie weit er gelesen ist und wann zuletzt; ein Doppelklick auf „Computer Vision“ lässt die Kamera hineinfliegen, der Rest verblasst. Zum Schluss zeigt die Zeitleiste, was an jedem Tag gelernt wurde">
+  <img src="docs/images/de/knowledge-space.gif" width="880" alt="Der Wissensraum öffnet sich: Die gelernten Artikel sammeln sich in Kugeln nach Fachgebiet. Ziehen mit gedrückter ⌘-Taste dreht den ganzen Raum; zeigt der Zeiger auf einen Artikel, steht da, wie weit er gelesen ist und wann zuletzt; ein Doppelklick auf „Computer Vision“ lässt die Kamera hineinfliegen, der Rest verblasst. Zum Schluss zeigt die Zeitleiste, was an jedem Tag gelernt wurde">
 </p>
 
-Öffne in der Bibliothek den „Wissensraum“: Deine gelernten Artikel sammeln sich nach Fachgebiet, Teilgebiet und Thema in einem 3D-Raum. Ziehen mit gedrückter Control-Taste dreht ihn, scrollen zoomt, ein Doppelklick auf ein Fachgebiet zeigt nur dessen Artikel. Die Zeitleiste hält fest, welche Artikel du an jedem Tag wie lange gelesen hast und wie viele Tage du am Stück lernst.
+Öffne in der Bibliothek den „Wissensraum“: Deine gelernten Artikel sammeln sich nach Fachgebiet, Teilgebiet und Thema in einem 3D-Raum. Ziehen mit gedrückter ⌘-Taste (Strg unter Windows und Linux) dreht ihn, scrollen zoomt, ein Doppelklick auf ein Fachgebiet zeigt nur dessen Artikel. Die Zeitleiste hält fest, welche Artikel du an jedem Tag wie lange gelesen hast und wie viele Tage du am Stück lernst.
 
 ## Nicht verstanden? Einfach klicken.
 
@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.2** (2026-11-05): Flüssigere Animationen.
 - **0.7.1** (2026-11-05): Wir haben die Bedienung der Bibliothek verbessert.
 - **0.7.0** (2026-11-05): Wir haben die AI Library neu gebaut 🎉! Neu ist der Wissensraum, und die AI Library lässt sich deutlich angenehmer bedienen. Außerdem sind die Schaltflächen der oberen Symbolleiste schlanker und praktischer.
 - **0.6.12** (2026-11-05): Gegen Layoutprobleme prüft jetzt ein visuelles Layoutmodell jede Seite: Tabellen, Formeln, Abbildungen, Kopf- und Fußzeilen werden nicht mehr versehentlich übersetzt, und für Tabellen gehaltener Text wird übersetzt; die Übersetzung wird dadurch deutlich genauer und robuster. Das Layoutmodell wird mit dem Übersetzungsmodell im Hintergrund heruntergeladen.
