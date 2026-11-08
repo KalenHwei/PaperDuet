@@ -6,6 +6,23 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.3] - 2026-11-08
+
+### Added
+
+- Highlighter: the glass brush button in the lower right of each pane (named after a second with its key, ⇧H). While it is on, text dragged over, a sentence double-clicked or a paragraph triple-clicked is highlighted at once; hold Shift to bring up a fan of colors at the pointer and move onto one to pick it. The marker pointer takes the color.
+- A sun/moon button right of Settings switches between light and dark; night reading (darker pages) now follows the theme.
+- Feedback: a field for the paper's title, and up to three screenshots (pasted, dropped or chosen). The e-mail field says we will reply.
+- The tour shows the highlighter and the light/dark button; someone who saw the earlier tour sees only these two.
+
+### Changed
+
+- A double click selects the sentence and a triple click the paragraph, on either side. A selection shows its bar on a right-click; a right-click on a highlight opens its note (a left click does nothing there).
+
+### Fixed
+
+- Translation no longer stops partway through a paper when a request fails: a passing failure (the translation engine restarting, the network) is tried again a little later, and a paragraph the model refuses (too long, for example) is translated sentence by sentence. A plain translation model that answers nothing is asked again, and a heading whose number the model drops keeps its translation.
+
 ## [0.7.2] - 2026-11-05
 
 ### Added

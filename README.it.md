@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.7.3** (2026-11-08): evidenziatore (Maiusc per cambiare colore) e passaggio chiaro/scuro; la traduzione riprova da sola invece di fermarsi; screenshot nei feedback.
 - **0.7.2** (2026-11-05): animazioni migliorate.
 - **0.7.1** (2026-11-05): abbiamo migliorato l’esperienza d’uso della libreria.
 - **0.7.0** (2026-11-05): abbiamo ricostruito l’AI Library 🎉! Arriva lo Spazio della conoscenza e l’AI Library è molto più comoda da usare. Anche i pulsanti della barra in alto sono più essenziali e pratici.

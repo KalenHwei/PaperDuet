@@ -199,6 +199,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.3** (2026-11-08): a highlighter (hold Shift to change its color) and a light/dark switch; translation retries on its own instead of stopping; feedback can include screenshots.
 - **0.7.2** (2026-11-05): smoother animations.
 - **0.7.1** (2026-11-05): we made the library nicer to use.
 - **0.7.0** (2026-11-05): we rebuilt the AI Library 🎉! It adds the Knowledge Space, and working with the library is much smoother. The toolbar buttons are also simpler and more practical.

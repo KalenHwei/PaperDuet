@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.3** (2026-11-08): Textmarker (Umschalttaste für die Farbe) und Hell/Dunkel-Umschalter; die Übersetzung versucht es selbst erneut, statt anzuhalten; Feedback mit Screenshots.
 - **0.7.2** (2026-11-05): Flüssigere Animationen.
 - **0.7.1** (2026-11-05): Wir haben die Bedienung der Bibliothek verbessert.
 - **0.7.0** (2026-11-05): Wir haben die AI Library neu gebaut 🎉! Neu ist der Wissensraum, und die AI Library lässt sich deutlich angenehmer bedienen. Außerdem sind die Schaltflächen der oberen Symbolleiste schlanker und praktischer.
