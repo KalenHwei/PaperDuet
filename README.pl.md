@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.4** (2026-11-08): naprawiono zgłoszony na GitHubie problem z zakreślaniem.
 - **0.7.3** (2026-11-08): zakreślacz (Shift zmienia kolor) i przełącznik jasny/ciemny; tłumaczenie samo ponawia próbę zamiast się zatrzymać; zrzuty ekranu w opiniach.
 - **0.7.2** (2026-11-05): dopracowane animacje.
 - **0.7.1** (2026-11-05): usprawniliśmy korzystanie z biblioteki.

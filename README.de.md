@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.4** (2026-11-08): Das auf GitHub gemeldete Problem mit dem Markieren ist behoben.
 - **0.7.3** (2026-11-08): Textmarker (Umschalttaste für die Farbe) und Hell/Dunkel-Umschalter; die Übersetzung versucht es selbst erneut, statt anzuhalten; Feedback mit Screenshots.
 - **0.7.2** (2026-11-05): Flüssigere Animationen.
 - **0.7.1** (2026-11-05): Wir haben die Bedienung der Bibliothek verbessert.

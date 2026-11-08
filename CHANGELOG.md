@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.4] - 2026-11-08
+
+### Fixed
+
+- A phrase marked in a sentence is now marked on the other side too, not the whole sentence: text kept as it is and glossary terms are found directly, and the model finds the rest (an online service copies it out of the sentence; local models translate the phrase with its sentence and look for it). Until it is found, and when it is not, the other side marks the whole sentence, lighter. Works both ways; earlier annotations are narrowed when the paper is opened.
+
 ## [0.7.3] - 2026-11-08
 
 ### Added

@@ -199,6 +199,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.4** (2026-11-08) : Correction du problème de surlignage signalé sur GitHub.
 - **0.7.3** (2026-11-08) : Surligneur (Maj pour changer de couleur) et bascule clair/sombre ; la traduction réessaie d’elle-même au lieu de s’arrêter ; captures d’écran dans les retours.
 - **0.7.2** (2026-11-05) : Animations améliorées.
 - **0.7.1** (2026-11-05) : Nous avons rendu la bibliothèque plus agréable à utiliser.
