@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.7.8** (2026-11-10): gli articoli scansionati si traducono correttamente; una cartella aggiunta può essere aggiornata automaticamente e i nuovi PDF vengono importati con un’etichetta tutta sua sullo Scaffale; nelle Impostazioni si può mantenere il nome dei file PDF come nome dell’articolo; le API personalizzate funzionano con servizi locali come Ollama; corretto il testo non tradotto nei moduli e dopo aver ridimensionato la finestra.
 - **0.7.7** (2026-11-09): corretti alcuni problemi noti nella logica di interazione.
 - **0.7.6** (2026-11-09): nuovo tour della pagina iniziale: lo Scaffale, la ricerca IA, Per data / Per argomento, il clic destro su un articolo e lo Spazio della conoscenza.
 - **0.7.5** (2026-11-09): abbiamo rifatto da capo l’intera pagina iniziale 🎉! Il nuovo Scaffale riunisce cronologia di lettura, settori ed etichette: vedi a colpo d’occhio cosa hai letto ogni settimana. Lo Spazio della conoscenza diventa un piccolo universo: i settori sono soli, gli articoli pianeti e, in modalità scura, dietro di loro brilla la vera Via Lattea 🌌! Con un clic destro su un articolo puoi cambiarne la categoria, aggiungere etichette, rinominarlo o scrivere una nota. La ricerca IA capisce domande normali come «una volta ho letto un articolo sui Transformer» e lo trova subito 🔍! A traduzione finita, PDF tradotto, Markdown tradotto e note vengono salvati insieme nella cartella dell’articolo. Provalo subito 🚀!

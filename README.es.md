@@ -199,6 +199,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.7.8** (2026-11-10): Los artículos escaneados se traducen correctamente; una carpeta añadida puede mantenerse al día y sus PDF nuevos se importan con una etiqueta propia en el Estante; en Ajustes se puede conservar el nombre de los PDF como nombre del artículo; las API personalizadas funcionan con servicios locales como Ollama; se corrigió texto sin traducir en formularios y al cambiar el tamaño de la ventana.
 - **0.7.7** (2026-11-09): Se corrigieron problemas conocidos en la lógica de interacción.
 - **0.7.6** (2026-11-09): Nuevo recorrido por la página de inicio: el Estante, la búsqueda con IA, Por fecha / Por tema, el clic derecho en un artículo y el Espacio de conocimiento.
 - **0.7.5** (2026-11-09): ¡Hemos rehecho por completo la página de inicio 🎉! El nuevo Estante reúne tu historial de lectura, tus campos y tus etiquetas, para que veas de un vistazo qué leíste cada semana. El Espacio de conocimiento se convierte en un pequeño universo: los campos son soles, los artículos son planetas y, en modo oscuro, detrás brilla la auténtica Vía Láctea 🌌. Con un clic derecho en un artículo puedes cambiar su categoría, ponerle etiquetas, renombrarlo o escribir una nota. La búsqueda con IA entiende preguntas normales como «una vez leí un artículo sobre Transformers» y lo encuentra al instante 🔍. Al terminar una traducción, el PDF traducido, el Markdown traducido y tus notas se guardan juntos en la carpeta del artículo. ¡Pruébalo ya 🚀!

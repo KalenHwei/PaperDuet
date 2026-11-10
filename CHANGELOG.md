@@ -6,6 +6,26 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.8] - 2026-11-10
+
+### Added
+
+- Keeping a folder up to date: a folder dragged in or chosen is offered once; kept, it gets a label of its own (an emoji and the folder’s name to start from), and the PDFs added to it later are imported by themselves at launch and when the window comes to the front. Settings › Data lists these folders and can stop them.
+- Settings › Data › Keep PDF File Names: papers are called by their PDF’s file name instead of the title found in it.
+
+### Changed
+
+- Custom (OpenAI-compatible) APIs: an address with only a host gets /v1, and a service on this computer or the local network needs no key (Ollama works with http://localhost:11434); a 404 that is not about the model now says the address is wrong; a model’s <think>…</think> is taken out of its answer.
+- A sentence whose only fault, after every try, is a number is kept instead of failed.
+
+### Fixed
+
+- Scanned papers: pages whose scan covered the page were taken for one big figure and left untranslated; the cover over the original now follows the scan’s words, and wide-spaced titles are read as one line.
+- Forms and boxed tables: words on either side of a cell border are no longer run together, and the layout model no longer leaves a form made of sentences untranslated.
+- Text could go back to English when the layout model’s results came in (for example while resizing the window); translations now stay, and a translation the reader started goes on.
+- The layout model failed for the rest of the session after being unloaded when idle.
+- Block colours of one paper could be used for another.
+
 ## [0.7.7] - 2026-11-09
 
 ### Fixed

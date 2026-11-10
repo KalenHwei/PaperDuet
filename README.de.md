@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.8** (2026-11-10): Gescannte Paper werden richtig übersetzt; ein hinzugefügter Ordner kann aktuell gehalten werden, neue PDFs darin werden mit einem eigenen Etikett im Regal importiert; in den Einstellungen lassen sich die Dateinamen der PDFs als Namen behalten; eigene APIs funktionieren mit lokalen Diensten wie Ollama; behoben: unübersetzter Text in Formularen und nach dem Ändern der Fenstergröße.
 - **0.7.7** (2026-11-09): Bekannte Probleme in der Bedienlogik behoben.
 - **0.7.6** (2026-11-09): Neue Tour durch die Startseite: das Regal, die KI-Suche, Nach Datum / Nach Thema, der Rechtsklick auf ein Paper und der Wissensraum.
 - **0.7.5** (2026-11-09): Wir haben die gesamte Startseite neu gebaut 🎉! Das neue Regal bringt Leseverlauf, Fachgebiete und Labels zusammen – so sehen Sie auf einen Blick, was Sie jede Woche gelesen haben. Der Wissensraum wird zu einem kleinen Universum: Fachgebiete sind Sonnen, Paper sind Planeten, und im dunklen Modus leuchtet dahinter die echte Milchstraße 🌌! Mit einem Rechtsklick auf ein Paper ändern Sie die Kategorie, vergeben Labels, benennen es um oder schreiben eine Notiz. Die KI-Suche versteht ganz normale Fragen wie „Ich habe mal ein Paper über Transformer gelesen“ und findet es sofort 🔍! Nach der Übersetzung landen übersetztes PDF, übersetztes Markdown und Ihre Notizen zusammen im eigenen Ordner des Papers. Probieren Sie es gleich aus 🚀!
