@@ -199,6 +199,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.6** (2026-11-09): a new tour of the home page: the Shelf, AI Search, By date / By topic, right-clicking a paper and the Knowledge Space.
 - **0.7.5** (2026-11-09): we rebuilt the entire home page 🎉! The new Shelf brings your reading history, fields and labels together, so you can see at a glance what you read each week. The Knowledge Space is now a little universe — fields are suns, papers are planets, and in dark mode the real Milky Way shines behind them 🌌! Right-click a paper to change its category, add labels, rename it or write a note. AI Search understands plain questions like “I once read a paper about Transformers” and finds it right away 🔍! When a translation finishes, the translated PDF, the translated Markdown and your notes are saved together in the paper’s own folder. Go try it 🚀!
 - **0.7.4** (2026-11-08): fixed the highlighting issue reported on GitHub.
 - **0.7.3** (2026-11-08): a highlighter (hold Shift to change its color) and a light/dark switch; translation retries on its own instead of stopping; feedback can include screenshots.

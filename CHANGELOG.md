@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.6] - 2026-11-09
+
+### Added
+
+- A tour of the home page (the Shelf, AI Search, By date / By topic, a paper’s right-click menu, the Knowledge Space), shown once the first time the home page has its shelf; someone new sees it after the reading view’s tour. With “Play the Welcome Tour After Every Update” on, it comes after each update too.
+
 ## [0.7.5] - 2026-11-09
 
 ### Added
