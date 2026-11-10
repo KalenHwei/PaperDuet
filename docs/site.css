@@ -204,7 +204,7 @@ h1 {
   z-index: -1;
 }
 .frame { border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); background: var(--card-solid); }
-.frame img { width: 100%; }
+.frame img, .frame video { width: 100%; height: auto; display: block; }
 .hero-shot { margin: 64px auto 0; max-width: 1180px; perspective: 1800px; }
 .hero-shot .shot.tilt .frame {
   transform: rotateX(var(--tilt, 0deg)) scale(var(--s, 1));

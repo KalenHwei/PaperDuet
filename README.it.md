@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/it/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need da zero: prima l’indice nella barra laterale passa all’italiano, poi il titolo e l’abstract compaiono nella pagina di destra, nello stesso punto dell’originale"><br>
+  <img src="assets/it/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need da zero: prima l’indice nella barra laterale passa all’italiano, poi il titolo e l’abstract compaiono nella pagina di destra, nello stesso punto dell’originale"><br>
   <sub>Registrazione di Attention Is All You Need (15 pagine) tradotto da zero</sub>
 </p>
 
@@ -44,7 +44,7 @@ PaperDuet è un traduttore a specchio con IA, leggero, per articoli scientifici.
 ## Ogni pagina, senza sforzo
 
 <p align="center">
-  <img src="docs/images/it/layout.gif" width="880" alt="Scorrimento delle pagine da 3 a 5: lo schema del Transformer, gli schemi dell’attenzione e le formule sono nello stesso punto sui due lati, e a destra il testo inglese è sostituito dall’italiano">
+  <img src="assets/it/layout.gif" width="880" alt="Scorrimento delle pagine da 3 a 5: lo schema del Transformer, gli schemi dell’attenzione e le formule sono nello stesso punto sui due lati, e a destra il testo inglese è sostituito dall’italiano">
 </p>
 
 A sinistra c’è l’articolo originale, a destra la sua traduzione, con scorrimento e zoom sincronizzati. Colonne, titoli, didascalie, note a piè di pagina e bibliografia vengono riconosciuti in automatico, e i paragrafi che continuano in un’altra colonna o pagina vengono riuniti. I due lati sono allineati con precisione, così confrontarli è facile.
@@ -52,7 +52,7 @@ A sinistra c’è l’articolo originale, a destra la sua traduzione, con scorri
 ## Salvare? Riassumere? Fatto.
 
 <p align="center">
-  <img src="docs/images/it/progress-save.gif" width="880" alt="Arrivano gli ultimi paragrafi, l’anello di avanzamento nella barra degli strumenti diventa un segno di spunta verde e un clic salva la traduzione in PDF; poi si apre la lampadina accanto e il riassunto IA dell’intero articolo compare riga per riga">
+  <img src="assets/it/progress-save.gif" width="880" alt="Arrivano gli ultimi paragrafi, l’anello di avanzamento nella barra degli strumenti diventa un segno di spunta verde e un clic salva la traduzione in PDF; poi si apre la lampadina accanto e il riassunto IA dell’intero articolo compare riga per riga">
 </p>
 
 La barra degli strumenti mostra l’avanzamento della traduzione. Quando l’articolo è tutto tradotto, l’anello diventa un segno di spunta verde e compare un fumetto: un clic salva la traduzione in PDF dove preferisci. La lampadina lì accanto apre il riassunto IA, scritto dal modello dopo aver letto l’intero articolo: cosa si chiede, come funziona e cosa ha scoperto. E puoi scegliere tra sei modelli, in base al tuo computer e alle tue esigenze!
@@ -60,7 +60,7 @@ La barra degli strumenti mostra l’avanzamento della traduzione. Quando l’art
 ## Pensalo. Trovalo.
 
 <p align="center">
-  <img src="docs/images/it/library.gif" width="880" alt="Una libreria di oltre cinquanta articoli, ordinata per nome e per data di aggiunta prima di tornare all’ultimo studio; un clic destro su un articolo gli aggiunge l’etichetta ⭐️. In «Organizza con l’IA» si scelgono «Visione artificiale» e un argomento, gli articoli corrispondenti salgono in cima e gli altri diventano grigi. Poi la ricerca IA «segmentazione dei polipi» porta in cima gli articoli corrispondenti, con brani dei loro riassunti">
+  <img src="assets/it/library.gif" width="880" alt="Una libreria di oltre cinquanta articoli, ordinata per nome e per data di aggiunta prima di tornare all’ultimo studio; un clic destro su un articolo gli aggiunge l’etichetta ⭐️. In «Organizza con l’IA» si scelgono «Visione artificiale» e un argomento, gli articoli corrispondenti salgono in cima e gli altri diventano grigi. Poi la ricerca IA «segmentazione dei polipi» porta in cima gli articoli corrispondenti, con brani dei loro riassunti">
 </p>
 
 Ogni articolo che hai letto è nella tua libreria, ordinabile per ultimo studio, data di aggiunta o nome, e con un clic destro gli aggiungi etichette tue. «Organizza con l’IA» assegna a ciascuno etichette per ambito e argomento, e gli articoli che scegli salgono in cima. La ricerca IA trova un articolo dal titolo, dal testo, dalla traduzione o dal riassunto, in italiano o in inglese.
@@ -68,7 +68,7 @@ Ogni articolo che hai letto è nella tua libreria, ordinabile per ultimo studio,
 ## Quello che hai imparato, a colpo d’occhio.
 
 <p align="center">
-  <img src="docs/images/it/knowledge-space.gif" width="880" alt="Si apre lo spazio della conoscenza: gli articoli studiati si raccolgono in sfere per settore. Trascinando con ⌘ tutto lo spazio ruota; puntando un articolo si vede fin dove è stato letto e quando è stato studiato l’ultima volta; un doppio clic su «Visione artificiale» fa entrare la telecamera e sbiadisce il resto. Infine la cronologia mostra cosa è stato studiato ogni giorno">
+  <img src="assets/it/knowledge-space.gif" width="880" alt="Si apre lo spazio della conoscenza: gli articoli studiati si raccolgono in sfere per settore. Trascinando con ⌘ tutto lo spazio ruota; puntando un articolo si vede fin dove è stato letto e quando è stato studiato l’ultima volta; un doppio clic su «Visione artificiale» fa entrare la telecamera e sbiadisce il resto. Infine la cronologia mostra cosa è stato studiato ogni giorno">
 </p>
 
 Apri lo «Spazio della conoscenza» nella libreria: gli articoli che hai studiato si raccolgono per settore, sottosettore e argomento in uno spazio 3D. Trascina tenendo premuto ⌘ (Ctrl su Windows e Linux) per ruotarlo, scorri per lo zoom, fai doppio clic su un settore per vederne solo gli articoli. La cronologia tiene traccia di quali articoli hai letto ogni giorno, per quanto tempo, e di quanti giorni di fila stai studiando.
@@ -76,7 +76,7 @@ Apri lo «Spazio della conoscenza» nella libreria: gli articoli che hai studiat
 ## Non è chiaro? Fai clic.
 
 <p align="center">
-  <img src="docs/images/it/double-click.gif" width="880" alt="Mentre le prime pagine sono ancora in traduzione, la vista scende alla sezione 6.3 a pagina 9, non ancora tradotta; un doppio clic sul primo paragrafo lo fa passare in testa e compare subito in italiano">
+  <img src="assets/it/double-click.gif" width="880" alt="Mentre le prime pagine sono ancora in traduzione, la vista scende alla sezione 6.3 a pagina 9, non ancora tradotta; un doppio clic sul primo paragrafo lo fa passare in testa e compare subito in italiano">
 </p>
 
 Per primi vengono tradotti i titoli delle sezioni, così vedi subito la struttura dell’articolo; poi titolo, abstract e introduzione. Vuoi leggere adesso un passaggio più avanti? Fai doppio clic e verrà tradotto per primo, senza aspettare che l’avanzamento arrivi lì.
@@ -84,7 +84,7 @@ Per primi vengono tradotti i titoli delle sezioni, così vedi subito la struttur
 ## Appunti? Ma certo.
 
 <p align="center">
-  <img src="docs/images/it/highlights.gif" width="880" alt="Si seleziona una frase della traduzione italiana e si scrive una nota; la frase inglese corrispondente, a sinistra, riceve lo stesso segno e apre la stessa nota. Poi il PDF originale con la nota viene esportato e aperto in Anteprima, dove ci sono anche il segno e la nota">
+  <img src="assets/it/highlights.gif" width="880" alt="Si seleziona una frase della traduzione italiana e si scrive una nota; la frase inglese corrispondente, a sinistra, riceve lo stesso segno e apre la stessa nota. Poi il PDF originale con la nota viene esportato e aperto in Anteprima, dove ci sono anche il segno e la nota">
 </p>
 
 Evidenzia, sottolinea e scrivi note direttamente sulla traduzione; anche le frasi corrispondenti dell’originale vengono segnate. Esporta il PDF originale con le tue note come annotazioni PDF standard, pronte per Anteprima, Zotero e altre app.

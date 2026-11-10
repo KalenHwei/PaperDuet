@@ -34,6 +34,28 @@
     frame.style.setProperty("--tilt", (16 * (1 - p)).toFixed(2) + "deg");
     frame.style.setProperty("--s", (0.92 + 0.08 * p).toFixed(3));
   }
+  // Recordings: each loads and plays when it comes near the screen and pauses when it leaves;
+  // with reduced motion they stay on their first frame, with controls to play them.
+  var videos = document.querySelectorAll(".frame video");
+  function start(v) {
+    if (!v.src && v.dataset.src) v.src = v.dataset.src;
+    if (reduce) { v.controls = true; return; }
+    var p = v.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+  if (reduce) videos.forEach(function (v) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; });
+  if ("IntersectionObserver" in window) {
+    var vo = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) start(e.target);
+        else if (!e.target.paused) e.target.pause();
+      });
+    }, { rootMargin: "300px 0px" });
+    videos.forEach(function (v) { vo.observe(v); });
+  } else {
+    videos.forEach(start);
+  }
+
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", onScroll);
   onScroll();

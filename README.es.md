@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/es/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al español, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original"><br>
+  <img src="assets/es/hero.gif" width="880" alt="PaperDuet traduce Attention Is All You Need desde cero: primero el índice de la barra lateral pasa al español, y después el título y el resumen aparecen en la página derecha, en el mismo lugar que en el original"><br>
   <sub>Grabación de la traducción completa de Attention Is All You Need (15 páginas)</sub>
 </p>
 
@@ -44,7 +44,7 @@ PaperDuet es un traductor espejo ligero con IA para artículos científicos. Col
 ## Cada página, sin esfuerzo
 
 <p align="center">
-  <img src="docs/images/es/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por español">
+  <img src="assets/es/layout.gif" width="880" alt="Desplazamiento por las páginas 3 a 5: el diagrama del Transformer, los diagramas de atención y las fórmulas ocupan el mismo lugar en ambos lados, y a la derecha el texto en inglés se sustituye por español">
 </p>
 
 A la izquierda está el artículo original y a la derecha su traducción; los dos lados se desplazan y hacen zoom a la vez. Columnas, títulos, pies de figura, notas al pie y referencias se reconocen automáticamente, y los párrafos que siguen en la columna o la página siguiente se vuelven a unir. Los dos lados quedan perfectamente alineados, así que compararlos es muy fácil.
@@ -52,7 +52,7 @@ A la izquierda está el artículo original y a la derecha su traducción; los do
 ## ¿Guardar? ¿Resumir? Hecho.
 
 <p align="center">
-  <img src="docs/images/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos, el anillo de progreso se convierte en una marca verde y un clic guarda la traducción en PDF; después se abre la bombilla de al lado y el resumen con IA de todo el artículo aparece poco a poco">
+  <img src="assets/es/progress-save.gif" width="880" alt="Llegan los últimos párrafos, el anillo de progreso se convierte en una marca verde y un clic guarda la traducción en PDF; después se abre la bombilla de al lado y el resumen con IA de todo el artículo aparece poco a poco">
 </p>
 
 La barra de herramientas muestra cómo va la traducción. Cuando el artículo está traducido entero, el anillo se convierte en una marca verde y un clic guarda la traducción en PDF donde tú elijas. La bombilla de al lado abre el resumen con IA: lo que el modelo saca tras leer todo el artículo, con la pregunta, el método y los resultados. Y eliges entre seis modelos según tu ordenador y lo que necesites.
@@ -60,7 +60,7 @@ La barra de herramientas muestra cómo va la traducción. Cuando el artículo es
 ## Piénsalo. Encuéntralo.
 
 <p align="center">
-  <img src="docs/images/es/library.gif" width="880" alt="Una biblioteca con más de cincuenta artículos, ordenada por nombre y por fecha de adición antes de volver al último estudio; un clic derecho en un artículo le pone la etiqueta ⭐️. En «Organizar con IA» se eligen «Visión por computador» y un tema, los artículos que encajan suben y el resto se pone en gris. Después, la búsqueda con IA «segmentación de pólipos» sube los artículos en inglés que coinciden, con fragmentos de su resumen">
+  <img src="assets/es/library.gif" width="880" alt="Una biblioteca con más de cincuenta artículos, ordenada por nombre y por fecha de adición antes de volver al último estudio; un clic derecho en un artículo le pone la etiqueta ⭐️. En «Organizar con IA» se eligen «Visión por computador» y un tema, los artículos que encajan suben y el resto se pone en gris. Después, la búsqueda con IA «segmentación de pólipos» sube los artículos en inglés que coinciden, con fragmentos de su resumen">
 </p>
 
 Todos los artículos que has leído están en la biblioteca, ordenados por último estudio, fecha de adición o nombre, y con un clic derecho les pones tus propias etiquetas. «Organizar con IA» los etiqueta por campo y tema, y los que eliges suben arriba. La búsqueda con IA encuentra un artículo por su título, su texto, su traducción o su resumen, en español o en inglés.
@@ -68,7 +68,7 @@ Todos los artículos que has leído están en la biblioteca, ordenados por últi
 ## Lo que has aprendido, de un vistazo.
 
 <p align="center">
-  <img src="docs/images/es/knowledge-space.gif" width="880" alt="Se abre el espacio de conocimiento: los artículos estudiados se agrupan en esferas por área. Arrastrar con ⌘ hace girar todo el espacio; al señalar un artículo se ve hasta dónde se leyó y cuándo se estudió por última vez; un doble clic en «Visión por computador» hace entrar la cámara y difumina el resto. Por último, la línea de tiempo muestra qué se estudió cada día">
+  <img src="assets/es/knowledge-space.gif" width="880" alt="Se abre el espacio de conocimiento: los artículos estudiados se agrupan en esferas por área. Arrastrar con ⌘ hace girar todo el espacio; al señalar un artículo se ve hasta dónde se leyó y cuándo se estudió por última vez; un doble clic en «Visión por computador» hace entrar la cámara y difumina el resto. Por último, la línea de tiempo muestra qué se estudió cada día">
 </p>
 
 Abre el «Espacio de conocimiento» de la biblioteca: los artículos que has estudiado se agrupan por área, subárea y tema en un espacio 3D. Arrastra con ⌘ (Ctrl en Windows y Linux) para girarlo, desplázate para acercar o alejar, y haz doble clic en un área para ver solo sus artículos. La línea de tiempo recoge qué artículos leíste cada día, durante cuánto tiempo y cuántos días seguidos llevas estudiando.
@@ -76,7 +76,7 @@ Abre el «Espacio de conocimiento» de la biblioteca: los artículos que has est
 ## ¿No lo entiendes? Haz clic.
 
 <p align="center">
-  <img src="docs/images/es/double-click.gif" width="880" alt="Mientras se traducen las primeras páginas, se baja hasta la sección 6.3 de la página 9, aún en inglés; un doble clic en su primer párrafo la adelanta y aparece al momento en chino">
+  <img src="assets/es/double-click.gif" width="880" alt="Mientras se traducen las primeras páginas, se baja hasta la sección 6.3 de la página 9, aún en inglés; un doble clic en su primer párrafo la adelanta y aparece al momento en chino">
 </p>
 
 Primero se traducen los títulos de sección, para ver enseguida la estructura del artículo; luego el título, el resumen y la introducción. ¿Quieres leer ya un pasaje de más adelante? Haz doble clic en él y se adelanta, sin esperar a que llegue el progreso.
@@ -84,7 +84,7 @@ Primero se traducen los títulos de sección, para ver enseguida la estructura d
 ## ¿Apuntes? Claro que sí.
 
 <p align="center">
-  <img src="docs/images/es/highlights.gif" width="880" alt="Se selecciona una frase de la traducción al español y se escribe una nota; la frase en inglés correspondiente, a la izquierda, recibe la misma marca y abre la misma nota. Después se exporta el PDF original con notas y se abre en Vista Previa, donde la marca y la nota siguen ahí">
+  <img src="assets/es/highlights.gif" width="880" alt="Se selecciona una frase de la traducción al español y se escribe una nota; la frase en inglés correspondiente, a la izquierda, recibe la misma marca y abre la misma nota. Después se exporta el PDF original con notas y se abre en Vista Previa, donde la marca y la nota siguen ahí">
 </p>
 
 Resalta, subraya y anota directamente sobre la traducción; las frases correspondientes del original se marcan también. El PDF original con tus notas se exporta con anotaciones PDF estándar, visibles en Vista Previa, Zotero y otras apps.

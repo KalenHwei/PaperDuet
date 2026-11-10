@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/pl/hero.gif" width="880" alt="PaperDuet tłumaczy Attention Is All You Need od zera: najpierw spis treści na pasku bocznym przechodzi na polski, potem tytuł i abstrakt pojawiają się na prawej stronie, w tym samym miejscu co w oryginale"><br>
+  <img src="assets/pl/hero.gif" width="880" alt="PaperDuet tłumaczy Attention Is All You Need od zera: najpierw spis treści na pasku bocznym przechodzi na polski, potem tytuł i abstrakt pojawiają się na prawej stronie, w tym samym miejscu co w oryginale"><br>
   <sub>Nagranie tłumaczenia Attention Is All You Need (15 stron) od zera</sub>
 </p>
 
@@ -44,7 +44,7 @@ PaperDuet to lekki lustrzany tłumacz artykułów naukowych oparty na AI. Układ
 ## Każda strona – bez wysiłku
 
 <p align="center">
-  <img src="docs/images/pl/layout.gif" width="880" alt="Przewijanie stron od 3 do 5: schemat Transformera, schematy mechanizmu uwagi i wzory są w tym samym miejscu po obu stronach, a po prawej tekst angielski zastąpiono polskim">
+  <img src="assets/pl/layout.gif" width="880" alt="Przewijanie stron od 3 do 5: schemat Transformera, schematy mechanizmu uwagi i wzory są w tym samym miejscu po obu stronach, a po prawej tekst angielski zastąpiono polskim">
 </p>
 
 Po lewej jest oryginalny artykuł, po prawej jego tłumaczenie, a obie strony przewijają się i powiększają razem. Kolumny, nagłówki, podpisy, przypisy dolne i bibliografia są rozpoznawane automatycznie, a akapity, które przechodzą do innej kolumny lub na kolejną stronę, zostają połączone. Obie strony są dokładnie wyrównane, więc łatwo je porównywać.
@@ -52,7 +52,7 @@ Po lewej jest oryginalny artykuł, po prawej jego tłumaczenie, a obie strony pr
 ## Zachować tłumaczenie? Streszczenie AI? Nie ma sprawy!
 
 <p align="center">
-  <img src="docs/images/pl/progress-save.gif" width="880" alt="Spływają ostatnie akapity, pierścień postępu na pasku narzędzi zmienia się w zielony haczyk, a jedno kliknięcie zachowuje tłumaczenie jako PDF; potem otwiera się żarówka obok i streszczenie AI całego artykułu pojawia się wiersz po wierszu">
+  <img src="assets/pl/progress-save.gif" width="880" alt="Spływają ostatnie akapity, pierścień postępu na pasku narzędzi zmienia się w zielony haczyk, a jedno kliknięcie zachowuje tłumaczenie jako PDF; potem otwiera się żarówka obok i streszczenie AI całego artykułu pojawia się wiersz po wierszu">
 </p>
 
 Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF w wybranym przez Ciebie miejscu. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z sześciu modeli, dopasowany do Twojego komputera i potrzeb!
@@ -60,7 +60,7 @@ Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, p
 ## Pomyśl. Znajdź.
 
 <p align="center">
-  <img src="docs/images/pl/library.gif" width="880" alt="Biblioteka z ponad pięćdziesięcioma artykułami, posortowana według nazwy i daty dodania, a potem znów według ostatniej nauki; kliknięcie prawym przyciskiem dodaje artykułowi etykietę ⭐️. W „Uporządkuj z AI” wybierane są „Widzenie komputerowe” i temat, pasujące artykuły przesuwają się na górę, a pozostałe robią się szare. Potem wyszukiwanie AI „segmentacja polipów” wynosi na górę pasujące artykuły, z fragmentami ich streszczeń">
+  <img src="assets/pl/library.gif" width="880" alt="Biblioteka z ponad pięćdziesięcioma artykułami, posortowana według nazwy i daty dodania, a potem znów według ostatniej nauki; kliknięcie prawym przyciskiem dodaje artykułowi etykietę ⭐️. W „Uporządkuj z AI” wybierane są „Widzenie komputerowe” i temat, pasujące artykuły przesuwają się na górę, a pozostałe robią się szare. Potem wyszukiwanie AI „segmentacja polipów” wynosi na górę pasujące artykuły, z fragmentami ich streszczeń">
 </p>
 
 Każdy przeczytany artykuł trafia do Twojej biblioteki, którą sortujesz według ostatniej nauki, daty dodania lub nazwy, a prawym przyciskiem dodajesz własne etykiety. „Uporządkuj z AI” oznacza każdy z nich tagami według dziedziny i tematu, a wybrane przez Ciebie artykuły przesuwają się na górę. Wyszukiwanie AI znajduje artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku.
@@ -68,7 +68,7 @@ Każdy przeczytany artykuł trafia do Twojej biblioteki, którą sortujesz wedł
 ## Twoja nauka na pierwszy rzut oka.
 
 <p align="center">
-  <img src="docs/images/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym ⌘ obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
+  <img src="assets/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym ⌘ obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
 </p>
 
 Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą się według dziedzin, poddziedzin i tematów w przestrzeni 3D. Przeciągnij z wciśniętym ⌘ (Ctrl w Windows i Linuksie), aby ją obrócić, przewiń, aby przybliżyć, i kliknij dwukrotnie dziedzinę, aby zobaczyć tylko jej artykuły. Oś czasu zapisuje, jakie artykuły i jak długo czytasz każdego dnia oraz ile dni z rzędu się uczysz.
@@ -76,7 +76,7 @@ Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą s
 ## Nie rozumiesz? Kliknij.
 
 <p align="center">
-  <img src="docs/images/pl/double-click.gif" width="880" alt="Gdy pierwsze strony są jeszcze tłumaczone, widok przeskakuje do nieprzetłumaczonej jeszcze sekcji 6.3 na stronie 9; dwukrotne kliknięcie jej pierwszego akapitu przesuwa go na początek kolejki i od razu pojawia się on po polsku">
+  <img src="assets/pl/double-click.gif" width="880" alt="Gdy pierwsze strony są jeszcze tłumaczone, widok przeskakuje do nieprzetłumaczonej jeszcze sekcji 6.3 na stronie 9; dwukrotne kliknięcie jej pierwszego akapitu przesuwa go na początek kolejki i od razu pojawia się on po polsku">
 </p>
 
 Najpierw tłumaczone są nagłówki sekcji, więc od razu widzisz strukturę artykułu; potem tytuł, abstrakt i wstęp. Chcesz przeczytać teraz fragment z dalszej części? Kliknij go dwukrotnie, a zostanie przetłumaczony poza kolejnością, bez czekania, aż postęp tam dotrze.
@@ -84,7 +84,7 @@ Najpierw tłumaczone są nagłówki sekcji, więc od razu widzisz strukturę art
 ## Notatki? Jasne!
 
 <p align="center">
-  <img src="docs/images/pl/highlights.gif" width="880" alt="W polskim tłumaczeniu zaznaczane jest zdanie i dopisywana notatka; odpowiadające mu zdanie angielskie po lewej dostaje ten sam znacznik i otwiera tę samą notatkę. Potem oryginalny PDF z notatką jest eksportowany i otwierany w Podglądzie, gdzie znacznik i notatka również są widoczne">
+  <img src="assets/pl/highlights.gif" width="880" alt="W polskim tłumaczeniu zaznaczane jest zdanie i dopisywana notatka; odpowiadające mu zdanie angielskie po lewej dostaje ten sam znacznik i otwiera tę samą notatkę. Potem oryginalny PDF z notatką jest eksportowany i otwierany w Podglądzie, gdzie znacznik i notatka również są widoczne">
 </p>
 
 Wyróżniaj, podkreślaj i pisz notatki bezpośrednio na tłumaczeniu; odpowiadające im zdania w oryginale też zostają oznaczone. Eksportuj oryginalny PDF z notatkami jako standardowe adnotacje PDF, gotowe do otwarcia w Podglądzie, Zotero i innych aplikacjach.
