@@ -6,6 +6,28 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.5] - 2026-11-09
+
+### Added
+
+- A new home page built around the Shelf: rows for all papers, your main fields (with their AI subfields), unsorted papers and your labels, each with a strip of weekly reading time. Click a row or a week to see just those papers; the Knowledge Space card follows what you pick and point at. Drag a paper onto a label to add it.
+- AI Search on the home page: ask in your own words (“a paper I once read about Transformers”). It looks through names, notes, labels, categories, topics, summaries and the full text, and shows where each paper matched.
+- Right-click a paper on the home page: labels, Move To (another field or subfield; your choice is kept when papers are re-tagged), Rename, Add Note, Show in Finder.
+- The Knowledge Space as a universe: fields are suns, papers are planets, AI subfields are ringed planets; in dark mode the Milky Way (NASA SVS Deep Star Maps 2020) is behind them.
+- Saving after a translation puts the translated PDF, the translated Markdown and the annotated original into one folder, “PaperDuet - <paper>”.
+
+### Changed
+
+- By Time shows this week by day, then weeks, months and years; any group, or the whole view, folds up.
+- The Markdown export is now the translation (in reading order, with headings, captions and footnotes) and replaces the notes export.
+- Outline: uses the PDF’s bookmarks when they are good; numbers in their own column, the translation above the original.
+- Home page: the logo before the title, a light/dark switch next to Settings, and a drop area above the Knowledge Space card.
+
+### Fixed
+
+- Paragraphs with lists of numbers (“BMPs 2, 4, 6, 7 & 9”) no longer fail to translate.
+- A translated paper no longer shows a translation error for a heading every time it is opened.
+
 ## [0.7.4] - 2026-11-08
 
 ### Fixed

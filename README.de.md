@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.5** (2026-11-09): Wir haben die gesamte Startseite neu gebaut 🎉! Das neue Regal bringt Leseverlauf, Fachgebiete und Labels zusammen – so sehen Sie auf einen Blick, was Sie jede Woche gelesen haben. Der Wissensraum wird zu einem kleinen Universum: Fachgebiete sind Sonnen, Paper sind Planeten, und im dunklen Modus leuchtet dahinter die echte Milchstraße 🌌! Mit einem Rechtsklick auf ein Paper ändern Sie die Kategorie, vergeben Labels, benennen es um oder schreiben eine Notiz. Die KI-Suche versteht ganz normale Fragen wie „Ich habe mal ein Paper über Transformer gelesen“ und findet es sofort 🔍! Nach der Übersetzung landen übersetztes PDF, übersetztes Markdown und Ihre Notizen zusammen im eigenen Ordner des Papers. Probieren Sie es gleich aus 🚀!
 - **0.7.4** (2026-11-08): Das auf GitHub gemeldete Problem mit dem Markieren ist behoben.
 - **0.7.3** (2026-11-08): Textmarker (Umschalttaste für die Farbe) und Hell/Dunkel-Umschalter; die Übersetzung versucht es selbst erneut, statt anzuhalten; Feedback mit Screenshots.
 - **0.7.2** (2026-11-05): Flüssigere Animationen.

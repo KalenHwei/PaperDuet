@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.5** (2026-11-09): przebudowaliśmy całą stronę startową 🎉! Nowa Półka łączy historię czytania, dziedziny i etykiety — od razu widać, co czytało się w każdym tygodniu. Przestrzeń wiedzy zmieniła się w mały wszechświat: dziedziny to słońca, artykuły to planety, a w trybie ciemnym w tle świeci prawdziwa Droga Mleczna 🌌! Kliknij artykuł prawym przyciskiem, aby zmienić kategorię, dodać etykiety, zmienić nazwę lub napisać notatkę. Wyszukiwanie AI rozumie zwykłe pytania, np. „czytałem kiedyś artykuł o Transformerach”, i od razu go znajduje 🔍! Po zakończeniu tłumaczenia przetłumaczony PDF, przetłumaczony Markdown i notatki zapisują się razem w osobnym folderze artykułu. Wypróbuj już teraz 🚀!
 - **0.7.4** (2026-11-08): naprawiono zgłoszony na GitHubie problem z zakreślaniem.
 - **0.7.3** (2026-11-08): zakreślacz (Shift zmienia kolor) i przełącznik jasny/ciemny; tłumaczenie samo ponawia próbę zamiast się zatrzymać; zrzuty ekranu w opiniach.
 - **0.7.2** (2026-11-05): dopracowane animacje.

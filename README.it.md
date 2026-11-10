@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.7.5** (2026-11-09): abbiamo rifatto da capo l’intera pagina iniziale 🎉! Il nuovo Scaffale riunisce cronologia di lettura, settori ed etichette: vedi a colpo d’occhio cosa hai letto ogni settimana. Lo Spazio della conoscenza diventa un piccolo universo: i settori sono soli, gli articoli pianeti e, in modalità scura, dietro di loro brilla la vera Via Lattea 🌌! Con un clic destro su un articolo puoi cambiarne la categoria, aggiungere etichette, rinominarlo o scrivere una nota. La ricerca IA capisce domande normali come «una volta ho letto un articolo sui Transformer» e lo trova subito 🔍! A traduzione finita, PDF tradotto, Markdown tradotto e note vengono salvati insieme nella cartella dell’articolo. Provalo subito 🚀!
 - **0.7.4** (2026-11-08): corretto il problema di evidenziazione segnalato su GitHub.
 - **0.7.3** (2026-11-08): evidenziatore (Maiusc per cambiare colore) e passaggio chiaro/scuro; la traduzione riprova da sola invece di fermarsi; screenshot nei feedback.
 - **0.7.2** (2026-11-05): animazioni migliorate.
