@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.9** (2026-11-10): własny słownik terminów: w Słowniku można dodawać, zmieniać i usuwać terminy, a te oznaczone „We wszystkich artykułach” działają w każdym artykule; panel biblioteki od razu pokazuje Półkę, a pierwsza etykieta artykułu stoi przed jego nazwą; w ustawieniach można jednym kliknięciem wyczyścić pamięć podręczną i zobaczyć wszystkie skróty; naprawiono powiększanie z Control na Macu.
 - **0.7.8** (2026-11-10): zeskanowane artykuły tłumaczą się poprawnie; dodany folder może być automatycznie aktualizowany, a nowe pliki PDF z niego są importowane z własną etykietą na Półce; w ustawieniach można zachować nazwy plików PDF jako nazwy artykułów; własne API działają z usługami lokalnymi, takimi jak Ollama; naprawiono nieprzetłumaczony tekst w formularzach i po zmianie rozmiaru okna.
 - **0.7.7** (2026-11-09): naprawiono znane problemy z logiką obsługi.
 - **0.7.6** (2026-11-09): nowy przewodnik po stronie startowej: Półka, wyszukiwanie AI, Według daty / Według tematu, prawy przycisk na artykule i Przestrzeń wiedzy.

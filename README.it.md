@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.7.9** (2026-11-10): glossario personalizzabile: aggiungi, modifica o elimina i termini nel Glossario, e quelli segnati «Usa in tutti gli articoli» valgono per ogni articolo; il pannello della libreria mostra subito lo Scaffale e la prima etichetta di un articolo compare davanti al suo nome; nelle Impostazioni si può svuotare la cache con un clic e vedere tutte le scorciatoie; corretto lo zoom con Control su Mac.
 - **0.7.8** (2026-11-10): gli articoli scansionati si traducono correttamente; una cartella aggiunta può essere aggiornata automaticamente e i nuovi PDF vengono importati con un’etichetta tutta sua sullo Scaffale; nelle Impostazioni si può mantenere il nome dei file PDF come nome dell’articolo; le API personalizzate funzionano con servizi locali come Ollama; corretto il testo non tradotto nei moduli e dopo aver ridimensionato la finestra.
 - **0.7.7** (2026-11-09): corretti alcuni problemi noti nella logica di interazione.
 - **0.7.6** (2026-11-09): nuovo tour della pagina iniziale: lo Scaffale, la ricerca IA, Per data / Per argomento, il clic destro su un articolo e lo Spazio della conoscenza.

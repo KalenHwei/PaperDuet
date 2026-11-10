@@ -199,6 +199,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.9** (2026-11-10) : Glossaire personnalisable : ajoutez, modifiez ou supprimez des termes dans le Glossaire, et ceux marqués « Utiliser dans tous les articles » servent dans chaque article ; le panneau de la bibliothèque montre directement l’Étagère, et la première étiquette d’un article s’affiche devant lui ; les Réglages permettent de vider le cache en un clic et de voir tous les raccourcis ; correction du zoom avec Contrôle sur Mac.
 - **0.7.8** (2026-11-10) : Les articles numérisés se traduisent correctement ; un dossier ajouté peut être tenu à jour, ses nouveaux PDF importés sous une étiquette à lui sur l’Étagère ; les Réglages peuvent garder le nom des fichiers PDF comme nom des articles ; les API personnalisées fonctionnent avec des services locaux comme Ollama ; correction de textes non traduits dans les formulaires et après un redimensionnement de la fenêtre.
 - **0.7.7** (2026-11-09) : Correction de problèmes connus dans la logique des interactions.
 - **0.7.6** (2026-11-09) : Nouvelle visite guidée de la page d’accueil : l’Étagère, la recherche IA, Par date / Par thème, le clic droit sur un article et l’Espace de connaissances.

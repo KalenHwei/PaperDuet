@@ -199,6 +199,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.7.9** (2026-11-10): custom glossary terms: add, change or remove terms in the Glossary, and terms marked “Use in All Papers” are used in every paper; the library panel shows the shelf right away, and a paper’s first label stands in front of it; Settings can clear the cache in one click and list every shortcut; fixed zooming with Control on a Mac.
 - **0.7.8** (2026-11-10): scanned papers translate properly; a folder you bring in can be kept up to date, its new PDFs imported under a shelf label of its own; Settings can keep the PDFs’ file names as paper names; custom APIs work with local services such as Ollama; fixed text left untranslated in forms and after resizing the window.
 - **0.7.7** (2026-11-09): fixed known issues in the interaction logic.
 - **0.7.6** (2026-11-09): a new tour of the home page: the Shelf, AI Search, By date / By topic, right-clicking a paper and the Knowledge Space.

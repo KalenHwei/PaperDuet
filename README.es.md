@@ -199,6 +199,7 @@ Sí, para el estudio y la investigación personales, y para universidades, escue
 
 ## Registro de cambios
 
+- **0.7.9** (2026-11-10): Glosario personalizable: añade, cambia o elimina términos en el Glosario, y los marcados como «Usar en todos los artículos» se usan en cada artículo; el panel de la biblioteca muestra el Estante directamente y la primera etiqueta de un artículo aparece delante de él; en Ajustes se puede vaciar la caché con un clic y ver todos los atajos; se corrigió el zoom con Control en Mac.
 - **0.7.8** (2026-11-10): Los artículos escaneados se traducen correctamente; una carpeta añadida puede mantenerse al día y sus PDF nuevos se importan con una etiqueta propia en el Estante; en Ajustes se puede conservar el nombre de los PDF como nombre del artículo; las API personalizadas funcionan con servicios locales como Ollama; se corrigió texto sin traducir en formularios y al cambiar el tamaño de la ventana.
 - **0.7.7** (2026-11-09): Se corrigieron problemas conocidos en la lógica de interacción.
 - **0.7.6** (2026-11-09): Nuevo recorrido por la página de inicio: el Estante, la búsqueda con IA, Por fecha / Por tema, el clic derecho en un artículo y el Espacio de conocimiento.

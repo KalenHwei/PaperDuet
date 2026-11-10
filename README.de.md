@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.7.9** (2026-11-10): Eigene Glossarbegriffe: Begriffe im Glossar hinzufügen, ändern oder löschen; als „In allen Papern verwenden“ markierte gelten für jedes Paper; die Bibliotheksleiste zeigt das Regal direkt, und das erste Etikett eines Papers steht vor ihm; in den Einstellungen lässt sich der Cache mit einem Klick leeren und jede Tastenkombination ansehen; behoben: Zoomen mit Control auf dem Mac.
 - **0.7.8** (2026-11-10): Gescannte Paper werden richtig übersetzt; ein hinzugefügter Ordner kann aktuell gehalten werden, neue PDFs darin werden mit einem eigenen Etikett im Regal importiert; in den Einstellungen lassen sich die Dateinamen der PDFs als Namen behalten; eigene APIs funktionieren mit lokalen Diensten wie Ollama; behoben: unübersetzter Text in Formularen und nach dem Ändern der Fenstergröße.
 - **0.7.7** (2026-11-09): Bekannte Probleme in der Bedienlogik behoben.
 - **0.7.6** (2026-11-09): Neue Tour durch die Startseite: das Regal, die KI-Suche, Nach Datum / Nach Thema, der Rechtsklick auf ein Paper und der Wissensraum.

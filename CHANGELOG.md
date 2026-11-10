@@ -6,6 +6,27 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.9] - 2026-11-10
+
+### Added
+
+- Custom glossary terms: the Glossary tab can add a term, and change or remove one; a term marked “Use in All Papers” goes into every paper it occurs in (Settings › Translate lists these and can remove them). Hy-MT2 now gets the terms too.
+- Settings › Data › Clear Cache: every paper’s translations and collected terms in one click (your own edits, terms, annotations and notes stay), and the database is compacted.
+- Settings › About › Shortcuts: every shortcut, with the library, the knowledge space, ⌘↩ and Escape added.
+
+### Changed
+
+- The library panel shows the shelf right above the papers; the knowledge space button takes the whole row.
+- A paper with labels shows the first one put on it in front of its name, the others after it.
+- In the list by time each paper is only where it was read last; group heads are capsules.
+- Glass a little more opaque; lighter text at night; more motion (the paper menu, new label rows on the shelf, the glossary editor, Settings).
+
+### Fixed
+
+- On a Mac, Control with the wheel zoomed and Control with a drag turned the knowledge space; it is ⌘ on a Mac and Ctrl on Windows and Linux.
+- Right-clicking a paper again could close its menu instead of opening it there.
+- Single past participles and adverbs (equipped, efficiently) are no longer collected as terms.
+
 ## [0.7.8] - 2026-11-10
 
 ### Added
