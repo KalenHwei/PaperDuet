@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.7.7] - 2026-11-09
+
+### Fixed
+
+- Known issues in the interaction logic.
+
 ## [0.7.6] - 2026-11-09
 
 ### Added

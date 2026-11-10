@@ -199,6 +199,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.7.7** (2026-11-09) : Correction de problèmes connus dans la logique des interactions.
 - **0.7.6** (2026-11-09) : Nouvelle visite guidée de la page d’accueil : l’Étagère, la recherche IA, Par date / Par thème, le clic droit sur un article et l’Espace de connaissances.
 - **0.7.5** (2026-11-09) : Nous avons entièrement repensé la page d’accueil 🎉 ! La nouvelle Étagère réunit votre historique de lecture, vos domaines et vos étiquettes : vous voyez d’un coup d’œil ce que vous avez lu chaque semaine. L’Espace de connaissances devient un petit univers — les domaines sont des soleils, les articles des planètes, et en mode sombre la vraie Voie lactée brille derrière eux 🌌 ! Un clic droit sur un article suffit pour changer sa catégorie, ajouter des étiquettes, le renommer ou écrire une note. La recherche IA comprend les questions de tous les jours, comme « j’ai lu un article sur les Transformers », et le retrouve aussitôt 🔍 ! À la fin d’une traduction, le PDF traduit, le Markdown traduit et vos notes sont enregistrés ensemble dans le dossier de l’article. Essayez-le vite 🚀 !
 - **0.7.4** (2026-11-08) : Correction du problème de surlignage signalé sur GitHub.

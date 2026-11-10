@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.7.7** (2026-11-09): naprawiono znane problemy z logiką obsługi.
 - **0.7.6** (2026-11-09): nowy przewodnik po stronie startowej: Półka, wyszukiwanie AI, Według daty / Według tematu, prawy przycisk na artykule i Przestrzeń wiedzy.
 - **0.7.5** (2026-11-09): przebudowaliśmy całą stronę startową 🎉! Nowa Półka łączy historię czytania, dziedziny i etykiety — od razu widać, co czytało się w każdym tygodniu. Przestrzeń wiedzy zmieniła się w mały wszechświat: dziedziny to słońca, artykuły to planety, a w trybie ciemnym w tle świeci prawdziwa Droga Mleczna 🌌! Kliknij artykuł prawym przyciskiem, aby zmienić kategorię, dodać etykiety, zmienić nazwę lub napisać notatkę. Wyszukiwanie AI rozumie zwykłe pytania, np. „czytałem kiedyś artykuł o Transformerach”, i od razu go znajduje 🔍! Po zakończeniu tłumaczenia przetłumaczony PDF, przetłumaczony Markdown i notatki zapisują się razem w osobnym folderze artykułu. Wypróbuj już teraz 🚀!
 - **0.7.4** (2026-11-08): naprawiono zgłoszony na GitHubie problem z zakreślaniem.
