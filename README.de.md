@@ -199,6 +199,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.8.2** (2026-11-11): In der Wissenskarte gibt es jetzt eine Leiste, mit der sich die sichtbaren Ebenen einstellen lassen.
 - **0.8.1** (2026-11-11): Bekannte Fehler behoben.
 - **0.8.0** (2026-11-11): PaperDuet 0.8 ist da 🎉! Neue KI-Komponente: Ihre Bibliothek ordnet sich nach Inhalt, die KI-Suche findet Paper nach ihrer Bedeutung und springt direkt zur passendsten Stelle, und ähnliche Paper sind im Wissensraum verbunden 🧠! Viel schnellerer Import: Paper oder einen Ordner hineinziehen, und Regal und Wissensraum ordnen sie sofort grob ein; die feinere Einordnung läuft still im Hintergrund weiter und pausiert, während Sie übersetzen ⚡️. Der Wissensraum zeigt nur die Namen der Fachgebiete; den Titel eines Papers sehen Sie, wenn Sie darauf zeigen – kein Gedränge mehr. Neu unten rechts: eine kleine Glocke 🔔 mit Ankündigungen, Umfragen und den Neuerungen jedes Updates. Außerdem einige Fehler mit Flackern und Abstürzen behoben. Probieren Sie es aus 🚀!
 - **0.7.9** (2026-11-10): Eigene Glossarbegriffe: Begriffe im Glossar hinzufügen, ändern oder löschen; als „In allen Papern verwenden“ markierte gelten für jedes Paper; die Bibliotheksleiste zeigt das Regal direkt, und das erste Etikett eines Papers steht vor ihm; in den Einstellungen lässt sich der Cache mit einem Klick leeren und jede Tastenkombination ansehen; behoben: Zoomen mit Control auf dem Mac.

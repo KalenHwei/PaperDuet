@@ -6,6 +6,12 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.2] - 2026-11-11
+
+### Added
+
+- A bar at the bottom right of the Knowledge Map for adjusting which levels are visible: one step up fades the papers, the next their topics' stars, and at the top only the fields are left.
+
 ## [0.8.1] - 2026-11-11
 
 ### Fixed

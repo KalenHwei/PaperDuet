@@ -199,6 +199,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.8.2** (2026-11-11): dodano pasek na Mapie wiedzy do regulowania widocznych poziomów.
 - **0.8.1** (2026-11-11): naprawiono znane błędy.
 - **0.8.0** (2026-11-11): Oto PaperDuet 0.8 🎉! Nowy komponent AI: biblioteka sama porządkuje się według treści, Wyszukiwanie AI znajduje artykuły po znaczeniu i prowadzi prosto do najtrafniejszego fragmentu, a podobne artykuły są połączone w Przestrzeni wiedzy 🧠! Import jest dużo szybszy: upuść artykuły lub folder, a Półka i Przestrzeń wiedzy od razu wstępnie je uporządkują; dokładniejsze porządkowanie kończy się po cichu w tle i wstrzymuje się, gdy tłumaczysz ⚡️. Przestrzeń wiedzy pokazuje tylko nazwy dziedzin, a tytuł artykułu pojawia się po najechaniu na niego, więc nie ma już tłoku. W prawym dolnym rogu jest mały dzwonek 🔔 z ogłoszeniami, ankietami i opisem każdej aktualizacji. Poza tym naprawiliśmy kilka problemów z migotaniem i awariami. Wypróbuj 🚀!
 - **0.7.9** (2026-11-10): własny słownik terminów: w Słowniku można dodawać, zmieniać i usuwać terminy, a te oznaczone „We wszystkich artykułach” działają w każdym artykule; panel biblioteki od razu pokazuje Półkę, a pierwsza etykieta artykułu stoi przed jego nazwą; w ustawieniach można jednym kliknięciem wyczyścić pamięć podręczną i zobaczyć wszystkie skróty; naprawiono powiększanie z Control na Macu.

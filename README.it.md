@@ -199,6 +199,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.8.2** (2026-11-11): aggiunta una barra nella Mappa della conoscenza per regolare i livelli visibili.
 - **0.8.1** (2026-11-11): corretti errori noti.
 - **0.8.0** (2026-11-11): Arriva PaperDuet 0.8 🎉! Nuovo componente IA: la libreria si ordena da sola in base al contenuto, la Ricerca IA trova gli articoli per significato e porta dritto al passaggio più pertinente, e gli articoli simili sono collegati nello Spazio della conoscenza 🧠! Importare è molto più veloce: trascina articoli o una cartella e lo Scaffale e lo Spazio della conoscenza li classificano subito; la classificazione più fine si completa in silenzio in background e si ferma mentre traduci ⚡️. Lo Spazio della conoscenza mostra solo i nomi dei campi e il titolo di un articolo compare quando ci passi sopra, così non è più affollato. In basso a destra c’è una piccola campanella 🔔 con annunci, sondaggi e le novità di ogni aggiornamento. Inoltre, corretti alcuni sfarfallii e arresti anomali. Provalo subito 🚀!
 - **0.7.9** (2026-11-10): glossario personalizzabile: aggiungi, modifica o elimina i termini nel Glossario, e quelli segnati «Usa in tutti gli articoli» valgono per ogni articolo; il pannello della libreria mostra subito lo Scaffale e la prima etichetta di un articolo compare davanti al suo nome; nelle Impostazioni si può svuotare la cache con un clic e vedere tutte le scorciatoie; corretto lo zoom con Control su Mac.
