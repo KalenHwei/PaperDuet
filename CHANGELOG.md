@@ -6,6 +6,31 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-11
+
+### Added
+
+- An AI component (EmbeddingGemma, about 330 MB, set up in the background after the update): the library is sorted by what papers are about, AI Search finds papers by meaning and shows the most relevant passage, and similar papers are linked in the Knowledge Space.
+- A bell at the bottom right for announcements, polls and each update's notes.
+- Alias titles for papers: shown before a paper's name in the lists, and alone on its sphere in the Knowledge Space.
+- First use starts with the language (for the interface and the translation) on the title screen; the home page's tour shows a sample library.
+- Until the first paper is in, the drop box ripples; a progress bar while papers are imported.
+
+### Changed
+
+- Importing reads only each paper's first pages, so the Shelf and the Knowledge Space sort papers almost at once; reading them in full and the finer sorting happen in the background and pause while a paper is translated.
+- The Knowledge Space holds every paper in the library and shows only field and subfield names; a paper's title shows when it is pointed at.
+- A dropped folder brings in the PDFs in it and only asks whether to keep it up to date.
+- A paper's right-click menu is the same on the home page, in the library, the timeline and the Knowledge Space; a second right-click closes it.
+- Shorter tours that dim the rest of the window instead of blurring it.
+
+### Fixed
+
+- Flicker on the home page when its tour began and ended, and in the Knowledge Space card while papers were imported.
+- A crash while a tour played.
+- A paper closed while it was still opening came back by itself.
+- Papers that failed to translate as soon as the translation started: a failure is tried again, and the library's database is opened again when its files are closed unexpectedly.
+
 ## [0.7.9] - 2026-11-10
 
 ### Added
