@@ -6,6 +6,30 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.4] - 2026-11-12
+
+### Added
+
+- Tabs: several papers open at once; hovering over a tab previews it, dragging reorders the tabs, and a right-click opens the paper's menu with ways to close tabs.
+- Sleeping tabs: beyond the number set in Settings › Appearance (6 by default), tabs sleep to save memory and come back when clicked.
+- Selecting papers: click to select, ⌘/Ctrl-click for several, double-click to open; a right-click tags, moves, exports citations for or removes them together.
+- Exporting citations in BibTeX, EndNote, RefMan and RefWorks, copied or saved to a file; in the Knowledge Map, for a whole field, subfield or topic star from its right-click menu.
+- AI Search and a switch for the topics' stars in the Knowledge Map.
+- “Retranslate” in a paper's right-click menu: the whole paper is translated again from the start with the selected model.
+- Translation of PDFs whose text is drawn as shapes (such as some CVPR papers): on Mac and Windows the system's own text recognition reads the text.
+- A hint the first two times the highlighter is turned on: hold Shift to pick a colour.
+
+### Changed
+
+- Faster switching between papers, with a fade, and less memory used.
+- The “whole paper translated” save prompt comes up by itself only the first time; after that it opens from the green check.
+
+### Fixed
+
+- Translations not shown after zooming with synced scrolling on older macOS.
+- TranslateGemma's prompt appearing in translations.
+- On Mac, translation not starting after the first paper was opened, and failing after the system closed the database connection.
+
 ## [0.8.2] - 2026-11-11
 
 ### Added
