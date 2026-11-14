@@ -6,6 +6,23 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.5] - 2026-11-13
+
+### Added
+
+- The Knowledge Space as galaxies: each field a galaxy, its papers planets going round its star, subfields smaller stars with planets of their own; the more papers, the larger and brighter the star, a black hole with a great many. Stars can be dragged and take their planets along.
+- Your own categories: a right-click on a category on the shelf or in the Knowledge Space adds one under it (two levels down at most), and on “All” on the shelf a field; papers are filed by dragging them onto a category or from “Move to” in their right-click menu.
+- “Subdivide Automatically” in a category's right-click menu: its papers are grouped by content into named subcategories, which can be renamed, or undone from the same menu (needs AI search).
+
+### Changed
+
+- A cleaner Knowledge Space: topic stars' names and the links between papers show only under the pointer.
+- Page layout: papers whose abstract is wider than a column, with the other column set around it, are read correctly.
+
+### Fixed
+
+- Garbled or missing translations for PDFs whose fonts give only glyph numbers.
+
 ## [0.8.4] - 2026-11-12
 
 ### Added
