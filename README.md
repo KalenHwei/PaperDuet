@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>A lightweight AI paper translator built for researchers!</em><br>
+  <em>A tool for researchers to manage, study and understand papers!</em><br>
   <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
@@ -29,77 +29,80 @@
 </p>
 
 <p align="center">
-  <strong>PaperDuet is a lightweight AI mirror translator for papers that keeps the original layout.</strong><br>
+  <strong>PaperDuet helps you manage, study and understand every paper you read.</strong><br>
   Six open-source AI translation models run on your computer, or connect an online API.<br>
   Free to use, no sign-up needed!
 </p>
 
-<p align="center">
-  <img src="assets/en/hero.gif" width="880" alt="PaperDuet translating Attention Is All You Need from scratch: the outline in the sidebar turns Chinese first, then the title and the abstract appear on the right page, in the same place as on the original"><br>
-  <sub>A recording of Attention Is All You Need (15 pages) being translated from scratch</sub>
-</p>
+PaperDuet is a tool for managing, studying and understanding papers: the original and its translation sit side by side as mirror images, with formulas, figures and tables lined up page by page, and the papers you have read are kept on a shelf and in a Knowledge Space where AI finds them again. PaperDuet is free to use: with a local model everything runs on your computer, and you can connect an online API when you want to.
 
-PaperDuet is a lightweight AI mirror translator for papers. It lays out the original and the translation as mirror images, with formulas, figures and tables corrected and aligned page by page. It's free: with a local model everything runs on your computer, and an online API is there if you want one.
-
-## Every page, made easy
+## Open it — in your language
 
 <p align="center">
-  <img src="assets/en/layout.gif" width="880" alt="Scrolling through pages 3 to 5: the Transformer diagram, the attention diagrams and the formulas sit in the same place on both sides, with the English text replaced by Chinese on the right">
+  <img src="assets/en/open.gif" width="880" alt="PaperDuet translating Attention Is All You Need from scratch: the outline in the sidebar turns Chinese first, then the title and the abstract of the right-hand page appear in Chinese where the original has them">
 </p>
 
-The original paper is on the left and its translation on the right, and both sides scroll and zoom together. Columns, headings, captions, footnotes and references are recognised automatically, and paragraphs that run across columns or pages are joined up. The two sides line up exactly, so comparing them is easy.
+Drop a PDF in and translation starts. The headings come first, so the outline in the sidebar is in your language at once and you can see how the paper is built; the title, the abstract and the introduction follow. Six open-source translation models run on your computer, or you can connect an online API.
 
-## Saving translation? AI summary? No problem!
+## Your library is your night sky
 
 <p align="center">
-  <img src="assets/en/progress-save.gif" width="880" alt="The last paragraphs come in, the progress ring in the toolbar turns into a green check and one click saves the translation as a PDF; then the light bulb next to it opens and the AI summary of the whole paper appears line by line">
+  <img src="assets/en/space.gif" width="880" alt="The Knowledge Space by night: the camera backs out from among the stars of a galaxy until the whole library is in view; then Artificial Intelligence, Computer Vision and Convolutional Networks are double-clicked in turn, flying in a level at a time, and a paper is double-clicked and opens with its original and translation side by side">
 </p>
 
-The toolbar shows the translation progress. When the whole paper is done, the ring turns into a green check and a bubble pops up: one click saves the translation as a PDF wherever you choose. The light bulb next to it is the AI summary: open it to read what the paper asks, how it works and what it found, written by the model after reading the whole paper. You can also choose from six models to suit your computer and your needs!
+Introducing Space: your papers now spread out before you like a night sky, so you can build a visual knowledge base of your own and see it at a glance.
 
-## Think it. Find it.
+## Every bit of progress, recorded
 
 <p align="center">
-  <img src="assets/en/library.gif" width="880" alt="A library of over fifty papers, ordered by name and by date added, then back to last studied; a right-click gives a paper the ⭐️ label. In AI Organize, Computer Vision and a topic are chosen, the matching papers rise to the top and the rest turn grey. Then the AI Search query “polyp segmentation” brings up the matching papers, with passages from their summaries">
+  <img src="assets/en/shelf.gif" width="880" alt="The shelf on the home page: the number of papers, the total reading time and the days in a row at the top; a week's square pointed at shows how many papers were read that week and for how long; Artificial Intelligence is clicked and its subfields open, the papers below filtered with it; a paper is given a label from its right-click menu, then opened with a double click">
 </p>
 
-Every paper you've read lives in your library, ordered by last studied, date added or name, and a right-click puts your own labels on it. AI Organize tags each one by field and topic, and the papers you pick rise to the top. AI Search finds a paper by its title, its text, its translation or its summary, in English or Chinese.
+The shelf on the home page keeps count of how many papers you have read, for how long in all, and how many days in a row. Each square is a week, darker the longer you read; click a field and the papers and the timeline below follow it. A right-click puts your own labels on a paper.
 
-## Everything you've learned, at a glance.
+## Can’t find a paper? Ask the AI!
 
 <p align="center">
-  <img src="assets/en/knowledge-space.gif" width="880" alt="The Knowledge Space opens: the papers studied gather in spheres by field. Dragging with ⌘ held turns the whole space; pointing at a paper shows how far it was read and when it was last studied; a double-click on Computer Vision flies the camera in and fades the rest. Finally the timeline shows what was studied each day">
+  <img src="assets/en/ask.gif" width="880" alt="In the AI Search box on the home page, “the one that cuts images into patches for a Transformer” is typed and that paper comes to the top with the passage that matched; a second sentence, about reinforcement learning and mathematical reasoning, finds another">
 </p>
 
-Open the Knowledge Space in your library: the papers you've studied gather by field, subfield and topic in a 3D space. Drag with ⌘ held (Ctrl on Windows and Linux) to turn it, scroll to zoom, and double-click a field to see only its papers. The timeline keeps track of which papers you read each day, for how long, and how many days in a row you've kept at it.
+No need to remember the title: say in a sentence what you are looking for, and AI Search finds it in titles, originals, translations and summaries, and shows the passage that matched. Ask in your own language or in English.
 
-## Don't get it? Go click it.
+## Every page, just as it was
 
 <p align="center">
-  <img src="assets/en/double-click.gif" width="880" alt="While the first pages are still translating, the view jumps down to section 6.3 on page 9, not translated yet; a double-click on its first paragraph puts it first and it appears in Chinese right away">
+  <img src="assets/en/layout.gif" width="880" alt="Scrolling through a paper: the architecture diagram, the figures and the formulas sit in exactly the same places on both sides; a paragraph pointed at lights up its counterpart on the other side; another translation language, the same layout">
 </p>
 
-Headings are translated first, so you can see how the paper is structured; then the title, abstract and introduction. Want a later passage now? Double-click it and it jumps the queue, no waiting for the progress to get there.
+The original on the left, the translation on the right; both scroll and zoom together. Columns, headings, captions, footnotes and references are recognised by themselves, and formulas, figures and tables stay where they were; point at a paragraph and its counterpart on the other side lights up. Switch to another translation language and the layout stays the same.
 
-## Taking notes? You got it!
+## Taking notes? Sorted!
 
 <p align="center">
-  <img src="assets/en/highlights.gif" width="880" alt="A sentence of the Chinese translation is selected and a note is written; the matching English sentence on the left gets the same mark and opens the same note. Then the original PDF with the note is exported and opened in Preview, where the mark and the note are there too">
+  <img src="assets/en/notes.gif" width="880" alt="The highlighter is turned on and a colour picked; a sentence of the Chinese translation is marked and a note written on it, and the matching English sentence on the left gets the same mark, which opens the same note">
 </p>
 
-Highlight, underline and write notes right on the translation; the matching sentences in the original are marked too. Export the original PDF with your notes as standard PDF annotations, ready for Preview, Zotero and other apps.
+Highlight, underline and write notes right on the translation; the matching sentence of the original is marked by itself. The original exported with your notes carries standard PDF annotations, so Preview, Zotero and other apps show them as they are.
+
+## Finished? Take it with you.
+
+<p align="center">
+  <img src="assets/en/finish.gif" width="880" alt="The last paragraphs of the paper are translated and the progress ring in the toolbar turns into a green check; one click saves the translated PDF, the Markdown and the annotated original into the paper's folder; then the light bulb beside it is opened and an AI summary of the whole paper appears word by word; the saved files are shown in Finder at the end">
+</p>
+
+When the whole paper is translated, the ring in the toolbar turns into a green check: one click saves the translated PDF, the Markdown and the annotated original together into the paper's own folder. The light bulb beside it is the AI summary, written by the model once it has read the whole paper: the question, the method and the results at a glance.
 
 ## And there's more
 
 - **Ten languages to translate into.** Switch between 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski and Русский in one click from the toolbar.
-- **A translated PDF in one click.** Once a paper is fully translated, one click saves the translation wherever you choose, in the original layout.
+- **Double-click to jump the queue.** Want a later paragraph first? Double-click it in the original and it is translated next, without waiting for the progress to get there.
 - **Quality checks built in.** Formulas, numbers and sentence order are checked in every reply, with automatic retries, and a glossary for each paper keeps terms consistent.
 - **You decide what gets translated.** Right-click any block to translate it or keep the original.
 - **Read your way.** Search the original and the translation at once, browse a bilingual outline, point at a paragraph to find its twin, and show the original, the translation or both. PaperDuet remembers where you left off.
-- **Your library, Knowledge Space and AI search.** Every paper you read or import is in the library, ordered by last studied, date added or name, with your own labels a right-click away. AI Search finds one again by its title, text, translation or summary, in English or Chinese, AI Organize sorts papers by field and topic, and the Knowledge Space shows what you've studied as a 3D map and a timeline.
-- **A summary of every paper.** Once a paper is translated, click the light bulb: the translation model writes a short summary in your interface language and keeps it with the paper.
-- **Export anywhere.** The original PDF with your marks, the translated PDF and your notes as Markdown, all readable in other apps too.
-- **One-click updates.** Updating is easy: one click installs the new version.
+- **Your own terms.** Tell PaperDuet how you want a term translated, and the whole paper follows it.
+- **Scans can be read too.** PDFs whose text is drawn as shapes rather than stored as text are read with the system's own text recognition on a Mac and on Windows, then translated.
+- **Folders that keep up to date.** Import a folder once, and papers put into it later show up in your library by themselves.
+- **One click to update, one to clean up.** A new version installs with one click; the cache is cleared with one click in Settings.
 - **Made to look good.** A clean, beautiful glass design, with light, dark and night reading modes.
 
 <p align="center">
@@ -161,8 +164,8 @@ That's all. The translation engine is built into the app, and updates take one c
 <details>
 <summary><b>Keyboard shortcuts</b></summary>
 
-| Action                           | Shortcut                                     |
-| -------------------------------- | -------------------------------------------- |
+| Action | Shortcut |
+| --- | --- |
 | Open a PDF                       | ⌘O                                           |
 | Close the paper                  | ⌘W                                           |
 | Search both sides                | ⌘F                                           |

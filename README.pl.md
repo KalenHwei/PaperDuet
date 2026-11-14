@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Lekki tłumacz artykułów naukowych oparty na AI, stworzony z myślą o badaczach!</em><br>
+  <em>Narzędzie dla badaczy do porządkowania, studiowania i rozumienia artykułów!</em><br>
   <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
@@ -29,77 +29,80 @@
 </p>
 
 <p align="center">
-  <strong>PaperDuet to lekki lustrzany tłumacz artykułów oparty na AI, który zachowuje ich oryginalny układ.</strong><br>
+  <strong>PaperDuet pomaga porządkować, studiować i rozumieć każdy artykuł.</strong><br>
   Sześć modeli tłumaczeniowych AI typu open source działa na Twoim komputerze, możesz też podłączyć API online.<br>
   Za darmo i bez rejestracji!
 </p>
 
-<p align="center">
-  <img src="assets/pl/hero.gif" width="880" alt="PaperDuet tłumaczy Attention Is All You Need od zera: najpierw spis treści na pasku bocznym przechodzi na polski, potem tytuł i abstrakt pojawiają się na prawej stronie, w tym samym miejscu co w oryginale"><br>
-  <sub>Nagranie tłumaczenia Attention Is All You Need (15 stron) od zera</sub>
-</p>
+PaperDuet to narzędzie do porządkowania, studiowania i rozumienia artykułów: oryginał i tłumaczenie stoją obok siebie jak w lustrze, a wzory, rysunki i tabele są wyrównane strona po stronie; przeczytane artykuły trafiają na półkę i do przestrzeni wiedzy, gdzie AI odnajduje je na nowo. PaperDuet jest darmowy: z modelem lokalnym wszystko działa na Twoim komputerze, a w razie potrzeby można podłączyć internetowe API.
 
-PaperDuet to lekki lustrzany tłumacz artykułów naukowych oparty na AI. Układa oryginał i tłumaczenie obok siebie jak lustrzane odbicia, a wzory, rysunki i tabele poprawia i wyrównuje strona po stronie. Za darmo: z modelem lokalnym wszystko działa na Twoim komputerze, a w razie potrzeby możesz podłączyć API online.
-
-## Każda strona – bez wysiłku
+## Otwórz – i już po polsku
 
 <p align="center">
-  <img src="assets/pl/layout.gif" width="880" alt="Przewijanie stron od 3 do 5: schemat Transformera, schematy mechanizmu uwagi i wzory są w tym samym miejscu po obu stronach, a po prawej tekst angielski zastąpiono polskim">
+  <img src="assets/pl/open.gif" width="880" alt="PaperDuet tłumaczy Attention Is All You Need od zera: najpierw spis treści na pasku bocznym staje się polski, potem tytuł i streszczenie prawej strony pojawiają się po polsku w miejscu, w którym są w oryginale">
 </p>
 
-Po lewej jest oryginalny artykuł, po prawej jego tłumaczenie, a obie strony przewijają się i powiększają razem. Kolumny, nagłówki, podpisy, przypisy dolne i bibliografia są rozpoznawane automatycznie, a akapity, które przechodzą do innej kolumny lub na kolejną stronę, zostają połączone. Obie strony są dokładnie wyrównane, więc łatwo je porównywać.
+Upuść plik PDF, a tłumaczenie się zacznie. Najpierw nagłówki: spis treści na pasku bocznym od razu jest po polsku i widać, jak zbudowany jest artykuł; potem tytuł, streszczenie i wstęp. Sześć otwartych modeli tłumaczących działa na Twoim komputerze, można też podłączyć internetowe API.
 
-## Zachować tłumaczenie? Streszczenie AI? Nie ma sprawy!
+## Twoja biblioteka to Twoje gwiaździste niebo
 
 <p align="center">
-  <img src="assets/pl/progress-save.gif" width="880" alt="Spływają ostatnie akapity, pierścień postępu na pasku narzędzi zmienia się w zielony haczyk, a jedno kliknięcie zachowuje tłumaczenie jako PDF; potem otwiera się żarówka obok i streszczenie AI całego artykułu pojawia się wiersz po wierszu">
+  <img src="assets/pl/space.gif" width="880" alt="Przestrzeń wiedzy nocą: kamera cofa się z wnętrza galaktyki, aż widać całą bibliotekę; potem kolejno dwukrotne kliknięcia „Sztuczna inteligencja”, „Widzenie komputerowe” i „Sieci konwolucyjne”, poziom po poziomie w głąb, a na końcu artykuł, który otwiera się z oryginałem i tłumaczeniem obok siebie">
 </p>
 
-Pasek narzędzi pokazuje postęp tłumaczenia. Gdy cały artykuł jest gotowy, pierścień zmienia się w zielony haczyk i pojawia się dymek: jedno kliknięcie zachowuje tłumaczenie jako PDF w wybranym przez Ciebie miejscu. Żarówka obok kryje streszczenie AI, które model pisze po przeczytaniu całego artykułu: jakie pytanie stawia artykuł, jaką metodę proponuje i co udało się ustalić. Do tego możesz wybrać jeden z sześciu modeli, dopasowany do Twojego komputera i potrzeb!
+Przedstawiamy Space: Twoje artykuły rozpościerają się teraz przed Tobą jak gwiaździste niebo. Możesz w bardziej intuicyjny sposób zbudować własną, widoczną bazę wiedzy.
 
-## Pomyśl. Znajdź.
+## Każdy postęp zapisany
 
 <p align="center">
-  <img src="assets/pl/library.gif" width="880" alt="Biblioteka z ponad pięćdziesięcioma artykułami, posortowana według nazwy i daty dodania, a potem znów według ostatniej nauki; kliknięcie prawym przyciskiem dodaje artykułowi etykietę ⭐️. W „Uporządkuj z AI” wybierane są „Widzenie komputerowe” i temat, pasujące artykuły przesuwają się na górę, a pozostałe robią się szare. Potem wyszukiwanie AI „segmentacja polipów” wynosi na górę pasujące artykuły, z fragmentami ich streszczeń">
+  <img src="assets/pl/shelf.gif" width="880" alt="Półka na stronie startowej: u góry liczba artykułów, łączny czas czytania i dni z rzędu; wskaźnik na kratce tygodnia pokazuje, ile artykułów przeczytano w tym tygodniu i jak długo; kliknięcie „Sztuczna inteligencja” rozwija jej poddziedziny i filtruje artykuły poniżej; prawym przyciskiem artykuł dostaje etykietę, a dwukrotne kliknięcie go otwiera">
 </p>
 
-Każdy przeczytany artykuł trafia do Twojej biblioteki, którą sortujesz według ostatniej nauki, daty dodania lub nazwy, a prawym przyciskiem dodajesz własne etykiety. „Uporządkuj z AI” oznacza każdy z nich tagami według dziedziny i tematu, a wybrane przez Ciebie artykuły przesuwają się na górę. Wyszukiwanie AI znajduje artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku.
+Półka na stronie startowej zapisuje, ile artykułów przeczytano, jak długo łącznie i ile dni z rzędu. Każda kratka to tydzień, tym ciemniejsza, im dłużej czytano; kliknij dziedzinę, a artykuły i oś czasu poniżej pójdą za nią. Prawym przyciskiem nadasz artykułowi własne etykiety.
 
-## Twoja nauka na pierwszy rzut oka.
+## Nie możesz znaleźć artykułu? Zapytaj AI!
 
 <p align="center">
-  <img src="assets/pl/knowledge-space.gif" width="880" alt="Otwiera się przestrzeń wiedzy: przeczytane artykuły gromadzą się w kulach według dziedzin. Przeciąganie z wciśniętym ⌘ obraca całą przestrzeń; wskazanie artykułu pokazuje, ile z niego przeczytano i kiedy ostatnio; dwukrotne kliknięcie „Widzenia komputerowego” wprowadza tam kamerę, a reszta blednie. Na koniec oś czasu pokazuje, czego uczono się każdego dnia">
+  <img src="assets/pl/ask.gif" width="880" alt="W wyszukiwaniu AI na stronie startowej wpisano „artykuł, który dzieli obrazy na fragmenty dla Transformera” i ten artykuł trafia na górę razem ze znalezionym fragmentem; drugie zdanie, o uczeniu ze wzmocnieniem i rozumowaniu matematycznym, znajduje inny">
 </p>
 
-Otwórz „Przestrzeń wiedzy” w bibliotece: przeczytane artykuły gromadzą się według dziedzin, poddziedzin i tematów w przestrzeni 3D. Przeciągnij z wciśniętym ⌘ (Ctrl w Windows i Linuksie), aby ją obrócić, przewiń, aby przybliżyć, i kliknij dwukrotnie dziedzinę, aby zobaczyć tylko jej artykuły. Oś czasu zapisuje, jakie artykuły i jak długo czytasz każdego dnia oraz ile dni z rzędu się uczysz.
+Nie trzeba pamiętać tytułu: powiedz jednym zdaniem, czego szukasz, a wyszukiwanie AI znajdzie to w tytułach, oryginałach, tłumaczeniach i streszczeniach i pokaże znaleziony fragment. Pytaj po polsku albo po angielsku.
 
-## Nie rozumiesz? Kliknij.
+## Każda strona taka, jaka była
 
 <p align="center">
-  <img src="assets/pl/double-click.gif" width="880" alt="Gdy pierwsze strony są jeszcze tłumaczone, widok przeskakuje do nieprzetłumaczonej jeszcze sekcji 6.3 na stronie 9; dwukrotne kliknięcie jej pierwszego akapitu przesuwa go na początek kolejki i od razu pojawia się on po polsku">
+  <img src="assets/pl/layout.gif" width="880" alt="Przewijanie artykułu: schemat architektury, rysunki i wzory są po obu stronach dokładnie w tych samych miejscach; wskaźnik na akapicie podświetla jego odpowiednik po drugiej stronie; inny język tłumaczenia, ten sam układ">
 </p>
 
-Najpierw tłumaczone są nagłówki sekcji, więc od razu widzisz strukturę artykułu; potem tytuł, abstrakt i wstęp. Chcesz przeczytać teraz fragment z dalszej części? Kliknij go dwukrotnie, a zostanie przetłumaczony poza kolejnością, bez czekania, aż postęp tam dotrze.
+Po lewej oryginał, po prawej tłumaczenie; obie strony przewijają się i powiększają razem. Kolumny, nagłówki, podpisy, przypisy i bibliografia są rozpoznawane same, a wzory, rysunki i tabele zostają na swoich miejscach; wskaż akapit, a jego odpowiednik po drugiej stronie się podświetli. Zmień język tłumaczenia, a układ zostanie ten sam.
 
-## Notatki? Jasne!
+## Chcesz robić notatki? Załatwione!
 
 <p align="center">
-  <img src="assets/pl/highlights.gif" width="880" alt="W polskim tłumaczeniu zaznaczane jest zdanie i dopisywana notatka; odpowiadające mu zdanie angielskie po lewej dostaje ten sam znacznik i otwiera tę samą notatkę. Potem oryginalny PDF z notatką jest eksportowany i otwierany w Podglądzie, gdzie znacznik i notatka również są widoczne">
+  <img src="assets/pl/notes.gif" width="880" alt="Włączono zakreślacz i wybrano kolor; zaznaczono zdanie polskiego tłumaczenia i dopisano notatkę, a odpowiadające mu angielskie zdanie po lewej dostaje to samo zaznaczenie, które otwiera tę samą notatkę">
 </p>
 
-Wyróżniaj, podkreślaj i pisz notatki bezpośrednio na tłumaczeniu; odpowiadające im zdania w oryginale też zostają oznaczone. Eksportuj oryginalny PDF z notatkami jako standardowe adnotacje PDF, gotowe do otwarcia w Podglądzie, Zotero i innych aplikacjach.
+Zakreślaj, podkreślaj i pisz notatki bezpośrednio w tłumaczeniu; odpowiadające zdanie oryginału zaznaczy się samo. Oryginał wyeksportowany z Twoimi notatkami zawiera standardowe adnotacje PDF, więc Podgląd, Zotero i inne aplikacje pokazują je bez zmian.
+
+## Przeczytane? Zabierz ze sobą.
+
+<p align="center">
+  <img src="assets/pl/finish.gif" width="880" alt="Ostatnie akapity artykułu zostają przetłumaczone, a pierścień postępu na pasku narzędzi zmienia się w zielony znacznik; jedno kliknięcie zapisuje przetłumaczony PDF, Markdown i oryginał z adnotacjami w folderze artykułu; potem otwiera się żarówkę obok i słowo po słowie pojawia się napisane przez AI streszczenie całego artykułu; na końcu zapisane pliki widać w Finderze">
+</p>
+
+Gdy cały artykuł jest przetłumaczony, pierścień na pasku narzędzi zmienia się w zielony znacznik: jedno kliknięcie zapisuje razem przetłumaczony PDF, Markdown i oryginał z adnotacjami w folderze artykułu. Żarówka obok to streszczenie AI, napisane przez model po przeczytaniu całego artykułu: pytanie, metoda i wyniki na pierwszy rzut oka.
 
 ## I to nie wszystko
 
 - **Dziesięć języków tłumaczenia.** Jednym kliknięciem na pasku narzędzi przełączasz się między językami: 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski i Русский.
-- **Przetłumaczony PDF jednym kliknięciem.** Gdy artykuł jest w całości przetłumaczony, jedno kliknięcie zachowuje tłumaczenie w wybranym miejscu, w oryginalnym układzie.
+- **Dwuklik, by przetłumaczyć wcześniej.** Chcesz najpierw przeczytać dalszy akapit? Kliknij go dwukrotnie w oryginale, a zostanie przetłumaczony jako następny, bez czekania na postęp.
 - **Wbudowana kontrola jakości.** Wzory, liczby i kolejność zdań są sprawdzane w każdej odpowiedzi modelu, z automatycznymi ponownymi próbami, a glosariusz tworzony dla każdego artykułu dba o spójność terminów.
 - **Ty decydujesz, co tłumaczyć.** Kliknij prawym przyciskiem dowolny blok, aby go przetłumaczyć lub zostawić oryginał.
 - **Czytaj po swojemu.** Przeszukuj oryginał i tłumaczenie jednocześnie, przeglądaj dwujęzyczny spis treści, wskaż akapit, aby znaleźć jego odpowiednik, i wyświetlaj oryginał, tłumaczenie albo oba naraz. PaperDuet pamięta ostatnio czytane miejsce.
-- **Twoja biblioteka, przestrzeń wiedzy i wyszukiwanie AI.** Każdy przeczytany lub zaimportowany artykuł jest w bibliotece, którą sortujesz według ostatniej nauki, daty dodania lub nazwy, a prawym przyciskiem dodajesz etykiety. Wyszukiwanie AI odnajdzie artykuł po tytule, treści, tłumaczeniu lub streszczeniu, po polsku lub po angielsku, „Uporządkuj z AI” grupuje artykuły według dziedziny i tematu, a przestrzeń wiedzy pokazuje przeczytane artykuły jako mapę 3D i oś czasu.
-- **Streszczenie każdego artykułu.** Gdy artykuł jest przetłumaczony, kliknij żarówkę: model tłumaczeniowy napisze krótkie streszczenie w języku interfejsu i zachowa je razem z artykułem.
-- **Eksportuj, dokąd chcesz.** Oryginalny PDF z Twoimi oznaczeniami, przetłumaczony PDF i notatki w formacie Markdown, czytelne także w innych aplikacjach.
-- **Uaktualnienia jednym kliknięciem.** Uaktualnianie jest proste: jedno kliknięcie instaluje nową wersję.
+- **Własne terminy.** Wskaż, jak tłumaczyć dany termin, a cały artykuł będzie się tego trzymał.
+- **Skany też da się czytać.** Pliki PDF, w których tekst jest narysowany jako kształty, a nie zapisany jako tekst, są odczytywane systemowym rozpoznawaniem tekstu na Macu i w Windows, a potem tłumaczone.
+- **Foldery zawsze aktualne.** Zaimportuj folder raz, a artykuły włożone do niego później same pojawią się w bibliotece.
+- **Jedno kliknięcie, by zaktualizować, jedno, by posprzątać.** Nowa wersja instaluje się jednym kliknięciem; pamięć podręczną czyści się jednym kliknięciem w Ustawieniach.
 - **Zaprojektowany, by cieszyć oko.** Czysty, elegancki szklany wygląd z motywem jasnym, ciemnym i trybem czytania nocnego.
 
 <p align="center">

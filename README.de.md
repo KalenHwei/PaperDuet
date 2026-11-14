@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Ein schlanker KI-Übersetzer für Fachartikel, gemacht für Forschende!</em><br>
+  <em>Das Werkzeug für Forschende, um Paper zu verwalten, zu lernen und zu verstehen!</em><br>
   <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
@@ -29,77 +29,80 @@
 </p>
 
 <p align="center">
-  <strong>PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel, der das ursprüngliche Layout beibehält.</strong><br>
+  <strong>PaperDuet hilft dir, jedes Paper zu verwalten, zu lernen und zu verstehen.</strong><br>
   Sechs Open-Source-KI-Übersetzungsmodelle laufen auf deinem Computer, oder du bindest eine Online-API an.<br>
   Kostenlos, ohne Anmeldung!
 </p>
 
-<p align="center">
-  <img src="assets/de/hero.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird das Inhaltsverzeichnis in der Seitenleiste deutsch, dann erscheinen Titel und Abstract auf der rechten Seite an derselben Stelle wie im Original"><br>
-  <sub>Aufnahme: Attention Is All You Need (15 Seiten) wird von Grund auf übersetzt</sub>
-</p>
+PaperDuet ist ein Werkzeug zum Verwalten, Lernen und Verstehen von Papern: Original und Übersetzung stehen spiegelbildlich nebeneinander, Formeln, Abbildungen und Tabellen sind Seite für Seite ausgerichtet, und die gelesenen Paper liegen im Regal und im Wissensraum, wo die KI sie wiederfindet. PaperDuet ist kostenlos: Mit einem lokalen Modell läuft alles auf deinem Computer, bei Bedarf lässt sich eine Online-API anbinden.
 
-PaperDuet ist ein schlanker KI-Spiegelübersetzer für Fachartikel. Original und Übersetzung stehen sich wie Spiegelbilder gegenüber, Formeln, Abbildungen und Tabellen werden Seite für Seite korrigiert und ausgerichtet. Kostenlos: Mit einem lokalen Modell läuft alles auf deinem Computer, und eine Online-API kannst du bei Bedarf anbinden.
-
-## Jede Seite, ganz einfach
+## Öffnen – schon auf Deutsch
 
 <p align="center">
-  <img src="assets/de/layout.gif" width="880" alt="Durch die Seiten 3 bis 5 scrollen: Das Transformer-Diagramm, die Attention-Diagramme und die Formeln stehen auf beiden Seiten an derselben Stelle, rechts ist der englische Text durch Deutsch ersetzt">
+  <img src="assets/de/open.gif" width="880" alt="PaperDuet übersetzt Attention Is All You Need von Grund auf: Zuerst wird die Gliederung in der Seitenleiste deutsch, dann erscheinen Titel und Abstract der rechten Seite auf Deutsch an der Stelle, an der sie im Original stehen">
 </p>
 
-Links steht der Originalartikel, rechts seine Übersetzung, und beide Seiten scrollen und zoomen gemeinsam. Spalten, Überschriften, Bildunterschriften, Fußnoten und Literaturangaben werden automatisch erkannt, und Absätze, die in der nächsten Spalte oder auf der nächsten Seite weitergehen, werden zusammengeführt. Beide Seiten stehen exakt nebeneinander, das macht den Vergleich leicht.
+PDF hineinziehen, und die Übersetzung beginnt. Zuerst kommen die Überschriften: Die Gliederung in der Seitenleiste ist sofort deutsch, und du siehst, wie das Paper aufgebaut ist; es folgen Titel, Abstract und Einleitung. Sechs quelloffene Übersetzungsmodelle laufen auf deinem Computer, oder du bindest eine Online-API an.
 
-## Speichern? Zusammenfassen? Erledigt.
+## Deine Bibliothek ist dein Sternenhimmel
 
 <p align="center">
-  <img src="assets/de/progress-save.gif" width="880" alt="Die letzten Absätze kommen herein, der Fortschrittsring wird zum grünen Haken, ein Klick speichert die Übersetzung als PDF; dann öffnet sich die Glühbirne daneben und die KI-Zusammenfassung des ganzen Artikels erscheint nach und nach">
+  <img src="assets/de/space.gif" width="880" alt="Der Wissensraum bei Nacht: Die Kamera fährt aus dem Inneren einer Galaxie zurück, bis die ganze Bibliothek zu sehen ist; dann werden nacheinander „Künstliche Intelligenz“, „Computer Vision“ und „Faltungsnetze“ doppelt angeklickt, Ebene für Ebene hinein, und schließlich ein Paper, das sich mit Original und Übersetzung nebeneinander öffnet">
 </p>
 
-Die Symbolleiste zeigt, wie weit die Übersetzung ist. Ist der ganze Artikel übersetzt, wird der Ring zum grünen Haken, und ein Klick speichert die Übersetzung als PDF, wo du willst. Die Glühbirne daneben öffnet die KI-Zusammenfassung: was das Modell nach dem ganzen Artikel festhält, Fragestellung, Methode und Ergebnisse inklusive. Dazu wählst du aus sechs Modellen, passend zu deinem Computer und deinen Ansprüchen.
+Wir stellen Space vor: Deine Paper breiten sich jetzt wie ein Sternenhimmel vor dir aus. So baust du dir anschaulicher eine eigene, sichtbare Wissensbasis auf.
 
-## Denken. Finden.
+## Jeder Fortschritt, festgehalten
 
 <p align="center">
-  <img src="assets/de/library.gif" width="880" alt="Eine Bibliothek mit über fünfzig Artikeln, erst nach Name, dann nach Hinzufügedatum sortiert und zurück zu „zuletzt gelernt“; ein Rechtsklick auf einen Artikel gibt ihm das Label ⭐️. In „Mit KI ordnen“ werden „Computer Vision“ und ein Thema gewählt, passende Artikel rücken nach oben, die übrigen werden grau. Dann bringt die KI-Suche „Polypen Segmentierung“ die passenden englischen Artikel nach oben, mit Auszügen aus ihrer Zusammenfassung">
+  <img src="assets/de/shelf.gif" width="880" alt="Das Regal auf der Startseite: oben die Zahl der Paper, die gesamte Lesezeit und die Tage in Folge; der Zeiger auf dem Feld einer Woche zeigt, wie viele Paper in dieser Woche gelesen wurden und wie lange; ein Klick auf „Künstliche Intelligenz“ öffnet ihre Teilgebiete und filtert die Paper darunter; per Rechtsklick bekommt ein Paper ein Etikett, dann öffnet es ein Doppelklick">
 </p>
 
-Alle Artikel, die du gelesen hast, liegen in der Bibliothek, sortiert nach zuletzt gelernt, Hinzufügedatum oder Name, und per Rechtsklick vergibst du eigene Labels. „Mit KI ordnen“ versieht sie mit Schlagwörtern zu Fachgebiet und Thema, und die gewählten rücken nach oben. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung, auf Deutsch wie auf Englisch.
+Das Regal auf der Startseite hält fest, wie viele Paper du gelesen hast, wie lange insgesamt und wie viele Tage in Folge. Jedes Feld ist eine Woche, dunkler, je länger du gelesen hast; klick auf ein Fachgebiet, und die Paper und die Zeitleiste darunter folgen. Per Rechtsklick gibst du einem Paper eigene Etiketten.
 
-## Was du gelernt hast, auf einen Blick.
+## Paper nicht zu finden? Frag die KI!
 
 <p align="center">
-  <img src="assets/de/knowledge-space.gif" width="880" alt="Der Wissensraum öffnet sich: Die gelernten Artikel sammeln sich in Kugeln nach Fachgebiet. Ziehen mit gedrückter ⌘-Taste dreht den ganzen Raum; zeigt der Zeiger auf einen Artikel, steht da, wie weit er gelesen ist und wann zuletzt; ein Doppelklick auf „Computer Vision“ lässt die Kamera hineinfliegen, der Rest verblasst. Zum Schluss zeigt die Zeitleiste, was an jedem Tag gelernt wurde">
+  <img src="assets/de/ask.gif" width="880" alt="In der KI-Suche der Startseite wird „das Paper, das Bilder in Patches für einen Transformer zerlegt“ eingegeben, und dieses Paper rückt mit der gefundenen Stelle nach oben; ein zweiter Satz über Reinforcement Learning und mathematisches Denken findet ein anderes">
 </p>
 
-Öffne in der Bibliothek den „Wissensraum“: Deine gelernten Artikel sammeln sich nach Fachgebiet, Teilgebiet und Thema in einem 3D-Raum. Ziehen mit gedrückter ⌘-Taste (Strg unter Windows und Linux) dreht ihn, scrollen zoomt, ein Doppelklick auf ein Fachgebiet zeigt nur dessen Artikel. Die Zeitleiste hält fest, welche Artikel du an jedem Tag wie lange gelesen hast und wie viele Tage du am Stück lernst.
+Den Titel musst du dir nicht merken: Sag in einem Satz, was du suchst, und die KI-Suche findet es in Titeln, Originalen, Übersetzungen und Zusammenfassungen und zeigt die gefundene Stelle. Frag auf Deutsch oder auf Englisch.
 
-## Nicht verstanden? Einfach klicken.
+## Jede Seite, so wie sie war
 
 <p align="center">
-  <img src="assets/de/double-click.gif" width="880" alt="Während die ersten Seiten übersetzt werden, geht es hinunter zu Abschnitt 6.3 auf Seite 9, noch auf Englisch; ein Doppelklick auf den ersten Absatz zieht ihn vor, und er erscheint sofort auf Chinesisch">
+  <img src="assets/de/layout.gif" width="880" alt="Ein Paper wird durchgescrollt: Architekturdiagramm, Abbildungen und Formeln stehen auf beiden Seiten an genau derselben Stelle; der Zeiger auf einem Absatz lässt sein Gegenstück auf der anderen Seite aufleuchten; eine andere Übersetzungssprache, dasselbe Layout">
 </p>
 
-Zuerst werden die Überschriften übersetzt, damit du den Aufbau sofort siehst; dann Titel, Abstract und Einleitung. Du willst eine spätere Stelle jetzt lesen? Doppelklick darauf, und sie kommt sofort dran, ohne auf den Fortschritt zu warten.
+Links das Original, rechts die Übersetzung; beide scrollen und zoomen gemeinsam. Spalten, Überschriften, Bildunterschriften, Fußnoten und Literaturangaben werden von selbst erkannt, und Formeln, Abbildungen und Tabellen bleiben an ihrem Platz; zeig auf einen Absatz, und sein Gegenstück auf der anderen Seite leuchtet auf. Wechsle die Übersetzungssprache: Das Layout bleibt gleich.
 
-## Notizen? Kein Problem.
+## Notizen machen? Erledigt!
 
 <p align="center">
-  <img src="assets/de/highlights.gif" width="880" alt="In der deutschen Übersetzung wird ein Satz markiert und mit einer Notiz versehen; der passende englische Satz links bekommt dieselbe Markierung und öffnet dieselbe Notiz. Danach wird das Original-PDF mit Notizen exportiert und in Vorschau geöffnet, wo Markierung und Notiz zu sehen sind">
+  <img src="assets/de/notes.gif" width="880" alt="Der Textmarker wird eingeschaltet und eine Farbe gewählt; ein Satz der deutschen Übersetzung wird markiert und mit einer Notiz versehen, und der passende englische Satz links bekommt dieselbe Markierung, die dieselbe Notiz öffnet">
 </p>
 
-Markiere, unterstreiche und notiere direkt in der Übersetzung; die passenden Sätze im Original werden mitmarkiert. Das Original-PDF mit deinen Notizen wird mit Standard-PDF-Anmerkungen exportiert und ist in Vorschau, Zotero und anderen Apps zu sehen.
+Markiere, unterstreiche und notiere direkt in der Übersetzung; der passende Satz im Original wird von selbst mitmarkiert. Das mit deinen Notizen exportierte Original trägt normale PDF-Anmerkungen, sodass Vorschau, Zotero und andere Apps sie unverändert zeigen.
+
+## Fertig gelesen? Nimm es mit.
+
+<p align="center">
+  <img src="assets/de/finish.gif" width="880" alt="Die letzten Absätze des Papers werden übersetzt, und der Fortschrittsring in der Symbolleiste wird zum grünen Haken; ein Klick sichert die übersetzte PDF, das Markdown und das Original mit Anmerkungen im Ordner des Papers; dann wird die Glühbirne daneben geöffnet, und eine KI-Zusammenfassung des ganzen Papers erscheint Wort für Wort; am Ende sind die gesicherten Dateien im Finder zu sehen">
+</p>
+
+Ist das ganze Paper übersetzt, wird der Ring in der Symbolleiste zum grünen Haken: Ein Klick sichert die übersetzte PDF, das Markdown und das Original mit Anmerkungen zusammen im Ordner des Papers. Die Glühbirne daneben ist die KI-Zusammenfassung, vom Modell geschrieben, nachdem es das ganze Paper gelesen hat: Fragestellung, Methode und Ergebnisse auf einen Blick.
 
 ## Und noch mehr
 
 - **Zehn Zielsprachen.** Wechsle mit einem Klick in der Symbolleiste zwischen 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski und Русский.
-- **Ein übersetztes PDF mit einem Klick.** Ist ein Artikel vollständig übersetzt, speichert ein Klick die Übersetzung im Originallayout, wo du willst.
+- **Per Doppelklick vorziehen.** Du willst einen späteren Absatz zuerst lesen? Klick ihn im Original doppelt an, und er wird als Nächstes übersetzt, ohne auf den Fortschritt zu warten.
 - **Eingebaute Qualitätsprüfung.** Formeln, Zahlen und Satzreihenfolge werden in jeder Antwort geprüft, bei Fehlern wird automatisch neu angefragt, und ein Glossar pro Artikel hält die Begriffe einheitlich.
 - **Du bestimmst, was übersetzt wird.** Rechtsklick auf einen beliebigen Block, um ihn zu übersetzen oder im Original zu lassen.
 - **Lies, wie du willst.** Durchsuche Original und Übersetzung gleichzeitig, blättere im zweisprachigen Inhaltsverzeichnis, zeige auf einen Absatz, um sein Gegenstück zu finden, und lass dir das Original, die Übersetzung oder beides anzeigen. PaperDuet merkt sich, wo du aufgehört hast.
-- **Deine Bibliothek, der Wissensraum und die KI-Suche.** Alle gelesenen und importierten Artikel liegen in der Bibliothek, sortierbar nach zuletzt gelernt, Hinzufügedatum oder Name, mit eigenen Labels per Rechtsklick. Die KI-Suche findet einen Artikel über Titel, Text, Übersetzung oder Zusammenfassung wieder, auf Deutsch wie auf Englisch, „Mit KI ordnen“ sortiert nach Fachgebiet und Thema, und der Wissensraum zeigt deine gelernten Artikel als 3D-Karte und Zeitleiste.
-- **Eine Zusammenfassung zu jedem Artikel.** Ist ein Artikel übersetzt, klick auf die Glühbirne: Das Übersetzungsmodell schreibt eine kurze Zusammenfassung in der Sprache der Oberfläche und speichert sie mit dem Artikel.
-- **Exportiere, wohin du willst.** Das Original-PDF mit deinen Markierungen, das übersetzte PDF und deine Notizen als Markdown, die sich auch in anderen Apps öffnen lassen.
-- **Updates mit einem Klick.** Aktualisieren ist einfach: Ein Klick installiert die neue Version.
+- **Eigene Begriffe.** Leg fest, wie ein Fachbegriff übersetzt werden soll, und das ganze Paper hält sich daran.
+- **Auch Scans lesbar.** PDFs, deren Text als Formen gezeichnet statt als Text gespeichert ist, liest auf dem Mac und unter Windows die Texterkennung des Systems, dann werden sie übersetzt.
+- **Ordner, die aktuell bleiben.** Importiere einen Ordner einmal, und später hineingelegte Paper erscheinen von selbst in der Bibliothek.
+- **Ein Klick zum Aktualisieren, einer zum Aufräumen.** Eine neue Version ist mit einem Klick installiert; den Cache leerst du mit einem Klick in den Einstellungen.
 - **Schön anzusehen.** Ein klares Glas-Design mit hellem, dunklem und Nachtlese-Modus.
 
 <p align="center">

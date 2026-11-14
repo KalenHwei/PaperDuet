@@ -5,7 +5,7 @@
 <h1 align="center">PaperDuet</h1>
 
 <p align="center">
-  <em>Un traducteur d'articles IA léger, pensé pour les chercheurs !</em><br>
+  <em>L’outil des chercheurs pour gérer, étudier et comprendre les articles !</em><br>
   <a href="https://paperduet.com">paperduet.com</a>
 </p>
 
@@ -29,77 +29,80 @@
 </p>
 
 <p align="center">
-  <strong>PaperDuet est un traducteur miroir IA léger pour les articles, qui conserve la mise en page d'origine.</strong><br>
+  <strong>PaperDuet vous aide à gérer, étudier et comprendre chaque article.</strong><br>
   Six modèles de traduction IA open source tournent sur votre ordinateur, ou connectez une API en ligne.<br>
   Gratuit, sans inscription !
 </p>
 
-<p align="center">
-  <img src="assets/fr/hero.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le sommaire de la barre latérale passe d'abord en français, puis le titre et le résumé apparaissent sur la page de droite, au même endroit que dans l'original"><br>
-  <sub>Enregistrement de la traduction complète d'Attention Is All You Need (15 pages)</sub>
-</p>
+PaperDuet est un outil pour gérer, étudier et comprendre les articles : l’original et sa traduction sont disposés en miroir, formules, figures et tableaux alignés page par page, et les articles que vous avez lus sont rangés sur une étagère et dans un espace de connaissances, où l’IA les retrouve. PaperDuet est gratuit : avec un modèle local, tout tourne sur votre ordinateur, et vous pouvez brancher une API en ligne si besoin.
 
-PaperDuet est un traducteur miroir IA léger pour les articles scientifiques. Il place l'original et la traduction côte à côte, comme dans un miroir, et corrige et aligne formules, figures et tableaux page par page. C'est gratuit : avec un modèle local, tout tourne sur votre ordinateur, et une API en ligne reste possible si vous le souhaitez.
-
-## Chaque page, sans effort
+## Ouvrez-le, c’est en français
 
 <p align="center">
-  <img src="assets/fr/layout.gif" width="880" alt="Défilement des pages 3 à 5 : le schéma du Transformer, les schémas d'attention et les formules occupent la même place des deux côtés, et le texte anglais est remplacé par du français à droite">
+  <img src="assets/fr/open.gif" width="880" alt="PaperDuet traduit Attention Is All You Need depuis le début : le plan dans la barre latérale passe d’abord en français, puis le titre et le résumé de la page de droite apparaissent en français à la place qu’ils occupent dans l’original">
 </p>
 
-L'article original est à gauche, sa traduction à droite, et les deux côtés défilent et zooment ensemble. Colonnes, titres, légendes, notes de bas de page et références sont reconnus automatiquement, et les paragraphes qui continuent dans la colonne ou la page suivante sont recollés. Les deux côtés sont parfaitement alignés, ce qui rend la comparaison facile.
+Déposez un PDF et la traduction commence. Les titres viennent d’abord : le plan dans la barre latérale est aussitôt en français et vous voyez comment l’article est construit ; suivent le titre, le résumé et l’introduction. Six modèles de traduction open source tournent sur votre ordinateur, ou vous pouvez brancher une API en ligne.
 
-## Enregistrer ? Résumer ? C'est fait.
+## Votre bibliothèque, c’est votre ciel étoilé
 
 <p align="center">
-  <img src="assets/fr/progress-save.gif" width="880" alt="Les derniers paragraphes de l'article arrivent, l'anneau de progression devient une coche verte et un clic enregistre la traduction en PDF ; puis l'ampoule voisine s'ouvre et le résumé IA de tout l'article s'écrit peu à peu">
+  <img src="assets/fr/space.gif" width="880" alt="L’espace de connaissances de nuit : la caméra recule depuis l’intérieur d’une galaxie jusqu’à montrer toute la bibliothèque ; puis un double-clic sur « Intelligence artificielle », « Vision par ordinateur » et « Réseaux convolutifs », pour entrer niveau par niveau, et enfin sur un article, qui s’ouvre avec l’original et la traduction côte à côte">
 </p>
 
-La barre d'outils indique où en est la traduction. Une fois l'article entièrement traduit, l'anneau devient une coche verte et un clic enregistre la traduction en PDF, à l'endroit de votre choix. L'ampoule juste à côté ouvre le résumé IA : ce que le modèle retient après avoir lu tout l'article, question, méthode et résultats compris. Et vous choisissez parmi six modèles selon votre ordinateur et vos besoins.
+Voici Space : vos articles s’étendent désormais devant vous comme un ciel étoilé. Vous pouvez construire, de façon plus intuitive, une base de connaissances visuelle qui n’appartient qu’à vous.
 
-## Pensez-y. Trouvez-le.
+## Chaque progrès, consigné
 
 <p align="center">
-  <img src="assets/fr/library.gif" width="880" alt="Une bibliothèque de plus de cinquante articles, triée par nom puis par date d'ajout avant de revenir à la dernière étude ; un clic droit sur un article lui ajoute le libellé ⭐️. Dans « Organiser avec l'IA », le choix de « Vision par ordinateur » et d'un sujet fait remonter les articles concernés et grise les autres. Puis la recherche IA « segmentation des polypes » place en tête les articles anglais correspondants, avec des extraits de leur résumé">
+  <img src="assets/fr/shelf.gif" width="880" alt="L’étagère de la page d’accueil : en haut, le nombre d’articles, le temps de lecture cumulé et les jours d’affilée ; le pointeur sur la case d’une semaine montre combien d’articles ont été lus cette semaine-là et pendant combien de temps ; un clic sur « Intelligence artificielle » ouvre ses sous-domaines et filtre les articles en dessous ; un clic droit sur un article lui met une étiquette, puis un double-clic l’ouvre">
 </p>
 
-Tous les articles que vous avez lus sont dans la bibliothèque, triés par dernière étude, date d'ajout ou nom, et un clic droit leur ajoute vos propres libellés. « Organiser avec l'IA » les étiquette par domaine et par sujet, et ceux que vous choisissez remontent en tête. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais.
+L’étagère de la page d’accueil note combien d’articles vous avez lus, pendant combien de temps en tout, et combien de jours d’affilée. Chaque case est une semaine, plus sombre quand vous avez lu plus longtemps ; cliquez sur un domaine et les articles comme la chronologie en dessous suivent. Un clic droit met vos propres étiquettes sur un article.
 
-## Ce que vous avez appris, d'un coup d'œil.
+## Article introuvable ? Demandez à l’IA !
 
 <p align="center">
-  <img src="assets/fr/knowledge-space.gif" width="880" alt="L'espace de connaissances s'ouvre : les articles étudiés se regroupent en sphères par domaine. Un glisser avec ⌘ fait pivoter tout l'espace ; pointer un article montre jusqu'où il a été lu et quand il a été étudié pour la dernière fois ; un double-clic sur « Vision par ordinateur » y fait plonger la caméra et estompe le reste. Enfin, la frise montre ce qui a été étudié chaque jour">
+  <img src="assets/fr/ask.gif" width="880" alt="Dans la recherche IA de la page d’accueil, on saisit « l’article qui découpe les images en patchs pour un Transformer » et cet article passe en tête avec le passage trouvé ; une seconde phrase, sur l’apprentissage par renforcement et le raisonnement mathématique, en trouve un autre">
 </p>
 
-Ouvrez « Espace de connaissances » dans la bibliothèque : vos articles étudiés se regroupent par domaine, sous-domaine et sujet dans un espace 3D. Faites glisser avec ⌘ (Ctrl sous Windows et Linux) pour le faire pivoter, faites défiler pour zoomer, double-cliquez sur un domaine pour n'en voir que les articles. La frise garde la trace de ce que vous avez lu chaque jour, combien de temps, et de vos jours d'étude d'affilée.
+Inutile de retenir le titre : dites en une phrase ce que vous cherchez, et la recherche IA le retrouve dans les titres, les originaux, les traductions et les résumés, en montrant le passage trouvé. Posez la question en français ou en anglais.
 
-## Un passage vous échappe ? Cliquez.
+## Chaque page, telle quelle
 
 <p align="center">
-  <img src="assets/fr/double-click.gif" width="880" alt="Pendant que les premières pages se traduisent, on descend jusqu'à la section 6.3, page 9, encore en anglais ; un double-clic sur son premier paragraphe la fait passer devant et elle apparaît aussitôt en chinois">
+  <img src="assets/fr/layout.gif" width="880" alt="On fait défiler un article : le schéma d’architecture, les figures et les formules sont exactement aux mêmes endroits des deux côtés ; le pointeur sur un paragraphe éclaire le paragraphe correspondant de l’autre côté ; une autre langue de traduction, la même mise en page">
 </p>
 
-Les titres de section sont traduits d'abord, pour voir tout de suite la structure de l'article ; puis le titre, le résumé et l'introduction. Envie de lire un passage plus loin ? Double-cliquez dessus : il passe devant, sans attendre que la progression y arrive.
+L’original à gauche, la traduction à droite ; les deux défilent et se zooment ensemble. Colonnes, titres, légendes, notes de bas de page et références sont reconnus automatiquement, et formules, figures et tableaux restent à leur place ; pointez un paragraphe et celui qui lui correspond de l’autre côté s’éclaire. Changez de langue de traduction : la mise en page ne bouge pas.
 
-## Des notes ? C'est parti.
+## Envie de prendre des notes ? C’est réglé !
 
 <p align="center">
-  <img src="assets/fr/highlights.gif" width="880" alt="Une phrase de la traduction française est sélectionnée et annotée ; la phrase anglaise correspondante, à gauche, reçoit la même marque et ouvre la même note. Le PDF original annoté est ensuite exporté et ouvert dans Aperçu, où la marque et la note sont là aussi">
+  <img src="assets/fr/notes.gif" width="880" alt="On active le surligneur et on choisit une couleur ; une phrase de la traduction française est surlignée et annotée, et la phrase anglaise correspondante, à gauche, reçoit la même marque, qui ouvre la même note">
 </p>
 
-Surlignez, soulignez et annotez directement la traduction ; les phrases correspondantes de l'original sont marquées aussi. Le PDF original annoté s'exporte avec des annotations PDF standard, visibles dans Aperçu, Zotero et d'autres apps.
+Surlignez, soulignez et annotez directement la traduction ; la phrase correspondante de l’original est marquée automatiquement. L’original exporté avec vos notes porte des annotations PDF standard : Aperçu, Zotero et d’autres apps les affichent telles quelles.
+
+## Terminé ? Emportez-le.
+
+<p align="center">
+  <img src="assets/fr/finish.gif" width="880" alt="Les derniers paragraphes de l’article sont traduits et l’anneau de progression de la barre d’outils devient une coche verte ; un clic enregistre le PDF traduit, le Markdown et l’original annoté dans le dossier de l’article ; on ouvre ensuite l’ampoule voisine et un résumé de tout l’article, écrit par l’IA, apparaît mot à mot ; les fichiers enregistrés sont montrés dans le Finder à la fin">
+</p>
+
+Quand tout l’article est traduit, l’anneau de la barre d’outils devient une coche verte : un clic enregistre ensemble le PDF traduit, le Markdown et l’original annoté dans le dossier de l’article. L’ampoule voisine, c’est le résumé IA, écrit par le modèle une fois l’article lu en entier : la question, la méthode et les résultats d’un coup d’œil.
 
 ## Et ce n'est pas tout
 
 - **Dix langues de traduction.** Passez en un clic, depuis la barre d'outils, d'une langue à l'autre : 简体中文, 繁體中文, 日本語, 한국어, Français, Deutsch, Español, Italiano, Polski et Русский.
-- **Un PDF traduit en un clic.** Une fois l'article entièrement traduit, un clic enregistre la traduction où vous voulez, avec la mise en page d'origine.
+- **Double-clic pour passer devant.** Envie de lire d’abord un paragraphe plus loin ? Double-cliquez dessus dans l’original : il est traduit tout de suite, sans attendre que la progression y arrive.
 - **Contrôles de qualité intégrés.** Formules, nombres et ordre des phrases sont vérifiés dans chaque réponse, avec de nouvelles tentatives automatiques, et un glossaire propre à chaque article garde les termes cohérents.
 - **Vous décidez de ce qui est traduit.** Clic droit sur n'importe quel bloc pour le traduire ou garder l'original.
 - **Lisez à votre façon.** Cherchez dans l'original et la traduction en même temps, parcourez un sommaire bilingue, pointez un paragraphe pour trouver son jumeau, et affichez l'original, la traduction ou les deux. PaperDuet se souvient de l'endroit où vous vous êtes arrêté.
-- **Votre bibliothèque, l'espace de connaissances et la recherche IA.** Tous les articles lus ou importés sont dans la bibliothèque, à trier par dernière étude, date d'ajout ou nom, et à marquer de vos libellés d'un clic droit. La recherche IA retrouve un article par son titre, son texte, sa traduction ou son résumé, en français comme en anglais, « Organiser avec l'IA » les classe par domaine et par sujet, et l'espace de connaissances montre vos articles étudiés en carte 3D et en frise.
-- **Un résumé de chaque article.** Une fois l'article traduit, cliquez sur l'ampoule : le modèle de traduction écrit un court résumé dans la langue de l'interface et le garde avec l'article.
-- **Exportez où vous voulez.** Le PDF original avec vos marques, le PDF traduit et vos notes en Markdown, lisibles aussi dans d'autres applications.
-- **Mises à jour en un clic.** La mise à jour est simple : un clic installe la nouvelle version.
+- **Vos propres termes.** Indiquez comment traduire un terme, et tout l’article s’y conforme.
+- **Les scans aussi.** Les PDF dont le texte est dessiné sous forme de tracés sont lus par la reconnaissance de texte du système, sur Mac et sur Windows, puis traduits.
+- **Des dossiers tenus à jour.** Importez un dossier une fois : les articles que vous y mettez ensuite apparaissent d’eux-mêmes dans la bibliothèque.
+- **Un clic pour mettre à jour, un clic pour nettoyer.** Une nouvelle version s’installe en un clic ; le cache se vide en un clic dans les Réglages.
 - **Soigné jusque dans l'apparence.** Un design épuré en verre dépoli, avec modes clair, sombre et lecture de nuit.
 
 <p align="center">
