@@ -6,6 +6,23 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.8] - 2026-11-18
+
+### Added
+
+- Papers fetched from arXiv: an arXiv link (or several) pasted into the field of the home page's drop box is downloaded into a folder of your choice (Settings › Data) under the paper's title, and opened.
+- “Turn Off Thinking” for a custom API (on by default): the request asks the service for an answer without a reasoning phase, in the way its family understands; ignored where it is not supported.
+
+### Changed
+
+- A paper already written in the language it would be translated into is not translated automatically: both sides show it as it is, and it is translated on request.
+- The outline made from the headings found on the pages leaves out keywords, kinds of article, journal names, publication lines, captions and running heads.
+
+### Fixed
+
+- Windows: the window went blank after a term was edited in the glossary and something else was clicked.
+- Papers whose fonts carry Advent's coded names behind a prefix (BioMed Central) had their paragraphs taken for code and left untranslated.
+
 ## [0.8.7] - 2026-11-17
 
 ### Added
