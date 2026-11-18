@@ -6,6 +6,18 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.9] - 2026-11-18
+
+### Added
+
+- A field, subfield or topic gone into in the Galaxy (a double-click) is listed in a drawer under the AI search field: its papers, each with its planet and the light bulb of its summary, and those of its subcategories under headings that fold. The drawer folds up and lets down by the bar at its foot.
+
+### Changed
+
+- The Knowledge Space is called Space, and the Knowledge Map in it Galaxy.
+- Going into a field, the camera takes its star for the middle (of the room beside the drawer); it may go nearer; the room drawn by day is larger.
+- A galaxy dragged is held back past the room's walls and springs back inside when let go of.
+
 ## [0.8.8] - 2026-11-18
 
 ### Added

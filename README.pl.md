@@ -34,7 +34,7 @@
   Za darmo i bez rejestracji!
 </p>
 
-PaperDuet to narzędzie do porządkowania, studiowania i rozumienia artykułów: oryginał i tłumaczenie stoją obok siebie jak w lustrze, a wzory, rysunki i tabele są wyrównane strona po stronie; przeczytane artykuły trafiają na półkę i do przestrzeni wiedzy, gdzie AI odnajduje je na nowo. PaperDuet jest darmowy: z modelem lokalnym wszystko działa na Twoim komputerze, a w razie potrzeby można podłączyć internetowe API.
+PaperDuet to narzędzie do porządkowania, studiowania i rozumienia artykułów: oryginał i tłumaczenie stoją obok siebie jak w lustrze, a wzory, rysunki i tabele są wyrównane strona po stronie; przeczytane artykuły trafiają na półkę i do przestrzeni, gdzie AI odnajduje je na nowo. PaperDuet jest darmowy: z modelem lokalnym wszystko działa na Twoim komputerze, a w razie potrzeby można podłączyć internetowe API.
 
 ## Otwórz – i już po polsku
 
@@ -47,7 +47,7 @@ Upuść plik PDF, a tłumaczenie się zacznie. Najpierw nagłówki: spis treści
 ## Twoja biblioteka to Twoje gwiaździste niebo
 
 <p align="center">
-  <img src="assets/pl/space.gif" width="880" alt="Przestrzeń wiedzy nocą: kamera cofa się z wnętrza galaktyki, aż widać całą bibliotekę; potem kolejno dwukrotne kliknięcia „Sztuczna inteligencja”, „Widzenie komputerowe” i „Sieci konwolucyjne”, poziom po poziomie w głąb, a na końcu artykuł, który otwiera się z oryginałem i tłumaczeniem obok siebie">
+  <img src="assets/pl/space.gif" width="880" alt="Przestrzeń nocą: kamera cofa się z wnętrza galaktyki, aż widać całą bibliotekę; potem kolejno dwukrotne kliknięcia „Sztuczna inteligencja”, „Widzenie komputerowe” i „Sieci konwolucyjne”, poziom po poziomie w głąb, a na końcu artykuł, który otwiera się z oryginałem i tłumaczeniem obok siebie">
 </p>
 
 Przedstawiamy Space: Twoje artykuły rozpościerają się teraz przed Tobą jak gwiaździste niebo. Możesz w bardziej intuicyjny sposób zbudować własną, widoczną bazę wiedzy.
@@ -202,6 +202,7 @@ Tak, do osobistej nauki i badań, a także dla uczelni, szkół, instytutów bad
 
 ## Historia zmian
 
+- **0.8.9** (2026-11-18): PaperDuet 0.8.9 już jest🎉! „Przestrzeń wiedzy” nazywa się teraz „Przestrzeń”, a znajdująca się w niej „Mapa wiedzy” – „Galaktyka”🌌. Kliknij dwukrotnie kategorię w widoku „Galaktyka”, a pod polem wyszukiwania AI otworzy się szuflada z jej artykułami i podkategoriami. Kamera w widoku „Galaktyka” porusza się bardziej naturalnie.
 - **0.8.8** (2026-11-18): PaperDuet 0.8.8 już jest🎉! Nowość: pobieranie po linku do arXiv. Wklej link do arXiv w pole „Upuść artykuły lub folder” na stronie startowej, a PaperDuet zapisze artykuł w wybranym folderze i go otworzy; można wkleić kilka linków naraz. Artykuł napisany już w języku tłumaczenia nie jest tłumaczony automatycznie: obie strony pokazują go bez zmian, a w razie potrzeby jest „Przetłumacz mimo to”. Własne API ma opcję „Wyłącz myślenie” (domyślnie włączoną), która oszczędza tokeny i czas przy modelach z myśleniem. Dokładniejszy spis treści: słowa kluczowe, nazwy czasopism i podobne nie są już brane za tytuły rozdziałów. Naprawiono: w systemie Windows okno stawało się puste po edycji terminu i kliknięciu w innym miejscu. Naprawiono: treści artykułów z niektórych czasopism nie dało się przetłumaczyć.
 - **0.8.7** (2026-11-17): PaperDuet 0.8.7 już jest🎉! Nowość: tłumaczenie w tle. Włącz „Pozwól AI tłumaczyć w tle wszystkie artykuły z półki” w Ustawienia › Tłumaczenie, a PaperDuet po cichu przetłumaczy pozostałe artykuły jeden po drugim, gdy czytasz, i zapisze wybrane pliki; otwarty później artykuł ma już tłumaczenie. Porządkowanie biblioteki przez AI, zaktualizowane✨: nowe artykuły trafiają do pasującej kategorii, a pięć podobnych artykułów samo tworzy nową podkategorię. Twoje własne kategorie i artykuły przypisane ręcznie nigdy nie są zmieniane; w razie wątpliwości mały wykrzyknik po prawej stronie pola wyszukiwania AI pozwala zdecydować Tobie. Działa bez dedykowanej karty graficznej: automatycznie używana jest zintegrowana, można też wybrać „Obliczenia na CPU” w ustawieniach. Zakreślacz potrafi podkreślać✏️; menu zapisu gotowego tłumaczenia zyskało „Oryginalny PDF” i „Dwujęzyczny PDF”. Na półce jest grupa „Nieprzeczytane”; język tłumaczenia przeniesiono do Ustawienia › Tłumaczenie; artykuły w Ustawienia › Dane można przeszukiwać. Naprawiono: artykuły ze znakiem wodnym, których nie dało się przetłumaczyć, oraz układy, w których fragmenty pozostawały nieprzetłumaczone lub nieczytelne.
 - **0.8.6** (2026-11-13): naprawiono znane błędy.

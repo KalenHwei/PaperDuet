@@ -34,7 +34,7 @@
   Gratis e senza registrazione!
 </p>
 
-PaperDuet è uno strumento per gestire, studiare e capire gli articoli: l’originale e la traduzione sono affiancati a specchio, con formule, figure e tabelle allineate pagina per pagina, e gli articoli che hai letto restano su uno scaffale e in uno spazio della conoscenza dove l’IA li ritrova. PaperDuet è gratuito: con un modello locale tutto gira sul tuo computer, e puoi collegare un’API online quando serve.
+PaperDuet è uno strumento per gestire, studiare e capire gli articoli: l’originale e la traduzione sono affiancati a specchio, con formule, figure e tabelle allineate pagina per pagina, e gli articoli che hai letto restano su uno scaffale e in uno spazio dove l’IA li ritrova. PaperDuet è gratuito: con un modello locale tutto gira sul tuo computer, e puoi collegare un’API online quando serve.
 
 ## Aprilo, ed è già in italiano
 
@@ -47,7 +47,7 @@ Trascina un PDF e la traduzione comincia. Prima i titoli: l’indice nella barra
 ## La tua libreria è il tuo cielo stellato
 
 <p align="center">
-  <img src="assets/it/space.gif" width="880" alt="Lo spazio della conoscenza di notte: la telecamera arretra dall’interno di una galassia fino a mostrare tutta la libreria; poi un doppio clic su «Intelligenza artificiale», «Visione artificiale» e «Reti convoluzionali», entrando un livello alla volta, e infine su un articolo, che si apre con originale e traduzione affiancati">
+  <img src="assets/it/space.gif" width="880" alt="Lo spazio di notte: la telecamera arretra dall’interno di una galassia fino a mostrare tutta la libreria; poi un doppio clic su «Intelligenza artificiale», «Visione artificiale» e «Reti convoluzionali», entrando un livello alla volta, e infine su un articolo, che si apre con originale e traduzione affiancati">
 </p>
 
 Ecco Space: ora i tuoi articoli si aprono davanti a te come un cielo stellato. Puoi costruire, in modo più intuitivo, una base di conoscenza visiva tutta tua.
@@ -202,6 +202,7 @@ Sì, per lo studio e la ricerca personali, e per università, scuole, istituti d
 
 ## Registro delle modifiche
 
+- **0.8.9** (2026-11-18): PaperDuet 0.8.9 è arrivato🎉! Lo «Spazio della conoscenza» ora si chiama «Spazio», e la «Mappa della conoscenza» al suo interno «Galassia»🌌. Fai doppio clic su una categoria nella Galassia: sotto il campo di ricerca IA si apre un cassetto con i suoi articoli e le sottocategorie. La telecamera della Galassia si muove in modo più naturale.
 - **0.8.8** (2026-11-18): PaperDuet 0.8.8 è arrivato🎉! Novità: download tramite link di arXiv. Incolla un link di arXiv nel riquadro «Trascina articoli o una cartella» della pagina iniziale e PaperDuet salverà l’articolo nella cartella scelta e lo aprirà; si possono incollare più link insieme. Un articolo già scritto nella lingua di traduzione non viene più tradotto automaticamente: entrambi i lati lo mostrano così com’è, e «Traduci comunque» resta disponibile. Un’API personalizzata ha l’opzione «Disattiva il ragionamento» (attiva di default), che fa risparmiare token e tempo con i modelli con ragionamento. Un indice più preciso: parole chiave, nomi di riviste e simili non vengono più scambiati per titoli di sezione. Corretto: su Windows la finestra diventava vuota dopo aver modificato un termine e fatto clic altrove. Corretto: il testo degli articoli di alcune riviste non poteva essere tradotto.
 - **0.8.7** (2026-11-17): PaperDuet 0.8.7 è arrivato🎉! Novità: traduzione in background. Attiva «Consenti all’IA di tradurre in background tutti gli articoli dello scaffale» in Impostazioni › Traduzione e PaperDuet tradurrà in silenzio gli altri articoli uno alla volta mentre leggi, salvando i file scelti; quando ne apri uno più tardi, la traduzione è già lì. Riordino della libreria con l’IA, aggiornato✨: i nuovi articoli vengono archiviati nella categoria adatta, e cinque articoli simili formano da soli una nuova sottocategoria. Le tue categorie e gli articoli archiviati a mano non vengono mai modificati; nei casi dubbi, un piccolo punto esclamativo a destra del campo di ricerca IA lascia decidere a te. Funziona anche senza scheda grafica dedicata: viene usata automaticamente quella integrata, oppure scegli «Calcola sulla CPU» nelle impostazioni. L’evidenziatore ora sottolinea✏️; il menu di salvataggio di una traduzione terminata aggiunge «PDF originale» e «PDF bilingue affiancato». Lo scaffale ha un gruppo «Non letti»; la lingua di traduzione è ora in Impostazioni › Traduzione; gli articoli in Impostazioni › Dati si possono cercare. Corretto: articoli con filigrana che non si potevano tradurre, e impaginazioni in cui alcuni passaggi restavano non tradotti o illeggibili.
 - **0.8.6** (2026-11-13): corretti errori noti.

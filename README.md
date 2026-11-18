@@ -34,7 +34,7 @@
   Free to use, no sign-up needed!
 </p>
 
-PaperDuet is a tool for managing, studying and understanding papers: the original and its translation sit side by side as mirror images, with formulas, figures and tables lined up page by page, and the papers you have read are kept on a shelf and in a Knowledge Space where AI finds them again. PaperDuet is free to use: with a local model everything runs on your computer, and you can connect an online API when you want to.
+PaperDuet is a tool for managing, studying and understanding papers: the original and its translation sit side by side as mirror images, with formulas, figures and tables lined up page by page, and the papers you have read are kept on a shelf and in a Space where AI finds them again. PaperDuet is free to use: with a local model everything runs on your computer, and you can connect an online API when you want to.
 
 ## Open it — in your language
 
@@ -47,7 +47,7 @@ Drop a PDF in and translation starts. The headings come first, so the outline in
 ## Your library is your night sky
 
 <p align="center">
-  <img src="assets/en/space.gif" width="880" alt="The Knowledge Space by night: the camera backs out from among the stars of a galaxy until the whole library is in view; then Artificial Intelligence, Computer Vision and Convolutional Networks are double-clicked in turn, flying in a level at a time, and a paper is double-clicked and opens with its original and translation side by side">
+  <img src="assets/en/space.gif" width="880" alt="The Space by night: the camera backs out from among the stars of a galaxy until the whole library is in view; then Artificial Intelligence, Computer Vision and Convolutional Networks are double-clicked in turn, flying in a level at a time, and a paper is double-clicked and opens with its original and translation side by side">
 </p>
 
 Introducing Space: your papers now spread out before you like a night sky, so you can build a visual knowledge base of your own and see it at a glance.
@@ -202,6 +202,7 @@ Yes, for personal study and research, and for universities, schools, research in
 
 ## Changelog
 
+- **0.8.9** (2026-11-18): PaperDuet 0.8.9 is here🎉! The Knowledge Space is now called “Space”, and the Knowledge Map in it “Galaxy”🌌. Double-click a category in the Galaxy, and a drawer opens under the AI search field listing its papers and subcategories. The camera in the Galaxy moves more naturally.
 - **0.8.8** (2026-11-18): PaperDuet 0.8.8 is here🎉! New: download by arXiv link. Paste an arXiv link into the “Drop papers or a folder” box on the home page, and PaperDuet saves the paper into the folder you choose and opens it; several links can be pasted at once. A paper already written in the translation language is no longer translated automatically: both sides show it as it is, and “Translate Anyway” is there when you want it. A custom API has a “Turn Off Thinking” option (on by default), which saves tokens and time with thinking models. A more accurate outline: keywords, journal names and the like are no longer taken for section titles. Fixed: on Windows, the window went blank after editing a term and clicking elsewhere. Fixed: the body of papers from some journals could not be translated.
 - **0.8.7** (2026-11-17): PaperDuet 0.8.7 is here🎉! New: background translation. Turn on “Let AI Translate Every Paper on the Shelf in the Background” in Settings › Translation, and PaperDuet quietly translates your other papers one by one while you read, saving the files you chose; open one later and its translation is already there. AI organizing of the library, updated✨: new papers are filed under the category that fits, and five similar papers form a new subcategory by themselves. Categories you made and papers you filed by hand are never changed; when PaperDuet is unsure, a small exclamation mark to the right of the AI search field lets you decide. Works without a dedicated graphics card: the integrated one is used automatically, or choose “Compute on the CPU” in Settings. The highlighter can underline✏️; the save menu of a finished translation adds “Original PDF” and “Side-by-Side PDF”. The shelf has an “Unread” group; the translation language moved to Settings › Translation; the papers in Settings › Data can be searched. Fixed: papers with a watermark that could not be translated, and layouts where passages were left untranslated or came out garbled.
 - **0.8.6** (2026-11-13): fixed known bugs.

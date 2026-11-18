@@ -34,7 +34,7 @@
   Kostenlos, ohne Anmeldung!
 </p>
 
-PaperDuet ist ein Werkzeug zum Verwalten, Lernen und Verstehen von Papern: Original und Übersetzung stehen spiegelbildlich nebeneinander, Formeln, Abbildungen und Tabellen sind Seite für Seite ausgerichtet, und die gelesenen Paper liegen im Regal und im Wissensraum, wo die KI sie wiederfindet. PaperDuet ist kostenlos: Mit einem lokalen Modell läuft alles auf deinem Computer, bei Bedarf lässt sich eine Online-API anbinden.
+PaperDuet ist ein Werkzeug zum Verwalten, Lernen und Verstehen von Papern: Original und Übersetzung stehen spiegelbildlich nebeneinander, Formeln, Abbildungen und Tabellen sind Seite für Seite ausgerichtet, und die gelesenen Paper liegen im Regal und im Raum, wo die KI sie wiederfindet. PaperDuet ist kostenlos: Mit einem lokalen Modell läuft alles auf deinem Computer, bei Bedarf lässt sich eine Online-API anbinden.
 
 ## Öffnen – schon auf Deutsch
 
@@ -47,7 +47,7 @@ PDF hineinziehen, und die Übersetzung beginnt. Zuerst kommen die Überschriften
 ## Deine Bibliothek ist dein Sternenhimmel
 
 <p align="center">
-  <img src="assets/de/space.gif" width="880" alt="Der Wissensraum bei Nacht: Die Kamera fährt aus dem Inneren einer Galaxie zurück, bis die ganze Bibliothek zu sehen ist; dann werden nacheinander „Künstliche Intelligenz“, „Computer Vision“ und „Faltungsnetze“ doppelt angeklickt, Ebene für Ebene hinein, und schließlich ein Paper, das sich mit Original und Übersetzung nebeneinander öffnet">
+  <img src="assets/de/space.gif" width="880" alt="Der Raum bei Nacht: Die Kamera fährt aus dem Inneren einer Galaxie zurück, bis die ganze Bibliothek zu sehen ist; dann werden nacheinander „Künstliche Intelligenz“, „Computer Vision“ und „Faltungsnetze“ doppelt angeklickt, Ebene für Ebene hinein, und schließlich ein Paper, das sich mit Original und Übersetzung nebeneinander öffnet">
 </p>
 
 Wir stellen Space vor: Deine Paper breiten sich jetzt wie ein Sternenhimmel vor dir aus. So baust du dir anschaulicher eine eigene, sichtbare Wissensbasis auf.
@@ -202,6 +202,7 @@ Ja, für persönliches Lernen und Forschen sowie für Universitäten, Schulen, F
 
 ## Änderungen
 
+- **0.8.9** (2026-11-18): PaperDuet 0.8.9 ist da🎉! Der „Wissensraum“ heißt jetzt „Raum“, die „Wissenskarte“ darin „Galaxie“🌌. Ein Doppelklick auf eine Kategorie in der Galaxie öffnet unter dem KI-Suchfeld eine Schublade mit ihren Artikeln und Unterkategorien. Die Kamera in der Galaxie bewegt sich natürlicher.
 - **0.8.8** (2026-11-18): PaperDuet 0.8.8 ist da🎉! Neu: Laden per arXiv-Link. Setze einen arXiv-Link in das Feld „Paper oder einen Ordner hierher ziehen“ auf der Startseite ein, und PaperDuet sichert den Artikel im gewählten Ordner und öffnet ihn; mehrere Links lassen sich auf einmal einsetzen. Ein Artikel, der bereits in der Zielsprache geschrieben ist, wird nicht mehr automatisch übersetzt: Beide Seiten zeigen ihn unverändert, und „Trotzdem übersetzen“ steht bei Bedarf bereit. Eine eigene API hat die Option „Nachdenken ausschalten“ (standardmäßig aktiviert), die bei Modellen mit Nachdenken Token und Zeit spart. Ein genaueres Inhaltsverzeichnis: Schlüsselwörter, Zeitschriftennamen und Ähnliches gelten nicht mehr als Abschnittstitel. Behoben: Unter Windows wurde das Fenster leer, nachdem ein Begriff bearbeitet und woanders geklickt wurde. Behoben: Der Text von Artikeln mancher Zeitschriften ließ sich nicht übersetzen.
 - **0.8.7** (2026-11-17): PaperDuet 0.8.7 ist da🎉! Neu: Übersetzung im Hintergrund. Aktiviere „KI alle Artikel im Regal im Hintergrund übersetzen lassen“ unter Einstellungen › Übersetzung, und PaperDuet übersetzt deine übrigen Artikel still nacheinander, während du liest, und sichert die gewählten Dateien; öffnest du später einen, ist die Übersetzung schon da. KI-Ordnung der Bibliothek, aktualisiert✨: Neue Artikel werden in die passende Kategorie einsortiert, und fünf ähnliche Artikel bilden von selbst eine neue Unterkategorie. Deine eigenen Kategorien und von Hand einsortierte Artikel werden nie verändert; ist PaperDuet unsicher, lässt dich ein kleines Ausrufezeichen rechts neben dem KI-Suchfeld entscheiden. Läuft auch ohne dedizierte Grafikkarte: Die integrierte wird automatisch verwendet, oder wähle in den Einstellungen „Auf dem Prozessor rechnen“. Der Textmarker kann unterstreichen✏️; das Sichern-Menü einer fertigen Übersetzung bietet zusätzlich „Original-PDF“ und „Zweisprachiges PDF“. Das Regal hat eine Gruppe „Ungelesen“; die Übersetzungssprache steht jetzt unter Einstellungen › Übersetzung; die Artikel unter Einstellungen › Daten lassen sich durchsuchen. Behoben: Artikel mit Wasserzeichen, die sich nicht übersetzen ließen, und Layouts, in denen Passagen unübersetzt blieben oder unleserlich wurden.
 - **0.8.6** (2026-11-13): Bekannte Fehler behoben.

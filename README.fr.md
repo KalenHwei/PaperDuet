@@ -34,7 +34,7 @@
   Gratuit, sans inscription !
 </p>
 
-PaperDuet est un outil pour gérer, étudier et comprendre les articles : l’original et sa traduction sont disposés en miroir, formules, figures et tableaux alignés page par page, et les articles que vous avez lus sont rangés sur une étagère et dans un espace de connaissances, où l’IA les retrouve. PaperDuet est gratuit : avec un modèle local, tout tourne sur votre ordinateur, et vous pouvez brancher une API en ligne si besoin.
+PaperDuet est un outil pour gérer, étudier et comprendre les articles : l’original et sa traduction sont disposés en miroir, formules, figures et tableaux alignés page par page, et les articles que vous avez lus sont rangés sur une étagère et dans un espace, où l’IA les retrouve. PaperDuet est gratuit : avec un modèle local, tout tourne sur votre ordinateur, et vous pouvez brancher une API en ligne si besoin.
 
 ## Ouvrez-le, c’est en français
 
@@ -47,7 +47,7 @@ Déposez un PDF et la traduction commence. Les titres viennent d’abord : le pl
 ## Votre bibliothèque, c’est votre ciel étoilé
 
 <p align="center">
-  <img src="assets/fr/space.gif" width="880" alt="L’espace de connaissances de nuit : la caméra recule depuis l’intérieur d’une galaxie jusqu’à montrer toute la bibliothèque ; puis un double-clic sur « Intelligence artificielle », « Vision par ordinateur » et « Réseaux convolutifs », pour entrer niveau par niveau, et enfin sur un article, qui s’ouvre avec l’original et la traduction côte à côte">
+  <img src="assets/fr/space.gif" width="880" alt="L’espace de nuit : la caméra recule depuis l’intérieur d’une galaxie jusqu’à montrer toute la bibliothèque ; puis un double-clic sur « Intelligence artificielle », « Vision par ordinateur » et « Réseaux convolutifs », pour entrer niveau par niveau, et enfin sur un article, qui s’ouvre avec l’original et la traduction côte à côte">
 </p>
 
 Voici Space : vos articles s’étendent désormais devant vous comme un ciel étoilé. Vous pouvez construire, de façon plus intuitive, une base de connaissances visuelle qui n’appartient qu’à vous.
@@ -202,6 +202,7 @@ Oui, pour les études et la recherche personnelles, ainsi que pour les universit
 
 ## Journal des modifications
 
+- **0.8.9** (2026-11-18) : PaperDuet 0.8.9 est là🎉 ! L’« Espace de connaissances » s’appelle désormais « Espace », et la « Carte des connaissances » qu’il contient « Galaxie »🌌. Double-cliquez sur une catégorie dans la Galaxie : un tiroir s’ouvre sous le champ de recherche IA et liste ses articles et sous-catégories. La caméra de la Galaxie se déplace plus naturellement.
 - **0.8.8** (2026-11-18) : PaperDuet 0.8.8 est là🎉 ! Nouveau : le téléchargement par lien arXiv. Collez un lien arXiv dans la zone « Déposez des articles ou un dossier » de l’accueil : PaperDuet enregistre l’article dans le dossier de votre choix et l’ouvre ; plusieurs liens peuvent être collés à la fois. Un article déjà rédigé dans la langue de traduction n’est plus traduit automatiquement : les deux côtés l’affichent tel quel, et « Traduire quand même » reste disponible. Une API personnalisée dispose d’une option « Désactiver la réflexion » (activée par défaut), qui économise des jetons et du temps avec les modèles à réflexion. Un sommaire plus précis : les mots-clés, les noms de revues et autres ne sont plus pris pour des titres de section. Corrigé : sous Windows, la fenêtre devenait vide après la modification d’un terme suivie d’un clic ailleurs. Corrigé : le corps des articles de certaines revues ne pouvait pas être traduit.
 - **0.8.7** (2026-11-17) : PaperDuet 0.8.7 est là🎉 ! Nouveau : la traduction en arrière-plan. Activez « Laisser l’IA traduire en arrière-plan tous les articles de l’étagère » dans Réglages › Traduction : PaperDuet traduit discrètement vos autres articles un par un pendant que vous lisez et enregistre les fichiers choisis ; ouvrez-en un plus tard, sa traduction est déjà là. Rangement de la bibliothèque par l’IA, mis à jour✨ : les nouveaux articles sont classés dans la catégorie qui convient, et cinq articles semblables forment d’eux-mêmes une nouvelle sous-catégorie. Vos propres catégories et les articles que vous avez classés à la main ne sont jamais modifiés ; en cas de doute, un petit point d’exclamation à droite du champ de recherche IA vous laisse décider. Fonctionne sans carte graphique dédiée : la carte intégrée est utilisée automatiquement, ou choisissez « Calculer sur le processeur » dans les réglages. Le surligneur sait souligner✏️ ; le menu d’enregistrement d’une traduction terminée ajoute « PDF original » et « PDF bilingue côte à côte ». L’étagère a un groupe « Non lus » ; la langue de traduction se trouve désormais dans Réglages › Traduction ; les articles de Réglages › Données peuvent être recherchés. Corrigé : les articles avec filigrane qui ne pouvaient pas être traduits, et les mises en page où des passages restaient non traduits ou illisibles.
 - **0.8.6** (2026-11-13) : Correction de bugs connus.
