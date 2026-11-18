@@ -6,6 +6,27 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.7] - 2026-11-17
+
+### Added
+
+- Background translation: with “Let AI Translate Every Paper on the Shelf in the Background” on (Settings › Translation), the papers of the library are translated one by one while PaperDuet is open, after the paper being read, and the chosen files are saved into the chosen folder; a paper translated this way opens with its translation.
+- The library keeps itself in order: a new paper is filed as deep as it fits, five similar papers at one level form a new subcategory; categories you made and papers you filed are never changed, and papers that seem to belong to a category are offered under an exclamation mark beside the AI search field.
+- Without a dedicated graphics card the integrated one is used, and the CPU when there is none; “Use the CPU for Computing” in Settings.
+- Underlining with the highlighter; “Original PDF” and “Side-by-Side PDF” in the save menu of a finished translation.
+- An “Unread” group on the shelf for papers imported and not opened yet.
+
+### Changed
+
+- The translation language is chosen in Settings › Translation.
+- The papers in Settings › Data are chosen from a list that can be searched.
+
+### Fixed
+
+- Papers with a watermark could not be translated.
+- Passages left untranslated or garbled in some layouts.
+- The hint about holding Command (Control on Windows and Linux) appeared twice.
+
 ## [0.8.6] - 2026-11-13
 
 ### Fixed
