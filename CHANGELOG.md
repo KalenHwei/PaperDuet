@@ -6,6 +6,20 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.10] - 2026-11-19
+
+### Added
+
+- The shelf and the Galaxy group papers by author or by venue as well as by AI fields (a switch under the shelf's title and under the Galaxy's search field). An author (any of a paper's, not only the first) or a venue with two papers or more is a row and a star; the other papers are one row and loose planets. Going over to another grouping is shown: rows fade, stars shrink away and grow in, papers fly to their places.
+- Authors, venue and year are looked up online (Crossref, arXiv) in the background, shown under each paper's title and reached by AI search; Settings › Data turns the lookup off.
+- A double-click on a glossary term finds it in the original (again: the next place).
+
+### Changed
+
+- A glossary translation is edited by a double-click (was a click).
+- Pointing at text highlights the sentence on both sides, with a faint outline of its paragraph (was the paragraph alone).
+- A paper opened again shows its translation at once: its layout is kept with it instead of analysed anew.
+
 ## [0.8.9] - 2026-11-18
 
 ### Added
