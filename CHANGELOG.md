@@ -6,6 +6,27 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.11] - 2026-11-20
+
+### Added
+
+- Notes on a whole paper, in a window of their own over the app (opened by the button beside the highlighter, or from a paper's line in a list): headings, bold, italic, lists, quotes and pictures pasted in; kept by themselves, written out as Markdown. Highlights and annotations are brought in from the Suggestions column at the window's left.
+- A fourth grouping of the shelf and the Galaxy, Emoji: the user's emoji labels are the rows and the stars. The shelf in the library's column has the grouping switch too.
+- Glossary terms are deleted (with a confirmation), a change or deletion is undone with ⌘Z / Ctrl+Z, and the paragraphs a change touches are translated again from a button.
+- Screenshots are pasted among the words of feedback.
+
+### Changed
+
+- The sentence under the pointer has an outline round it instead of a fill, and the outline keeps up with the pointer (between two lines too).
+- Scroll bars are thin and laid over the content; a notched mouse wheel on macOS scrolls with easing.
+- The five ready-made emoji labels have no names (the user can still name them).
+
+### Fixed
+
+- With a system proxy or VPN on, requests to the local model server went through the proxy: the model stayed at “Starting” and nothing was translated.
+- On Windows an update could fail with “cannot write ggml.dll” (the model server is stopped before the installer runs).
+- After an update, papers already translated had their layout analysed again.
+
 ## [0.8.10] - 2026-11-19
 
 ### Added
