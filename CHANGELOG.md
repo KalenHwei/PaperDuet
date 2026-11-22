@@ -6,6 +6,23 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.12] - 2026-11-21
+
+### Added
+
+- Labels are managed from a paper's menu: the pencil beside “+” lists them all, each renamed, given another emoji, or deleted.
+- Qwen's translation models, qwen-mt (qwen-mt-plus, qwen-mt-flash and others), through the Qwen service: the text alone, the languages and terms given apart. They only translate; summaries and AI organizing need a general model.
+
+### Changed
+
+- Headings recognized in more papers: numbered with a dash (“1 — Introduction”), ending in a question, lettered in an appendix (“A.1”), and journals' italic subheadings; TeX bold fonts converted to TrueType count as bold.
+- The Keywords and JEL classification lines under an abstract are paragraphs of their own.
+
+### Fixed
+
+- Some papers' appendices were taken for the references and left untranslated.
+- With Simplified Chinese chosen, a few papers came out in Traditional Chinese: what a model writes in Traditional characters is put back into Simplified ones, translations already saved included.
+
 ## [0.8.11] - 2026-11-20
 
 ### Added
