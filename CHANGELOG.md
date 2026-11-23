@@ -6,6 +6,26 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.13] - 2026-11-23
+
+### Added
+
+- Tables are translated where they stand: each cell's words in its own box, set as the cell sits, on one line as large as the room beside it allows; figures, symbols and names stay as they are. Settings › What to Translate turns it off.
+- A table of contents is rows of cells too: each entry's words translated in place, the dots and the page left as they are.
+
+### Changed
+
+- At night the translation's words are as light as the original's and a hair heavier.
+- A bookmark to a figure's or a table's box goes to it, not to the top of its page.
+- “Translate Again” analyses the paper's pages anew.
+
+### Fixed
+
+- The references of ACS journal papers were not found (the square before the heading took the first entry along with it) and were translated.
+- A formula ending in the gutter joined the two columns' lines, and their translations overlapped.
+- Qwen-MT plus and turbo: the closing event's empty text took the place of the whole translation.
+- Windows: the installer waits for the model servers to be gone before writing their libraries (“cannot write ggml-base.dll”).
+
 ## [0.8.12] - 2026-11-21
 
 ### Added
