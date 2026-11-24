@@ -6,6 +6,28 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.14] - 2026-11-23
+
+### Added
+
+- First use is on the launch screen itself: a welcome, the language, then three ways to translate side by side (a model on this computer, a service of your own, PaperDuet Pro), and one bar while the models come.
+- PaperDuet Pro, our own cloud service, in development and open to beta testers.
+- The first start after an update, the launch screen says the update is complete.
+- A highlight's note shows beside the highlight when the pointer rests on it or it is clicked, and is written in that same bubble.
+
+### Changed
+
+- The model page shows each model's translation quality and its load on the computer as bars.
+- With the interface in Simplified Chinese, models are fetched from ModelScope first.
+- Tables of contents are read row by row and translated better.
+- The library shows each translation's language and model, and a tick when it is complete.
+- One pen (colour, and highlight or underline) marks a place once.
+
+### Fixed
+
+- Formatting of tables of contents.
+- A paper locked against changes that opens without a password could not be saved as a translated, marked or side-by-side PDF.
+
 ## [0.8.13] - 2026-11-23
 
 ### Added
