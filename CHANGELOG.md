@@ -6,6 +6,24 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.15] - 2026-11-24
+
+### Changed
+
+- A better search field: light the AI button at its right, describe the paper you want in a sentence, then press Enter.
+- With an online model (your API or PaperDuet Pro), a paper is read through when it comes into the library: a summary and key points are written, it is filed and grouped by itself, and papers alike are joined in the Space. You can turn this off in Settings.
+- Better reading progress: it now follows the time you actually spend reading, and a paper read through turns into a small spark.
+- A better PaperDuet Pro: a new account page with this month’s usage and a way to change your password.
+- Better local models: their memory is given back once a translation is finished.
+- Section headings are recognized better.
+
+### Fixed
+
+- in some IEEE papers, the original text was left inside the translation and words overlapped.
+- a paper already translated, opened again, kept saying “Preparing to translate”.
+- on Windows, an update could stop with “ggml-base.dll could not be written”.
+- on Windows, an exported file could not be shown in File Explorer.
+
 ## [0.8.14] - 2026-11-23
 
 ### Added
