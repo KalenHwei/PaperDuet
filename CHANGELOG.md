@@ -6,6 +6,23 @@ All notable changes to PaperDuet are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.8.16] - 2026-11-27
+
+### Changed
+
+- New: save after translating. Turn it on in Settings › Translation.
+- Several arXiv links can be pasted at once and are downloaded in a queue; the yellow mark on the Shelf shows the queue and lets you pause or cancel.
+- New local translation model: Tencent Hunyuan Hy-MT3-1.8B.
+- New in a paper’s right-click menu: Mark as Read.
+- A better AI button in the search field: it is shown with an online model (your API or PaperDuet Pro).
+- A better translation progress ring.
+- Two-column papers are laid out better.
+
+### Fixed
+
+- formula images were out of place after Retranslate.
+- text overlapped in Settings in some languages.
+
 ## [0.8.15] - 2026-11-24
 
 ### Changed
